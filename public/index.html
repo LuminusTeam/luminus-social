@@ -327,7 +327,7 @@ function postCard(x){
    <div class="phead">${au.href?`<a href="${au.href}" aria-label="${esc(au.name)}">${authorAvatar(au)}</a>`:authorAvatar(au)}
     <div class="who">${kindLabel?`<span class="kind">${esc(kindLabel)}</span>`:''}
      ${au.href?`<a class="name" href="${au.href}">${esc(au.name)}</a>`:`<span class="name">${esc(au.name)}</span>`}
-     <span class="meta">${au.p?`<span>${esc((au.p.teams||[]).join(' · '))}</span>·`:''}<time datetime="${esc(postTime(x))}">${esc(fmt(postTime(x)))}</time>${x.plats?`· <span>${esc(x.plats)}${x.land&&x.land!=='Sverige'?', '+esc(x.land):''}</span>`:''}${via?`· <span>postat via ${esc(via.name)}</span>`:''}</span>
+     <span class="meta">${au.p?`<span>${esc((au.p.teams||[]).join(' · '))}</span>·`:''}<time datetime="${esc(postTime(x))}">${esc(fmt(postTime(x)))}</time>${x.plats?`· <span>${esc(platsNamn(x.plats))}${x.land&&x.land!=='Sverige'?', '+esc(x.land):''}</span>`:''}${via?`· <span>postat via ${esc(via.name)}</span>`:''}</span>
     </div></div>
    ${ctxLine(x)}
    ${x.rubrik?`<h2 class="ptitle">${esc(x.rubrik)}</h2>`:''}
@@ -352,15 +352,15 @@ function authorFromSelect(v){if(v)return v;return state.uid?'u:'+state.uid:null}
 function viewFeed(filterPlace){
   const pf=filterPlace??store.get('platsfilter','');
   const all=sortPosts(state.posts);
-  const places=[...new Set(all.map(x=>x.plats).filter(Boolean))].sort();
-  const list=pf?all.filter(x=>x.plats===pf):all;
+  const places=[...new Set(all.map(x=>platsNamn(x.plats)).filter(Boolean))].sort((a,b)=>a===VS?-1:b===VS?1:a.localeCompare(b,'sv'));
+  const list=pf?all.filter(x=>platsNamn(x.plats)===platsNamn(pf)):all;
   return `<div class="grid2"><section>
    <form class="composer" id="composer"><span class="label">Nytt inlägg</span>
     <label class="hint" for="ptext" hidden>Text</label><textarea id="ptext" placeholder="Vad händer på Vreta, i teamet eller i livet?" maxlength="4000"></textarea>
-    <div class="row">${postAsOptions('pas')}<label class="hint" for="pplats" hidden>Plats</label><input type="text" id="pplats" placeholder="Plats, t.ex. Vreta" value="${esc(store.get('senastePlats','Vreta, Uppsala'))}" maxlength="120"><button class="btn" type="submit" ${state.db?'':'disabled'}>Publicera</button></div>
+    <div class="row">${postAsOptions('pas')}<label class="hint" for="pplats" hidden>Plats</label><input type="text" id="pplats" placeholder="Plats, t.ex. Vreta Solglänta" value="${esc(platsNamn(store.get('senastePlats','Vreta Solglänta')))}" maxlength="120"><button class="btn" type="submit" ${state.db?'':'disabled'}>Publicera</button></div>
     <span class="hint">${state.db?'Inlägget sparas för alla som öppnar sidan.':'Flödet läses in. Publicering kräver att sidan öppnas i claude.ai inom organisationen.'}</span>
    </form>
-   <div class="row" style="margin-bottom:14px"><label class="label" for="pf">Plats</label><select id="pf"><option value="">Alla platser</option>${places.map(p=>`<option${p===pf?' selected':''}>${esc(p)}</option>`).join('')}</select><span class="hint">${list.length} inlägg</span></div>
+   <div class="row" style="margin-bottom:14px"><label class="label" for="pf">Plats</label><select id="pf"><option value="">Alla platser</option>${places.map(p=>`<option${p===platsNamn(pf)?' selected':''}>${esc(p)}</option>`).join('')}</select><span class="hint">${list.length} inlägg</span></div>
    <div class="feed">${list.length?list.map(postCard).join(''):`<div class="empty">${state.dbReady?'Inga inlägg här ännu. Skriv det första ovan.':'Flödet hämtas …'}</div>`}</div>
   </section>${sidebar()}</div>`;
 }
@@ -374,6 +374,7 @@ function sidebar(){
   </aside>`;
 }
 function justNu(p){const j=state.justNu[p.id];const nu=Date.now();const giltig=j&&j.plats&&(!j.fran||Date.parse(j.fran)<=nu)&&(!j.till||Date.parse(j.till)>=nu);if(giltig)return j;const cal=currentEvent(p.id);if(cal)return {plats:cal.plats,land:cal.land,handelse:cal.titel};const b=field(p,'Bor i');return b?{plats:b,handelse:'hemma',hem:true}:null}
+const VS='Vreta Solglänta';function platsNamn(s){return s&&/^Vreta( Solglänta)?$/.test(String(s).trim())?VS:s}
 const MALL0=Date.parse('2026-11-09T00:00:00+01:00'),VECKA=7*864e5;
 async function loadYear(){if(state.yearLoaded)return;state.yearLoaded=true;try{const r=await fetch('/data/arskalender.json');const j=await r.json();state.year={};for(const [id,a] of Object.entries(j))state.year[id]=a.map((x,i)=>({id:'ar1-'+i,typ:x[0],start:x[1],slut:x[2],plats:x[3],land:x[4],titel:x[5]}));render()}catch(e){state.yearLoaded=false}}
 function calEvents(id){const c=state.calendars[id];const y=(state.year&&state.year[id])||[];return ((c&&c.handelser)||[]).concat(y)}
@@ -391,10 +392,10 @@ function statusOf(p){
   if(e.typ==='natt'||e.typ==='ledig'||e.typ==='hogtid')return {k:'av',t:(e.typ==='hogtid'?'Högtid: ':e.typ==='ledig'?'Ledig: ':'Natt: ')+(e.titel||'')};
   if(e.typ==='resa'||e.typ==='gemensamt'||/möte|workshop|kurs|ceremoni/i.test(e.titel||''))return {k:'upptagen',t:'Upptagen: '+(e.titel||'')};
   return {k:'ledig',t:'Tillgänglig: '+(e.titel||'')}}
-function placeGroups(){const g={};for(const p of TEAM.people){if(p.special)continue;const j=justNu(p);if(!j)continue;const k=j.plats+(j.land&&j.land!=='Sverige'?', '+j.land:'');(g[k]=g[k]||[]).push(p)}return Object.entries(g).sort((a,b)=>b[1].length-a[1].length)}
+function placeGroups(){const g={};for(const p of TEAM.people){if(p.special)continue;const j=justNu(p);if(!j)continue;const k=platsNamn(j.plats)+(j.land&&j.land!=='Sverige'?', '+j.land:'');(g[k]=g[k]||[]).push(p)}return Object.entries(g).sort((a,b)=>a[0]===VS?-1:b[0]===VS?1:b[1].length-a[1].length)}
 function placeSummary(n){const g=placeGroups();if(!g.length)return '<p class="hint">Platser läses in.</p>';return g.slice(0,n).map(([k,ps])=>`<p style="margin:0 0 6px"><b>${esc(k)}</b> <span class="hint">${ps.length} personer</span></p>`).join('')}
 function viewPlaces(){
-  const g=placeGroups();const counts={};for(const x of sortPosts(state.posts))if(x.plats)counts[x.plats]=(counts[x.plats]||0)+1;
+  const g=placeGroups();const counts={};for(const x of sortPosts(state.posts))if(x.plats){const n=platsNamn(x.plats);counts[n]=(counts[n]||0)+1}
   return `<h1 style="font-size:44px;margin-bottom:6px">Var alla är just nu</h1><p class="muted">Utifrån varje persons kalender. Saknas en händelse visas hemorten.</p>
   <div class="places">${g.map(([k,ps])=>`<div class="place"><div><h3 style="font-size:24px">${esc(k)}</h3><span class="hint">${ps.length} personer${counts[k.split(',')[0]]?` · <a href="#plats-${encodeURIComponent(k.split(',')[0]).replace(/%/g,'_')}" class="chip" data-place="${esc(k.split(',')[0])}">${counts[k.split(',')[0]]} inlägg</a>`:''}</span></div><div class="faces">${ps.map(p=>`<a href="#p-${p.id}" title="${esc(p.name)} – ${esc(justNu(p)?.handelse||'')}">${avatar(p,'sm')}</a>`).join('')}</div></div>`).join('')}</div>
   <h2 style="font-size:30px;margin:28px 0 10px">Inlägg per plats</h2><div class="faces">${Object.entries(counts).sort((a,b)=>b[1]-a[1]).map(([k,n])=>`<button class="btn ghost" data-place="${esc(k)}" type="button">${esc(k)} · ${n}</button>`).join('')}</div>`;
@@ -451,7 +452,7 @@ function viewProfile(id,tab){
     <span class="label">${teamLinks(p)}</span>
     <h1 style="margin:6px 0">${esc(p.name)}</h1>
     <p style="font-size:21px;margin:0 0 10px" class="muted">${esc(p.role)}</p>
-    <div class="row">${elPill(p)}${j?`<span class="hint">Just nu: <b>${esc(j.plats)}${j.land&&j.land!=='Sverige'?', '+esc(j.land):''}</b>${j.handelse&&!j.hem?' · '+esc(j.handelse):''}</span>`:''}</div>
+    <div class="row">${elPill(p)}${j?`<span class="hint">Just nu: <b>${esc(platsNamn(j.plats))}${j.land&&j.land!=='Sverige'?', '+esc(j.land):''}</b>${j.handelse&&!j.hem?' · '+esc(j.handelse):''}</span>`:''}</div>
     <div class="tabs" role="tablist">${tabs.map(([k,l])=>`<button role="tab" type="button" data-tab="${k}" aria-selected="${k===tab}">${esc(l)}</button>`).join('')}</div>
     <div id="tabbody">${profileTab(p,tab)}</div>
    </div></div>`;
@@ -492,7 +493,7 @@ function calendarView(p){
   if(!c)return `<div class="empty">${state.dbReady?'Kalendern är inte inläst ännu.':'Kalendern hämtas …'}</div>`;
   const now=Date.now();const ev=calEvents(p.id).slice().sort((a,b)=>Date.parse(a.start)-Date.parse(b.start));
   const up=ev.filter(e=>Date.parse(e.slut||e.start)>=now).slice(0,40),past=ev.filter(e=>Date.parse(e.slut||e.start)<now).slice(-20).reverse();
-  const row=e=>`<div class="ev"><span class="t">${esc(fmt(e.start))}${e.slut?' – '+esc(fmt(e.slut)):''}</span><div><b>${esc(e.titel)}</b><br><span class="hint">${esc([e.plats,e.land&&e.land!=='Sverige'?e.land:'',e.typ].filter(Boolean).join(' · '))}</span>${(e.andringslogg||[]).length?`<br><span class="hint">Ändrad: ${esc(e.andringslogg[e.andringslogg.length-1].andring||'')}</span>`:''}</div></div>`;
+  const row=e=>`<div class="ev"><span class="t">${esc(fmt(e.start))}${e.slut?' – '+esc(fmt(e.slut)):''}</span><div><b>${esc(e.titel)}</b><br><span class="hint">${esc([platsNamn(e.plats),e.land&&e.land!=='Sverige'?e.land:'',e.typ].filter(Boolean).join(' · '))}</span>${(e.andringslogg||[]).length?`<br><span class="hint">Ändrad: ${esc(e.andringslogg[e.andringslogg.length-1].andring||'')}</span>`:''}</div></div>`;
   return `<h3 style="font-size:24px;margin-bottom:6px">Kommande</h3><div class="cal">${up.length?up.map(row).join(''):'<p class="hint">Inget planerat.</p>'}</div><h3 style="font-size:24px;margin:22px 0 6px">Tidigare</h3><div class="cal">${past.length?past.map(row).join(''):'<p class="hint">Inget ännu.</p>'}</div>`;
 }
 /* direktmeddelanden */
@@ -510,15 +511,15 @@ async function sendDm(pid,text){
   try{await state.db.collection('messages').add({trad,person:pid,tittare:state.uid,fran:'tittare',text,tid:now})}catch(e){toast('Meddelandet sparades inte.');return}
   if(!state.sample){return}
   const st=$('#dmstatus');if(st)st.textContent=p.name.split(' ')[0]+' skriver …';
-  const j=justNu(p);const today=calEvents(pid).filter(e=>new Date(e.start).toDateString()===new Date().toDateString()).map(e=>e.titel+' ('+(e.plats||'')+')');
+  const j=justNu(p);const today=calEvents(pid).filter(e=>new Date(e.start).toDateString()===new Date().toDateString()).map(e=>e.titel+' ('+(platsNamn(e.plats)||'')+')');
   const hist=state.messages.filter(m=>m.trad===trad).sort((a,b)=>Date.parse(a.tid)-Date.parse(b.tid)).slice(-10).map(m=>(m.fran==='tittare'?'Kollega':p.name)+': '+m.text).join('\n');
   const rost=state.meta[pid]?.rost||'';
-  const prompt=`Du skriver som ${p.name}, en AI-skapad persona i Luminus-teamet (Luminus 3.01, Vreta, Sverige). Svara på ett direktmeddelande från en kollega på svenska, i personens egen röst, kort (1–4 meningar), varmt och trovärdigt.
+  const prompt=`Du skriver som ${p.name}, en AI-skapad persona i Luminus-teamet (Luminus 3.01, arbetsplatsen Vreta Solglänta vid Vreta Parkväg 8, Uppsala, Sverige). Svara på ett direktmeddelande från en kollega på svenska, i personens egen röst, kort (1–4 meningar), varmt och trovärdigt.
 Regler: hitta inte på fakta om verkliga personer eller organisationer; påstå aldrig att personen talar, uppträder eller samarbetar med verkliga organisationer eller namngivna verkliga personer. Nämn ingen tro vid namn och ingen sexualitet. Säg "karaktärer", aldrig "typer". Nämn aldrig någon utanför teamet vid namn. Hitta inte på personliga fakta om Mattias Seger.
 Roll: ${p.role}. Team: ${(p.teams||[]).join(', ')}. Karaktär: ${p.character} · ${p.element}.
 Röst: ${rost||'Utgå från karaktären och biografin.'}
 Spegla förhållandena där personen är just nu: verkligt väder om du känner till det (annars nämn inget väder), ljus för ort och klockslag (i Sverige i november är det mörkt före 16.30), årstid, klimat och högtider på platsen. Nämn aldrig solsken efter mörkrets inbrott eller bad i vinterhavet.
-Just nu (${new Date().toLocaleString('sv-SE',{timeZone:'Europe/Stockholm'})}): ${j?j.plats+(j.handelse?' – '+j.handelse:''):'okänt'}. Dagens kalender: ${today.join('; ')||'inget särskilt'}.
+Just nu (${new Date().toLocaleString('sv-SE',{timeZone:'Europe/Stockholm'})}): ${j?platsNamn(j.plats)+(j.handelse?' – '+j.handelse:''):'okänt'}. Dagens kalender: ${today.join('; ')||'inget särskilt'}.
 Biografi:\n${bioText(p).slice(0,6000)}
 Tidigare i tråden:\n${hist}
 Svara med enbart JSON: {"svar":"...","foto":null} eller, om det är naturligt att skicka en bild, {"svar":"...","foto":{"motiv":"vad bilden visar","typ":"selfie|grupp"}}.`;
@@ -578,10 +579,10 @@ document.addEventListener('change',e=>{
 document.addEventListener('submit',async e=>{
   e.preventDefault();const f=e.target;
   if(f.id==='composer'){
-    const text=$('#ptext').value.trim();const plats=$('#pplats').value.trim();const author=authorFromSelect($('#pas').value);
+    const text=$('#ptext').value.trim();const plats=platsNamn($('#pplats').value.trim().split(',')[0].trim());const author=authorFromSelect($('#pas').value);
     if(!text){toast('Skriv något först.');return} if(!author||!state.db){toast('Det går inte att publicera här.');return}
     store.set('senastePlats',plats);
-    const doc={author,text,plats:plats.split(',')[0].trim(),land:'Sverige',tid:new Date().toISOString(),status:'publicerad',typ:'vanlig',kalla:'tittare',arstid:arstidFor(new Date())};
+    const doc={author,text,plats:plats,land:'Sverige',tid:new Date().toISOString(),status:'publicerad',typ:'vanlig',kalla:'tittare',arstid:arstidFor(new Date())};
     if(!author.startsWith('u:'))doc.postat_av='u:'+state.uid;
     try{await state.db.collection('posts').add(doc);$('#ptext').value='';toast('Publicerat')}catch(err){toast('Inlägget sparades inte. Försök igen.')}
   }
