@@ -329,6 +329,8 @@ async function toggleReact(key,typ){
 
 /* bilder */
 function photoBlock(x){
+  const vid=x.video;
+  if(vid&&vid.url) return `<figure><video controls playsinline preload="metadata" src="${esc(vid.url)}" aria-label="${esc(vid.alt||'')}" style="width:100%;display:block;border-radius:10px"></video><figcaption>${esc(vid.text||'')}<span class="ai">AI-skapat klipp</span></figcaption></figure>`;
   const img=x.bild;
   if(img&&img.url) return `<figure><img src="${esc(img.url)}" alt="${esc(img.alt||img.text||'')}" loading="lazy"><figcaption>${esc(img.text||'')}${img.ai!==false?'<span class="ai">AI-skapad bild</span>':''}</figcaption></figure>`;
   const req=x.bildbestallning&&state.photos[x.bildbestallning];
