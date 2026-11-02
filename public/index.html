@@ -404,7 +404,8 @@ function statusOf(p){
   if(e.typ==='natt'||e.typ==='ledig'||e.typ==='hogtid')return {k:'av',t:(e.typ==='hogtid'?'Högtid: ':e.typ==='ledig'?'Ledig: ':'Natt: ')+(e.titel||'')};
   if(e.typ==='resa'||e.typ==='gemensamt'||/möte|workshop|kurs|ceremoni/i.test(e.titel||''))return {k:'upptagen',t:'Upptagen: '+(e.titel||'')};
   return {k:'ledig',t:'Tillgänglig: '+(e.titel||'')}}
-function placeGroups(){const g={};for(const p of TEAM.people){if(p.special)continue;const j=justNu(p);if(!j)continue;const k=platsNamn(j.plats)+(j.land&&j.land!=='Sverige'?', '+j.land:'');(g[k]=g[k]||[]).push(p)}if(!g[VS])g[VS]=[];return Object.entries(g).sort((a,b)=>a[0]===VS?-1:b[0]===VS?1:b[1].length-a[1].length)}
+function ortNamn(x){x=String(x||'').trim();if(x.includes('→'))return 'På väg';x=x.replace(/\s*\(.*?\)\s*/g,'').split(',')[0].trim();return platsNamn(x)}
+function placeGroups(){const g={};for(const p of TEAM.people){if(p.special)continue;const j=justNu(p);if(!j)continue;const k=ortNamn(j.plats)+(j.land&&j.land!=='Sverige'?', '+j.land:'');(g[k]=g[k]||[]).push(p)}if(!g[VS])g[VS]=[];return Object.entries(g).sort((a,b)=>a[0]===VS?-1:b[0]===VS?1:b[1].length-a[1].length)}
 function placeSummary(n){const g=placeGroups();if(!g.length)return '<p class="hint">Platser läses in.</p>';return g.slice(0,n).map(([k,ps])=>`<p style="margin:0 0 6px"><b>${esc(k)}</b> <span class="hint">${ps.length} personer</span></p>`).join('')}
 function viewPlaces(){
   const g=placeGroups();const counts={};for(const x of sortPosts(state.posts))if(x.plats){const n=platsNamn(x.plats);counts[n]=(counts[n]||0)+1}
