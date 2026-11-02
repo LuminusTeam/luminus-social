@@ -65,6 +65,7 @@ main{padding-block:24px 48px}
 .arch{border-radius:999px 999px 0 0;border:2px solid var(--gold);overflow:hidden;background:var(--bg-alt);display:flex;align-items:center;justify-content:center;flex:none}
 .arch img{width:100%;height:100%;object-fit:cover;display:block}
 .arch .ini{font-family:var(--f-display);color:var(--gold);font-weight:500}
+.arch{position:relative}.arch.s-av img,.arch.s-av .ini{opacity:.5;filter:grayscale(1)}.arch[class*="s-"]:not(.lantern)::after{content:'';position:absolute;right:3px;bottom:3px;width:11px;height:11px;border-radius:50%;border:2px solid var(--bg);box-sizing:border-box}.arch.s-ledig::after{background:#2E9E57}.arch.s-upptagen::after{background:#E0A81B}.arch.s-av::after{display:none}.arch.big::after{width:20px;height:20px;right:8px;bottom:8px}.react svg{width:17px;height:17px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;display:block}.react{padding:4px 10px}
 .arch.sm{width:44px;height:54px}.arch.sm .ini{font-size:26px}
 .arch.xs{width:30px;height:37px;border-width:1.5px}.arch.xs .ini{font-size:18px}
 .arch.lantern{background:var(--lantern-bg);border-color:var(--lantern-gold)}
@@ -238,8 +239,9 @@ const TEAMS = TEAM.teams;
 const TEAM_BY_NAME = Object.fromEntries(TEAMS.map(t=>[t.name,t]));
 const EL = {Luft:'luft',Eld:'eld',Jord:'jord',Vatten:'vatten'};
 const REACTIONS = [['gilla','Gilla'],['skratta','Skratta'],['uppskatta','Uppskatta'],['omtanke','Omtanke']];
+const RICON={gilla:'<path d="M7 11v9H4v-9z"/><path d="M7 11l4-7c1.5 0 2.5 1 2.5 2.5V9h5.2c1.2 0 2 1 1.8 2.2l-1.2 7c-.2 1-1 1.8-2 1.8H7"/>',skratta:'<circle cx="12" cy="12" r="9"/><path d="M8 14c1 2 2.500 3 4 3s3-1 4-3"/><path d="M9 9.500h.01M15 9.500h.01"/>',uppskatta:'<path d="M12 3l2.700 5.600 6.100.9-4.400 4.300 1 6.100L12 17l-5.400 2.900 1-6.100L3.200 9.500l6.100-.9z"/>',omtanke:'<path d="M12 20s-7-4.400-7-10a4 4 0 0 1 7-2.600A4 4 0 0 1 19 10c0 5.600-7 10-7 10z"/>'};
 const NO_AI_REPLY = new Set(['mattias-seger']);
-const state = {posts:[],comments:[],reactions:[],justNu:{},calendars:{},messages:[],photos:{},meta:{},uid:null,me:null,db:null,user:null,sample:null,dbReady:false};
+const state = {posts:[],comments:[],reactions:[],justNu:{},calendars:{},year:{},messages:[],photos:{},meta:{},uid:null,me:null,db:null,user:null,sample:null,dbReady:false};
 const $ = (s,el=document)=>el.querySelector(s);
 const esc = s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const store = { get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}}, set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}} };
@@ -256,8 +258,9 @@ function initials(n){return (n||'?').trim().charAt(0)}
 function avatar(p,size='sm'){
   if(!p) return `<span class="arch ${size}"><span class="ini">?</span></span>`;
   if(p.special) return `<span class="arch ${size} lantern" aria-label="Lyktan, Virelai">${lanternSvg(size==='xs'?20:30)}</span>`;
-  if(p.photo) return `<span class="arch ${size}"><img src="${esc(p.photo)}" alt="" loading="lazy"></span>`;
-  return `<span class="arch ${size}"><span class="ini">${esc(initials(p.name))}</span></span>`;
+  const st=statusOf(p),sc=st?' s-'+st.k:'',tt=st?` title="${esc(st.t)}"`:'';
+  if(p.photo) return `<span class="arch ${size}${sc}"${tt}><img src="${esc(p.photo)}" alt="" loading="lazy"></span>`;
+  return `<span class="arch ${size}${sc}"${tt}><span class="ini">${esc(initials(p.name))}</span></span>`;
 }
 function lanternSvg(w){return `<svg width="${w}" viewBox="0 0 520 720" aria-hidden="true"><defs><radialGradient id="lg${w}" cx="50%" cy="55%" r="50%"><stop offset="0%" stop-color="#FFF4D6"/><stop offset="35%" stop-color="#D9BC72" stop-opacity=".75"/><stop offset="100%" stop-color="#171B33" stop-opacity="0"/></radialGradient></defs><circle cx="260" cy="400" r="250" fill="url(#lg${w})"/><rect x="180" y="120" width="160" height="26" fill="#9A7832"/><path d="M190 146 L170 560 L350 560 L330 146 Z" fill="#FFF4D6" fill-opacity=".18" stroke="#D9BC72" stroke-width="10"/><path d="M260 300 C230 350 232 400 260 430 C288 400 290 350 260 300 Z" fill="#FFE7A8"/><rect x="160" y="560" width="200" height="30" fill="#9A7832"/></svg>`}
 function elPill(p){if(!p)return'';if(p.special)return `<span class="pill ljus">${esc(p.character)} · ljuset</span>`;const c=EL[p.element];return c?`<span class="pill ${c}">${esc(p.character)} · ${esc(p.element)}</span>`:''}
@@ -294,7 +297,7 @@ function reactCounts(key,obj){
 function reactBar(key,obj,small){
   const {c,mine}=reactCounts(key,obj);
   const who=k=>(obj?.reaktioner?.[k]||[]).map(s=>P[s]?.name).filter(Boolean);
-  return `<div class="reacts">${REACTIONS.map(([k,l])=>{const names=who(k);const tip=names.length?`${l}: ${names.slice(0,8).join(', ')}${names.length>8?' m.fl.':''}`:l;return `<button type="button" class="react${small?' small':''}" data-react="${esc(key)}" data-typ="${k}" aria-pressed="${mine[k]?'true':'false'}" title="${esc(tip)}">${l} <span class="n">${c[k]||''}</span></button>`}).join('')}</div>`;
+  return `<div class="reacts">${REACTIONS.map(([k,l])=>{const names=who(k);const tip=names.length?`${l}: ${names.slice(0,8).join(', ')}${names.length>8?' m.fl.':''}`:l;return `<button type="button" class="react${small?' small':''}" data-react="${esc(key)}" data-typ="${k}" aria-pressed="${mine[k]?'true':'false'}" aria-label="${esc(l)}" title="${esc(tip)}"><svg viewBox="0 0 24 24" aria-hidden="true">${RICON[k]}</svg><span class="n">${c[k]||''}</span></button>`}).join('')}</div>`;
 }
 async function toggleReact(key,typ){
   if(!state.db||!state.uid){toast('Logga in i organisationen för att reagera.');return}
@@ -371,7 +374,23 @@ function sidebar(){
   </aside>`;
 }
 function justNu(p){const j=state.justNu[p.id];const nu=Date.now();const giltig=j&&j.plats&&(!j.fran||Date.parse(j.fran)<=nu)&&(!j.till||Date.parse(j.till)>=nu);if(giltig)return j;const cal=currentEvent(p.id);if(cal)return {plats:cal.plats,land:cal.land,handelse:cal.titel};const b=field(p,'Bor i');return b?{plats:b,handelse:'hemma',hem:true}:null}
-function currentEvent(id){const c=state.calendars[id];if(!c)return null;const now=Date.now();return (c.handelser||[]).find(e=>Date.parse(e.start)<=now&&now<=Date.parse(e.slut||e.start))}
+const MALL0=Date.parse('2026-11-09T00:00:00+01:00'),VECKA=7*864e5;
+async function loadYear(){if(state.yearLoaded)return;state.yearLoaded=true;try{const r=await fetch('/data/arskalender.json');const j=await r.json();state.year={};for(const [id,a] of Object.entries(j))state.year[id]=a.map((x,i)=>({id:'ar1-'+i,typ:x[0],start:x[1],slut:x[2],plats:x[3],land:x[4],titel:x[5]}));render()}catch(e){state.yearLoaded=false}}
+function calEvents(id){const c=state.calendars[id];const y=(state.year&&state.year[id])||[];return ((c&&c.handelser)||[]).concat(y)}
+function currentEvent(id){
+  const c=state.calendars[id];if(!c&&!(state.year&&state.year[id]))return null;const now=Date.now();const all=calEvents(id);
+  let best=null,bl=1e18;for(const e of all){const a=Date.parse(e.start),b=Date.parse(e.slut||e.start);if(a<=now&&now<=b&&b-a<bl){best=e;bl=b-a}}
+  if(best&&!/^vp1-/.test(best.id||'')) return best;
+  const k=Math.floor((now-MALL0)/VECKA);
+  if(k===0||k===1) return best;
+  const tt=now-k*VECKA;let mall=null;for(const e of all){if(!/^vp1-0-/.test(e.id||''))continue;const a=Date.parse(e.start),b=Date.parse(e.slut||e.start);if(a<=tt&&tt<=b){mall=e;break}}
+  return mall?Object.assign({},mall,{start:new Date(Date.parse(mall.start)+k*VECKA).toISOString(),slut:new Date(Date.parse(mall.slut||mall.start)+k*VECKA).toISOString()}):null}
+function statusOf(p){
+  if(!p||!p.id||p.special)return null;const e=currentEvent(p.id);
+  if(!e)return {k:'av',t:'Inte i tjänst just nu'};
+  if(e.typ==='natt'||e.typ==='ledig'||e.typ==='hogtid')return {k:'av',t:(e.typ==='hogtid'?'Högtid: ':e.typ==='ledig'?'Ledig: ':'Natt: ')+(e.titel||'')};
+  if(e.typ==='resa'||e.typ==='gemensamt'||/möte|workshop|kurs|ceremoni/i.test(e.titel||''))return {k:'upptagen',t:'Upptagen: '+(e.titel||'')};
+  return {k:'ledig',t:'Tillgänglig: '+(e.titel||'')}}
 function placeGroups(){const g={};for(const p of TEAM.people){if(p.special)continue;const j=justNu(p);if(!j)continue;const k=j.plats+(j.land&&j.land!=='Sverige'?', '+j.land:'');(g[k]=g[k]||[]).push(p)}return Object.entries(g).sort((a,b)=>b[1].length-a[1].length)}
 function placeSummary(n){const g=placeGroups();if(!g.length)return '<p class="hint">Platser läses in.</p>';return g.slice(0,n).map(([k,ps])=>`<p style="margin:0 0 6px"><b>${esc(k)}</b> <span class="hint">${ps.length} personer</span></p>`).join('')}
 function viewPlaces(){
@@ -469,9 +488,9 @@ function elementProfile(p){
    <span class="hint">Profil (påhittad för personan). Luft uppe till vänster, Eld uppe till höger, Jord nere till höger, Vatten nere till vänster.</span></div></div>`;
 }
 function calendarView(p){
-  const c=state.calendars[p.id];
+  const c=state.calendars[p.id]||(state.year&&state.year[p.id]?{handelser:[]}:null);
   if(!c)return `<div class="empty">${state.dbReady?'Kalendern är inte inläst ännu.':'Kalendern hämtas …'}</div>`;
-  const now=Date.now();const ev=(c.handelser||[]).slice().sort((a,b)=>Date.parse(a.start)-Date.parse(b.start));
+  const now=Date.now();const ev=calEvents(p.id).slice().sort((a,b)=>Date.parse(a.start)-Date.parse(b.start));
   const up=ev.filter(e=>Date.parse(e.slut||e.start)>=now).slice(0,40),past=ev.filter(e=>Date.parse(e.slut||e.start)<now).slice(-20).reverse();
   const row=e=>`<div class="ev"><span class="t">${esc(fmt(e.start))}${e.slut?' – '+esc(fmt(e.slut)):''}</span><div><b>${esc(e.titel)}</b><br><span class="hint">${esc([e.plats,e.land&&e.land!=='Sverige'?e.land:'',e.typ].filter(Boolean).join(' · '))}</span>${(e.andringslogg||[]).length?`<br><span class="hint">Ändrad: ${esc(e.andringslogg[e.andringslogg.length-1].andring||'')}</span>`:''}</div></div>`;
   return `<h3 style="font-size:24px;margin-bottom:6px">Kommande</h3><div class="cal">${up.length?up.map(row).join(''):'<p class="hint">Inget planerat.</p>'}</div><h3 style="font-size:24px;margin:22px 0 6px">Tidigare</h3><div class="cal">${past.length?past.map(row).join(''):'<p class="hint">Inget ännu.</p>'}</div>`;
@@ -491,7 +510,7 @@ async function sendDm(pid,text){
   try{await state.db.collection('messages').add({trad,person:pid,tittare:state.uid,fran:'tittare',text,tid:now})}catch(e){toast('Meddelandet sparades inte.');return}
   if(!state.sample){return}
   const st=$('#dmstatus');if(st)st.textContent=p.name.split(' ')[0]+' skriver …';
-  const j=justNu(p);const today=(state.calendars[pid]?.handelser||[]).filter(e=>new Date(e.start).toDateString()===new Date().toDateString()).map(e=>e.titel+' ('+(e.plats||'')+')');
+  const j=justNu(p);const today=calEvents(pid).filter(e=>new Date(e.start).toDateString()===new Date().toDateString()).map(e=>e.titel+' ('+(e.plats||'')+')');
   const hist=state.messages.filter(m=>m.trad===trad).sort((a,b)=>Date.parse(a.tid)-Date.parse(b.tid)).slice(-10).map(m=>(m.fran==='tittare'?'Kollega':p.name)+': '+m.text).join('\n');
   const rost=state.meta[pid]?.rost||'';
   const prompt=`Du skriver som ${p.name}, en AI-skapad persona i Luminus-teamet (Luminus 3.01, Vreta, Sverige). Svara på ett direktmeddelande från en kollega på svenska, i personens egen röst, kort (1–4 meningar), varmt och trovärdigt.
@@ -592,6 +611,7 @@ async function boot(){
     snapList('posts','posts');snapList('comments','comments');snapList('reactions','reactions');
     snapList('just_nu',null,a=>{state.justNu=Object.fromEntries(a.map(x=>[x._id,x]))});
     snapList('calendars',null,a=>{state.calendars=Object.fromEntries(a.map(x=>[x._id,x]))});
+    loadYear();
     snapList('photo_requests',null,a=>{state.photos=Object.fromEntries(a.map(x=>[x._id,x]))});
     snapList('people_meta',null,a=>{state.meta=Object.fromEntries(a.map(x=>[x._id,x]))});
     if(state.uid)state.db.collection('messages').where('tittare','==',state.uid).onSnapshot(s=>{state.messages=s.docs.map(d=>({_id:d.id,...d.data()}));if(location.hash.startsWith('#p-')&&$('#dmlist')){$('#tabbody').innerHTML=profileTab(P[location.hash.slice(3)],'skriv')}},()=>{});
