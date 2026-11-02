@@ -105,6 +105,15 @@ figcaption,.cap{font-family:var(--f-label);font-size:12px;color:var(--ink-soft);
 .react[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .react .n{font-variant-numeric:tabular-nums}
 .react.small{font-size:11.5px;padding:1px 8px}
+.react{--c:#6b5b45;border:1px solid color-mix(in srgb,var(--c) 28%,transparent);background:color-mix(in srgb,var(--c) 7%,transparent);color:var(--c);padding:4px 12px 4px 9px;gap:7px;transition:transform .12s,background .15s,box-shadow .15s}
+.react:hover{transform:translateY(-1px);background:color-mix(in srgb,var(--c) 15%,transparent);box-shadow:0 2px 6px color-mix(in srgb,var(--c) 22%,transparent)}
+.react svg{width:18px;height:18px;stroke-width:1.9}
+.react[data-typ="gilla"]{--c:#2D6CDF}.react[data-typ="skratta"]{--c:#D98E04}.react[data-typ="uppskatta"]{--c:#B5700F}.react[data-typ="omtanke"]{--c:#D6405A}
+.react[aria-pressed="true"]{background:var(--c);color:#fff;border-color:var(--c);box-shadow:0 2px 8px color-mix(in srgb,var(--c) 35%,transparent)}
+.react[aria-pressed="true"] svg{fill:rgba(255,255,255,.28)}
+.react .n{font-weight:700;min-width:.7em;text-align:left}.react .n.z{opacity:.45;font-weight:500}
+.react.small svg{width:15px;height:15px}
+
 .comments{display:flex;flex-direction:column;gap:10px;border-top:1px solid var(--rule);padding-top:10px}
 .cmt{display:flex;gap:10px}
 .cmt .body{background:var(--bg);padding:8px 12px;min-width:0;flex:1;display:flex;flex-direction:column;gap:4px}
@@ -299,7 +308,7 @@ function reactCounts(key,obj){
 function reactBar(key,obj,small){
   const {c,mine}=reactCounts(key,obj);
   const who=k=>(obj?.reaktioner?.[k]||[]).map(s=>P[s]?.name).filter(Boolean);
-  return `<div class="reacts">${REACTIONS.map(([k,l])=>{const names=who(k);const tip=names.length?`${l}: ${names.slice(0,8).join(', ')}${names.length>8?' m.fl.':''}`:l;return `<button type="button" class="react${small?' small':''}" data-react="${esc(key)}" data-typ="${k}" aria-pressed="${mine[k]?'true':'false'}" aria-label="${esc(l)}" title="${esc(tip)}"><svg viewBox="0 0 24 24" aria-hidden="true">${RICON[k]}</svg><span class="n">${c[k]||''}</span></button>`}).join('')}</div>${whoList(key,obj,mine)}`;
+  return `<div class="reacts">${REACTIONS.map(([k,l])=>{const names=who(k);const tip=names.length?`${l}: ${names.slice(0,8).join(', ')}${names.length>8?' m.fl.':''}`:l;return `<button type="button" class="react${small?' small':''}" data-react="${esc(key)}" data-typ="${k}" aria-pressed="${mine[k]?'true':'false'}" aria-label="${esc(l)}: ${c[k]||0}" title="${esc(tip)}"><svg viewBox="0 0 24 24" aria-hidden="true">${RICON[k]}</svg><span class="n${c[k]?'':' z'}">${c[k]||0}</span></button>`}).join('')}</div>${whoList(key,obj,mine)}`;
 }
 function whoList(key,obj,mine){
   const rows=[];let tot=0;
