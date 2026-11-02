@@ -65,7 +65,7 @@ main{padding-block:24px 48px}
 .arch{border-radius:999px 999px 0 0;border:2px solid var(--gold);overflow:hidden;background:var(--bg-alt);display:flex;align-items:center;justify-content:center;flex:none}
 .arch img{width:100%;height:100%;object-fit:cover;display:block}
 .arch .ini{font-family:var(--f-display);color:var(--gold);font-weight:500}
-.arch{position:relative}.arch.s-av img,.arch.s-av .ini{opacity:.5;filter:grayscale(1)}.arch[class*="s-"]:not(.lantern)::after{content:'';position:absolute;right:3px;bottom:3px;width:11px;height:11px;border-radius:50%;border:2px solid var(--bg);box-sizing:border-box}.arch.s-ledig::after{background:#2E9E57}.arch.s-upptagen::after{background:#EE8A1E}.arch.s-av::after{display:none}.arch.big::after{width:20px;height:20px;right:8px;bottom:8px}.react svg{width:17px;height:17px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;display:block}.react{padding:4px 10px}
+.arch{position:relative}.arch.s-av img,.arch.s-av .ini,.arch.s-fri img,.arch.s-fri .ini,.arch.s-aktiv img,.arch.s-aktiv .ini{opacity:.5;filter:grayscale(1)}.arch[class*="s-"]:not(.lantern)::after{content:'';position:absolute;right:3px;bottom:3px;width:11px;height:11px;border-radius:50%;border:2px solid var(--bg);box-sizing:border-box}.arch.s-ledig::after{background:#2E9E57}.arch.s-upptagen::after{background:#EE8A1E}.arch.s-av::after{display:none}.arch.s-fri::after{background:#EE8A1E}.arch.s-aktiv::after{content:'\2605';background:none;border:0;width:auto;height:auto;right:2px;bottom:0;font-size:16px;line-height:1;color:#E8A700;text-shadow:0 0 3px var(--bg),0 0 6px var(--bg);animation:starpuls 1.5s ease-in-out infinite}.arch.big.s-aktiv::after{font-size:28px;right:6px;bottom:4px}@keyframes starpuls{0%,100%{transform:scale(.85);opacity:.75}50%{transform:scale(1.3);opacity:1}}@media (prefers-reduced-motion:reduce){.arch.s-aktiv::after{animation:none}}.arch.big::after{width:20px;height:20px;right:8px;bottom:8px}.react svg{width:17px;height:17px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;display:block}.react{padding:4px 10px}
 .arch.sm{width:44px;height:54px}.arch.sm .ini{font-size:26px}
 .arch.xs{width:30px;height:37px;border-width:1.5px}.arch.xs .ini{font-size:18px}
 .arch.lantern{background:var(--lantern-bg);border-color:var(--lantern-gold)}
@@ -410,9 +410,12 @@ function currentEvent(id){
 function statusOf(p){
   if(!p||!p.id||p.special)return null;const e=currentEvent(p.id);
   if(!e)return {k:'av',t:'Inte i tjänst just nu'};
-  if(e.typ==='natt'||e.typ==='ledig'||e.typ==='hogtid')return {k:'av',t:(e.typ==='hogtid'?'Högtid: ':e.typ==='ledig'?'Ledig: ':'Natt: ')+(e.titel||'')};
-  if(e.typ==='resa'||e.typ==='gemensamt'||/möte|workshop|kurs|ceremoni/i.test(e.titel||''))return {k:'upptagen',t:'Upptagen: '+(e.titel||'')};
-  return {k:'ledig',t:'Tillgänglig: '+(e.titel||'')}}
+  const pavreta=/Vreta/i.test(e.plats||'');
+  if(e.typ==='natt')return {k:'av',t:'Natt: '+(e.titel||'')};
+  if(e.typ==='gemensamt')return {k:'aktiv',t:'Inte i arbete, engagerad: '+(e.titel||'')};
+  if(e.typ==='ledig'||e.typ==='hogtid'){const t=(e.typ==='hogtid'?'Högtid: ':'Ledig: ')+(e.titel||'');return pavreta?{k:'fri',t:t+' (på Vreta, tillgänglig)'}:{k:'av',t}}
+  if(e.typ==='resa'||/möte|workshop|kurs|ceremoni/i.test(e.titel||''))return {k:'upptagen',t:'Arbetar, inte tillgänglig: '+(e.titel||'')};
+  return {k:'ledig',t:'Arbetar, tillgänglig: '+(e.titel||'')}}
 function ortNamn(x){x=String(x||'').trim();if(x.includes('→'))return 'På väg';x=x.replace(/\s*\(.*?\)\s*/g,'').split(',')[0].trim();return platsNamn(x)}
 function placeGroups(){const g={};for(const p of TEAM.people){if(p.special)continue;const j=justNu(p);if(!j)continue;const k=ortNamn(j.plats)+(j.land&&j.land!=='Sverige'?', '+j.land:'');(g[k]=g[k]||[]).push(p)}if(!g[VS])g[VS]=[];return Object.entries(g).sort((a,b)=>a[0]===VS?-1:b[0]===VS?1:b[1].length-a[1].length)}
 function placeSummary(n){const g=placeGroups();if(!g.length)return '<p class="hint">Platser läses in.</p>';return g.slice(0,n).map(([k,ps])=>`<p style="margin:0 0 6px"><b>${esc(k)}</b> <span class="hint">${ps.length} personer</span></p>`).join('')}
