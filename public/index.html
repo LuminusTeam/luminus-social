@@ -370,7 +370,7 @@ function sidebar(){
    <div class="panel"><h3>Just nu</h3>${placeSummary(6)}<a class="chip" href="#platser">Alla platser</a></div>
   </aside>`;
 }
-function justNu(p){const j=state.justNu[p.id];if(j&&j.plats)return j;const cal=currentEvent(p.id);if(cal)return {plats:cal.plats,land:cal.land,handelse:cal.titel};const b=field(p,'Bor i');return b?{plats:b,handelse:'hemma',hem:true}:null}
+function justNu(p){const j=state.justNu[p.id];const nu=Date.now();const giltig=j&&j.plats&&(!j.fran||Date.parse(j.fran)<=nu)&&(!j.till||Date.parse(j.till)>=nu);if(giltig)return j;const cal=currentEvent(p.id);if(cal)return {plats:cal.plats,land:cal.land,handelse:cal.titel};const b=field(p,'Bor i');return b?{plats:b,handelse:'hemma',hem:true}:null}
 function currentEvent(id){const c=state.calendars[id];if(!c)return null;const now=Date.now();return (c.handelser||[]).find(e=>Date.parse(e.start)<=now&&now<=Date.parse(e.slut||e.start))}
 function placeGroups(){const g={};for(const p of TEAM.people){if(p.special)continue;const j=justNu(p);if(!j)continue;const k=j.plats+(j.land&&j.land!=='Sverige'?', '+j.land:'');(g[k]=g[k]||[]).push(p)}return Object.entries(g).sort((a,b)=>b[1].length-a[1].length)}
 function placeSummary(n){const g=placeGroups();if(!g.length)return '<p class="hint">Platser läses in.</p>';return g.slice(0,n).map(([k,ps])=>`<p style="margin:0 0 6px"><b>${esc(k)}</b> <span class="hint">${ps.length} personer</span></p>`).join('')}
