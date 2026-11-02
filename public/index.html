@@ -270,6 +270,7 @@ function teamLinks(p){return (p.teams||[]).map(t=>TEAM_BY_NAME[t]?`<a class="chi
 const profCache={};
 function authorOf(a){
   if(!a) return {name:'Okänd',p:null,href:null};
+  if(a.startsWith('g:'))return {name:a.slice(2),p:null,href:null,viewer:true,gast:true};
   if(a.startsWith('u:')){const id=a.slice(2);return {name:(profCache[id]?.name)||(id===state.uid?(state.me?.name||'Du'):'Någon'),p:null,href:null,viewer:true,avatarUrl:profCache[id]?.avatarUrl}}
   const p=P[a];return p?{name:p.name,p,href:'#p-'+p.id}:{name:a,p:null,href:null};
 }
@@ -327,7 +328,7 @@ function postCard(x){
    <div class="phead">${au.href?`<a href="${au.href}" aria-label="${esc(au.name)}">${authorAvatar(au)}</a>`:authorAvatar(au)}
     <div class="who">${kindLabel?`<span class="kind">${esc(kindLabel)}</span>`:''}
      ${au.href?`<a class="name" href="${au.href}">${esc(au.name)}</a>`:`<span class="name">${esc(au.name)}</span>`}
-     <span class="meta">${au.p?`<span>${esc((au.p.teams||[]).join(' · '))}</span>·`:''}<time datetime="${esc(postTime(x))}">${esc(fmt(postTime(x)))}</time>${x.plats?`· <span>${esc(platsNamn(x.plats))}${x.land&&x.land!=='Sverige'?', '+esc(x.land):''}</span>`:''}${via?`· <span>postat via ${esc(via.name)}</span>`:''}</span>
+     <span class="meta">${au.p?`<span>${esc((au.p.teams||[]).join(' · '))}</span>·`:''}${au.gast?`<span>Gäst på Vreta</span>·`:''}<time datetime="${esc(postTime(x))}">${esc(fmt(postTime(x)))}</time>${x.plats?`· <span>${esc(platsNamn(x.plats))}${x.land&&x.land!=='Sverige'?', '+esc(x.land):''}</span>`:''}${via?`· <span>postat via ${esc(via.name)}</span>`:''}</span>
     </div></div>
    ${ctxLine(x)}
    ${x.rubrik?`<h2 class="ptitle">${esc(x.rubrik)}</h2>`:''}
