@@ -100,6 +100,7 @@ figcaption,.cap{font-family:var(--f-label);font-size:12px;color:var(--ink-soft);
 .photo-ph::before{content:"";position:absolute;inset:14px 50% auto auto;width:60px;height:74px;border:1.5px solid var(--rule);border-radius:999px 999px 0 0;transform:translateX(50%)}
 .photo-ph b{font-family:var(--f-label);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-text);font-weight:500}
 .reacts{display:flex;gap:6px;flex-wrap:wrap}
+.who{margin-top:6px;font-size:12.5px;color:var(--mute,#666)}.who summary{cursor:pointer;list-style:none;display:inline-block;text-decoration:underline;text-underline-offset:2px}.who summary::-webkit-details-marker{display:none}.whorow{display:flex;gap:6px;align-items:center;margin-top:4px}.whorow svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}.sr{position:absolute;left:-9999px}
 .react{border:1px solid var(--rule);background:transparent;border-radius:999px;padding:3px 10px;font-family:var(--f-label);font-size:13px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
 .react[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .react .n{font-variant-numeric:tabular-nums}
@@ -276,7 +277,7 @@ function authorOf(a){
 }
 async function resolveProfiles(){
   if(!state.user)return;
-  const ids=new Set();for(const x of [...state.posts,...state.comments])for(const k of ['author','postat_av'])if(x[k]&&String(x[k]).startsWith('u:'))ids.add(String(x[k]).slice(2));
+  const ids=new Set();for(const r of state.reactions||[])if(r.vem)ids.add(r.vem);for(const x of [...state.posts,...state.comments])for(const k of ['author','postat_av'])if(x[k]&&String(x[k]).startsWith('u:'))ids.add(String(x[k]).slice(2));
   if(state.uid)ids.add(state.uid);
   if(!ids.size)return;
   try{const ps=await state.user.profiles([...ids]);let changed=false;for(const id in ps){if(!profCache[id]||profCache[id].name!==ps[id].name){profCache[id]=ps[id];changed=true}}if(changed)render()}catch(e){}
@@ -298,7 +299,17 @@ function reactCounts(key,obj){
 function reactBar(key,obj,small){
   const {c,mine}=reactCounts(key,obj);
   const who=k=>(obj?.reaktioner?.[k]||[]).map(s=>P[s]?.name).filter(Boolean);
-  return `<div class="reacts">${REACTIONS.map(([k,l])=>{const names=who(k);const tip=names.length?`${l}: ${names.slice(0,8).join(', ')}${names.length>8?' m.fl.':''}`:l;return `<button type="button" class="react${small?' small':''}" data-react="${esc(key)}" data-typ="${k}" aria-pressed="${mine[k]?'true':'false'}" aria-label="${esc(l)}" title="${esc(tip)}"><svg viewBox="0 0 24 24" aria-hidden="true">${RICON[k]}</svg><span class="n">${c[k]||''}</span></button>`}).join('')}</div>`;
+  return `<div class="reacts">${REACTIONS.map(([k,l])=>{const names=who(k);const tip=names.length?`${l}: ${names.slice(0,8).join(', ')}${names.length>8?' m.fl.':''}`:l;return `<button type="button" class="react${small?' small':''}" data-react="${esc(key)}" data-typ="${k}" aria-pressed="${mine[k]?'true':'false'}" aria-label="${esc(l)}" title="${esc(tip)}"><svg viewBox="0 0 24 24" aria-hidden="true">${RICON[k]}</svg><span class="n">${c[k]||''}</span></button>`}).join('')}</div>${whoList(key,obj,mine)}`;
+}
+function whoList(key,obj,mine){
+  const rows=[];let tot=0;
+  for(const [k,l] of REACTIONS){
+    const names=(obj?.reaktioner?.[k]||[]).map(s=>P[s]?.name||s).filter(Boolean);
+    for(const r of state.reactions){if(r.target===key&&r.typ===k){if(r.vem===state.uid)names.unshift('Du');else names.push(profCache[r.vem]?.name||'Medlem')}}
+    if(names.length){tot+=names.length;rows.push(`<div class="whorow"><svg viewBox="0 0 24 24" aria-hidden="true">${RICON[k]}</svg><span class="sr">${esc(l)}: </span>${esc(names.join(', '))}</div>`)}
+  }
+  if(!tot)return '';
+  return `<details class="who"><summary>${tot} ${tot===1?'reaktion':'reaktioner'} – visa vilka</summary>${rows.join('')}</details>`;
 }
 async function toggleReact(key,typ){
   if(!state.db||!state.uid){toast('Logga in i organisationen för att reagera.');return}
