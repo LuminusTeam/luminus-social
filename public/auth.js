@@ -1,7 +1,7 @@
 (function(){
 if(typeof supabase==='undefined')return;
 const sb=supabase.createClient('https://ckthqsrgoebmhgaoosjt.supabase.co','sb_publishable_gYB-M_epE-BFWmA1JqkdtA_LssREoZL',{auth:{persistSession:true,autoRefreshToken:true}});
-let verified=false;
+let verified=false,named=false,asked=false;
 const of=window.fetch.bind(window);
 window.fetch=async(u,o)=>{
   if(typeof u==='string'&&u.startsWith('/api/svara')){
@@ -35,13 +35,30 @@ function loginDialog(){
     notice(error?'Det gick inte att skicka länken: '+error.message:'Länk skickad. Öppna mejlet och klicka på den.');
   });
 }
+function nameDialog(){
+  const d=document.createElement('dialog');
+  d.innerHTML='<form method="dialog" style="display:flex;flex-direction:column;gap:10px;min-width:280px;max-width:340px"><b>Välj ditt visningsnamn</b><label for="dn">Det är det namn andra ser. Riktigt förnamn eller ett vänligt namn. Bara bokstäver. Namn som kränker, imiterar teamet eller bryter mot vår etikpolicy godkänns inte.</label><input id="dn" type="text" required maxlength="30" autocomplete="nickname"><div id="dne" role="alert" style="color:#b00020;font-size:13px"></div><div style="display:flex;gap:8px"><button value="ok">Spara namn</button><button value="x" formnovalidate>Senare</button></div></form>';
+  document.body.appendChild(d);d.showModal();
+  d.querySelector('form').addEventListener('submit',async e=>{
+    e.preventDefault();
+    if(e.submitter&&e.submitter.value==='x'){d.close();d.remove();return}
+    const {error}=await sb.rpc('set_display_name',{p_name:d.querySelector('#dn').value});
+    if(error){d.querySelector('#dne').textContent=error.message;return}
+    d.close();d.remove();notice('Välkommen! Nu kan du skriva.');render();
+  });
+}
 async function render(){
   const s=(await sb.auth.getSession()).data.session;
   verified=!!(s&&s.user&&!s.user.is_anonymous&&s.user.email);
+  named=false;let nm='';
+  if(verified){
+    const {data}=await sb.from('profiles').select('display_name,status').eq('user_id',s.user.id).maybeSingle();
+    if(data&&data.status==='ok'){named=true;nm=data.display_name}
+  }
   bar.innerHTML='';
   const b=document.createElement('button');b.className='iconbtn';b.type='button';
   if(verified){
-    const t=document.createElement('span');t.textContent=s.user.email;bar.appendChild(t);
+    const t=document.createElement('span');t.textContent=named?nm:s.user.email;bar.appendChild(t);
     b.textContent='Logga ut';
     b.onclick=async()=>{await sb.auth.signOut();location.reload()};
   }else{
@@ -49,10 +66,12 @@ async function render(){
     b.textContent='Logga in';b.onclick=loginDialog;
   }
   bar.appendChild(b);
+  if(verified&&!named&&!asked){asked=true;nameDialog()}
 }
 document.addEventListener('submit',e=>{
   if(e.target.closest&&e.target.closest('dialog'))return;
   if(!verified){e.preventDefault();e.stopImmediatePropagation();notice('Logga in med e-post för att skriva. Som gäst kan du bara läsa.')}
+  else if(!named){e.preventDefault();e.stopImmediatePropagation();notice('Välj ett visningsnamn först.');nameDialog()}
 },true);
 sb.auth.onAuthStateChange((ev,s)=>{
   if(ev==='SIGNED_IN'&&s&&s.user&&!s.user.is_anonymous&&!verified)location.reload();
