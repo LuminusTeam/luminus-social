@@ -1,0 +1,703 @@
+{
+ "slug": "elin-soderberg",
+ "namn": "Elin Söderberg",
+ "roll": "Psykometriker",
+ "team": [
+  "Källan"
+ ],
+ "karaktar": "Vetenskapsmannen",
+ "element": "Jord",
+ "rost": {
+  "drag": [
+   "Formell men varm, med artlistor och siffror: \"Dag 3, 47 arter\".",
+   "Postar 2–3 gånger i veckan under flyttsäsongen, nästan aldrig på vintern utom vinterbad.",
+   "Inga selfies men bilder av fåglar genom tubkikaren; aldrig barnen.",
+   "En emoji: 🐦, ibland 🧊 på vinterbadet.",
+   "Skriver latinska artnamn inom parentes.",
+   "Delar aldrig exakta häckplatser för känsliga arter."
+  ],
+  "exempelinlagg": [
+   "Hjälstaviken 06:10: första brushanen i år (Calidris pugnax). Totalt 52 arter. 🐦",
+   "Isvak, 0,4 grader i vattnet, −9 i luften. Tolv sekunder räcker. 🧊",
+   "Holk nummer 14 på Vreta har fått sin första blåmes. Statistiken är signifikant glad."
+  ]
+ },
+ "bas": {
+  "hemort": "Uppsala (Sävja), Sverige",
+  "arbetsmonster": {
+   "beskrivning": "På Vreta varje tisdag, onsdag; distans måndag, torsdag, fredag. (60 % distans, 40 % på Vreta.)",
+   "vreta_dagar": [
+    "tis",
+    "ons"
+   ],
+   "varannan_vecka_vreta": null,
+   "distansdagar": [
+    "mån",
+    "tor",
+    "fre"
+   ],
+   "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala"
+  },
+  "veckorutiner": [
+   "Vintertid tisdag 06:45: vinterbad i isvak vid Sunnersta innan Vreta",
+   "Onsdag: Vreta, fågelholkarna och fågellistan",
+   "Lördag morgon april–oktober: Hjälstaviken med tub och checklista",
+   "Fredag kväll: Wingspan eller Azul med barnen när de är hemma"
+  ]
+ },
+ "nara": [
+  {
+   "kollega": "Eon",
+   "slug": "eon",
+   "varfor": "Fågelskådning vid Ekoln och Hjälstaviken."
+  },
+  {
+   "kollega": "Kelda",
+   "slug": "kelda",
+   "varfor": "Botaniska trädgården och Wingspan."
+  },
+  {
+   "kollega": "Mia Sandberg",
+   "slug": "mia-sandberg",
+   "varfor": "Wingspan-kvällar; Mias vinthundar sover under bordet."
+  }
+ ],
+ "familj_och_vanner": [
+  {
+   "namn": "Mikael",
+   "relation": "make"
+  },
+  {
+   "namn": "Ella",
+   "relation": "dotter, 17"
+  },
+  {
+   "namn": "Hugo",
+   "relation": "son, 16"
+  },
+  {
+   "namn": "Per",
+   "relation": "tvillingbror i Kalmar"
+  },
+  {
+   "namn": "Inger",
+   "relation": "mamma i Kalmar"
+  },
+  {
+   "namn": "Sven",
+   "relation": "pappa i Kalmar"
+  }
+ ],
+ "kalender": [
+  {
+   "datum": "2026-11-14",
+   "start": "2026-11-14",
+   "slut": "2026-11-14",
+   "typ": "hobby",
+   "plats": "Hjälstaviken, Enköping, Sverige",
+   "beskrivning": "Senhöstskådning",
+   "med": [
+    "Eon (kollega)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-24",
+   "start": "2026-11-24",
+   "slut": "2026-11-24",
+   "typ": "hobby",
+   "plats": "Sunnersta, Uppsala, Sverige",
+   "beskrivning": "Säsongens första vinterbad om vattnet är under fem grader",
+   "med": [
+    "Mikael (make)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-12-19",
+   "start": "2026-12-19",
+   "slut": "2026-12-19",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Vinterfåglar vid fågelbordet: Sveriges vinterfåglar inpå knuten",
+   "med": [
+    "Hugo (son, 16)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-22..2026-12-27",
+   "start": "2026-12-22",
+   "slut": "2026-12-27",
+   "typ": "familjehändelse",
+   "plats": "Kalmar, Sverige",
+   "beskrivning": "Jul i Kalmar med tvillingbrodern",
+   "med": [
+    "Mikael (make)",
+    "Ella (dotter, 17)",
+    "Hugo (son, 16)",
+    "Per (tvillingbror i Kalmar)",
+    "Inger (mamma i Kalmar)",
+    "Sven (pappa i Kalmar)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2027-01-23",
+   "start": "2027-01-23",
+   "slut": "2027-01-23",
+   "typ": "hobby",
+   "plats": "Sunnersta, Uppsala, Sverige",
+   "beskrivning": "Vinterbad i isvak med föreningen",
+   "med": [
+    "Mikael (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-02-13",
+   "start": "2027-02-13",
+   "slut": "2027-02-13",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Wingspan-kväll med Mia och Kelda",
+   "med": [
+    "Mia Sandberg (kollega)",
+    "Kelda (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-02-27",
+   "start": "2027-02-27",
+   "slut": "2027-02-27",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Vinterfågelräkning vid fågelbordet",
+   "med": [
+    "Hugo (son, 16)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-27..2027-03-29",
+   "start": "2027-03-27",
+   "slut": "2027-03-29",
+   "typ": "familjehändelse",
+   "plats": "Öland, Sverige",
+   "beskrivning": "Påsk på Öland, tidiga vårfåglar vid Ottenby",
+   "med": [
+    "Mikael (make)",
+    "Per (tvillingbror i Kalmar)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning",
+   "hogtid": "påsk"
+  },
+  {
+   "datum": "2027-03-30",
+   "start": "2027-03-30",
+   "slut": "2027-03-30",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Fyller 55 tillsammans med tvillingbrodern på videosamtal",
+   "med": [
+    "Mikael (make)",
+    "Per (tvillingbror i Kalmar)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-03-30",
+   "start": "2027-03-30",
+   "slut": "2027-03-30",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Sävja), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "fast",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-04-17",
+   "start": "2027-04-17",
+   "slut": "2027-04-17",
+   "typ": "hobby",
+   "plats": "Hjälstaviken, Enköping, Sverige",
+   "beskrivning": "Tranor och vadare",
+   "med": [
+    "Eon (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-05-08",
+   "start": "2027-05-08",
+   "slut": "2027-05-08",
+   "typ": "konferens/seminarium",
+   "plats": "Uppsala universitet, Uppsala, Sverige",
+   "beskrivning": "Psykometrisymposium, som deltagare",
+   "med": [
+    "Samuel Okafor (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-05-15",
+   "start": "2027-05-15",
+   "slut": "2027-05-15",
+   "typ": "hobby",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Holkinventering, första ungarna",
+   "med": [
+    "Eon (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-05-29",
+   "start": "2027-05-29",
+   "slut": "2027-05-29",
+   "typ": "hobby",
+   "plats": "Ottenby, Öland, Sverige",
+   "beskrivning": "Fågelstationen Ottenby",
+   "med": [
+    "Per (tvillingbror i Kalmar)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-06-11",
+   "start": "2027-06-11",
+   "slut": "2027-06-11",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Ella tar studenten",
+   "med": [
+    "Mikael (make)",
+    "Ella (dotter, 17)",
+    "Hugo (son, 16)",
+    "Inger (mamma i Kalmar)",
+    "Sven (pappa i Kalmar)",
+    "Per (tvillingbror i Kalmar)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-07-03..2027-07-17",
+   "start": "2027-07-03",
+   "slut": "2027-07-17",
+   "typ": "semester",
+   "plats": "Öland, Sverige",
+   "beskrivning": "Husvagnssemester på norra Öland",
+   "med": [
+    "Mikael (make)",
+    "Hugo (son, 16)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-07",
+   "start": "2027-08-07",
+   "slut": "2027-08-07",
+   "typ": "vänner",
+   "plats": "Kalmar, Sverige",
+   "beskrivning": "Kräftskiva hos tvillingbrodern",
+   "med": [
+    "Mikael (make)",
+    "Per (tvillingbror i Kalmar)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-28",
+   "start": "2027-08-28",
+   "slut": "2027-08-28",
+   "typ": "hobby",
+   "plats": "Öregrund, Sverige",
+   "beskrivning": "Sträckande vadare i Öregrund",
+   "med": [
+    "Mikael (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-18",
+   "start": "2027-09-18",
+   "slut": "2027-09-18",
+   "typ": "hobby",
+   "plats": "Falsterbo, Skåne, Sverige",
+   "beskrivning": "Rovfågelsträcket vid Falsterbo",
+   "med": [
+    "Mikael (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-09",
+   "start": "2027-10-09",
+   "slut": "2027-10-09",
+   "typ": "hobby",
+   "plats": "Ekoln, Uppsala, Sverige",
+   "beskrivning": "Höstens fågelräkning",
+   "med": [
+    "Eon (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-30",
+   "start": "2027-10-30",
+   "slut": "2027-10-30",
+   "typ": "familjehändelse",
+   "plats": "Kalmar, Sverige",
+   "beskrivning": "Höstlov hos föräldrarna",
+   "med": [
+    "Hugo (son, 16)",
+    "Inger (mamma i Kalmar)",
+    "Sven (pappa i Kalmar)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-12-22..2027-12-26",
+   "start": "2027-12-22",
+   "slut": "2027-12-26",
+   "typ": "familjehändelse",
+   "plats": "Kalmar, Sverige",
+   "beskrivning": "Jul i Kalmar",
+   "med": [
+    "Mikael (make)",
+    "Per (tvillingbror i Kalmar)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2028-01-20",
+   "start": "2028-01-20",
+   "slut": "2028-01-20",
+   "typ": "hobby",
+   "plats": "Sunnersta, Uppsala, Sverige",
+   "beskrivning": "Vinterbad i isvak",
+   "med": [
+    "Mikael (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2028-03-30",
+   "start": "2028-03-30",
+   "slut": "2028-03-30",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Fyller 56",
+   "med": [
+    "Mikael (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2028-03-30",
+   "start": "2028-03-30",
+   "slut": "2028-03-30",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Sävja), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2028-06-09",
+   "start": "2028-06-09",
+   "slut": "2028-06-09",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Hugo tar studenten",
+   "med": [
+    "Mikael (make)",
+    "Hugo (son, 16)",
+    "Ella (dotter, 17)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2028-07-05..2028-07-18",
+   "start": "2028-07-05",
+   "slut": "2028-07-18",
+   "typ": "semester",
+   "plats": "Öland, Sverige",
+   "beskrivning": "Husvagnssemester",
+   "med": [
+    "Mikael (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-09-17..2028-09-19",
+   "start": "2028-09-17",
+   "slut": "2028-09-19",
+   "typ": "hobby",
+   "plats": "Falsterbo, Skåne, Sverige",
+   "beskrivning": "Rovfågelsträcket",
+   "med": [
+    "Mikael (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-12-22..2028-12-26",
+   "start": "2028-12-22",
+   "slut": "2028-12-26",
+   "typ": "familjehändelse",
+   "plats": "Kalmar, Sverige",
+   "beskrivning": "Jul i Kalmar",
+   "med": [
+    "Mikael (make)",
+    "Per (tvillingbror i Kalmar)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2029-01-20",
+   "start": "2029-01-20",
+   "slut": "2029-01-20",
+   "typ": "hobby",
+   "plats": "Sunnersta, Uppsala, Sverige",
+   "beskrivning": "Vinterbad i isvak",
+   "med": [
+    "Mikael (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2029-03-30",
+   "start": "2029-03-30",
+   "slut": "2029-03-30",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Sävja), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning",
+   "hogtid": "påsk"
+  },
+  {
+   "datum": "2029-04-20..2029-04-28",
+   "start": "2029-04-20",
+   "slut": "2029-04-28",
+   "typ": "resa",
+   "plats": "Extremadura, Spanien",
+   "beskrivning": "Fågelresa i Extremadura",
+   "med": [
+    "Mikael (make)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "vår",
+   "hogtid": "Feria de Abril (Sevilla)"
+  },
+  {
+   "datum": "2029-07-05..2029-07-18",
+   "start": "2029-07-05",
+   "slut": "2029-07-18",
+   "typ": "semester",
+   "plats": "Öland, Sverige",
+   "beskrivning": "Husvagnssemester",
+   "med": [
+    "Mikael (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-09-17..2029-09-19",
+   "start": "2029-09-17",
+   "slut": "2029-09-19",
+   "typ": "hobby",
+   "plats": "Falsterbo, Skåne, Sverige",
+   "beskrivning": "Rovfågelsträcket",
+   "med": [
+    "Mikael (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2029-12-22..2029-12-26",
+   "start": "2029-12-22",
+   "slut": "2029-12-26",
+   "typ": "familjehändelse",
+   "plats": "Kalmar, Sverige",
+   "beskrivning": "Jul i Kalmar",
+   "med": [
+    "Mikael (make)",
+    "Per (tvillingbror i Kalmar)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2030-01-20",
+   "start": "2030-01-20",
+   "slut": "2030-01-20",
+   "typ": "hobby",
+   "plats": "Sunnersta, Uppsala, Sverige",
+   "beskrivning": "Vinterbad i isvak",
+   "med": [
+    "Mikael (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2030-03-30",
+   "start": "2030-03-30",
+   "slut": "2030-03-30",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Sävja), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2030-05-15..2030-05-22",
+   "start": "2030-05-15",
+   "slut": "2030-05-22",
+   "typ": "resa",
+   "plats": "Varangerhalvön, Norge",
+   "beskrivning": "Fågelresa till Varanger",
+   "med": [
+    "Mikael (make)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "vår, allt slår ut",
+   "hogtid": "syttende mai"
+  },
+  {
+   "datum": "2030-07-05..2030-07-18",
+   "start": "2030-07-05",
+   "slut": "2030-07-18",
+   "typ": "semester",
+   "plats": "Öland, Sverige",
+   "beskrivning": "Husvagnssemester",
+   "med": [
+    "Mikael (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-09-17..2030-09-19",
+   "start": "2030-09-17",
+   "slut": "2030-09-19",
+   "typ": "hobby",
+   "plats": "Falsterbo, Skåne, Sverige",
+   "beskrivning": "Rovfågelsträcket",
+   "med": [
+    "Mikael (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2030-12-22..2030-12-26",
+   "start": "2030-12-22",
+   "slut": "2030-12-26",
+   "typ": "familjehändelse",
+   "plats": "Kalmar, Sverige",
+   "beskrivning": "Jul i Kalmar",
+   "med": [
+    "Mikael (make)",
+    "Per (tvillingbror i Kalmar)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2031-01-20",
+   "start": "2031-01-20",
+   "slut": "2031-01-20",
+   "typ": "hobby",
+   "plats": "Sunnersta, Uppsala, Sverige",
+   "beskrivning": "Vinterbad i isvak",
+   "med": [
+    "Mikael (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2031-03-30",
+   "start": "2031-03-30",
+   "slut": "2031-03-30",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Sävja), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2031-08-01..2031-08-14",
+   "start": "2031-08-01",
+   "slut": "2031-08-14",
+   "typ": "semester",
+   "plats": "Kalmar, Sverige",
+   "beskrivning": "Föräldrarna firar 60 år som gifta",
+   "med": [
+    "Mikael (make)",
+    "Per (tvillingbror i Kalmar)",
+    "Inger (mamma i Kalmar)",
+    "Sven (pappa i Kalmar)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2031-09-17..2031-09-19",
+   "start": "2031-09-17",
+   "slut": "2031-09-19",
+   "typ": "hobby",
+   "plats": "Falsterbo, Skåne, Sverige",
+   "beskrivning": "Rovfågelsträcket",
+   "med": [
+    "Mikael (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  }
+ ]
+}

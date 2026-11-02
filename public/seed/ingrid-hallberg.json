@@ -1,0 +1,650 @@
+{
+ "slug": "ingrid-hallberg",
+ "namn": "Ingrid Hallberg",
+ "roll": "Affärsproduktägare",
+ "team": [
+  "Etern"
+ ],
+ "karaktar": "Strategen",
+ "element": "Jord",
+ "rost": {
+  "drag": [
+   "Snabba, peppiga inlägg med många utropstecken och några få emojis (🍄, 🛶, ☕).",
+   "Blandar in portugisiska ord från Lissabontiden: \"saudade\", \"obrigada\".",
+   "Postar flera gånger i veckan på Instagram stories, mest kanot, svamp och fika.",
+   "Delar produktlanseringar och affärsglädje på LinkedIn, aldrig siffror som inte är publika.",
+   "Selfie i kanoten eller med en korg svamp, aldrig med dottern i bild.",
+   "Västerbottnisk humor: underdriven när det gäller, överdriven när det inte gäller."
+  ],
+  "exempelinlagg": [
+   "Tre liter trattkantareller i Lunsen!! 🍄 Det blir paj i kväll. Obrigada, skogen.",
+   "Saudade i dag. Lissabon i november är bättre än Uppsala i november. Men fikat här slår allt ☕",
+   "Lansering avklarad. Hela teamet, ni är fantastiska. Nu: västerbottensostpaj och tystnad."
+  ]
+ },
+ "bas": {
+  "hemort": "Uppsala (Luthagen), Sverige",
+  "arbetsmonster": {
+   "beskrivning": "På Vreta varje tisdag, onsdag och varannan torsdag; distans måndag, fredag (samt torsdag varannan vecka). (50 % distans, 50 % på Vreta.)",
+   "vreta_dagar": [
+    "tis",
+    "ons"
+   ],
+   "varannan_vecka_vreta": "tor",
+   "distansdagar": [
+    "mån",
+    "fre"
+   ],
+   "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala"
+  },
+  "veckorutiner": [
+   "Tisdag och onsdag: kör till Vreta 07:30 och lämnar Ebba vid Katedralskolan på vägen",
+   "Måndag 19:00: fiollektion i spelmanslag i Uppsala, polskor efter gehör",
+   "Torsdag kväll varannan vecka: Monopoly Deal och Splendor med Ebba",
+   "Lördag morgon augusti–oktober: svampskogen i Lunsen eller Fjällnora",
+   "Söndag: långfrukost och veckoplanering med Johan"
+  ]
+ },
+ "nara": [
+  {
+   "kollega": "Ida Lundström",
+   "slug": "ida-lundstrom",
+   "varfor": "Folkmusik: Ida på dragspel, Ingrid på fiol; spelar ihop på spelmansstämmor."
+  },
+  {
+   "kollega": "Tomas Lindqvist",
+   "slug": "tomas-lindqvist",
+   "varfor": "Paddlar i Upplands vattendrag och spelar kubb vid hans sommarstuga."
+  },
+  {
+   "kollega": "Astrid Vinter",
+   "slug": "astrid-vinter",
+   "varfor": "Svamputflykter och samma strategiska lugn i Etern."
+  }
+ ],
+ "familj_och_vanner": [
+  {
+   "namn": "Johan",
+   "relation": "sambo"
+  },
+  {
+   "namn": "Ebba",
+   "relation": "dotter, 15"
+  },
+  {
+   "namn": "Gun",
+   "relation": "mamma i Skellefteå"
+  },
+  {
+   "namn": "Rolf",
+   "relation": "pappa i Skellefteå"
+  },
+  {
+   "namn": "Mats",
+   "relation": "bror i Kåge"
+  }
+ ],
+ "kalender": [
+  {
+   "datum": "2026-11-08",
+   "start": "2026-11-08",
+   "slut": "2026-11-08",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Fars dag-lunch med pappa på videosamtal och Johan hemma",
+   "med": [
+    "Johan (sambo)",
+    "Ebba (dotter, 15)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-28",
+   "start": "2026-11-28",
+   "slut": "2026-11-28",
+   "typ": "vänner",
+   "plats": "Kalmar slott, Kalmar, Sverige",
+   "beskrivning": "Julmarknad på Kalmar slott med väninnor",
+   "med": [
+    "Johan (sambo)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-12-03",
+   "start": "2026-12-03",
+   "slut": "2026-12-03",
+   "typ": "fest",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Bakar lussekatter och pepparkakor till adventsfikan på Vreta",
+   "med": [
+    "Linnea Ahlgren (kollega)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-22..2026-12-28",
+   "start": "2026-12-22",
+   "slut": "2026-12-28",
+   "typ": "familjehändelse",
+   "plats": "Skellefteå, Sverige",
+   "beskrivning": "Jul i Skellefteå, tåg norrut, julbord hos mamma",
+   "med": [
+    "Johan (sambo)",
+    "Ebba (dotter, 15)",
+    "Gun (mamma i Skellefteå)",
+    "Rolf (pappa i Skellefteå)",
+    "Mats (bror i Kåge)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2027-01-30..2027-02-01",
+   "start": "2027-01-30",
+   "slut": "2027-02-01",
+   "typ": "resa",
+   "plats": "Lissabon, Portugal",
+   "beskrivning": "Besöker gamla kaféet hon sålde för en euro; middag med den tidigare anställda",
+   "med": [
+    "Johan (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter (mild medelhavsvinter)"
+  },
+  {
+   "datum": "2027-02-06",
+   "start": "2027-02-06",
+   "slut": "2027-02-06",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Monopoly Deal-turnering med Ebbas kompisar och föräldrar",
+   "med": [
+    "Ebba (dotter, 15)",
+    "Johan (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-02-26..2027-03-02",
+   "start": "2027-02-26",
+   "slut": "2027-03-02",
+   "typ": "semester",
+   "plats": "Kåge, Skellefteå, Sverige",
+   "beskrivning": "Sportlov hos brodern: skoter, pimpelfiske, längdskidor",
+   "med": [
+    "Ebba (dotter, 15)",
+    "Mats (bror i Kåge)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-20",
+   "start": "2027-03-20",
+   "slut": "2027-03-20",
+   "typ": "fest",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Ebbas konfirmationsfest hemma",
+   "med": [
+    "Johan (sambo)",
+    "Ebba (dotter, 15)",
+    "Gun (mamma i Skellefteå)",
+    "Rolf (pappa i Skellefteå)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-04-24",
+   "start": "2027-04-24",
+   "slut": "2027-04-24",
+   "typ": "hobby",
+   "plats": "Fyrisån, Uppsala, Sverige",
+   "beskrivning": "Säsongens första paddling när isen gått",
+   "med": [
+    "Tomas Lindqvist (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-05-08",
+   "start": "2027-05-08",
+   "slut": "2027-05-08",
+   "typ": "jubileum",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "48 år; middag på Ekolns strand",
+   "med": [
+    "Johan (sambo)",
+    "Ebba (dotter, 15)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-05-08",
+   "start": "2027-05-08",
+   "slut": "2027-05-08",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Luthagen), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "fast",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-05-29",
+   "start": "2027-05-29",
+   "slut": "2027-05-29",
+   "typ": "konferens/seminarium",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Produktägardag på en branschkonferens i Stockholm, som deltagare",
+   "med": [
+    "Linnea Ahlgren (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-06-12",
+   "start": "2027-06-12",
+   "slut": "2027-06-12",
+   "typ": "hobby",
+   "plats": "Gräsö, Östhammar, Sverige",
+   "beskrivning": "Kubb och grillning vid Tomas sommarstuga",
+   "med": [
+    "Tomas Lindqvist (kollega)",
+    "Johan (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-06-18..2027-06-19",
+   "start": "2027-06-18",
+   "slut": "2027-06-19",
+   "typ": "fest",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Ebba går ut nian, middag på Domtrappkällaren",
+   "med": [
+    "Johan (sambo)",
+    "Ebba (dotter, 15)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-07-03..2027-07-17",
+   "start": "2027-07-03",
+   "slut": "2027-07-17",
+   "typ": "semester",
+   "plats": "Glaskogen, Värmland, Sverige",
+   "beskrivning": "Kanotsemester i tält genom Glaskogens sjöar",
+   "med": [
+    "Johan (sambo)",
+    "Ebba (dotter, 15)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-07-29..2027-07-31",
+   "start": "2027-07-29",
+   "slut": "2027-07-31",
+   "typ": "hobby",
+   "plats": "Bingsjö, Rättvik, Sverige",
+   "beskrivning": "Spelmansstämma med fiolen och Ida",
+   "med": [
+    "Ida Lundström (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-21",
+   "start": "2027-08-21",
+   "slut": "2027-08-21",
+   "typ": "hobby",
+   "plats": "Lunsen, Uppsala, Sverige",
+   "beskrivning": "Första svampdagen, kantareller",
+   "med": [
+    "Astrid Vinter (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-11",
+   "start": "2027-09-11",
+   "slut": "2027-09-11",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Kulturnatten i Uppsala",
+   "med": [
+    "Johan (sambo)",
+    "Ebba (dotter, 15)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-09-24..2027-09-26",
+   "start": "2027-09-24",
+   "slut": "2027-09-26",
+   "typ": "resa",
+   "plats": "Öland, Sverige",
+   "beskrivning": "Skördefesten på Öland (ungefärliga datum)",
+   "med": [
+    "Johan (sambo)",
+    "Ebba (dotter, 15)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-02",
+   "start": "2027-10-02",
+   "slut": "2027-10-02",
+   "typ": "hobby",
+   "plats": "Fjällnora, Uppsala, Sverige",
+   "beskrivning": "Leder svamptur för Vreta-gäster i skogen kring Vreta",
+   "med": [
+    "Astrid Vinter (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-29..2027-10-31",
+   "start": "2027-10-29",
+   "slut": "2027-10-31",
+   "typ": "resa",
+   "plats": "Skellefteå, Sverige",
+   "beskrivning": "Höstlov hos föräldrarna, älgstek och bastu",
+   "med": [
+    "Ebba (dotter, 15)",
+    "Gun (mamma i Skellefteå)",
+    "Rolf (pappa i Skellefteå)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-12-03",
+   "start": "2027-12-03",
+   "slut": "2027-12-03",
+   "typ": "fest",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Adventsbak till alla fikor på Vreta",
+   "med": [
+    "Linnea Ahlgren (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2028-02-10..2028-02-17",
+   "start": "2028-02-10",
+   "slut": "2028-02-17",
+   "typ": "resa",
+   "plats": "Lissabon, Portugal",
+   "beskrivning": "Vinterresa: portugisiska, kakel och kaffe",
+   "med": [
+    "Johan (sambo)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "vinter (mild medelhavsvinter)"
+  },
+  {
+   "datum": "2028-05-08",
+   "start": "2028-05-08",
+   "slut": "2028-05-08",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Luthagen), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2028-07-04..2028-07-18",
+   "start": "2028-07-04",
+   "slut": "2028-07-18",
+   "typ": "semester",
+   "plats": "Värmland, Sverige",
+   "beskrivning": "Kanotsemester i tält",
+   "med": [
+    "Johan (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-08-26",
+   "start": "2028-08-26",
+   "slut": "2028-08-26",
+   "typ": "familjehändelse",
+   "plats": "Kåge, Skellefteå, Sverige",
+   "beskrivning": "Brodern fyller 50 i Kåge",
+   "med": [
+    "Johan (sambo)",
+    "Ebba (dotter, 15)",
+    "Mats (bror i Kåge)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-09-10",
+   "start": "2028-09-10",
+   "slut": "2028-09-10",
+   "typ": "hobby",
+   "plats": "Lunsen, Uppsala, Sverige",
+   "beskrivning": "Svamphelg",
+   "med": [
+    "Johan (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-12-03",
+   "start": "2028-12-03",
+   "slut": "2028-12-03",
+   "typ": "fest",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Adventsbak till alla fikor på Vreta",
+   "med": [
+    "Linnea Ahlgren (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "första advent"
+  },
+  {
+   "datum": "2029-05-08",
+   "start": "2029-05-08",
+   "slut": "2029-05-08",
+   "typ": "jubileum",
+   "plats": "Uppsala (Luthagen), Sverige",
+   "beskrivning": "Fyller 50 – större firande",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2029-07-04..2029-07-18",
+   "start": "2029-07-04",
+   "slut": "2029-07-18",
+   "typ": "semester",
+   "plats": "Värmland, Sverige",
+   "beskrivning": "Kanotsemester i tält",
+   "med": [
+    "Johan (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-08-20",
+   "start": "2029-08-20",
+   "slut": "2029-08-20",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Ebba flyttar till Umeå för studier",
+   "med": [
+    "Johan (sambo)",
+    "Ebba (dotter, 15)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-09-10",
+   "start": "2029-09-10",
+   "slut": "2029-09-10",
+   "typ": "hobby",
+   "plats": "Lunsen, Uppsala, Sverige",
+   "beskrivning": "Svamphelg",
+   "med": [
+    "Johan (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2029-12-03",
+   "start": "2029-12-03",
+   "slut": "2029-12-03",
+   "typ": "fest",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Adventsbak till alla fikor på Vreta",
+   "med": [
+    "Linnea Ahlgren (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2030-05-08",
+   "start": "2030-05-08",
+   "slut": "2030-05-08",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Luthagen), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2030-07-01..2030-07-14",
+   "start": "2030-07-01",
+   "slut": "2030-07-14",
+   "typ": "semester",
+   "plats": "Femundsmarka, Norge",
+   "beskrivning": "Kanotled i Femund",
+   "med": [
+    "Johan (sambo)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-07-04..2030-07-18",
+   "start": "2030-07-04",
+   "slut": "2030-07-18",
+   "typ": "semester",
+   "plats": "Värmland, Sverige",
+   "beskrivning": "Kanotsemester i tält",
+   "med": [
+    "Johan (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-09-10",
+   "start": "2030-09-10",
+   "slut": "2030-09-10",
+   "typ": "hobby",
+   "plats": "Lunsen, Uppsala, Sverige",
+   "beskrivning": "Svamphelg",
+   "med": [
+    "Johan (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2030-12-03",
+   "start": "2030-12-03",
+   "slut": "2030-12-03",
+   "typ": "fest",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Adventsbak till alla fikor på Vreta",
+   "med": [
+    "Linnea Ahlgren (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2031-05-08",
+   "start": "2031-05-08",
+   "slut": "2031-05-08",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Luthagen), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2031-06-14",
+   "start": "2031-06-14",
+   "slut": "2031-06-14",
+   "typ": "familjehändelse",
+   "plats": "Umeå, Sverige",
+   "beskrivning": "Ebbas examen",
+   "med": [
+    "Johan (sambo)",
+    "Ebba (dotter, 15)",
+    "Gun (mamma i Skellefteå)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2031-07-04..2031-07-18",
+   "start": "2031-07-04",
+   "slut": "2031-07-18",
+   "typ": "semester",
+   "plats": "Värmland, Sverige",
+   "beskrivning": "Kanotsemester i tält",
+   "med": [
+    "Johan (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2031-09-10",
+   "start": "2031-09-10",
+   "slut": "2031-09-10",
+   "typ": "hobby",
+   "plats": "Lunsen, Uppsala, Sverige",
+   "beskrivning": "Svamphelg",
+   "med": [
+    "Johan (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  }
+ ]
+}

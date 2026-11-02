@@ -1,0 +1,689 @@
+{
+ "slug": "noor-rahimi",
+ "namn": "Noor Rahimi",
+ "roll": "Enkätkonstruktör och psykolingvist",
+ "team": [
+  "Källan"
+ ],
+ "karaktar": "Den Vise",
+ "element": "Luft",
+ "rost": {
+  "drag": [
+   "Långa, eftertänksamma inlägg med en dikt eller ett citat i två språk.",
+   "Postar en gång i veckan på Instagram och ibland en essä på en litterär blogg.",
+   "Inga emojis, inga selfies; bilder av böcker, rosor och tågfönster.",
+   "Skriver om språk och ord, aldrig om sitt privatliv eller sin bakgrund som tema.",
+   "Svarar varmt och ingående på kommentarer.",
+   "Humorn är ordlekar mellan dari och svenska."
+  ],
+  "exempelinlagg": [
+   "Ordet \"del\" betyder hjärta på dari. Det har gjort varje svensk delårsrapport lite vackrare för mig.",
+   "Rosen vid orangeriet blommar en sista gång i oktober. Rumi skulle ha haft något att säga om det.",
+   "Tåget mellan Würzburg och Bamberg. Fönstret, en bok, inget att göra. Lycka i sin enklaste form."
+  ]
+ },
+ "bas": {
+  "hemort": "Östhammar, Sverige",
+  "arbetsmonster": {
+   "beskrivning": "På Vreta varje onsdag och varannan tisdag; distans måndag, torsdag, fredag (samt tisdag varannan vecka). (70 % distans, 30 % på Vreta.)",
+   "vreta_dagar": [
+    "ons"
+   ],
+   "varannan_vecka_vreta": "tis",
+   "distansdagar": [
+    "mån",
+    "tor",
+    "fre"
+   ],
+   "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala"
+  },
+  "veckorutiner": [
+   "Onsdag (och varannan tisdag): buss 811 från Östhammar till Uppsala, samåker sista biten till Vreta",
+   "Måndag–fredag: lämnar Sahar vid skolan i Östhammar 08:00 på distansdagarna",
+   "Söndag kväll: översätter poesi mellan dari och svenska för tidskriften",
+   "Torsdag varannan: bokcirkeln med Gunnel (digitalt)",
+   "Lördag: Scrabble på två språk med Sahar"
+  ]
+ },
+ "nara": [
+  {
+   "kollega": "Gunnel Axelsson",
+   "slug": "gunnel-axelsson",
+   "varfor": "Bokcirkeln; Noor tar med översatt poesi."
+  },
+  {
+   "kollega": "Nils Fredriksson",
+   "slug": "nils-fredriksson",
+   "varfor": "Två översättare som byter ordlistor och skrabblar på tid."
+  },
+  {
+   "kollega": "Henrik Nyman",
+   "slug": "henrik-nyman",
+   "varfor": "Scrabble och bokstavsglädje; Henrik har tryckt hennes dikter på handpressen."
+  }
+ ],
+ "familj_och_vanner": [
+  {
+   "namn": "Daniel",
+   "relation": "make"
+  },
+  {
+   "namn": "Sahar",
+   "relation": "dotter, 10"
+  },
+  {
+   "namn": "Parwin",
+   "relation": "mamma i Gävle"
+  },
+  {
+   "namn": "Omid",
+   "relation": "bror i Gävle"
+  },
+  {
+   "namn": "Jawid",
+   "relation": "bror i Gävle"
+  },
+  {
+   "namn": "Leyla",
+   "relation": "kusin i Hamburg"
+  }
+ ],
+ "kalender": [
+  {
+   "datum": "2026-11-12",
+   "start": "2026-11-12",
+   "slut": "2026-11-12",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Bokcirkel (digitalt)",
+   "med": [
+    "Gunnel Axelsson (kollega)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-21",
+   "start": "2026-11-21",
+   "slut": "2026-11-21",
+   "typ": "hobby",
+   "plats": "Östhammar, Sverige",
+   "beskrivning": "Rumi får ny katthylla, översättningshelg",
+   "med": [
+    "Daniel (make)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-28",
+   "start": "2026-11-28",
+   "slut": "2026-11-28",
+   "typ": "familjehändelse",
+   "plats": "Gävle, Sverige",
+   "beskrivning": "Bror Omid fyller 40, fest med daf och sång",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)",
+    "Parwin (mamma i Gävle)",
+    "Omid (bror i Gävle)",
+    "Jawid (bror i Gävle)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-12-13",
+   "start": "2026-12-13",
+   "slut": "2026-12-13",
+   "typ": "familjehändelse",
+   "plats": "Östhammar, Sverige",
+   "beskrivning": "Sahars luciatåg i skolan",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "lucia"
+  },
+  {
+   "datum": "2026-12-21",
+   "start": "2026-12-21",
+   "slut": "2026-12-21",
+   "typ": "familjehändelse",
+   "plats": "Gävle, Sverige",
+   "beskrivning": "Yalda-natt, vinterns längsta natt med granatäpplen och poesi hos mamma",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)",
+    "Parwin (mamma i Gävle)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-24..2026-12-26",
+   "start": "2026-12-24",
+   "slut": "2026-12-26",
+   "typ": "vänner",
+   "plats": "Östhammar, Sverige",
+   "beskrivning": "Julledighet hemma, julbord hos grannarna",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2027-01-09",
+   "start": "2027-01-09",
+   "slut": "2027-01-09",
+   "typ": "vänner",
+   "plats": "Östhammar, Sverige",
+   "beskrivning": "Bananagrams-kväll med Daniel och grannarna",
+   "med": [
+    "Daniel (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-23",
+   "start": "2027-01-23",
+   "slut": "2027-01-23",
+   "typ": "konferens/seminarium",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Översättarseminarium om lyrik, som åhörare",
+   "med": [
+    "Nils Fredriksson (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-02-13",
+   "start": "2027-02-13",
+   "slut": "2027-02-13",
+   "typ": "vänner",
+   "plats": "Östhammar, Sverige",
+   "beskrivning": "Scrabble-kväll med Nils och Henrik",
+   "med": [
+    "Nils Fredriksson (kollega)",
+    "Henrik Nyman (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-02-27",
+   "start": "2027-02-27",
+   "slut": "2027-02-27",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Bokcirkel hos Gunnel",
+   "med": [
+    "Gunnel Axelsson (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-20..2027-03-21",
+   "start": "2027-03-20",
+   "slut": "2027-03-21",
+   "typ": "familjehändelse",
+   "plats": "Gävle, Sverige",
+   "beskrivning": "Nowruz, persiskt nyår, hos mamma",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)",
+    "Parwin (mamma i Gävle)",
+    "Omid (bror i Gävle)",
+    "Jawid (bror i Gävle)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-04-03",
+   "start": "2027-04-03",
+   "slut": "2027-04-03",
+   "typ": "familjehändelse",
+   "plats": "Gävle, Sverige",
+   "beskrivning": "Mammas födelsedag",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)",
+    "Parwin (mamma i Gävle)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-04-17",
+   "start": "2027-04-17",
+   "slut": "2027-04-17",
+   "typ": "hobby",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Planterar nya rosor vid orangeriet",
+   "med": [
+    "Marisol Quispe (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-05-15",
+   "start": "2027-05-15",
+   "slut": "2027-05-15",
+   "typ": "vänner",
+   "plats": "Öregrund, Sverige",
+   "beskrivning": "Vårpromenad i Öregrund",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-05-29",
+   "start": "2027-05-29",
+   "slut": "2027-05-29",
+   "typ": "utställning",
+   "plats": "Linnés Hammarby, Uppsala, Sverige",
+   "beskrivning": "Vårens trädgårdsvisning",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-06-02",
+   "start": "2027-06-02",
+   "slut": "2027-06-02",
+   "typ": "familjehändelse",
+   "plats": "Östhammar, Sverige",
+   "beskrivning": "Fyller 44, middag med grön curry",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-06-02",
+   "start": "2027-06-02",
+   "slut": "2027-06-02",
+   "typ": "familjehändelse",
+   "plats": "Östhammar, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "fast",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-07-01..2027-07-18",
+   "start": "2027-07-01",
+   "slut": "2027-07-18",
+   "typ": "semester",
+   "plats": "Hamburg, Tyskland",
+   "beskrivning": "Tågresa till Hamburg och vidare till Würzburg och Bamberg, litterära hotell",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)",
+    "Leyla (kusin i Hamburg)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar"
+  },
+  {
+   "datum": "2027-08-14",
+   "start": "2027-08-14",
+   "slut": "2027-08-14",
+   "typ": "vänner",
+   "plats": "Öregrund, Sverige",
+   "beskrivning": "Bad i Öregrund med dottern",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-28",
+   "start": "2027-08-28",
+   "slut": "2027-08-28",
+   "typ": "familjehändelse",
+   "plats": "Östhammar, Sverige",
+   "beskrivning": "Sahar börjar femman",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-23..2027-09-26",
+   "start": "2027-09-23",
+   "slut": "2027-09-26",
+   "typ": "vänner",
+   "plats": "Göteborg, Sverige",
+   "beskrivning": "Bokmässan i Göteborg (ungefärliga datum), åker tåg",
+   "med": [
+    "Nils Fredriksson (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-02",
+   "start": "2027-10-02",
+   "slut": "2027-10-02",
+   "typ": "hobby",
+   "plats": "Östhammar, Sverige",
+   "beskrivning": "Tidskriften publicerar hennes översättning av en klassisk ghazal",
+   "med": [
+    "Daniel (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-23",
+   "start": "2027-10-23",
+   "slut": "2027-10-23",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Poesiuppläsning på stadsbiblioteket, som åhörare",
+   "med": [
+    "Gunnel Axelsson (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-12-21",
+   "start": "2027-12-21",
+   "slut": "2027-12-21",
+   "typ": "familjehändelse",
+   "plats": "Gävle, Sverige",
+   "beskrivning": "Yalda-natt hos mamma",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)",
+    "Parwin (mamma i Gävle)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2028-03-19..2028-03-20",
+   "start": "2028-03-19",
+   "slut": "2028-03-20",
+   "typ": "familjehändelse",
+   "plats": "Gävle, Sverige",
+   "beskrivning": "Nowruz",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)",
+    "Parwin (mamma i Gävle)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2028-06-02",
+   "start": "2028-06-02",
+   "slut": "2028-06-02",
+   "typ": "familjehändelse",
+   "plats": "Östhammar, Sverige",
+   "beskrivning": "Fyller 45",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2028-06-02",
+   "start": "2028-06-02",
+   "slut": "2028-06-02",
+   "typ": "familjehändelse",
+   "plats": "Östhammar, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2028-07-01..2028-07-16",
+   "start": "2028-07-01",
+   "slut": "2028-07-16",
+   "typ": "semester",
+   "plats": "Wien, Österrike",
+   "beskrivning": "Tåg via Prag till Wien, kaféer och bokhandlar",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar"
+  },
+  {
+   "datum": "2028-12-21",
+   "start": "2028-12-21",
+   "slut": "2028-12-21",
+   "typ": "familjehändelse",
+   "plats": "Gävle, Sverige",
+   "beskrivning": "Yalda-natt hos mamma",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)",
+    "Parwin (mamma i Gävle)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2029-03-01",
+   "start": "2029-03-01",
+   "slut": "2029-03-01",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Familjen flyttar till ett radhus i Gimo",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2029-03-20..2029-03-21",
+   "start": "2029-03-20",
+   "slut": "2029-03-21",
+   "typ": "familjehändelse",
+   "plats": "Gävle, Sverige",
+   "beskrivning": "Nowruz hos mamma",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)",
+    "Parwin (mamma i Gävle)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2029-06-01",
+   "start": "2029-06-01",
+   "slut": "2029-06-01",
+   "typ": "familjehändelse",
+   "plats": "Östhammar, Sverige",
+   "beskrivning": "Sahar slutar nian",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2029-06-02",
+   "start": "2029-06-02",
+   "slut": "2029-06-02",
+   "typ": "familjehändelse",
+   "plats": "Östhammar, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2029-07-01..2029-07-14",
+   "start": "2029-07-01",
+   "slut": "2029-07-14",
+   "typ": "semester",
+   "plats": "Långsam tågresa, Europa",
+   "beskrivning": "Sommarresa med tåg genom Europa",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar"
+  },
+  {
+   "datum": "2029-12-21",
+   "start": "2029-12-21",
+   "slut": "2029-12-21",
+   "typ": "familjehändelse",
+   "plats": "Gävle, Sverige",
+   "beskrivning": "Yalda-natt hos mamma",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)",
+    "Parwin (mamma i Gävle)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2030-03-20..2030-03-21",
+   "start": "2030-03-20",
+   "slut": "2030-03-21",
+   "typ": "familjehändelse",
+   "plats": "Gävle, Sverige",
+   "beskrivning": "Nowruz hos mamma",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)",
+    "Parwin (mamma i Gävle)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2030-05-10",
+   "start": "2030-05-10",
+   "slut": "2030-05-10",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Luminus-enkäten finns på dari och persiska",
+   "med": [
+    "Kelda (kollega)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2030-06-02",
+   "start": "2030-06-02",
+   "slut": "2030-06-02",
+   "typ": "familjehändelse",
+   "plats": "Östhammar, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2030-07-01..2030-07-14",
+   "start": "2030-07-01",
+   "slut": "2030-07-14",
+   "typ": "semester",
+   "plats": "Långsam tågresa, Europa",
+   "beskrivning": "Sommarresa med tåg genom Europa",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar"
+  },
+  {
+   "datum": "2030-12-21",
+   "start": "2030-12-21",
+   "slut": "2030-12-21",
+   "typ": "familjehändelse",
+   "plats": "Gävle, Sverige",
+   "beskrivning": "Yalda-natt hos mamma",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)",
+    "Parwin (mamma i Gävle)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2031-03-20..2031-03-21",
+   "start": "2031-03-20",
+   "slut": "2031-03-21",
+   "typ": "familjehändelse",
+   "plats": "Gävle, Sverige",
+   "beskrivning": "Nowruz hos mamma",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)",
+    "Parwin (mamma i Gävle)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2031-06-02",
+   "start": "2031-06-02",
+   "slut": "2031-06-02",
+   "typ": "familjehändelse",
+   "plats": "Östhammar, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2031-07-01..2031-07-20",
+   "start": "2031-07-01",
+   "slut": "2031-07-20",
+   "typ": "semester",
+   "plats": "Lissabon, Portugal",
+   "beskrivning": "Långsam tågresa genom Frankrike och Spanien till Lissabon",
+   "med": [
+    "Daniel (make)",
+    "Sahar (dotter, 10)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "sommar (het)"
+  }
+ ]
+}

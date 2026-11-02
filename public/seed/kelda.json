@@ -1,0 +1,731 @@
+{
+ "slug": "kelda",
+ "namn": "Kelda",
+ "roll": "Teamlead och kontaktyta, Team Källan",
+ "team": [
+  "Källan"
+ ],
+ "karaktar": "Vetenskapsmannen",
+ "element": "Jord",
+ "rost": {
+  "drag": [
+   "Precisa, korta inlägg med en siffra eller ett diagram; humorn ligger i statistiken.",
+   "Skriver svenska, engelska och ibland en marathi-fras till familjen.",
+   "Postar en gång i veckan, oftast om chilin, bridge eller museer.",
+   "Emojis sparsamt: 🌶️ och 📊, aldrig hjärtan.",
+   "Delar aldrig barnens liv eller familjebilder offentligt; selfies bara framför museiobjekt.",
+   "Rättar gärna felaktig statistik i kommentarer, vänligt."
+  ],
+  "exempelinlagg": [
+   "Skörd vecka 36: 412 chilifrukter, varav 61 % Bhut Jolokia. Konfidensintervallet är brett. 🌶️",
+   "Bridge i kväll: 3 sang, hemgjort. Oskar säger att det var tur. Bayes säger något annat.",
+   "Diwali i Pune. Mamma har tänt diyorna sedan i går. Jag har ätit fler laddu än jag rapporterar."
+  ]
+ },
+ "bas": {
+  "hemort": "Uppsala (Norby), Sverige",
+  "arbetsmonster": {
+   "beskrivning": "På Vreta varje tisdag, onsdag; distans måndag, torsdag, fredag. (60 % distans, 40 % på Vreta.)",
+   "vreta_dagar": [
+    "tis",
+    "ons"
+   ],
+   "varannan_vecka_vreta": null,
+   "distansdagar": [
+    "mån",
+    "tor",
+    "fre"
+   ],
+   "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala"
+  },
+  "veckorutiner": [
+   "Tisdag: Vreta och därefter bridgeklubb i Uppsala 18:30 med Oskar",
+   "Onsdag: Vreta; sköter chiliodlingen i orangeriet och för skördestatistik",
+   "Måndag, torsdag, fredag: distans från arbetsrummet i Norby; videosamtal med mamma i Pune söndagar 08:00",
+   "Lördag morgon: Botaniska trädgården i Uppsala, sedan sudoku på kaféet",
+   "Vintertid: chili- och tomatplantor under växtlampor från februari"
+  ]
+ },
+ "nara": [
+  {
+   "kollega": "Oskar Lindgren",
+   "slug": "oskar-lindgren",
+   "varfor": "Bridgepartner på tisdagarna; åker till Bridgefestivalen i Örebro ihop."
+  },
+  {
+   "kollega": "Elin Söderberg",
+   "slug": "elin-soderberg",
+   "varfor": "Botaniska trädgården och Wingspan-kvällar; delar kärleken till checklistor."
+  },
+  {
+   "kollega": "Bjarke",
+   "slug": "bjarke",
+   "varfor": "Settlers of Catan-kvällar hemma i Norby, Bjarke tar med dansk ost."
+  }
+ ],
+ "familj_och_vanner": [
+  {
+   "namn": "Rajesh",
+   "relation": "make"
+  },
+  {
+   "namn": "Ananya",
+   "relation": "dotter, 29"
+  },
+  {
+   "namn": "Vikram",
+   "relation": "son, 26"
+  },
+  {
+   "namn": "Sunita",
+   "relation": "mamma i Pune"
+  },
+  {
+   "namn": "Arjun",
+   "relation": "bror i Pune"
+  }
+ ],
+ "kalender": [
+  {
+   "datum": "2026-11-06..2026-11-14",
+   "start": "2026-11-06",
+   "slut": "2026-11-14",
+   "typ": "resa",
+   "plats": "Pune, Indien",
+   "beskrivning": "Diwali i Pune hos mamma och brodern, rangoli och diyor",
+   "med": [
+    "Rajesh (make)",
+    "Sunita (mamma i Pune)",
+    "Arjun (bror i Pune)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sval och torr säsong",
+   "hogtid": "Diwali"
+  },
+  {
+   "datum": "2026-11-17",
+   "start": "2026-11-17",
+   "slut": "2026-11-17",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Bridgeklubbens höstturnering",
+   "med": [
+    "Oskar Lindgren (kollega)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-12-05",
+   "start": "2026-12-05",
+   "slut": "2026-12-05",
+   "typ": "utställning",
+   "plats": "Gustavianum, Uppsala, Sverige",
+   "beskrivning": "Utställning om vetenskapens historia",
+   "med": [
+    "Rajesh (make)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-24..2026-12-26",
+   "start": "2026-12-24",
+   "slut": "2026-12-26",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jul med barnen hemma i Norby, svensk julmat med chili",
+   "med": [
+    "Rajesh (make)",
+    "Ananya (dotter, 29)",
+    "Vikram (son, 26)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2027-01-09",
+   "start": "2027-01-09",
+   "slut": "2027-01-09",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Settlers of Catan-kväll med Bjarke och Rajesh",
+   "med": [
+    "Bjarke (kollega)",
+    "Rajesh (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-02-06",
+   "start": "2027-02-06",
+   "slut": "2027-02-06",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Sår chili under växtlampor",
+   "med": [
+    "Rajesh (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-02-20..2027-02-21",
+   "start": "2027-02-20",
+   "slut": "2027-02-21",
+   "typ": "hobby",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Bridgetävling, par",
+   "med": [
+    "Oskar Lindgren (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-06",
+   "start": "2027-03-06",
+   "slut": "2027-03-06",
+   "typ": "middag",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Holi-middag med indiska vänner i Uppsala (Holi infaller 22 mars i Pune)",
+   "med": [
+    "Rajesh (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-03-20..2027-03-24",
+   "start": "2027-03-20",
+   "slut": "2027-03-24",
+   "typ": "resa",
+   "plats": "London, Storbritannien",
+   "beskrivning": "Museihelg: British Museum och Science Museum",
+   "med": [
+    "Rajesh (make)",
+    "Ananya (dotter, 29)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2027-04-17",
+   "start": "2027-04-17",
+   "slut": "2027-04-17",
+   "typ": "hobby",
+   "plats": "Botaniska trädgården, Uppsala, Sverige",
+   "beskrivning": "Växtmarknad i Botaniska trädgården",
+   "med": [
+    "Elin Söderberg (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-05-15",
+   "start": "2027-05-15",
+   "slut": "2027-05-15",
+   "typ": "vänner",
+   "plats": "Sigtuna, Sverige",
+   "beskrivning": "Vårutflykt till Sigtuna",
+   "med": [
+    "Rajesh (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-05-29",
+   "start": "2027-05-29",
+   "slut": "2027-05-29",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Wingspan-kväll hos Elin",
+   "med": [
+    "Elin Söderberg (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-06-12",
+   "start": "2027-06-12",
+   "slut": "2027-06-12",
+   "typ": "familjehändelse",
+   "plats": "Göteborg, Sverige",
+   "beskrivning": "Vikram tar masterexamen på Chalmers",
+   "med": [
+    "Rajesh (make)",
+    "Vikram (son, 26)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-07-03..2027-07-10",
+   "start": "2027-07-03",
+   "slut": "2027-07-10",
+   "typ": "resa",
+   "plats": "Edinburgh, Storbritannien",
+   "beskrivning": "Museer och trädgårdar i Edinburgh",
+   "med": [
+    "Rajesh (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar"
+  },
+  {
+   "datum": "2027-07-30..2027-08-04",
+   "start": "2027-07-30",
+   "slut": "2027-08-04",
+   "typ": "hobby",
+   "plats": "Örebro, Sverige",
+   "beskrivning": "Bridgefestivalen i Örebro",
+   "med": [
+    "Oskar Lindgren (kollega)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-14",
+   "start": "2027-08-14",
+   "slut": "2027-08-14",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Fyller 62, misal pav till grannarna",
+   "med": [
+    "Rajesh (make)",
+    "Ananya (dotter, 29)",
+    "Vikram (son, 26)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-14",
+   "start": "2027-08-14",
+   "slut": "2027-08-14",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Norby), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-04",
+   "start": "2027-09-04",
+   "slut": "2027-09-04",
+   "typ": "hobby",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Chiliskörden, statistik för säsongen",
+   "med": [
+    "Marisol Quispe (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-09-12",
+   "start": "2027-09-12",
+   "slut": "2027-09-12",
+   "typ": "middag",
+   "plats": "Linnéträdgården, Uppsala, Sverige",
+   "beskrivning": "Middag med Oskar och Bengt",
+   "med": [
+    "Oskar Lindgren (kollega)",
+    "Rajesh (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-09",
+   "start": "2027-10-09",
+   "slut": "2027-10-09",
+   "typ": "utställning",
+   "plats": "Biotopia, Uppsala, Sverige",
+   "beskrivning": "Ny utställning om pollinatörer",
+   "med": [
+    "Rajesh (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-23..2027-11-01",
+   "start": "2027-10-23",
+   "slut": "2027-11-01",
+   "typ": "resa",
+   "plats": "Pune, Indien",
+   "beskrivning": "Diwali i Pune",
+   "med": [
+    "Rajesh (make)",
+    "Sunita (mamma i Pune)",
+    "Arjun (bror i Pune)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sval och torr säsong",
+   "hogtid": "Diwali"
+  },
+  {
+   "datum": "2027-12-24..2027-12-26",
+   "start": "2027-12-24",
+   "slut": "2027-12-26",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jul med barnen hemma",
+   "med": [
+    "Rajesh (make)",
+    "Ananya (dotter, 29)",
+    "Vikram (son, 26)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2028-02-05",
+   "start": "2028-02-05",
+   "slut": "2028-02-05",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Sår chili under växtlampor",
+   "med": [
+    "Rajesh (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2028-03-11",
+   "start": "2028-03-11",
+   "slut": "2028-03-11",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Ananya gifter sig, mehndi kvällen före",
+   "med": [
+    "Rajesh (make)",
+    "Ananya (dotter, 29)",
+    "Vikram (son, 26)",
+    "Sunita (mamma i Pune)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2028-07-29..2028-08-03",
+   "start": "2028-07-29",
+   "slut": "2028-08-03",
+   "typ": "hobby",
+   "plats": "Örebro, Sverige",
+   "beskrivning": "Bridgefestivalen i Örebro",
+   "med": [
+    "Oskar Lindgren (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-08-14",
+   "start": "2028-08-14",
+   "slut": "2028-08-14",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Fyller 63",
+   "med": [
+    "Rajesh (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-08-14",
+   "start": "2028-08-14",
+   "slut": "2028-08-14",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Norby), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-10-12..2028-10-20",
+   "start": "2028-10-12",
+   "slut": "2028-10-20",
+   "typ": "resa",
+   "plats": "Pune, Indien",
+   "beskrivning": "Diwali i Pune",
+   "med": [
+    "Rajesh (make)",
+    "Sunita (mamma i Pune)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sval och torr säsong",
+   "hogtid": "Diwali"
+  },
+  {
+   "datum": "2028-12-24..2028-12-26",
+   "start": "2028-12-24",
+   "slut": "2028-12-26",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jul med barnen hemma",
+   "med": [
+    "Rajesh (make)",
+    "Ananya (dotter, 29)",
+    "Vikram (son, 26)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2029-02-05",
+   "start": "2029-02-05",
+   "slut": "2029-02-05",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Sår chili under växtlampor",
+   "med": [
+    "Rajesh (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2029-06-01",
+   "start": "2029-06-01",
+   "slut": "2029-06-01",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Femårsrapport om kalibreringen publicerad",
+   "med": [
+    "Samuel Okafor (kollega)",
+    "Erik Johansson (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2029-07-29..2029-08-03",
+   "start": "2029-07-29",
+   "slut": "2029-08-03",
+   "typ": "hobby",
+   "plats": "Örebro, Sverige",
+   "beskrivning": "Bridgefestivalen i Örebro",
+   "med": [
+    "Oskar Lindgren (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-08-14",
+   "start": "2029-08-14",
+   "slut": "2029-08-14",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Fyller 64",
+   "med": [
+    "Rajesh (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-08-14",
+   "start": "2029-08-14",
+   "slut": "2029-08-14",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Norby), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-10-31..2029-11-08",
+   "start": "2029-10-31",
+   "slut": "2029-11-08",
+   "typ": "resa",
+   "plats": "Pune, Indien",
+   "beskrivning": "Diwali i Pune",
+   "med": [
+    "Rajesh (make)",
+    "Sunita (mamma i Pune)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sval och torr säsong",
+   "hogtid": "Diwali"
+  },
+  {
+   "datum": "2029-12-24..2029-12-26",
+   "start": "2029-12-24",
+   "slut": "2029-12-26",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jul med barnen hemma",
+   "med": [
+    "Rajesh (make)",
+    "Ananya (dotter, 29)",
+    "Vikram (son, 26)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2030-02-05",
+   "start": "2030-02-05",
+   "slut": "2030-02-05",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Sår chili under växtlampor",
+   "med": [
+    "Rajesh (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2030-07-29..2030-08-03",
+   "start": "2030-07-29",
+   "slut": "2030-08-03",
+   "typ": "hobby",
+   "plats": "Örebro, Sverige",
+   "beskrivning": "Bridgefestivalen i Örebro",
+   "med": [
+    "Oskar Lindgren (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-08-14",
+   "start": "2030-08-14",
+   "slut": "2030-08-14",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Norby), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-09-01..2030-09-15",
+   "start": "2030-09-01",
+   "slut": "2030-09-15",
+   "typ": "resa",
+   "plats": "Kyoto, Japan",
+   "beskrivning": "Trädgårdar och museer i Kyoto",
+   "med": [
+    "Rajesh (make)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "höst"
+  },
+  {
+   "datum": "2030-10-21..2030-10-29",
+   "start": "2030-10-21",
+   "slut": "2030-10-29",
+   "typ": "resa",
+   "plats": "Pune, Indien",
+   "beskrivning": "Diwali i Pune",
+   "med": [
+    "Rajesh (make)",
+    "Sunita (mamma i Pune)",
+    "Arjun (bror i Pune)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sval och torr säsong",
+   "hogtid": "Diwali"
+  },
+  {
+   "datum": "2030-12-24..2030-12-26",
+   "start": "2030-12-24",
+   "slut": "2030-12-26",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jul med barnen hemma",
+   "med": [
+    "Rajesh (make)",
+    "Ananya (dotter, 29)",
+    "Vikram (son, 26)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2031-02-05",
+   "start": "2031-02-05",
+   "slut": "2031-02-05",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Sår chili under växtlampor",
+   "med": [
+    "Rajesh (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2031-02-10",
+   "start": "2031-02-10",
+   "slut": "2031-02-10",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Första barnbarnet väntas hos Ananya",
+   "med": [
+    "Rajesh (make)",
+    "Ananya (dotter, 29)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2031-03-08..2031-03-12",
+   "start": "2031-03-08",
+   "slut": "2031-03-12",
+   "typ": "resa",
+   "plats": "Pune, Indien",
+   "beskrivning": "Holi i Pune med brodern",
+   "med": [
+    "Arjun (bror i Pune)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "het säsong",
+   "hogtid": "Holi"
+  },
+  {
+   "datum": "2031-07-29..2031-08-03",
+   "start": "2031-07-29",
+   "slut": "2031-08-03",
+   "typ": "hobby",
+   "plats": "Örebro, Sverige",
+   "beskrivning": "Bridgefestivalen i Örebro",
+   "med": [
+    "Oskar Lindgren (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2031-08-14",
+   "start": "2031-08-14",
+   "slut": "2031-08-14",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Norby), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  }
+ ]
+}

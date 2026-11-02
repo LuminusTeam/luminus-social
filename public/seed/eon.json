@@ -1,0 +1,705 @@
+{
+ "slug": "eon",
+ "namn": "Eon",
+ "roll": "Teamlead och kontaktyta, Team Etern",
+ "team": [
+  "Etern"
+ ],
+ "karaktar": "Den Vise",
+ "element": "Luft",
+ "rost": {
+  "drag": [
+   "Skriver sällan och kort: ett foto av is, ljus eller fåglar och en eller två meningar.",
+   "Inga emojis; ibland ett isländskt ord utan översättning, som \"logn\" (vindstilla) eller \"skammdegi\".",
+   "Postar ungefär en gång i månaden, oftast på Instagram, aldrig om arbete eller ledningsgruppen.",
+   "Delar årstidernas skiften, sagocitat och utsikter; delar aldrig barnbarnens ansikten eller familjens adresser.",
+   "Tar aldrig selfies; syns han själv är det en vän som tagit bilden, gärna bakifrån på isen.",
+   "Svarar på kommentarer med ett enda tack, ibland på isländska."
+  ],
+  "exempelinlagg": [
+   "Mälaren bar i dag. Tolv kilometer i logn, och ljudet av isen som sjunger under. Skammdegi har sina gåvor.",
+   "\"Margur er knár þótt hann sé smár.\" Liten, men stark. En sädesärla på Ekolns strand, första i år.",
+   "Akureyri i juli. Systern bakar, systersonen ror, jag lyssnar."
+  ]
+ },
+ "bas": {
+  "hemort": "Uppsala (Kåbo), Sverige",
+  "arbetsmonster": {
+   "beskrivning": "På Vreta varje tisdag, onsdag, torsdag; distans måndag, fredag. (40 % distans, 60 % på Vreta.)",
+   "vreta_dagar": [
+    "tis",
+    "ons",
+    "tor"
+   ],
+   "varannan_vecka_vreta": null,
+   "distansdagar": [
+    "mån",
+    "fre"
+   ],
+   "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala"
+  },
+  "veckorutiner": [
+   "Måndag 07:00: promenad längs Fyrisån till Hågadalen med anteckningsboken innan distansdagen börjar",
+   "Tisdag 08:45: leder morgonpromenaden runt dammen på Vreta före ledningsgruppen",
+   "Onsdag kväll: Go-parti mot Bjarke, varannan vecka hemma i Kåbo, varannan hos Bjarke",
+   "Fredag eftermiddag: läser isländska sagor i original med kaffe på Upplandsmuseets kafé när det är öppet",
+   "Vintertid (januari–februari): långfärdsskridsko på Mälaren eller Ekoln när isen bär, alltid med isdubbar och en vän",
+   "Lördagar april–maj och augusti–oktober: fågelskådning vid Ekoln med kikare och Elin när hon kan"
+  ]
+ },
+ "nara": [
+  {
+   "kollega": "Bjarke",
+   "slug": "bjarke",
+   "varfor": "Spelar Go varannan onsdag och delar förkärleken för spel där tålamod slår styrka."
+  },
+  {
+   "kollega": "Linde",
+   "slug": "linde",
+   "varfor": "De två äldsta i ledningsgruppen; går långa samtalspromenader i Hågadalen."
+  },
+  {
+   "kollega": "Arvid Lönn",
+   "slug": "arvid-lonn",
+   "varfor": "Lyssnar på Arvids sitar i orangeriet och lägger patiens med honom efter townhall."
+  },
+  {
+   "kollega": "Elin Söderberg",
+   "slug": "elin-soderberg",
+   "varfor": "Fågelskådning vid Ekoln och Hjälstaviken; Elin för listan, Eon står still."
+  }
+ ],
+ "familj_och_vanner": [
+  {
+   "namn": "Sigrún",
+   "relation": "hustru"
+  },
+  {
+   "namn": "Ari",
+   "relation": "son, 38"
+  },
+  {
+   "namn": "Hekla",
+   "relation": "dotter, 35"
+  },
+  {
+   "namn": "Bjarni",
+   "relation": "son, 31"
+  },
+  {
+   "namn": "Katla",
+   "relation": "barnbarn, 6"
+  },
+  {
+   "namn": "Torfi",
+   "relation": "barnbarn, 3"
+  },
+  {
+   "namn": "Guðrún",
+   "relation": "syster i Akureyri"
+  },
+  {
+   "namn": "Einar",
+   "relation": "systerson i Akureyri"
+  }
+ ],
+ "kalender": [
+  {
+   "datum": "2026-11-14",
+   "start": "2026-11-14",
+   "slut": "2026-11-14",
+   "typ": "hobby",
+   "plats": "Hjälstaviken, Enköping, Sverige",
+   "beskrivning": "Senhöstskådning efter sjöfågel och havsörn",
+   "med": [
+    "Elin Söderberg (kollega)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-22",
+   "start": "2026-11-22",
+   "slut": "2026-11-22",
+   "typ": "konsert/show",
+   "plats": "Uppsala domkyrka, Uppsala, Sverige",
+   "beskrivning": "Arvo Pärt-konsert i domkyrkan",
+   "med": [
+    "Sigrún (hustru)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-12-05..2026-12-06",
+   "start": "2026-12-05",
+   "slut": "2026-12-06",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Andra advent med barnen och barnbarnen hemma i Kåbo",
+   "med": [
+    "Sigrún (hustru)",
+    "Hekla (dotter, 35)",
+    "Katla (barnbarn, 6)",
+    "Torfi (barnbarn, 3)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-23..2026-12-26",
+   "start": "2026-12-23",
+   "slut": "2026-12-26",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jul hemma; skatan (hangikjöt) som i Akureyri, isländska julvisor",
+   "med": [
+    "Sigrún (hustru)",
+    "Ari (son, 38)",
+    "Hekla (dotter, 35)",
+    "Bjarni (son, 31)",
+    "Katla (barnbarn, 6)",
+    "Torfi (barnbarn, 3)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2026-12-31",
+   "start": "2026-12-31",
+   "slut": "2026-12-31",
+   "typ": "fest",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Nyårsafton med grannar och isländsk brasa på tomten",
+   "med": [
+    "Sigrún (hustru)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "nyårsafton"
+  },
+  {
+   "datum": "2027-01-16",
+   "start": "2027-01-16",
+   "slut": "2027-01-16",
+   "typ": "hobby",
+   "plats": "Mälaren, Västerås, Sverige",
+   "beskrivning": "Första långfärdsturen på isen om den bär, med isdubbar och lina",
+   "med": [
+    "Bjarke (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-29..2027-01-31",
+   "start": "2027-01-29",
+   "slut": "2027-01-31",
+   "typ": "resa",
+   "plats": "Reykjavík, Island",
+   "beskrivning": "Þorrablót med gamla studiekamrater från Háskóli Íslands",
+   "med": [
+    "Sigrún (hustru)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, polarnatt"
+  },
+  {
+   "datum": "2027-02-11",
+   "start": "2027-02-11",
+   "slut": "2027-02-11",
+   "typ": "jubileum",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "66 år: middag med fisksoppa och rågbröd för familjen",
+   "med": [
+    "Sigrún (hustru)",
+    "Ari (son, 38)",
+    "Hekla (dotter, 35)",
+    "Bjarni (son, 31)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-02-11",
+   "start": "2027-02-11",
+   "slut": "2027-02-11",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Kåbo), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "fast",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-02-20",
+   "start": "2027-02-20",
+   "slut": "2027-02-20",
+   "typ": "hobby",
+   "plats": "Ekoln, Uppsala, Sverige",
+   "beskrivning": "Skridsko på Ekoln och kaffe i snön vid Sunnersta",
+   "med": [
+    "Linde (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-13",
+   "start": "2027-03-13",
+   "slut": "2027-03-13",
+   "typ": "konferens/seminarium",
+   "plats": "Uppsala universitet, Uppsala, Sverige",
+   "beskrivning": "Öppen föreläsningsdag om nordisk förvaltningshistoria som åhörare",
+   "med": [
+    "Bjarke (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-04-17",
+   "start": "2027-04-17",
+   "slut": "2027-04-17",
+   "typ": "hobby",
+   "plats": "Hjälstaviken, Enköping, Sverige",
+   "beskrivning": "Vårflyttningen: tranor och vadare",
+   "med": [
+    "Elin Söderberg (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-05-08",
+   "start": "2027-05-08",
+   "slut": "2027-05-08",
+   "typ": "vänner",
+   "plats": "Hågadalen, Uppsala, Sverige",
+   "beskrivning": "Vårvandring med Linde, kaffe i termos",
+   "med": [
+    "Linde (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-05-22..2027-05-23",
+   "start": "2027-05-22",
+   "slut": "2027-05-23",
+   "typ": "familjehändelse",
+   "plats": "Köpenhamn, Danmark",
+   "beskrivning": "Besöker Bjarni som bor i Köpenhamn; promenad till gamla arbetsplatsen vid Nyhavn",
+   "med": [
+    "Sigrún (hustru)",
+    "Bjarni (son, 31)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2027-06-17",
+   "start": "2027-06-17",
+   "slut": "2027-06-17",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Islands nationaldag firas med isländska vänner i Uppsala",
+   "med": [
+    "Sigrún (hustru)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-07-02..2027-07-23",
+   "start": "2027-07-02",
+   "slut": "2027-07-23",
+   "typ": "semester",
+   "plats": "Akureyri, Island",
+   "beskrivning": "Sommar på Island: tåg till Köpenhamn, flyg till Akureyri, vandring i Eyjafjörður",
+   "med": [
+    "Sigrún (hustru)",
+    "Guðrún (syster i Akureyri)",
+    "Einar (systerson i Akureyri)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-28",
+   "start": "2027-08-28",
+   "slut": "2027-08-28",
+   "typ": "utställning",
+   "plats": "Upplandsmuseet, Uppsala, Sverige",
+   "beskrivning": "Ny utställning om Upplands folkkonst",
+   "med": [
+    "Sigrún (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-11",
+   "start": "2027-09-11",
+   "slut": "2027-09-11",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Kulturnatten i Uppsala med barnbarnen",
+   "med": [
+    "Hekla (dotter, 35)",
+    "Katla (barnbarn, 6)",
+    "Torfi (barnbarn, 3)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-09",
+   "start": "2027-10-09",
+   "slut": "2027-10-09",
+   "typ": "hobby",
+   "plats": "Ekoln, Uppsala, Sverige",
+   "beskrivning": "Höstens sista fågelräkning med Elin",
+   "med": [
+    "Elin Söderberg (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-23..2027-10-24",
+   "start": "2027-10-23",
+   "slut": "2027-10-24",
+   "typ": "vänner",
+   "plats": "Sigtuna, Sverige",
+   "beskrivning": "Helg i Sigtuna med Hnefatafl-turnering bland vänner",
+   "med": [
+    "Arvid Lönn (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-12-13",
+   "start": "2027-12-13",
+   "slut": "2027-12-13",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Luciamorgon med barnbarnen, isländska vaggvisor efteråt",
+   "med": [
+    "Katla (barnbarn, 6)",
+    "Torfi (barnbarn, 3)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "lucia"
+  },
+  {
+   "datum": "2028-01-20..2028-01-30",
+   "start": "2028-01-20",
+   "slut": "2028-01-30",
+   "typ": "resa",
+   "plats": "Akureyri, Island",
+   "beskrivning": "Vinterbesök hos systern under þorrablót; norrsken om himlen tillåter",
+   "med": [
+    "Sigrún (hustru)",
+    "Guðrún (syster i Akureyri)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, polarnatt",
+   "hogtid": "þorri börjar (þorrablót-säsong)"
+  },
+  {
+   "datum": "2028-02-11",
+   "start": "2028-02-11",
+   "slut": "2028-02-11",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Kåbo), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2028-06-10",
+   "start": "2028-06-10",
+   "slut": "2028-06-10",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Hekla gifter sig i Linnés Hammarby",
+   "med": [
+    "Sigrún (hustru)",
+    "Hekla (dotter, 35)",
+    "Ari (son, 38)",
+    "Bjarni (son, 31)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2028-06-23..2028-06-26",
+   "start": "2028-06-23",
+   "slut": "2028-06-26",
+   "typ": "fest",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Midsommar på tomten i Kåbo med sill och fisk",
+   "med": [
+    "Sigrún (hustru)",
+    "Hekla (dotter, 35)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2028-07-05..2028-07-26",
+   "start": "2028-07-05",
+   "slut": "2028-07-26",
+   "typ": "semester",
+   "plats": "Akureyri, Island",
+   "beskrivning": "Sommarmånaden på Island hos systern",
+   "med": [
+    "Sigrún (hustru)",
+    "Guðrún (syster i Akureyri)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-09-01..2028-09-10",
+   "start": "2028-09-01",
+   "slut": "2028-09-10",
+   "typ": "resa",
+   "plats": "Västfjordarna, Island",
+   "beskrivning": "Vandring i Västfjordarna där sagorna utspelar sig",
+   "med": [
+    "Sigrún (hustru)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-12-13",
+   "start": "2028-12-13",
+   "slut": "2028-12-13",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Luciamorgon med barnbarnen, isländska vaggvisor efteråt",
+   "med": [
+    "Katla (barnbarn, 6)",
+    "Torfi (barnbarn, 3)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "lucia"
+  },
+  {
+   "datum": "2029-02-01",
+   "start": "2029-02-01",
+   "slut": "2029-02-01",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Lämnar över rollen som kontaktyta i Etern till en efterträdare, stannar som rådgivare",
+   "med": [
+    "Astrid Vinter (kollega)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2029-02-11",
+   "start": "2029-02-11",
+   "slut": "2029-02-11",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Kåbo), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2029-05-15..2029-05-25",
+   "start": "2029-05-15",
+   "slut": "2029-05-25",
+   "typ": "resa",
+   "plats": "Färöarna, Danmark",
+   "beskrivning": "Tåg och färja till Färöarna, fågelklippor i Mykines",
+   "med": [
+    "Sigrún (hustru)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2029-06-22..2029-06-26",
+   "start": "2029-06-22",
+   "slut": "2029-06-26",
+   "typ": "fest",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Midsommar på tomten i Kåbo med sill och fisk",
+   "med": [
+    "Sigrún (hustru)",
+    "Hekla (dotter, 35)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2029-07-05..2029-07-26",
+   "start": "2029-07-05",
+   "slut": "2029-07-26",
+   "typ": "semester",
+   "plats": "Akureyri, Island",
+   "beskrivning": "Sommarmånaden på Island hos systern",
+   "med": [
+    "Sigrún (hustru)",
+    "Guðrún (syster i Akureyri)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-12-13",
+   "start": "2029-12-13",
+   "slut": "2029-12-13",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Luciamorgon med barnbarnen, isländska vaggvisor efteråt",
+   "med": [
+    "Katla (barnbarn, 6)",
+    "Torfi (barnbarn, 3)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "lucia"
+  },
+  {
+   "datum": "2030-02-11",
+   "start": "2030-02-11",
+   "slut": "2030-02-11",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Kåbo), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2030-04-05",
+   "start": "2030-04-05",
+   "slut": "2030-04-05",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Barnbarnsfödelse i familjen: Ari och partnern får sitt andra barn",
+   "med": [
+    "Sigrún (hustru)",
+    "Ari (son, 38)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2030-06-21..2030-06-26",
+   "start": "2030-06-21",
+   "slut": "2030-06-26",
+   "typ": "fest",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Midsommar på tomten i Kåbo med sill och fisk",
+   "med": [
+    "Sigrún (hustru)",
+    "Hekla (dotter, 35)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2030-07-05..2030-07-26",
+   "start": "2030-07-05",
+   "slut": "2030-07-26",
+   "typ": "semester",
+   "plats": "Akureyri, Island",
+   "beskrivning": "Sommarmånaden på Island hos systern",
+   "med": [
+    "Sigrún (hustru)",
+    "Guðrún (syster i Akureyri)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-12-13",
+   "start": "2030-12-13",
+   "slut": "2030-12-13",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Luciamorgon med barnbarnen, isländska vaggvisor efteråt",
+   "med": [
+    "Katla (barnbarn, 6)",
+    "Torfi (barnbarn, 3)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "lucia"
+  },
+  {
+   "datum": "2031-02-11",
+   "start": "2031-02-11",
+   "slut": "2031-02-11",
+   "typ": "jubileum",
+   "plats": "Akureyri, Island",
+   "beskrivning": "70-årsdag i Akureyri med hela familjen",
+   "med": [
+    "Sigrún (hustru)",
+    "Ari (son, 38)",
+    "Hekla (dotter, 35)",
+    "Bjarni (son, 31)",
+    "Guðrún (syster i Akureyri)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2031-02-11",
+   "start": "2031-02-11",
+   "slut": "2031-02-11",
+   "typ": "jubileum",
+   "plats": "Uppsala (Kåbo), Sverige",
+   "beskrivning": "Fyller 70 – större firande",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2031-06-20..2031-06-26",
+   "start": "2031-06-20",
+   "slut": "2031-06-26",
+   "typ": "fest",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Midsommar på tomten i Kåbo med sill och fisk",
+   "med": [
+    "Sigrún (hustru)",
+    "Hekla (dotter, 35)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2031-07-05..2031-07-26",
+   "start": "2031-07-05",
+   "slut": "2031-07-26",
+   "typ": "semester",
+   "plats": "Akureyri, Island",
+   "beskrivning": "Sommarmånaden på Island hos systern",
+   "med": [
+    "Sigrún (hustru)",
+    "Guðrún (syster i Akureyri)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  }
+ ]
+}

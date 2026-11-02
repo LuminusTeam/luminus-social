@@ -1,0 +1,688 @@
+{
+ "slug": "astrid-vinter",
+ "namn": "Astrid Vinter",
+ "roll": "Masterprojektledare · administratör och sekreterare för Team Etern",
+ "team": [
+  "Etern"
+ ],
+ "karaktar": "Strategen",
+ "element": "Jord",
+ "rost": {
+  "drag": [
+   "Skriver i hela meningar och med punkt, ofta med en karta eller ett kartutsnitt.",
+   "Inga emojis utom möjligen en tumme upp i familjechatten.",
+   "Postar några gånger i månaden på Facebook och Instagram; mest om orientering, fjäll och gamla kartor.",
+   "Delar resultat och sträckval, aldrig sina barnbarn eller sin pappas boende.",
+   "Tar ingen selfie, men gärna en bild på kängorna vid en milstolpe.",
+   "Torr jämtsk humor, gärna en kommentar om vädret."
+  ],
+  "exempelinlagg": [
+   "Natt-OL i Stadsskogen. Tappade kontrollen vid trean, hittade den igen med kompassen. Lagom ödmjukt för en tisdag.",
+   "Ny gammal karta: Ekonomiska kartan över Vendel, 1955. Två torp som inte finns längre syns här.",
+   "Jämtlandstriangeln för trettioåttonde gången. Storulvån–Sylarna–Blåhammaren. Ingen blåsa, ingen dimma. Det händer en gång på tio år."
+  ]
+ },
+ "bas": {
+  "hemort": "Uppsala (Sunnersta), Sverige",
+  "arbetsmonster": {
+   "beskrivning": "På Vreta varje tisdag, onsdag, torsdag; distans måndag, fredag. (40 % distans, 60 % på Vreta.)",
+   "vreta_dagar": [
+    "tis",
+    "ons",
+    "tor"
+   ],
+   "varannan_vecka_vreta": null,
+   "distansdagar": [
+    "mån",
+    "fre"
+   ],
+   "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala"
+  },
+  "veckorutiner": [
+   "Måndag 18:00: orienteringsträning med Upsala IF:s veteraner i Stadsskogen (vintertid nattorientering med pannlampa)",
+   "Tisdag 07:45: kör till Vreta, startar kaffet och kollar kartorna inför ledningsgruppen",
+   "Onsdag kväll: Carcassonne eller Ticket to Ride hemma med Göran och ibland Henrik",
+   "Torsdag: kortare promenad över Vretas marker för att se över skyltningen",
+   "Söndagar: långpromenad i Fjällnora eller Lunsen med kartan, inte mobilen"
+  ]
+ },
+ "nara": [
+  {
+   "kollega": "Saga Holmberg",
+   "slug": "saga-holmberg",
+   "varfor": "Spelar nyckelharpa ihop; övar inför midsommar och folkmusikkvällen."
+  },
+  {
+   "kollega": "Johanna Rehn",
+   "slug": "johanna-rehn",
+   "varfor": "Vandrar på Upplandsleden och kartlägger Johannas geocacher på Vreta."
+  },
+  {
+   "kollega": "Henrik Nyman",
+   "slug": "henrik-nyman",
+   "varfor": "Carcassonne-kvällar; båda vill lägga vägarna först."
+  },
+  {
+   "kollega": "Ingrid Hallberg",
+   "slug": "ingrid-hallberg",
+   "varfor": "Kollegor i Etern med samma jordiga kalkylerande lugn; svamputflykter på hösten."
+  }
+ ],
+ "familj_och_vanner": [
+  {
+   "namn": "Göran",
+   "relation": "make"
+  },
+  {
+   "namn": "Olof",
+   "relation": "son, 32"
+  },
+  {
+   "namn": "Per",
+   "relation": "son, 29"
+  },
+  {
+   "namn": "Elsa",
+   "relation": "barnbarn, 4"
+  },
+  {
+   "namn": "Tage",
+   "relation": "far, på boende i Östersund"
+  },
+  {
+   "namn": "Margit",
+   "relation": "storasyster på Frösön"
+  }
+ ],
+ "kalender": [
+  {
+   "datum": "2026-11-07",
+   "start": "2026-11-07",
+   "slut": "2026-11-07",
+   "typ": "hobby",
+   "plats": "Lunsen, Uppsala, Sverige",
+   "beskrivning": "Natt-OL i Lunsen med klubben, pannlampa",
+   "med": [
+    "Göran (make)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-21..2026-11-22",
+   "start": "2026-11-21",
+   "slut": "2026-11-22",
+   "typ": "familjehändelse",
+   "plats": "Östersund, Sverige",
+   "beskrivning": "Hälsar på pappa på boendet och storasyster på Frösön, tåg från Uppsala",
+   "med": [
+    "Margit (storasyster på Frösön)",
+    "Tage (far, på boende i Östersund)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-12-05",
+   "start": "2026-12-05",
+   "slut": "2026-12-05",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Uppsala historiska julmarknad med barnbarnet",
+   "med": [
+    "Elsa (barnbarn, 4)",
+    "Göran (make)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-23..2026-12-27",
+   "start": "2026-12-23",
+   "slut": "2026-12-27",
+   "typ": "familjehändelse",
+   "plats": "Frösön, Östersund, Sverige",
+   "beskrivning": "Jul i Jämtland hos Margit, besök hos pappa på julafton",
+   "med": [
+    "Göran (make)",
+    "Olof (son, 32)",
+    "Per (son, 29)",
+    "Elsa (barnbarn, 4)",
+    "Margit (storasyster på Frösön)",
+    "Tage (far, på boende i Östersund)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2027-01-09",
+   "start": "2027-01-09",
+   "slut": "2027-01-09",
+   "typ": "hobby",
+   "plats": "Fjällnora, Uppsala, Sverige",
+   "beskrivning": "Snöskovandring och kaffe i vindskyddet",
+   "med": [
+    "Göran (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-20",
+   "start": "2027-01-20",
+   "slut": "2027-01-20",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "61 år, middag med röding och brynt smör",
+   "med": [
+    "Göran (make)",
+    "Olof (son, 32)",
+    "Per (son, 29)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-20",
+   "start": "2027-01-20",
+   "slut": "2027-01-20",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Sunnersta), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-02-13..2027-02-20",
+   "start": "2027-02-13",
+   "slut": "2027-02-20",
+   "typ": "semester",
+   "plats": "Storulvån, Jämtland, Sverige",
+   "beskrivning": "Sportlov i fjällstugan: längdskidor och turskidor mot Blåhammaren",
+   "med": [
+    "Göran (make)",
+    "Per (son, 29)",
+    "Elsa (barnbarn, 4)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-06",
+   "start": "2027-03-06",
+   "slut": "2027-03-06",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Elsa fyller fem, kalas med orienteringslek i trädgården",
+   "med": [
+    "Elsa (barnbarn, 4)",
+    "Olof (son, 32)",
+    "Göran (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-03-21",
+   "start": "2027-03-21",
+   "slut": "2027-03-21",
+   "typ": "hobby",
+   "plats": "Lövstabruk, Sverige",
+   "beskrivning": "Vårens första OL-tävling, veteranklass",
+   "med": [
+    "Göran (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-04-30",
+   "start": "2027-04-30",
+   "slut": "2027-04-30",
+   "typ": "fest",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Valborg på Slottsbacken med sönerna",
+   "med": [
+    "Olof (son, 32)",
+    "Per (son, 29)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning",
+   "hogtid": "valborg"
+  },
+  {
+   "datum": "2027-05-15",
+   "start": "2027-05-15",
+   "slut": "2027-05-15",
+   "typ": "utställning",
+   "plats": "Skokloster slott, Sverige",
+   "beskrivning": "Gamla kartor i slottets samlingar, guidad visning",
+   "med": [
+    "Henrik Nyman (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-06-05",
+   "start": "2027-06-05",
+   "slut": "2027-06-05",
+   "typ": "vänner",
+   "plats": "Upplandsleden, Sverige",
+   "beskrivning": "Dagsetapp på Upplandsleden med Johanna",
+   "med": [
+    "Johanna Rehn (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-06-26",
+   "start": "2027-06-26",
+   "slut": "2027-06-26",
+   "typ": "fest",
+   "plats": "Lövstabruk, Sverige",
+   "beskrivning": "Midsommarafton med nyckelharpa vid bruksgården",
+   "med": [
+    "Göran (make)",
+    "Saga Holmberg (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2027-07-17..2027-07-24",
+   "start": "2027-07-17",
+   "slut": "2027-07-24",
+   "typ": "semester",
+   "plats": "Storulvån, Jämtland, Sverige",
+   "beskrivning": "Jämtlandstriangeln för trettioåttonde gången",
+   "med": [
+    "Göran (make)",
+    "Margit (storasyster på Frösön)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-07-27..2027-08-01",
+   "start": "2027-07-27",
+   "slut": "2027-08-01",
+   "typ": "hobby",
+   "plats": "O-Ringen, Sverige",
+   "beskrivning": "O-Ringen, veteranklass, med husvagnsuthyrning på plats",
+   "med": [
+    "Göran (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-21",
+   "start": "2027-08-21",
+   "slut": "2027-08-21",
+   "typ": "familjehändelse",
+   "plats": "Östersund, Sverige",
+   "beskrivning": "Pappas födelsedag på boendet med tårta",
+   "med": [
+    "Margit (storasyster på Frösön)",
+    "Tage (far, på boende i Östersund)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-04",
+   "start": "2027-09-04",
+   "slut": "2027-09-04",
+   "typ": "hobby",
+   "plats": "Fjällnora, Uppsala, Sverige",
+   "beskrivning": "Svamputflykt efter kantareller och trattkantareller",
+   "med": [
+    "Ingrid Hallberg (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-09-25",
+   "start": "2027-09-25",
+   "slut": "2027-09-25",
+   "typ": "vänner",
+   "plats": "Skokloster slott, Sverige",
+   "beskrivning": "Höstvandring med Henrik och Ingrid",
+   "med": [
+    "Henrik Nyman (kollega)",
+    "Ingrid Hallberg (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-16..2027-10-17",
+   "start": "2027-10-16",
+   "slut": "2027-10-17",
+   "typ": "hobby",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Antikvariatsmässa: letar topografiska kartor",
+   "med": [
+    "Göran (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-11-28",
+   "start": "2027-11-28",
+   "slut": "2027-11-28",
+   "typ": "konsert/show",
+   "plats": "Uppsala domkyrka, Uppsala, Sverige",
+   "beskrivning": "Adventskonsert",
+   "med": [
+    "Göran (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt",
+   "hogtid": "första advent"
+  },
+  {
+   "datum": "2027-12-23..2027-12-26",
+   "start": "2027-12-23",
+   "slut": "2027-12-26",
+   "typ": "familjehändelse",
+   "plats": "Frösön, Östersund, Sverige",
+   "beskrivning": "Jul hos Margit i Jämtland",
+   "med": [
+    "Göran (make)",
+    "Margit (storasyster på Frösön)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2028-01-20",
+   "start": "2028-01-20",
+   "slut": "2028-01-20",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Sunnersta), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2028-02-12..2028-02-19",
+   "start": "2028-02-12",
+   "slut": "2028-02-19",
+   "typ": "semester",
+   "plats": "Storulvån, Jämtland, Sverige",
+   "beskrivning": "Sportlovsvecka i fjällen med barnbarnet på skidor",
+   "med": [
+    "Göran (make)",
+    "Elsa (barnbarn, 4)",
+    "Olof (son, 32)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2028-05-20",
+   "start": "2028-05-20",
+   "slut": "2028-05-20",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Olof flyttar till nytt radhus i Gottsunda, Astrid hjälper till",
+   "med": [
+    "Olof (son, 32)",
+    "Göran (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2028-06-23",
+   "start": "2028-06-23",
+   "slut": "2028-06-23",
+   "typ": "fest",
+   "plats": "Lövstabruk, Sverige",
+   "beskrivning": "Midsommarafton med nyckelharpa",
+   "med": [
+    "Göran (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2028-07-15..2028-07-22",
+   "start": "2028-07-15",
+   "slut": "2028-07-22",
+   "typ": "semester",
+   "plats": "Storulvån, Jämtland, Sverige",
+   "beskrivning": "Jämtlandstriangeln, årlig vandring",
+   "med": [
+    "Göran (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-09-14..2028-09-21",
+   "start": "2028-09-14",
+   "slut": "2028-09-21",
+   "typ": "resa",
+   "plats": "Lofoten, Norge",
+   "beskrivning": "Vandring i Lofoten",
+   "med": [
+    "Göran (make)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-12-23..2028-12-26",
+   "start": "2028-12-23",
+   "slut": "2028-12-26",
+   "typ": "familjehändelse",
+   "plats": "Frösön, Östersund, Sverige",
+   "beskrivning": "Jul hos Margit i Jämtland",
+   "med": [
+    "Göran (make)",
+    "Margit (storasyster på Frösön)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2029-01-20",
+   "start": "2029-01-20",
+   "slut": "2029-01-20",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Sunnersta), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2029-06-15",
+   "start": "2029-06-15",
+   "slut": "2029-06-15",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Vretas kartverk klart: alla slingor tryckta på Henriks handpress",
+   "med": [
+    "Henrik Nyman (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2029-06-22",
+   "start": "2029-06-22",
+   "slut": "2029-06-22",
+   "typ": "fest",
+   "plats": "Lövstabruk, Sverige",
+   "beskrivning": "Midsommarafton med nyckelharpa",
+   "med": [
+    "Göran (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2029-07-15..2029-07-22",
+   "start": "2029-07-15",
+   "slut": "2029-07-22",
+   "typ": "semester",
+   "plats": "Storulvån, Jämtland, Sverige",
+   "beskrivning": "Jämtlandstriangeln, årlig vandring",
+   "med": [
+    "Göran (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-12-23..2029-12-26",
+   "start": "2029-12-23",
+   "slut": "2029-12-26",
+   "typ": "familjehändelse",
+   "plats": "Frösön, Östersund, Sverige",
+   "beskrivning": "Jul hos Margit i Jämtland",
+   "med": [
+    "Göran (make)",
+    "Margit (storasyster på Frösön)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2030-01-20",
+   "start": "2030-01-20",
+   "slut": "2030-01-20",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Sunnersta), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2030-06-21",
+   "start": "2030-06-21",
+   "slut": "2030-06-21",
+   "typ": "fest",
+   "plats": "Lövstabruk, Sverige",
+   "beskrivning": "Midsommarafton med nyckelharpa",
+   "med": [
+    "Göran (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2030-07-15..2030-07-22",
+   "start": "2030-07-15",
+   "slut": "2030-07-22",
+   "typ": "semester",
+   "plats": "Storulvån, Jämtland, Sverige",
+   "beskrivning": "Jämtlandstriangeln, årlig vandring",
+   "med": [
+    "Göran (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-08-10..2030-08-17",
+   "start": "2030-08-10",
+   "slut": "2030-08-17",
+   "typ": "resa",
+   "plats": "Skottland, Storbritannien",
+   "beskrivning": "Vandring på West Highland Way",
+   "med": [
+    "Göran (make)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "sommar"
+  },
+  {
+   "datum": "2030-12-23..2030-12-26",
+   "start": "2030-12-23",
+   "slut": "2030-12-26",
+   "typ": "familjehändelse",
+   "plats": "Frösön, Östersund, Sverige",
+   "beskrivning": "Jul hos Margit i Jämtland",
+   "med": [
+    "Göran (make)",
+    "Margit (storasyster på Frösön)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2031-01-20",
+   "start": "2031-01-20",
+   "slut": "2031-01-20",
+   "typ": "jubileum",
+   "plats": "Östersund, Sverige",
+   "beskrivning": "65-årsdag i Jämtland med fjällstugemiddag",
+   "med": [
+    "Göran (make)",
+    "Olof (son, 32)",
+    "Per (son, 29)",
+    "Margit (storasyster på Frösön)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2031-01-20",
+   "start": "2031-01-20",
+   "slut": "2031-01-20",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Sunnersta), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2031-06-20",
+   "start": "2031-06-20",
+   "slut": "2031-06-20",
+   "typ": "fest",
+   "plats": "Lövstabruk, Sverige",
+   "beskrivning": "Midsommarafton med nyckelharpa",
+   "med": [
+    "Göran (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2031-07-15..2031-07-22",
+   "start": "2031-07-15",
+   "slut": "2031-07-22",
+   "typ": "semester",
+   "plats": "Storulvån, Jämtland, Sverige",
+   "beskrivning": "Jämtlandstriangeln, årlig vandring",
+   "med": [
+    "Göran (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  }
+ ]
+}

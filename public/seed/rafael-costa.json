@@ -1,0 +1,647 @@
+{
+ "slug": "rafael-costa",
+ "namn": "Rafael Costa",
+ "roll": "Teknisk arkitekt",
+ "team": [
+  "Myceliet"
+ ],
+ "karaktar": "Generalen",
+ "element": "Eld",
+ "rost": {
+  "drag": [
+   "Exakta inlägg med surdegsbilder och hydreringsprocent.",
+   "Skriver svenska, portugisiska och engelska om vartannat; \"saudade\" och \"bom dia\" återkommer.",
+   "Postar 2–3 gånger i veckan, aldrig om jobbets arkitektur.",
+   "Emojis: 🍞 🚴 🐕.",
+   "Selfie bara med hunden, aldrig med partnern.",
+   "Humorn är självironisk perfektionism."
+  ],
+  "exempelinlagg": [
+   "Bröd #412. 78 % hydrering, 22 timmars kall jäsning. Bacalhau fick kanten. 🍞",
+   "Bom dia, Mälaren. 120 km, 26 km/h snitt, en latte i Strängnäs.",
+   "São João i Porto: plasthammare, grillade sardiner, fyrverkeri över Douro. Saudade botad i en natt."
+  ]
+ },
+ "bas": {
+  "hemort": "Västerås (Kungsängen), Sverige",
+  "arbetsmonster": {
+   "beskrivning": "På Vreta varje torsdag och varannan tisdag; distans måndag, onsdag, fredag (samt tisdag varannan vecka). (70 % distans, 30 % på Vreta.)",
+   "vreta_dagar": [
+    "tor"
+   ],
+   "varannan_vecka_vreta": "tis",
+   "distansdagar": [
+    "mån",
+    "ons",
+    "fre"
+   ],
+   "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala"
+  },
+  "veckorutiner": [
+   "Torsdag (och varannan tisdag): pendlar Västerås–Enköping, samåker med Mykel till Vreta",
+   "Varje morgon: surdegen matas 06:30, loggboken uppdateras",
+   "Måndag och fredag lunch: promenad med hunden Bacalhau längs Svartån",
+   "Lördag april–oktober: landsvägscykling 100–150 km; vintertid trainer i garaget",
+   "Söndag kväll: Dominion eller sueca med Jonas och vänner"
+  ]
+ },
+ "nara": [
+  {
+   "kollega": "Mykel",
+   "slug": "mykel",
+   "varfor": "Samåker och cyklar landsväg ihop."
+  },
+  {
+   "kollega": "Marisol Quispe",
+   "slug": "marisol-quispe",
+   "varfor": "Vedugnen på Vreta: Rafael bakar bröd medan Marisol lagar mat."
+  },
+  {
+   "kollega": "Kwame Mensah",
+   "slug": "kwame-mensah",
+   "varfor": "Arkitekt och säkerhet; Dominion-kvällar och traillöpning ibland."
+  }
+ ],
+ "familj_och_vanner": [
+  {
+   "namn": "Jonas",
+   "relation": "partner, ljudtekniker"
+  },
+  {
+   "namn": "Fernanda",
+   "relation": "mamma i Vila Nova de Gaia"
+  },
+  {
+   "namn": "Tiago",
+   "relation": "bror"
+  },
+  {
+   "namn": "Inês",
+   "relation": "syster"
+  },
+  {
+   "namn": "Rui",
+   "relation": "bror"
+  },
+  {
+   "namn": "Marta",
+   "relation": "systerdotter, 7"
+  }
+ ],
+ "kalender": [
+  {
+   "datum": "2026-11-15",
+   "start": "2026-11-15",
+   "slut": "2026-11-15",
+   "typ": "hobby",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Inomhuscykling, vinterns grundträning startar",
+   "med": [
+    "Jonas (partner, ljudtekniker)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-28",
+   "start": "2026-11-28",
+   "slut": "2026-11-28",
+   "typ": "vänner",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Dominion-turnering med vänner",
+   "med": [
+    "Jonas (partner, ljudtekniker)",
+    "Kwame Mensah (kollega)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-12-19..2026-12-27",
+   "start": "2026-12-19",
+   "slut": "2026-12-27",
+   "typ": "familjehändelse",
+   "plats": "Vila Nova de Gaia, Portugal",
+   "beskrivning": "Jul hos mamma: bacalhau på julafton, missa do galo-kvällen med familjen",
+   "med": [
+    "Jonas (partner, ljudtekniker)",
+    "Fernanda (mamma i Vila Nova de Gaia)",
+    "Tiago (bror)",
+    "Inês (syster)",
+    "Rui (bror)",
+    "Marta (systerdotter, 7)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter (mild medelhavsvinter)",
+   "hogtid": "jul"
+  },
+  {
+   "datum": "2027-01-09",
+   "start": "2027-01-09",
+   "slut": "2027-01-09",
+   "typ": "vänner",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Sueca-kväll med portugisiska vänner",
+   "med": [
+    "Jonas (partner, ljudtekniker)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-23",
+   "start": "2027-01-23",
+   "slut": "2027-01-23",
+   "typ": "hobby",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Vedugnsbak i snön till midvinterfesten",
+   "med": [
+    "Marisol Quispe (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-02-13",
+   "start": "2027-02-13",
+   "slut": "2027-02-13",
+   "typ": "konsert/show",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Fadokonsert i Stockholm",
+   "med": [
+    "Jonas (partner, ljudtekniker)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-02-27",
+   "start": "2027-02-27",
+   "slut": "2027-02-27",
+   "typ": "hobby",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Lägger om nätverket i ateljén",
+   "med": [
+    "Kwame Mensah (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-13",
+   "start": "2027-03-13",
+   "slut": "2027-03-13",
+   "typ": "hobby",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Surdegskurs han håller för grannarna",
+   "med": [
+    "Jonas (partner, ljudtekniker)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-04-10",
+   "start": "2027-04-10",
+   "slut": "2027-04-10",
+   "typ": "hobby",
+   "plats": "Söderfors, Sverige",
+   "beskrivning": "Säsongens första långtur till Söderfors",
+   "med": [
+    "Mykel (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-04-24",
+   "start": "2027-04-24",
+   "slut": "2027-04-24",
+   "typ": "hobby",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Vårens första utomhuspass med Bacalhau längs Mälaren",
+   "med": [
+    "Jonas (partner, ljudtekniker)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-05-01..2027-05-09",
+   "start": "2027-05-01",
+   "slut": "2027-05-09",
+   "typ": "semester",
+   "plats": "Mallorca, Spanien",
+   "beskrivning": "Cykelsemester med hotell på Mallorca",
+   "med": [
+    "Jonas (partner, ljudtekniker)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2027-06-12",
+   "start": "2027-06-12",
+   "slut": "2027-06-12",
+   "typ": "familjehändelse",
+   "plats": "Vila Nova de Gaia, Portugal",
+   "beskrivning": "Systerdottern Marta fyller åtta",
+   "med": [
+    "Inês (syster)",
+    "Marta (systerdotter, 7)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar"
+  },
+  {
+   "datum": "2027-06-18..2027-06-19",
+   "start": "2027-06-18",
+   "slut": "2027-06-19",
+   "typ": "hobby",
+   "plats": "Motala, Sverige",
+   "beskrivning": "Vätternrundan med Mykel",
+   "med": [
+    "Mykel (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-06-22..2027-06-27",
+   "start": "2027-06-22",
+   "slut": "2027-06-27",
+   "typ": "resa",
+   "plats": "Porto, Portugal",
+   "beskrivning": "São João i Porto med familjen",
+   "med": [
+    "Jonas (partner, ljudtekniker)",
+    "Fernanda (mamma i Vila Nova de Gaia)",
+    "Tiago (bror)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar",
+   "hogtid": "São João"
+  },
+  {
+   "datum": "2027-07-24..2027-08-07",
+   "start": "2027-07-24",
+   "slut": "2027-08-07",
+   "typ": "semester",
+   "plats": "Bornholm, Danmark",
+   "beskrivning": "Cykelsemester runt Bornholm och Skåne, hotell",
+   "med": [
+    "Jonas (partner, ljudtekniker)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar"
+  },
+  {
+   "datum": "2027-08-21",
+   "start": "2027-08-21",
+   "slut": "2027-08-21",
+   "typ": "vänner",
+   "plats": "Tyresta nationalpark, Sverige",
+   "beskrivning": "Vandring med Kwame",
+   "med": [
+    "Kwame Mensah (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-11",
+   "start": "2027-09-11",
+   "slut": "2027-09-11",
+   "typ": "hobby",
+   "plats": "Sigtuna, Sverige",
+   "beskrivning": "Cykeltur till Sigtuna och tillbaka",
+   "med": [
+    "Mykel (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-09-25",
+   "start": "2027-09-25",
+   "slut": "2027-09-25",
+   "typ": "vänner",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Ticket to Ride Europe-kväll",
+   "med": [
+    "Jonas (partner, ljudtekniker)",
+    "Mykel (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-09",
+   "start": "2027-10-09",
+   "slut": "2027-10-09",
+   "typ": "familjehändelse",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Jonas fyller 45, Rafael lagar vegansk feijoada",
+   "med": [
+    "Jonas (partner, ljudtekniker)",
+    "Tiago (bror)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-23",
+   "start": "2027-10-23",
+   "slut": "2027-10-23",
+   "typ": "hobby",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Bröd #500 firas med öppet hus för grannarna",
+   "med": [
+    "Jonas (partner, ljudtekniker)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-12-20..2027-12-27",
+   "start": "2027-12-20",
+   "slut": "2027-12-27",
+   "typ": "familjehändelse",
+   "plats": "Vila Nova de Gaia, Portugal",
+   "beskrivning": "Jul hos mamma",
+   "med": [
+    "Jonas (partner, ljudtekniker)",
+    "Fernanda (mamma i Vila Nova de Gaia)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter (mild medelhavsvinter)",
+   "hogtid": "jul"
+  },
+  {
+   "datum": "2028-04-25",
+   "start": "2028-04-25",
+   "slut": "2028-04-25",
+   "typ": "hobby",
+   "plats": "Söderfors, Sverige",
+   "beskrivning": "Vårens första långtur till Söderfors",
+   "med": [
+    "Mykel (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2028-05-06..2028-05-14",
+   "start": "2028-05-06",
+   "slut": "2028-05-14",
+   "typ": "semester",
+   "plats": "Girona, Spanien",
+   "beskrivning": "Cykelsemester i Katalonien",
+   "med": [
+    "Jonas (partner, ljudtekniker)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2028-06-22..2028-06-26",
+   "start": "2028-06-22",
+   "slut": "2028-06-26",
+   "typ": "resa",
+   "plats": "Porto, Portugal",
+   "beskrivning": "São João i Porto",
+   "med": [
+    "Jonas (partner, ljudtekniker)",
+    "Fernanda (mamma i Vila Nova de Gaia)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar",
+   "hogtid": "São João"
+  },
+  {
+   "datum": "2028-12-01",
+   "start": "2028-12-01",
+   "slut": "2028-12-01",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Ny arkitektur för poängmotorn i produktion",
+   "med": [
+    "Kwame Mensah (kollega)",
+    "Maja Eklöf (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2028-12-20..2028-12-27",
+   "start": "2028-12-20",
+   "slut": "2028-12-27",
+   "typ": "familjehändelse",
+   "plats": "Vila Nova de Gaia, Portugal",
+   "beskrivning": "Jul hos mamma",
+   "med": [
+    "Jonas (partner, ljudtekniker)",
+    "Fernanda (mamma i Vila Nova de Gaia)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter (mild medelhavsvinter)",
+   "hogtid": "jul"
+  },
+  {
+   "datum": "2029-04-25",
+   "start": "2029-04-25",
+   "slut": "2029-04-25",
+   "typ": "hobby",
+   "plats": "Söderfors, Sverige",
+   "beskrivning": "Vårens första långtur till Söderfors",
+   "med": [
+    "Mykel (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2029-06-16..2029-06-17",
+   "start": "2029-06-16",
+   "slut": "2029-06-17",
+   "typ": "hobby",
+   "plats": "Motala, Sverige",
+   "beskrivning": "Vätternrundan",
+   "med": [
+    "Mykel (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2029-06-22..2029-06-26",
+   "start": "2029-06-22",
+   "slut": "2029-06-26",
+   "typ": "resa",
+   "plats": "Porto, Portugal",
+   "beskrivning": "São João i Porto",
+   "med": [
+    "Jonas (partner, ljudtekniker)",
+    "Fernanda (mamma i Vila Nova de Gaia)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar",
+   "hogtid": "São João"
+  },
+  {
+   "datum": "2029-09-15",
+   "start": "2029-09-15",
+   "slut": "2029-09-15",
+   "typ": "fest",
+   "plats": "Vila Nova de Gaia, Portugal",
+   "beskrivning": "Mamma fyller 70",
+   "med": [
+    "Jonas (partner, ljudtekniker)",
+    "Fernanda (mamma i Vila Nova de Gaia)",
+    "Tiago (bror)",
+    "Inês (syster)",
+    "Rui (bror)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst"
+  },
+  {
+   "datum": "2029-12-20..2029-12-27",
+   "start": "2029-12-20",
+   "slut": "2029-12-27",
+   "typ": "familjehändelse",
+   "plats": "Vila Nova de Gaia, Portugal",
+   "beskrivning": "Jul hos mamma",
+   "med": [
+    "Jonas (partner, ljudtekniker)",
+    "Fernanda (mamma i Vila Nova de Gaia)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter (mild medelhavsvinter)",
+   "hogtid": "jul"
+  },
+  {
+   "datum": "2030-04-25",
+   "start": "2030-04-25",
+   "slut": "2030-04-25",
+   "typ": "hobby",
+   "plats": "Söderfors, Sverige",
+   "beskrivning": "Vårens första långtur till Söderfors",
+   "med": [
+    "Mykel (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2030-06-01",
+   "start": "2030-06-01",
+   "slut": "2030-06-01",
+   "typ": "familjehändelse",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Flyttar till hus med vedugn i trädgården",
+   "med": [
+    "Jonas (partner, ljudtekniker)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2030-06-16..2030-06-17",
+   "start": "2030-06-16",
+   "slut": "2030-06-17",
+   "typ": "hobby",
+   "plats": "Motala, Sverige",
+   "beskrivning": "Vätternrundan",
+   "med": [
+    "Mykel (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2030-06-22..2030-06-26",
+   "start": "2030-06-22",
+   "slut": "2030-06-26",
+   "typ": "resa",
+   "plats": "Porto, Portugal",
+   "beskrivning": "São João i Porto",
+   "med": [
+    "Jonas (partner, ljudtekniker)",
+    "Fernanda (mamma i Vila Nova de Gaia)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar",
+   "hogtid": "São João"
+  },
+  {
+   "datum": "2030-12-20..2030-12-27",
+   "start": "2030-12-20",
+   "slut": "2030-12-27",
+   "typ": "familjehändelse",
+   "plats": "Vila Nova de Gaia, Portugal",
+   "beskrivning": "Jul hos mamma",
+   "med": [
+    "Jonas (partner, ljudtekniker)",
+    "Fernanda (mamma i Vila Nova de Gaia)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter (mild medelhavsvinter)",
+   "hogtid": "jul"
+  },
+  {
+   "datum": "2031-04-25",
+   "start": "2031-04-25",
+   "slut": "2031-04-25",
+   "typ": "hobby",
+   "plats": "Söderfors, Sverige",
+   "beskrivning": "Vårens första långtur till Söderfors",
+   "med": [
+    "Mykel (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2031-05-01..2031-05-15",
+   "start": "2031-05-01",
+   "slut": "2031-05-15",
+   "typ": "semester",
+   "plats": "Dolomiterna, Italien",
+   "beskrivning": "Cykling i Dolomiterna",
+   "med": [
+    "Jonas (partner, ljudtekniker)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2031-06-16..2031-06-17",
+   "start": "2031-06-16",
+   "slut": "2031-06-17",
+   "typ": "hobby",
+   "plats": "Motala, Sverige",
+   "beskrivning": "Vätternrundan",
+   "med": [
+    "Mykel (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2031-06-22..2031-06-26",
+   "start": "2031-06-22",
+   "slut": "2031-06-26",
+   "typ": "resa",
+   "plats": "Porto, Portugal",
+   "beskrivning": "São João i Porto",
+   "med": [
+    "Jonas (partner, ljudtekniker)",
+    "Fernanda (mamma i Vila Nova de Gaia)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar",
+   "hogtid": "São João"
+  }
+ ]
+}

@@ -1,0 +1,644 @@
+{
+ "slug": "oskar-lindgren",
+ "namn": "Oskar Lindgren",
+ "roll": "Ekonomi",
+ "team": [
+  "Etern"
+ ],
+ "karaktar": "Kejsaren",
+ "element": "Jord",
+ "rost": {
+  "drag": [
+   "Formell och vänlig; skriver \"Med vänlig hälsning\" även i kommentarer.",
+   "Postar en gång i veckan på Facebook: grönsaker, operabesök och bridgegivar.",
+   "Inga emojis; utropstecken bara efter en lyckad storslam.",
+   "Delar recensioner av operor, aldrig sin ekonomi eller kollegors uppgifter.",
+   "Inga selfies, däremot foton på Revisorn bland räkenskaperna.",
+   "Kort och exakt, ibland ett siffertorrt skämt."
+  ],
+  "exempelinlagg": [
+   "Lilla slam i spader i går. Kelda spelade ut hjärter kung. Det var hela poängen.",
+   "Årets första sockerärtor från lotten. 0,8 kg. Revisorn har godkänt.",
+   "Tosca på Kungliga Operan. Tredje akten, som alltid. Med vänlig hälsning, en nöjd lyssnare."
+  ]
+ },
+ "bas": {
+  "hemort": "Västerås (Viksäng), Sverige",
+  "arbetsmonster": {
+   "beskrivning": "På Vreta varje tisdag, onsdag och varannan torsdag; distans måndag, fredag (samt torsdag varannan vecka). (50 % distans, 50 % på Vreta.)",
+   "vreta_dagar": [
+    "tis",
+    "ons"
+   ],
+   "varannan_vecka_vreta": "tor",
+   "distansdagar": [
+    "mån",
+    "fre"
+   ],
+   "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala"
+  },
+  "veckorutiner": [
+   "Tisdag: Vreta, sedan bridgeklubb i Uppsala 18:30 med Kelda; tar sista tåget hem till Västerås",
+   "Måndag och fredag: distans från arbetsrummet i Viksäng, med katten Revisorn i fönstret",
+   "Lördagar maj–september: kolonilotten på Råby, grönsaker sedan trettio år",
+   "Söndagar vintertid: Wiraspel eller Fia med knuff med Bengt",
+   "Varannan onsdag: odlingsbädden på Vreta"
+  ]
+ },
+ "nara": [
+  {
+   "kollega": "Kelda",
+   "slug": "kelda",
+   "varfor": "Bridgepartner på tisdagarna sedan teamets start; åker till Bridgefestivalen ihop."
+  },
+  {
+   "kollega": "Anjali Varma",
+   "slug": "anjali-varma",
+   "varfor": "Västeråsgrannar; går på Anjalis jazzkonserter och delar odlingsråd."
+  }
+ ],
+ "familj_och_vanner": [
+  {
+   "namn": "Bengt",
+   "relation": "make"
+  },
+  {
+   "namn": "Ulla",
+   "relation": "syster i Västerås"
+  },
+  {
+   "namn": "Anders",
+   "relation": "brorson i Köping"
+  },
+  {
+   "namn": "Lisa",
+   "relation": "brorsons dotter, 9"
+  }
+ ],
+ "kalender": [
+  {
+   "datum": "2026-11-08",
+   "start": "2026-11-08",
+   "slut": "2026-11-08",
+   "typ": "konsert/show",
+   "plats": "Kungliga Operan, Stockholm, Sverige",
+   "beskrivning": "La Bohème",
+   "med": [
+    "Bengt (make)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-28..2026-11-29",
+   "start": "2026-11-28",
+   "slut": "2026-11-29",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Sköter kassan och bokföringen för julmarknaden",
+   "med": [
+    "David Ahl (kollega)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt",
+   "hogtid": "första advent"
+  },
+  {
+   "datum": "2026-12-12",
+   "start": "2026-12-12",
+   "slut": "2026-12-12",
+   "typ": "middag",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Julmiddag för brorsonens familj",
+   "med": [
+    "Bengt (make)",
+    "Anders (brorson i Köping)",
+    "Lisa (brorsons dotter, 9)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-24",
+   "start": "2026-12-24",
+   "slut": "2026-12-24",
+   "typ": "familjehändelse",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Julafton hos Ulla",
+   "med": [
+    "Bengt (make)",
+    "Ulla (syster i Västerås)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2027-01-14",
+   "start": "2027-01-14",
+   "slut": "2027-01-14",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Bokslut för Vretas första halvår klart",
+   "med": [
+    "Ingrid Hallberg (kollega)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-30",
+   "start": "2027-01-30",
+   "slut": "2027-01-30",
+   "typ": "konsert/show",
+   "plats": "Västerås konserthus, Västerås, Sverige",
+   "beskrivning": "Nyårskonsert med Västerås Sinfonietta",
+   "med": [
+    "Bengt (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-02-20..2027-02-21",
+   "start": "2027-02-20",
+   "slut": "2027-02-21",
+   "typ": "hobby",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Bridgetävling, par, med Kelda",
+   "med": [
+    "Kelda (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-06",
+   "start": "2027-03-06",
+   "slut": "2027-03-06",
+   "typ": "hobby",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Förodling av tomater i fönstret",
+   "med": [
+    "Bengt (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-04-02",
+   "start": "2027-04-02",
+   "slut": "2027-04-02",
+   "typ": "familjehändelse",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "67 år, middag på Ängsö slott",
+   "med": [
+    "Bengt (make)",
+    "Ulla (syster i Västerås)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-04-02",
+   "start": "2027-04-02",
+   "slut": "2027-04-02",
+   "typ": "familjehändelse",
+   "plats": "Västerås (Viksäng), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "fast",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-04-17..2027-04-20",
+   "start": "2027-04-17",
+   "slut": "2027-04-20",
+   "typ": "resa",
+   "plats": "Wien, Österrike",
+   "beskrivning": "Operahelg på Wiener Staatsoper",
+   "med": [
+    "Bengt (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2027-05-08",
+   "start": "2027-05-08",
+   "slut": "2027-05-08",
+   "typ": "hobby",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Sätter potatis på kolonilotten",
+   "med": [
+    "Bengt (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-05-22",
+   "start": "2027-05-22",
+   "slut": "2027-05-22",
+   "typ": "familjehändelse",
+   "plats": "Köping, Sverige",
+   "beskrivning": "Lisa har dansuppvisning",
+   "med": [
+    "Anders (brorson i Köping)",
+    "Lisa (brorsons dotter, 9)",
+    "Bengt (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-06-04",
+   "start": "2027-06-04",
+   "slut": "2027-06-04",
+   "typ": "fest",
+   "plats": "Köping, Sverige",
+   "beskrivning": "Lisa avslutar årskurs tre, glass i Köping",
+   "med": [
+    "Anders (brorson i Köping)",
+    "Lisa (brorsons dotter, 9)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-06-25",
+   "start": "2027-06-25",
+   "slut": "2027-06-25",
+   "typ": "fest",
+   "plats": "Strömsholm, Sverige",
+   "beskrivning": "Midsommar vid Strömsholms slott",
+   "med": [
+    "Bengt (make)",
+    "Ulla (syster i Västerås)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2027-07-30..2027-08-04",
+   "start": "2027-07-30",
+   "slut": "2027-08-04",
+   "typ": "hobby",
+   "plats": "Örebro, Sverige",
+   "beskrivning": "Bridgefestivalen i Örebro med Kelda",
+   "med": [
+    "Kelda (kollega)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-14",
+   "start": "2027-08-14",
+   "slut": "2027-08-14",
+   "typ": "hobby",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Skörd: lök, bönor, squash",
+   "med": [
+    "Bengt (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-21",
+   "start": "2027-08-21",
+   "slut": "2027-08-21",
+   "typ": "middag",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Kräftskiva på kolonilotten",
+   "med": [
+    "Bengt (make)",
+    "Ulla (syster i Västerås)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-12",
+   "start": "2027-09-12",
+   "slut": "2027-09-12",
+   "typ": "middag",
+   "plats": "Linnéträdgården, Uppsala, Sverige",
+   "beskrivning": "Vandring i Linnéträdgården och middag med Kelda och hennes make",
+   "med": [
+    "Kelda (kollega)",
+    "Bengt (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-08..2027-10-10",
+   "start": "2027-10-08",
+   "slut": "2027-10-10",
+   "typ": "resa",
+   "plats": "Göteborg, Sverige",
+   "beskrivning": "Operahelg på GöteborgsOperan",
+   "med": [
+    "Bengt (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-31",
+   "start": "2027-10-31",
+   "slut": "2027-10-31",
+   "typ": "hobby",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Stänger kolonilotten för vintern",
+   "med": [
+    "Bengt (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-12-24",
+   "start": "2027-12-24",
+   "slut": "2027-12-24",
+   "typ": "familjehändelse",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Julafton hos Ulla",
+   "med": [
+    "Bengt (make)",
+    "Ulla (syster i Västerås)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2028-04-01..2028-04-08",
+   "start": "2028-04-01",
+   "slut": "2028-04-08",
+   "typ": "resa",
+   "plats": "Milano, Italien",
+   "beskrivning": "La Scala",
+   "med": [
+    "Bengt (make)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2028-04-02",
+   "start": "2028-04-02",
+   "slut": "2028-04-02",
+   "typ": "familjehändelse",
+   "plats": "Milano, Italien",
+   "beskrivning": "Födelsedag, firas i liten skala (firas under resaen)",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2028-05-10",
+   "start": "2028-05-10",
+   "slut": "2028-05-10",
+   "typ": "hobby",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Sätter potatis på kolonilotten",
+   "med": [
+    "Bengt (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2028-07-29..2028-08-03",
+   "start": "2028-07-29",
+   "slut": "2028-08-03",
+   "typ": "hobby",
+   "plats": "Örebro, Sverige",
+   "beskrivning": "Bridgefestivalen i Örebro",
+   "med": [
+    "Kelda (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-12-24",
+   "start": "2028-12-24",
+   "slut": "2028-12-24",
+   "typ": "familjehändelse",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Julafton hos Ulla",
+   "med": [
+    "Bengt (make)",
+    "Ulla (syster i Västerås)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2029-04-02",
+   "start": "2029-04-02",
+   "slut": "2029-04-02",
+   "typ": "familjehändelse",
+   "plats": "Västerås (Viksäng), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning",
+   "hogtid": "påsk"
+  },
+  {
+   "datum": "2029-05-10",
+   "start": "2029-05-10",
+   "slut": "2029-05-10",
+   "typ": "hobby",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Sätter potatis på kolonilotten",
+   "med": [
+    "Bengt (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2029-07-29..2029-08-03",
+   "start": "2029-07-29",
+   "slut": "2029-08-03",
+   "typ": "hobby",
+   "plats": "Örebro, Sverige",
+   "beskrivning": "Bridgefestivalen i Örebro",
+   "med": [
+    "Kelda (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-09-01",
+   "start": "2029-09-01",
+   "slut": "2029-09-01",
+   "typ": "familjehändelse",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "20 år som gifta, fest på Ängsö",
+   "med": [
+    "Bengt (make)",
+    "Ulla (syster i Västerås)",
+    "Anders (brorson i Köping)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2029-12-24",
+   "start": "2029-12-24",
+   "slut": "2029-12-24",
+   "typ": "familjehändelse",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Julafton hos Ulla",
+   "med": [
+    "Bengt (make)",
+    "Ulla (syster i Västerås)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2030-04-02",
+   "start": "2030-04-02",
+   "slut": "2030-04-02",
+   "typ": "jubileum",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "70-årsfest",
+   "med": [
+    "Bengt (make)",
+    "Ulla (syster i Västerås)",
+    "Anders (brorson i Köping)",
+    "Lisa (brorsons dotter, 9)",
+    "Kelda (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2030-04-02",
+   "start": "2030-04-02",
+   "slut": "2030-04-02",
+   "typ": "jubileum",
+   "plats": "Västerås (Viksäng), Sverige",
+   "beskrivning": "Fyller 70 – större firande",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2030-05-10",
+   "start": "2030-05-10",
+   "slut": "2030-05-10",
+   "typ": "hobby",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Sätter potatis på kolonilotten",
+   "med": [
+    "Bengt (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2030-06-01",
+   "start": "2030-06-01",
+   "slut": "2030-06-01",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Går ner till 25 % och lämnar ekonomiansvaret till efterträdaren",
+   "med": [
+    "Ingrid Hallberg (kollega)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2030-07-29..2030-08-03",
+   "start": "2030-07-29",
+   "slut": "2030-08-03",
+   "typ": "hobby",
+   "plats": "Örebro, Sverige",
+   "beskrivning": "Bridgefestivalen i Örebro",
+   "med": [
+    "Kelda (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-12-24",
+   "start": "2030-12-24",
+   "slut": "2030-12-24",
+   "typ": "familjehändelse",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Julafton hos Ulla",
+   "med": [
+    "Bengt (make)",
+    "Ulla (syster i Västerås)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2031-04-02",
+   "start": "2031-04-02",
+   "slut": "2031-04-02",
+   "typ": "familjehändelse",
+   "plats": "Västerås (Viksäng), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2031-05-10",
+   "start": "2031-05-10",
+   "slut": "2031-05-10",
+   "typ": "hobby",
+   "plats": "Västerås, Sverige",
+   "beskrivning": "Sätter potatis på kolonilotten",
+   "med": [
+    "Bengt (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2031-05-10..2031-05-17",
+   "start": "2031-05-10",
+   "slut": "2031-05-17",
+   "typ": "resa",
+   "plats": "Verona, Italien",
+   "beskrivning": "Operafestival i arenan",
+   "med": [
+    "Bengt (make)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2031-07-29..2031-08-03",
+   "start": "2031-07-29",
+   "slut": "2031-08-03",
+   "typ": "hobby",
+   "plats": "Örebro, Sverige",
+   "beskrivning": "Bridgefestivalen i Örebro",
+   "med": [
+    "Kelda (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  }
+ ]
+}

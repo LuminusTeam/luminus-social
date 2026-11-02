@@ -1,0 +1,659 @@
+{
+ "slug": "petra-lind",
+ "namn": "Petra Lind",
+ "roll": "Testledare",
+ "team": [
+  "Myceliet",
+  "Barken"
+ ],
+ "karaktar": "Prinsessan",
+ "element": "Luft",
+ "rost": {
+  "drag": [
+   "Noggranna, positiva inlägg om dahlior med sortnamn.",
+   "Postar ofta under säsong (juni–oktober), sällan vintertid.",
+   "Emojis: 🌸 och ✏️.",
+   "Inga selfies; barnen visas aldrig.",
+   "Delar korsordsvinster och dahliafoton; aldrig testfel från jobbet.",
+   "Värmländsk humor: \"Hä ä int så noga\"."
+  ],
+  "exempelinlagg": [
+   "Café au Lait blommade i dag, 22 cm i diameter. 🌸",
+   "Löste lördagskrysset på 41 minuter. Ny rekord. ✏️",
+   "Knölarna upptagna och i källaren. Vintervila. Vi ses i maj."
+  ]
+ },
+ "bas": {
+  "hemort": "Enköping, Sverige",
+  "arbetsmonster": {
+   "beskrivning": "På Vreta varje onsdag, torsdag; distans måndag, tisdag, fredag. (60 % distans, 40 % på Vreta.)",
+   "vreta_dagar": [
+    "ons",
+    "tor"
+   ],
+   "varannan_vecka_vreta": null,
+   "distansdagar": [
+    "mån",
+    "tis",
+    "fre"
+   ],
+   "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala"
+  },
+  "veckorutiner": [
+   "Onsdag och torsdag: samåker med Mykel till Vreta",
+   "Söndag förmiddag: kyrkokören i Enköping",
+   "Lördagar: korsord i helgbilagorna med kaffe; maj–oktober dahliorna",
+   "Måndag 17:00: kör barnen till fotbollsträning",
+   "Varannan fredag: Mastermind eller Skip-Bo med barnen"
+  ]
+ },
+ "nara": [
+  {
+   "kollega": "Mykel",
+   "slug": "mykel",
+   "varfor": "Grannar i Enköping, samåker."
+  },
+  {
+   "kollega": "Henrik Nyman",
+   "slug": "henrik-nyman",
+   "varfor": "Enköpingsbor; korsord och trycksaker till dahliautställningen."
+  },
+  {
+   "kollega": "Amira Haddad",
+   "slug": "amira-haddad",
+   "varfor": "Enköpingsgrannar; barnen leker ihop och familjerna fikar."
+  }
+ ],
+ "familj_och_vanner": [
+  {
+   "namn": "Mattias L.",
+   "relation": "make"
+  },
+  {
+   "namn": "Wilma",
+   "relation": "dotter, 11"
+  },
+  {
+   "namn": "Leo",
+   "relation": "son, 10"
+  },
+  {
+   "namn": "Gunilla",
+   "relation": "mamma i Karlstad"
+  },
+  {
+   "namn": "Rune",
+   "relation": "pappa i Karlstad"
+  },
+  {
+   "namn": "Johan",
+   "relation": "bror i Karlstad"
+  },
+  {
+   "namn": "Elsie",
+   "relation": "mormor i Kil"
+  }
+ ],
+ "kalender": [
+  {
+   "datum": "2026-11-08",
+   "start": "2026-11-08",
+   "slut": "2026-11-08",
+   "typ": "hobby",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Knölarna rensas och märks i källaren",
+   "med": [
+    "Wilma (dotter, 11)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-29",
+   "start": "2026-11-29",
+   "slut": "2026-11-29",
+   "typ": "konsert/show",
+   "plats": "Enköpings kyrka, Enköping, Sverige",
+   "beskrivning": "Kyrkokören sjunger på första advent",
+   "med": [
+    "Mattias L. (make)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt",
+   "hogtid": "första advent"
+  },
+  {
+   "datum": "2026-12-12",
+   "start": "2026-12-12",
+   "slut": "2026-12-12",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Barnens luciatåg",
+   "med": [
+    "Mattias L. (make)",
+    "Wilma (dotter, 11)",
+    "Leo (son, 10)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-23..2026-12-27",
+   "start": "2026-12-23",
+   "slut": "2026-12-27",
+   "typ": "familjehändelse",
+   "plats": "Karlstad, Sverige",
+   "beskrivning": "Jul i Karlstad och besök hos mormor i Kil",
+   "med": [
+    "Mattias L. (make)",
+    "Wilma (dotter, 11)",
+    "Leo (son, 10)",
+    "Gunilla (mamma i Karlstad)",
+    "Rune (pappa i Karlstad)",
+    "Elsie (mormor i Kil)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2027-01-16",
+   "start": "2027-01-16",
+   "slut": "2027-01-16",
+   "typ": "vänner",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Skip-Bo-kväll hos Amira",
+   "med": [
+    "Amira Haddad (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-30",
+   "start": "2027-01-30",
+   "slut": "2027-01-30",
+   "typ": "hobby",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Korsordstävling i biblioteket",
+   "med": [
+    "Henrik Nyman (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-02-13",
+   "start": "2027-02-13",
+   "slut": "2027-02-13",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Wilma fyller tolv",
+   "med": [
+    "Mattias L. (make)",
+    "Wilma (dotter, 11)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-02-27..2027-03-06",
+   "start": "2027-02-27",
+   "slut": "2027-03-06",
+   "typ": "semester",
+   "plats": "Branäs, Värmland, Sverige",
+   "beskrivning": "Sportlov i Branäs",
+   "med": [
+    "Mattias L. (make)",
+    "Wilma (dotter, 11)",
+    "Leo (son, 10)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-20",
+   "start": "2027-03-20",
+   "slut": "2027-03-20",
+   "typ": "hobby",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Förodlar dahlior i växthuset",
+   "med": [
+    "Leo (son, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-03-27..2027-03-29",
+   "start": "2027-03-27",
+   "slut": "2027-03-29",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Påsk med påskris och ägg",
+   "med": [
+    "Mattias L. (make)",
+    "Wilma (dotter, 11)",
+    "Leo (son, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning",
+   "hogtid": "påsk"
+  },
+  {
+   "datum": "2027-04-24",
+   "start": "2027-04-24",
+   "slut": "2027-04-24",
+   "typ": "familjehändelse",
+   "plats": "Kil, Sverige",
+   "beskrivning": "Mormor fyller 90",
+   "med": [
+    "Mattias L. (make)",
+    "Wilma (dotter, 11)",
+    "Leo (son, 10)",
+    "Gunilla (mamma i Karlstad)",
+    "Rune (pappa i Karlstad)",
+    "Johan (bror i Karlstad)",
+    "Elsie (mormor i Kil)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-05-22",
+   "start": "2027-05-22",
+   "slut": "2027-05-22",
+   "typ": "hobby",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Sätter ut dahliorna efter sista frosten",
+   "med": [
+    "Wilma (dotter, 11)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-06-25",
+   "start": "2027-06-25",
+   "slut": "2027-06-25",
+   "typ": "fest",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Midsommar med grannarna",
+   "med": [
+    "Mattias L. (make)",
+    "Mykel (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2027-07-03..2027-07-24",
+   "start": "2027-07-03",
+   "slut": "2027-07-24",
+   "typ": "semester",
+   "plats": "Värmland, Sverige",
+   "beskrivning": "Husvagn i Värmland: Klarälven, Sunne och Karlstad",
+   "med": [
+    "Mattias L. (make)",
+    "Wilma (dotter, 11)",
+    "Leo (son, 10)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-26",
+   "start": "2027-08-26",
+   "slut": "2027-08-26",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Fyller 45",
+   "med": [
+    "Mattias L. (make)",
+    "Wilma (dotter, 11)",
+    "Leo (son, 10)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-26",
+   "start": "2027-08-26",
+   "slut": "2027-08-26",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-28",
+   "start": "2027-08-28",
+   "slut": "2027-08-28",
+   "typ": "vänner",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Kräftskiva för grannarna",
+   "med": [
+    "Mattias L. (make)",
+    "Mykel (kollega)",
+    "Amira Haddad (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-04",
+   "start": "2027-09-04",
+   "slut": "2027-09-04",
+   "typ": "utställning",
+   "plats": "Drömparken, Enköping, Sverige",
+   "beskrivning": "Dahliautställning där hennes sorter visas",
+   "med": [
+    "Henrik Nyman (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-02",
+   "start": "2027-10-02",
+   "slut": "2027-10-02",
+   "typ": "konsert/show",
+   "plats": "Strängnäs domkyrka, Strängnäs, Sverige",
+   "beskrivning": "Körkonsert med kyrkokören",
+   "med": [
+    "Mattias L. (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-16",
+   "start": "2027-10-16",
+   "slut": "2027-10-16",
+   "typ": "hobby",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Knölarna tas upp efter första frosten",
+   "med": [
+    "Leo (son, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-12-23..2027-12-27",
+   "start": "2027-12-23",
+   "slut": "2027-12-27",
+   "typ": "familjehändelse",
+   "plats": "Karlstad, Sverige",
+   "beskrivning": "Jul i Karlstad",
+   "med": [
+    "Mattias L. (make)",
+    "Wilma (dotter, 11)",
+    "Leo (son, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2028-07-04..2028-07-20",
+   "start": "2028-07-04",
+   "slut": "2028-07-20",
+   "typ": "semester",
+   "plats": "Värmland eller Västkusten, Sverige",
+   "beskrivning": "Husvagnssemester",
+   "med": [
+    "Mattias L. (make)",
+    "Wilma (dotter, 11)",
+    "Leo (son, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-08-26",
+   "start": "2028-08-26",
+   "slut": "2028-08-26",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Fyller 46",
+   "med": [
+    "Mattias L. (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-08-26",
+   "start": "2028-08-26",
+   "slut": "2028-08-26",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-09-03",
+   "start": "2028-09-03",
+   "slut": "2028-09-03",
+   "typ": "utställning",
+   "plats": "Drömparken, Enköping, Sverige",
+   "beskrivning": "Dahliautställning",
+   "med": [
+    "Henrik Nyman (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-12-23..2028-12-27",
+   "start": "2028-12-23",
+   "slut": "2028-12-27",
+   "typ": "familjehändelse",
+   "plats": "Karlstad, Sverige",
+   "beskrivning": "Jul i Karlstad",
+   "med": [
+    "Mattias L. (make)",
+    "Wilma (dotter, 11)",
+    "Leo (son, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2029-06-01",
+   "start": "2029-06-01",
+   "slut": "2029-06-01",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Wilma går ut nian",
+   "med": [
+    "Mattias L. (make)",
+    "Wilma (dotter, 11)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2029-07-04..2029-07-20",
+   "start": "2029-07-04",
+   "slut": "2029-07-20",
+   "typ": "semester",
+   "plats": "Värmland eller Västkusten, Sverige",
+   "beskrivning": "Husvagnssemester",
+   "med": [
+    "Mattias L. (make)",
+    "Wilma (dotter, 11)",
+    "Leo (son, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-08-26",
+   "start": "2029-08-26",
+   "slut": "2029-08-26",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-09-03",
+   "start": "2029-09-03",
+   "slut": "2029-09-03",
+   "typ": "utställning",
+   "plats": "Drömparken, Enköping, Sverige",
+   "beskrivning": "Dahliautställning",
+   "med": [
+    "Henrik Nyman (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2029-12-23..2029-12-27",
+   "start": "2029-12-23",
+   "slut": "2029-12-27",
+   "typ": "familjehändelse",
+   "plats": "Karlstad, Sverige",
+   "beskrivning": "Jul i Karlstad",
+   "med": [
+    "Mattias L. (make)",
+    "Wilma (dotter, 11)",
+    "Leo (son, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2030-03-01",
+   "start": "2030-03-01",
+   "slut": "2030-03-01",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Automatiserade testsviten täcker hela plattformen",
+   "med": [
+    "Mykel (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2030-07-04..2030-07-20",
+   "start": "2030-07-04",
+   "slut": "2030-07-20",
+   "typ": "semester",
+   "plats": "Värmland eller Västkusten, Sverige",
+   "beskrivning": "Husvagnssemester",
+   "med": [
+    "Mattias L. (make)",
+    "Wilma (dotter, 11)",
+    "Leo (son, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-08-26",
+   "start": "2030-08-26",
+   "slut": "2030-08-26",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-09-03",
+   "start": "2030-09-03",
+   "slut": "2030-09-03",
+   "typ": "utställning",
+   "plats": "Drömparken, Enköping, Sverige",
+   "beskrivning": "Dahliautställning",
+   "med": [
+    "Henrik Nyman (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2030-12-23..2030-12-27",
+   "start": "2030-12-23",
+   "slut": "2030-12-27",
+   "typ": "familjehändelse",
+   "plats": "Karlstad, Sverige",
+   "beskrivning": "Jul i Karlstad",
+   "med": [
+    "Mattias L. (make)",
+    "Wilma (dotter, 11)",
+    "Leo (son, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2031-07-04..2031-07-20",
+   "start": "2031-07-04",
+   "slut": "2031-07-20",
+   "typ": "semester",
+   "plats": "Värmland eller Västkusten, Sverige",
+   "beskrivning": "Husvagnssemester",
+   "med": [
+    "Mattias L. (make)",
+    "Wilma (dotter, 11)",
+    "Leo (son, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2031-08-01",
+   "start": "2031-08-01",
+   "slut": "2031-08-01",
+   "typ": "utställning",
+   "plats": "Wiks slott, Sverige",
+   "beskrivning": "Dahliavisning i slottsparken",
+   "med": [
+    "Mattias L. (make)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2031-08-26",
+   "start": "2031-08-26",
+   "slut": "2031-08-26",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2031-09-03",
+   "start": "2031-09-03",
+   "slut": "2031-09-03",
+   "typ": "utställning",
+   "plats": "Drömparken, Enköping, Sverige",
+   "beskrivning": "Dahliautställning",
+   "med": [
+    "Henrik Nyman (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  }
+ ]
+}

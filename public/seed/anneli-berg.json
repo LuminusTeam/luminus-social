@@ -1,0 +1,670 @@
+{
+ "slug": "anneli-berg",
+ "namn": "Anneli Berg",
+ "roll": "Dataspecialist · administratör och sekreterare för Team Källan",
+ "team": [
+  "Källan"
+ ],
+ "karaktar": "Analytikern",
+ "element": "Jord",
+ "rost": {
+  "drag": [
+   "Strama inlägg: en mening och en tabell eller ett schackdiagram.",
+   "Postar sällan, en gång i månaden, oftast om schack eller technoklubbar hon gått på.",
+   "Inga emojis, inga selfies.",
+   "Delar årssammanställningar av sitt eget simmande i kilometer; aldrig dotterns ansikte.",
+   "Torr stockholmsk ironi.",
+   "Skriver alltid på svenska, tekniska termer på engelska."
+  ],
+  "exempelinlagg": [
+   "2026: 412 kilometer i Eriksdalsbadet. Medelpass 2 050 meter. Ingen avvikelse.",
+   "Långparti i klubben, 4 timmar. Remi. Rätt resultat.",
+   "Berlin, lördag natt. Säger inte mer."
+  ]
+ },
+ "bas": {
+  "hemort": "Stockholm (Södermalm), Sverige",
+  "arbetsmonster": {
+   "beskrivning": "På Vreta varje tisdag; distans måndag, onsdag, torsdag, fredag. (80 % distans, 20 % på Vreta.)",
+   "vreta_dagar": [
+    "tis"
+   ],
+   "varannan_vecka_vreta": null,
+   "distansdagar": [
+    "mån",
+    "ons",
+    "tor",
+    "fre"
+   ],
+   "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala"
+  },
+  "veckorutiner": [
+   "Måndag–fredag 06:30: simning på Eriksdalsbadet innan arbetsdagen",
+   "Tisdag: pendeltåg och Upptåget till Uppsala, samåker till Vreta för ledningsgruppen",
+   "Onsdag 19:00: schackklubb på Södermalm, långa partier med klocka",
+   "Söndagar: middag hos mamma på Södermalm"
+  ]
+ },
+ "nara": [
+  {
+   "kollega": "Erik Johansson",
+   "slug": "erik-johansson",
+   "varfor": "Datafolk som byter skript; Erik och Anneli spelar schack online."
+  },
+  {
+   "kollega": "Bjarke",
+   "slug": "bjarke",
+   "varfor": "Schack: Anneli i klubb, Bjarke per korrespondens; analyserar partier."
+  },
+  {
+   "kollega": "Markus Feldt",
+   "slug": "markus-feldt",
+   "varfor": "Schack mot Chess960-varianter; Markus läser motståndaren, Anneli brädet."
+  }
+ ],
+ "familj_och_vanner": [
+  {
+   "namn": "Jonas",
+   "relation": "make"
+  },
+  {
+   "namn": "Ylva",
+   "relation": "dotter, 14"
+  },
+  {
+   "namn": "Margareta",
+   "relation": "mamma på Södermalm"
+  },
+  {
+   "namn": "Helena",
+   "relation": "syster i Nacka"
+  }
+ ],
+ "kalender": [
+  {
+   "datum": "2026-11-15",
+   "start": "2026-11-15",
+   "slut": "2026-11-15",
+   "typ": "hobby",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Schackklubbens höstturnering",
+   "med": [
+    "Jonas (make)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-19",
+   "start": "2026-11-19",
+   "slut": "2026-11-19",
+   "typ": "familjehändelse",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Fyller 51, middag på Södermalm",
+   "med": [
+    "Jonas (make)",
+    "Ylva (dotter, 14)",
+    "Margareta (mamma på Södermalm)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-19",
+   "start": "2026-11-19",
+   "slut": "2026-11-19",
+   "typ": "familjehändelse",
+   "plats": "Stockholm (Södermalm), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-28",
+   "start": "2026-11-28",
+   "slut": "2026-11-28",
+   "typ": "konsert/show",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Technokväll på en klubb i Hammarby sjöstad",
+   "med": [
+    "Jonas (make)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-12-06",
+   "start": "2026-12-06",
+   "slut": "2026-12-06",
+   "typ": "familjehändelse",
+   "plats": "Nacka, Sverige",
+   "beskrivning": "Julbord hos syster i Nacka",
+   "med": [
+    "Jonas (make)",
+    "Ylva (dotter, 14)",
+    "Helena (syster i Nacka)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-24",
+   "start": "2026-12-24",
+   "slut": "2026-12-24",
+   "typ": "familjehändelse",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Julafton hos mamma",
+   "med": [
+    "Jonas (make)",
+    "Ylva (dotter, 14)",
+    "Margareta (mamma på Södermalm)",
+    "Helena (syster i Nacka)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2027-01-04",
+   "start": "2027-01-04",
+   "slut": "2027-01-04",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Årssammanställning över besök och evenemang 2026",
+   "med": [
+    "Astrid Vinter (kollega)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-16",
+   "start": "2027-01-16",
+   "slut": "2027-01-16",
+   "typ": "hobby",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Simmar 3 000 meter i Eriksdalsbadet (inomhus) på nyårslöftet",
+   "med": [
+    "Jonas (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-23..2027-01-25",
+   "start": "2027-01-23",
+   "slut": "2027-01-25",
+   "typ": "resa",
+   "plats": "Berlin, Tyskland",
+   "beskrivning": "Stadsresa: museer och en technoklubb",
+   "med": [
+    "Jonas (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter"
+  },
+  {
+   "datum": "2027-02-06",
+   "start": "2027-02-06",
+   "slut": "2027-02-06",
+   "typ": "hobby",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Schack-SM för veteraner, som åskådare",
+   "med": [
+    "Bjarke (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-02-20",
+   "start": "2027-02-20",
+   "slut": "2027-02-20",
+   "typ": "familjehändelse",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Mammas födelsedag",
+   "med": [
+    "Margareta (mamma på Södermalm)",
+    "Helena (syster i Nacka)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-13",
+   "start": "2027-03-13",
+   "slut": "2027-03-13",
+   "typ": "vänner",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Chess960-kväll med Markus",
+   "med": [
+    "Markus Feldt (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-03-27..2027-03-29",
+   "start": "2027-03-27",
+   "slut": "2027-03-29",
+   "typ": "familjehändelse",
+   "plats": "Nacka, Sverige",
+   "beskrivning": "Påsk hos syster",
+   "med": [
+    "Jonas (make)",
+    "Ylva (dotter, 14)",
+    "Helena (syster i Nacka)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning",
+   "hogtid": "påsk"
+  },
+  {
+   "datum": "2027-04-10..2027-04-12",
+   "start": "2027-04-10",
+   "slut": "2027-04-12",
+   "typ": "resa",
+   "plats": "Amsterdam, Nederländerna",
+   "beskrivning": "Stadsresa med Ylva",
+   "med": [
+    "Ylva (dotter, 14)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2027-05-01",
+   "start": "2027-05-01",
+   "slut": "2027-05-01",
+   "typ": "hobby",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Schackturnering i Kungsträdgården",
+   "med": [
+    "Ylva (dotter, 14)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut",
+   "hogtid": "första maj"
+  },
+  {
+   "datum": "2027-05-29",
+   "start": "2027-05-29",
+   "slut": "2027-05-29",
+   "typ": "vänner",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Stockholm Marathon, hejar på Jonas",
+   "med": [
+    "Jonas (make)",
+    "Ylva (dotter, 14)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-06-25",
+   "start": "2027-06-25",
+   "slut": "2027-06-25",
+   "typ": "fest",
+   "plats": "Nacka, Sverige",
+   "beskrivning": "Midsommar hos syster i Nacka",
+   "med": [
+    "Jonas (make)",
+    "Ylva (dotter, 14)",
+    "Helena (syster i Nacka)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2027-07-10..2027-07-17",
+   "start": "2027-07-10",
+   "slut": "2027-07-17",
+   "typ": "semester",
+   "plats": "Köpenhamn, Danmark",
+   "beskrivning": "Stadsresa med hotell, Louisiana och bad i hamnen",
+   "med": [
+    "Jonas (make)",
+    "Ylva (dotter, 14)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar"
+  },
+  {
+   "datum": "2027-08-07",
+   "start": "2027-08-07",
+   "slut": "2027-08-07",
+   "typ": "vänner",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Utomhusklubb i Tantolunden",
+   "med": [
+    "Jonas (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-21",
+   "start": "2027-08-21",
+   "slut": "2027-08-21",
+   "typ": "familjehändelse",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Ylva börjar på gymnasiet",
+   "med": [
+    "Jonas (make)",
+    "Ylva (dotter, 14)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-11",
+   "start": "2027-09-11",
+   "slut": "2027-09-11",
+   "typ": "vänner",
+   "plats": "Djurgården, Stockholm, Sverige",
+   "beskrivning": "Höstpromenad",
+   "med": [
+    "Margareta (mamma på Södermalm)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-09-25",
+   "start": "2027-09-25",
+   "slut": "2027-09-25",
+   "typ": "utställning",
+   "plats": "Moderna museet, Stockholm, Sverige",
+   "beskrivning": "Höstutställning",
+   "med": [
+    "Ylva (dotter, 14)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-16..2027-10-18",
+   "start": "2027-10-16",
+   "slut": "2027-10-18",
+   "typ": "resa",
+   "plats": "Prag, Tjeckien",
+   "beskrivning": "Schackhelg och stadsvandring",
+   "med": [
+    "Jonas (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst"
+  },
+  {
+   "datum": "2027-11-19",
+   "start": "2027-11-19",
+   "slut": "2027-11-19",
+   "typ": "familjehändelse",
+   "plats": "Stockholm (Södermalm), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2027-12-24",
+   "start": "2027-12-24",
+   "slut": "2027-12-24",
+   "typ": "familjehändelse",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Julafton hos mamma",
+   "med": [
+    "Jonas (make)",
+    "Ylva (dotter, 14)",
+    "Margareta (mamma på Södermalm)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2028-01-04",
+   "start": "2028-01-04",
+   "slut": "2028-01-04",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Årssammanställning 2027",
+   "med": [
+    "Astrid Vinter (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2028-07-10..2028-07-17",
+   "start": "2028-07-10",
+   "slut": "2028-07-17",
+   "typ": "semester",
+   "plats": "Storstad som väljs år för år, Europa",
+   "beskrivning": "Stadsresa med hotell",
+   "med": [
+    "Jonas (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar"
+  },
+  {
+   "datum": "2028-11-19",
+   "start": "2028-11-19",
+   "slut": "2028-11-19",
+   "typ": "familjehändelse",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Fyller 53",
+   "med": [
+    "Jonas (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2028-11-19",
+   "start": "2028-11-19",
+   "slut": "2028-11-19",
+   "typ": "familjehändelse",
+   "plats": "Stockholm (Södermalm), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2028-12-24",
+   "start": "2028-12-24",
+   "slut": "2028-12-24",
+   "typ": "familjehändelse",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Julafton hos mamma",
+   "med": [
+    "Jonas (make)",
+    "Ylva (dotter, 14)",
+    "Margareta (mamma på Södermalm)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2029-01-05",
+   "start": "2029-01-05",
+   "slut": "2029-01-05",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Årssammanställning över besök och evenemang",
+   "med": [
+    "Astrid Vinter (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2029-06-15",
+   "start": "2029-06-15",
+   "slut": "2029-06-15",
+   "typ": "familjehändelse",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Ylva tar studenten",
+   "med": [
+    "Jonas (make)",
+    "Ylva (dotter, 14)",
+    "Margareta (mamma på Södermalm)",
+    "Helena (syster i Nacka)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2029-07-10..2029-07-17",
+   "start": "2029-07-10",
+   "slut": "2029-07-17",
+   "typ": "semester",
+   "plats": "Storstad som väljs år för år, Europa",
+   "beskrivning": "Stadsresa med hotell",
+   "med": [
+    "Jonas (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar"
+  },
+  {
+   "datum": "2029-11-19",
+   "start": "2029-11-19",
+   "slut": "2029-11-19",
+   "typ": "familjehändelse",
+   "plats": "Stockholm (Södermalm), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2029-12-24",
+   "start": "2029-12-24",
+   "slut": "2029-12-24",
+   "typ": "familjehändelse",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Julafton hos mamma",
+   "med": [
+    "Jonas (make)",
+    "Ylva (dotter, 14)",
+    "Margareta (mamma på Södermalm)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2030-01-05",
+   "start": "2030-01-05",
+   "slut": "2030-01-05",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Årssammanställning över besök och evenemang",
+   "med": [
+    "Astrid Vinter (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2030-07-10..2030-07-17",
+   "start": "2030-07-10",
+   "slut": "2030-07-17",
+   "typ": "semester",
+   "plats": "Storstad som väljs år för år, Europa",
+   "beskrivning": "Stadsresa med hotell",
+   "med": [
+    "Jonas (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar"
+  },
+  {
+   "datum": "2030-11-19",
+   "start": "2030-11-19",
+   "slut": "2030-11-19",
+   "typ": "jubileum",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Fyller 55, fest på Södermalm",
+   "med": [
+    "Jonas (make)",
+    "Ylva (dotter, 14)",
+    "Helena (syster i Nacka)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2030-11-19",
+   "start": "2030-11-19",
+   "slut": "2030-11-19",
+   "typ": "familjehändelse",
+   "plats": "Stockholm (Södermalm), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2030-12-24",
+   "start": "2030-12-24",
+   "slut": "2030-12-24",
+   "typ": "familjehändelse",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Julafton hos mamma",
+   "med": [
+    "Jonas (make)",
+    "Ylva (dotter, 14)",
+    "Margareta (mamma på Södermalm)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2031-01-05",
+   "start": "2031-01-05",
+   "slut": "2031-01-05",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Årssammanställning över besök och evenemang",
+   "med": [
+    "Astrid Vinter (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2031-04-01..2031-04-06",
+   "start": "2031-04-01",
+   "slut": "2031-04-06",
+   "typ": "resa",
+   "plats": "Tokyo, Japan",
+   "beskrivning": "Drömresa till Tokyo",
+   "med": [
+    "Jonas (make)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2031-07-10..2031-07-17",
+   "start": "2031-07-10",
+   "slut": "2031-07-17",
+   "typ": "semester",
+   "plats": "Storstad som väljs år för år, Europa",
+   "beskrivning": "Stadsresa med hotell",
+   "med": [
+    "Jonas (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar"
+  }
+ ]
+}

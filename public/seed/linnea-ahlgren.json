@@ -1,0 +1,633 @@
+{
+ "slug": "linnea-ahlgren",
+ "namn": "Linnea Ahlgren",
+ "roll": "Mattias personliga administratör",
+ "team": [
+  "Etern"
+ ],
+ "karaktar": "Förvaltaren",
+ "element": "Jord",
+ "rost": {
+  "drag": [
+   "Lågmäld och ordentlig: få inlägg, mest syprojekt med noggranna detaljbilder på sömmar.",
+   "Inga selfies; kläderna fotograferas på galge eller provdocka.",
+   "Postar ungefär två gånger i månaden; aldrig något om familjen eller arbetet med Mattias.",
+   "Inga emojis utom en nål eller ett tygstycke ibland (🪡).",
+   "Citerar gärna Austen eller Ferrante i bildtexten.",
+   "Svarar sakligt på syfrågor, med tygåtgång i centimeter."
+  ],
+  "exempelinlagg": [
+   "Kavaj i ylletweed, ingen mönsterbit, bara mått och tålamod. 2,4 meter tyg. 🪡",
+   "\"I declare after all there is no enjoyment like reading!\" – Austen hade rätt, särskilt i november.",
+   "Ny vårkappa klar. Fodret är det roliga, ingen ser det, men jag vet."
+  ]
+ },
+ "bas": {
+  "hemort": "Uppsala (Svartbäcken), Sverige",
+  "arbetsmonster": {
+   "beskrivning": "På Vreta varje tisdag, onsdag och varannan torsdag; distans måndag, fredag (samt torsdag varannan vecka). (50 % distans, 50 % på Vreta.)",
+   "vreta_dagar": [
+    "tis",
+    "ons"
+   ],
+   "varannan_vecka_vreta": "tor",
+   "distansdagar": [
+    "mån",
+    "fre"
+   ],
+   "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala"
+  },
+  "veckorutiner": [
+   "Tisdag och onsdag: buss 7:10 från Uppsala C till Vreta (samåker torsdagar)",
+   "Onsdag kväll: sykväll med Malin, mönsterlöst",
+   "Torsdag varannan: bokcirkel med Gunnel, Nils och Noor",
+   "Lördag: tygbutiker och second hand i Uppsala, sedan en roman på Café Linné",
+   "Söndag kväll: Yatzy och planering av veckan i ett papperskalendarium"
+  ]
+ },
+ "nara": [
+  {
+   "kollega": "Karin Lundell",
+   "slug": "karin-lundell",
+   "varfor": "Textil: Karin väver, Linnea syr; byter material och går på hemslöjdsmarknader."
+  },
+  {
+   "kollega": "Gunnel Axelsson",
+   "slug": "gunnel-axelsson",
+   "varfor": "Bokcirkeln Gunnel leder; deckare och klassiker om vartannat."
+  },
+  {
+   "kollega": "Nils Fredriksson",
+   "slug": "nils-fredriksson",
+   "varfor": "Bokcirkeln och engelska klassiker; byter böcker och Dickens mot Austen."
+  }
+ ],
+ "familj_och_vanner": [
+  {
+   "namn": "Tove",
+   "relation": "väninna sedan gymnasiet i Tierp"
+  },
+  {
+   "namn": "Malin",
+   "relation": "väninna, syster i sykretsen"
+  },
+  {
+   "namn": "Emma",
+   "relation": "väninna som fick bröllopsklänningen"
+  }
+ ],
+ "kalender": [
+  {
+   "datum": "2026-11-11..2026-11-22",
+   "start": "2026-11-11",
+   "slut": "2026-11-22",
+   "typ": "vänner",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Stockholms filmfestival: en kostymfilm med Tove",
+   "med": [
+    "Tove (väninna sedan gymnasiet i Tierp)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-28",
+   "start": "2026-11-28",
+   "slut": "2026-11-28",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Tygmarknad i Uppsala",
+   "med": [
+    "Malin (väninna, syster i sykretsen)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-12-05",
+   "start": "2026-12-05",
+   "slut": "2026-12-05",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Uppsala historiska julmarknad",
+   "med": [
+    "Tove (väninna sedan gymnasiet i Tierp)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-11",
+   "start": "2026-12-11",
+   "slut": "2026-12-11",
+   "typ": "fest",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Julbord med sykretsen",
+   "med": [
+    "Malin (väninna, syster i sykretsen)",
+    "Emma (väninna som fick bröllopsklänningen)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-24",
+   "start": "2026-12-24",
+   "slut": "2026-12-24",
+   "typ": "familjehändelse",
+   "plats": "Tierp, Sverige",
+   "beskrivning": "Julafton i Tierp, privat",
+   "med": [
+    "Tove (väninna sedan gymnasiet i Tierp)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2027-01-16",
+   "start": "2027-01-16",
+   "slut": "2027-01-16",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Börjar sy en vinterkappa i ull",
+   "med": [
+    "Malin (väninna, syster i sykretsen)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-30",
+   "start": "2027-01-30",
+   "slut": "2027-01-30",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Romanläsning och te hos Malin, snöstorm ute",
+   "med": [
+    "Malin (väninna, syster i sykretsen)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-02-12",
+   "start": "2027-02-12",
+   "slut": "2027-02-12",
+   "typ": "vänner",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Stockholm Design Week, textilutställningar",
+   "med": [
+    "Karin Lundell (kollega)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-06",
+   "start": "2027-03-06",
+   "slut": "2027-03-06",
+   "typ": "utställning",
+   "plats": "Nordiska museet, Stockholm, Sverige",
+   "beskrivning": "Dräktutställning",
+   "med": [
+    "Karin Lundell (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-03-27..2027-03-29",
+   "start": "2027-03-27",
+   "slut": "2027-03-29",
+   "typ": "familjehändelse",
+   "plats": "Tierp, Sverige",
+   "beskrivning": "Påsk i Tierp, privat",
+   "med": [
+    "Tove (väninna sedan gymnasiet i Tierp)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning",
+   "hogtid": "påsk"
+  },
+  {
+   "datum": "2027-04-10",
+   "start": "2027-04-10",
+   "slut": "2027-04-10",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Bokcirkel hemma hos Gunnel, Elena Ferrante",
+   "med": [
+    "Gunnel Axelsson (kollega)",
+    "Nils Fredriksson (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-05-01..2027-05-03",
+   "start": "2027-05-01",
+   "slut": "2027-05-03",
+   "typ": "resa",
+   "plats": "Bath, Storbritannien",
+   "beskrivning": "Austen-helg i Bath med Tove",
+   "med": [
+    "Tove (väninna sedan gymnasiet i Tierp)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2027-05-29",
+   "start": "2027-05-29",
+   "slut": "2027-05-29",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Syr sommarklänning till Emmas trädgårdsfest",
+   "med": [
+    "Emma (väninna som fick bröllopsklänningen)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-06-12",
+   "start": "2027-06-12",
+   "slut": "2027-06-12",
+   "typ": "fest",
+   "plats": "Tierp, Sverige",
+   "beskrivning": "Emmas trädgårdsfest",
+   "med": [
+    "Emma (väninna som fick bröllopsklänningen)",
+    "Tove (väninna sedan gymnasiet i Tierp)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-06-25",
+   "start": "2027-06-25",
+   "slut": "2027-06-25",
+   "typ": "fest",
+   "plats": "Tierp, Sverige",
+   "beskrivning": "Midsommarafton med vännerna",
+   "med": [
+    "Tove (väninna sedan gymnasiet i Tierp)",
+    "Malin (väninna, syster i sykretsen)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2027-07-10..2027-07-24",
+   "start": "2027-07-10",
+   "slut": "2027-07-24",
+   "typ": "semester",
+   "plats": "Gotland, Sverige",
+   "beskrivning": "Semester i stuga på Fårö med Tove",
+   "med": [
+    "Tove (väninna sedan gymnasiet i Tierp)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-07",
+   "start": "2027-08-07",
+   "slut": "2027-08-07",
+   "typ": "hobby",
+   "plats": "Sätergläntan, Insjön, Sverige",
+   "beskrivning": "Hemslöjdskurs: skräddarsöm",
+   "med": [
+    "Karin Lundell (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-21",
+   "start": "2027-08-21",
+   "slut": "2027-08-21",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Kräftskiva hos Emma",
+   "med": [
+    "Emma (väninna som fick bröllopsklänningen)",
+    "Tove (väninna sedan gymnasiet i Tierp)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-03",
+   "start": "2027-09-03",
+   "slut": "2027-09-03",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Svartbäcken), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "fast",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-09-23..2027-09-26",
+   "start": "2027-09-23",
+   "slut": "2027-09-26",
+   "typ": "vänner",
+   "plats": "Göteborg, Sverige",
+   "beskrivning": "Bokmässan i Göteborg (ungefärliga datum)",
+   "med": [
+    "Nils Fredriksson (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-09",
+   "start": "2027-10-09",
+   "slut": "2027-10-09",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Bokcirkel: Downton-tema med te och scones",
+   "med": [
+    "Gunnel Axelsson (kollega)",
+    "Nils Fredriksson (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-30",
+   "start": "2027-10-30",
+   "slut": "2027-10-30",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Ullkappan klar till vintern",
+   "med": [
+    "Malin (väninna, syster i sykretsen)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-12-24",
+   "start": "2027-12-24",
+   "slut": "2027-12-24",
+   "typ": "familjehändelse",
+   "plats": "Tierp, Sverige",
+   "beskrivning": "Julafton i Tierp, privat",
+   "med": [
+    "Tove (väninna sedan gymnasiet i Tierp)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2028-04-20..2028-04-24",
+   "start": "2028-04-20",
+   "slut": "2028-04-24",
+   "typ": "resa",
+   "plats": "Edinburgh, Storbritannien",
+   "beskrivning": "Tweed och bokhandlar",
+   "med": [
+    "Tove (väninna sedan gymnasiet i Tierp)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2028-07-12..2028-07-25",
+   "start": "2028-07-12",
+   "slut": "2028-07-25",
+   "typ": "semester",
+   "plats": "Gotland, Sverige",
+   "beskrivning": "Sommarstuga med vännerna",
+   "med": [
+    "Tove (väninna sedan gymnasiet i Tierp)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-09-03",
+   "start": "2028-09-03",
+   "slut": "2028-09-03",
+   "typ": "fest",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Bjuder vännerna på raggmunk på födelsedagen",
+   "med": [
+    "Tove (väninna sedan gymnasiet i Tierp)",
+    "Malin (väninna, syster i sykretsen)",
+    "Emma (väninna som fick bröllopsklänningen)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-09-03",
+   "start": "2028-09-03",
+   "slut": "2028-09-03",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Svartbäcken), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-09-20..2028-09-22",
+   "start": "2028-09-20",
+   "slut": "2028-09-22",
+   "typ": "vänner",
+   "plats": "Göteborg, Sverige",
+   "beskrivning": "Bokmässan (ungefärliga datum)",
+   "med": [
+    "Nils Fredriksson (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-09-21..2028-09-24",
+   "start": "2028-09-21",
+   "slut": "2028-09-24",
+   "typ": "vänner",
+   "plats": "Göteborg, Sverige",
+   "beskrivning": "Bokmässan (ungefärliga datum)",
+   "med": [
+    "Nils Fredriksson (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-12-24",
+   "start": "2028-12-24",
+   "slut": "2028-12-24",
+   "typ": "familjehändelse",
+   "plats": "Tierp, Sverige",
+   "beskrivning": "Julafton i Tierp, privat",
+   "med": [
+    "Tove (väninna sedan gymnasiet i Tierp)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2029-03-01",
+   "start": "2029-03-01",
+   "slut": "2029-03-01",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Ny bokningsrutin för Vretas lokaler i drift",
+   "med": [
+    "Astrid Vinter (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2029-07-12..2029-07-25",
+   "start": "2029-07-12",
+   "slut": "2029-07-25",
+   "typ": "semester",
+   "plats": "Gotland, Sverige",
+   "beskrivning": "Sommarstuga med vännerna",
+   "med": [
+    "Tove (väninna sedan gymnasiet i Tierp)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-09-03",
+   "start": "2029-09-03",
+   "slut": "2029-09-03",
+   "typ": "fest",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Fyller 43, middag med vännerna",
+   "med": [
+    "Tove (väninna sedan gymnasiet i Tierp)",
+    "Malin (väninna, syster i sykretsen)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2029-09-03",
+   "start": "2029-09-03",
+   "slut": "2029-09-03",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Svartbäcken), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2029-12-24",
+   "start": "2029-12-24",
+   "slut": "2029-12-24",
+   "typ": "familjehändelse",
+   "plats": "Tierp, Sverige",
+   "beskrivning": "Julafton i Tierp, privat",
+   "med": [
+    "Tove (väninna sedan gymnasiet i Tierp)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2030-06-01..2030-06-08",
+   "start": "2030-06-01",
+   "slut": "2030-06-08",
+   "typ": "resa",
+   "plats": "Neapel, Italien",
+   "beskrivning": "Ferrantes Neapel",
+   "med": [
+    "Tove (väninna sedan gymnasiet i Tierp)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "sommar"
+  },
+  {
+   "datum": "2030-07-12..2030-07-25",
+   "start": "2030-07-12",
+   "slut": "2030-07-25",
+   "typ": "semester",
+   "plats": "Gotland, Sverige",
+   "beskrivning": "Sommarstuga med vännerna",
+   "med": [
+    "Tove (väninna sedan gymnasiet i Tierp)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-09-03",
+   "start": "2030-09-03",
+   "slut": "2030-09-03",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Svartbäcken), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2030-12-24",
+   "start": "2030-12-24",
+   "slut": "2030-12-24",
+   "typ": "familjehändelse",
+   "plats": "Tierp, Sverige",
+   "beskrivning": "Julafton i Tierp, privat",
+   "med": [
+    "Tove (väninna sedan gymnasiet i Tierp)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2031-04-15",
+   "start": "2031-04-15",
+   "slut": "2031-04-15",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Flyttar till större lägenhet med syrum",
+   "med": [
+    "Malin (väninna, syster i sykretsen)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2031-07-12..2031-07-25",
+   "start": "2031-07-12",
+   "slut": "2031-07-25",
+   "typ": "semester",
+   "plats": "Gotland, Sverige",
+   "beskrivning": "Sommarstuga med vännerna",
+   "med": [
+    "Tove (väninna sedan gymnasiet i Tierp)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2031-09-03",
+   "start": "2031-09-03",
+   "slut": "2031-09-03",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Svartbäcken), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  }
+ ]
+}

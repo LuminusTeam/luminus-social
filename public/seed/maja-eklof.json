@@ -1,0 +1,662 @@
+{
+ "slug": "maja-eklof",
+ "namn": "Maja Eklöf",
+ "roll": "Databasdesigner · administratör och sekreterare för Team Myceliet",
+ "team": [
+  "Myceliet"
+ ],
+ "karaktar": "Kejsarinnan",
+ "element": "Vatten",
+ "rost": {
+  "drag": [
+   "Lugna, varma inlägg med Stjarna i bild nästan alltid.",
+   "Postar 2–3 gånger i veckan på Instagram, mycket stickmönster och hästar.",
+   "Emojis: 🐴 🧶 ❄️",
+   "Skriver hälsingemål ibland: \"int\" och \"hä\".",
+   "Inga selfies; sonen syns aldrig.",
+   "Delar aldrig något om databaser eller jobbets data."
+  ],
+  "exempelinlagg": [
+   "Tölt i nysnön, Stjarna ångar som ett tåg. ❄️🐴",
+   "Hälsingemönster nummer sex: Delsbotröjan i rött och svart. 🧶",
+   "Hä va int fel på den här lördagen."
+  ]
+ },
+ "bas": {
+  "hemort": "Uppsala (Gamla Uppsala), Sverige",
+  "arbetsmonster": {
+   "beskrivning": "På Vreta varje tisdag och varannan torsdag; distans måndag, onsdag, fredag (samt torsdag varannan vecka). (70 % distans, 30 % på Vreta.)",
+   "vreta_dagar": [
+    "tis"
+   ],
+   "varannan_vecka_vreta": "tor",
+   "distansdagar": [
+    "mån",
+    "ons",
+    "fre"
+   ],
+   "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala"
+  },
+  "veckorutiner": [
+   "Tisdag (och varannan torsdag): Vreta, ledningsgrupp och protokoll för Myceliet",
+   "Måndag, onsdag, fredag 07:00: stallet i Bälinge, Stjarna får frukost och en tur innan distansdagen",
+   "Onsdag 17:30: Elis på ridskolan, Maja stickar på läktaren",
+   "Lördag: tölt i skogen; sommartid mölkky på hagen med stallkamraterna",
+   "Söndag kväll: Hive eller patiens"
+  ]
+ },
+ "nara": [
+  {
+   "kollega": "Juno Takala",
+   "slug": "juno-takala",
+   "varfor": "Mölkky och stickning; Juno broderar, Maja stickar."
+  },
+  {
+   "kollega": "Siri Dahl",
+   "slug": "siri-dahl",
+   "varfor": "Stickar ihop till Vretas vinteraktiviteter och spelar mölkky."
+  },
+  {
+   "kollega": "Karin Lundell",
+   "slug": "karin-lundell",
+   "varfor": "Textilkvällar; Karin väver, Maja tovar."
+  }
+ ],
+ "familj_och_vanner": [
+  {
+   "namn": "Fredrik",
+   "relation": "make"
+  },
+  {
+   "namn": "Elis",
+   "relation": "son, 9"
+  },
+  {
+   "namn": "Kerstin",
+   "relation": "mamma i Hudiksvall"
+  },
+  {
+   "namn": "Lars",
+   "relation": "pappa i Hudiksvall"
+  },
+  {
+   "namn": "Lena",
+   "relation": "syster i Hudiksvall"
+  }
+ ],
+ "kalender": [
+  {
+   "datum": "2026-11-14",
+   "start": "2026-11-14",
+   "slut": "2026-11-14",
+   "typ": "hobby",
+   "plats": "Bälinge, Uppsala, Sverige",
+   "beskrivning": "Tävling i tölt på ridhuset (inomhus)",
+   "med": [
+    "Fredrik (make)",
+    "Elis (son, 9)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-12-12",
+   "start": "2026-12-12",
+   "slut": "2026-12-12",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Stickcafé med Siri och Juno",
+   "med": [
+    "Siri Dahl (kollega)",
+    "Juno Takala (kollega)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-22..2026-12-27",
+   "start": "2026-12-22",
+   "slut": "2026-12-27",
+   "typ": "familjehändelse",
+   "plats": "Delsbo, Hudiksvall, Sverige",
+   "beskrivning": "Jul på släktgården i Delsbo; skidor och stall",
+   "med": [
+    "Fredrik (make)",
+    "Elis (son, 9)",
+    "Kerstin (mamma i Hudiksvall)",
+    "Lars (pappa i Hudiksvall)",
+    "Lena (syster i Hudiksvall)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2027-01-16",
+   "start": "2027-01-16",
+   "slut": "2027-01-16",
+   "typ": "hobby",
+   "plats": "Bälinge, Uppsala, Sverige",
+   "beskrivning": "Tölt på islagd bana",
+   "med": [
+    "Elis (son, 9)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-30",
+   "start": "2027-01-30",
+   "slut": "2027-01-30",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Hive-kväll med Fredrik",
+   "med": [
+    "Fredrik (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-02-24",
+   "start": "2027-02-24",
+   "slut": "2027-02-24",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Fyller 47, hälsingeostkaka",
+   "med": [
+    "Fredrik (make)",
+    "Elis (son, 9)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-02-24",
+   "start": "2027-02-24",
+   "slut": "2027-02-24",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Gamla Uppsala), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "fast",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-06",
+   "start": "2027-03-06",
+   "slut": "2027-03-06",
+   "typ": "hobby",
+   "plats": "Österbybruk, Sverige",
+   "beskrivning": "Hemslöjdsmarknad",
+   "med": [
+    "Karin Lundell (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-03-27..2027-03-29",
+   "start": "2027-03-27",
+   "slut": "2027-03-29",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Påsk hemma, påskris och ägg",
+   "med": [
+    "Fredrik (make)",
+    "Elis (son, 9)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning",
+   "hogtid": "påsk"
+  },
+  {
+   "datum": "2027-04-10",
+   "start": "2027-04-10",
+   "slut": "2027-04-10",
+   "typ": "familjehändelse",
+   "plats": "Hudiksvall, Sverige",
+   "beskrivning": "Påsklov hos föräldrarna",
+   "med": [
+    "Elis (son, 9)",
+    "Kerstin (mamma i Hudiksvall)",
+    "Lars (pappa i Hudiksvall)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-05-08",
+   "start": "2027-05-08",
+   "slut": "2027-05-08",
+   "typ": "hobby",
+   "plats": "Bälinge, Uppsala, Sverige",
+   "beskrivning": "Vårens första tölt i skogen",
+   "med": [
+    "Fredrik (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-05-22",
+   "start": "2027-05-22",
+   "slut": "2027-05-22",
+   "typ": "hobby",
+   "plats": "Hälleskogsbrännan, Sverige",
+   "beskrivning": "Ridtur i Hälleskogsbrännan",
+   "med": [
+    "Fredrik (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-06-25",
+   "start": "2027-06-25",
+   "slut": "2027-06-25",
+   "typ": "fest",
+   "plats": "Delsbo, Hudiksvall, Sverige",
+   "beskrivning": "Midsommar på släktgården",
+   "med": [
+    "Fredrik (make)",
+    "Elis (son, 9)",
+    "Lena (syster i Hudiksvall)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2027-07-03..2027-07-17",
+   "start": "2027-07-03",
+   "slut": "2027-07-17",
+   "typ": "semester",
+   "plats": "Skagafjörður, Island",
+   "beskrivning": "Campervan på Island och ridvecka i Skagafjörður",
+   "med": [
+    "Fredrik (make)",
+    "Elis (son, 9)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-07-24",
+   "start": "2027-07-24",
+   "slut": "2027-07-24",
+   "typ": "vänner",
+   "plats": "Bälinge, Uppsala, Sverige",
+   "beskrivning": "Mölkkyturnering på hagen",
+   "med": [
+    "Juno Takala (kollega)",
+    "Siri Dahl (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-07",
+   "start": "2027-08-07",
+   "slut": "2027-08-07",
+   "typ": "familjehändelse",
+   "plats": "Hudiksvall, Sverige",
+   "beskrivning": "Hudiksvalls hamnfest med systern",
+   "med": [
+    "Lena (syster i Hudiksvall)",
+    "Elis (son, 9)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-28",
+   "start": "2027-08-28",
+   "slut": "2027-08-28",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Elis börjar fyran",
+   "med": [
+    "Fredrik (make)",
+    "Elis (son, 9)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-18",
+   "start": "2027-09-18",
+   "slut": "2027-09-18",
+   "typ": "hobby",
+   "plats": "Sala silvergruva, Sverige",
+   "beskrivning": "Utflykt till gruvan",
+   "med": [
+    "Elis (son, 9)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-09",
+   "start": "2027-10-09",
+   "slut": "2027-10-09",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Tovningskurs hon håller på Vreta",
+   "med": [
+    "Karin Lundell (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-23",
+   "start": "2027-10-23",
+   "slut": "2027-10-23",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Stickcafé",
+   "med": [
+    "Siri Dahl (kollega)",
+    "Juno Takala (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-12-22..2027-12-27",
+   "start": "2027-12-22",
+   "slut": "2027-12-27",
+   "typ": "familjehändelse",
+   "plats": "Delsbo, Hudiksvall, Sverige",
+   "beskrivning": "Jul på släktgården",
+   "med": [
+    "Fredrik (make)",
+    "Elis (son, 9)",
+    "Kerstin (mamma i Hudiksvall)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2028-02-24",
+   "start": "2028-02-24",
+   "slut": "2028-02-24",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Gamla Uppsala), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2028-06-23",
+   "start": "2028-06-23",
+   "slut": "2028-06-23",
+   "typ": "fest",
+   "plats": "Delsbo, Hudiksvall, Sverige",
+   "beskrivning": "Midsommar på släktgården",
+   "med": [
+    "Fredrik (make)",
+    "Elis (son, 9)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2028-07-01..2028-07-14",
+   "start": "2028-07-01",
+   "slut": "2028-07-14",
+   "typ": "semester",
+   "plats": "Färöarna, Danmark",
+   "beskrivning": "Campervan och fårullsbesök",
+   "med": [
+    "Fredrik (make)",
+    "Elis (son, 9)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "sommar"
+  },
+  {
+   "datum": "2028-07-20",
+   "start": "2028-07-20",
+   "slut": "2028-07-20",
+   "typ": "vänner",
+   "plats": "Bälinge, Uppsala, Sverige",
+   "beskrivning": "Mölkkyturnering på hagen",
+   "med": [
+    "Juno Takala (kollega)",
+    "Siri Dahl (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-12-22..2028-12-27",
+   "start": "2028-12-22",
+   "slut": "2028-12-27",
+   "typ": "familjehändelse",
+   "plats": "Delsbo, Hudiksvall, Sverige",
+   "beskrivning": "Jul på släktgården",
+   "med": [
+    "Fredrik (make)",
+    "Elis (son, 9)",
+    "Kerstin (mamma i Hudiksvall)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2029-02-24",
+   "start": "2029-02-24",
+   "slut": "2029-02-24",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Fyller 49",
+   "med": [
+    "Fredrik (make)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2029-02-24",
+   "start": "2029-02-24",
+   "slut": "2029-02-24",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Gamla Uppsala), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2029-06-22",
+   "start": "2029-06-22",
+   "slut": "2029-06-22",
+   "typ": "fest",
+   "plats": "Delsbo, Hudiksvall, Sverige",
+   "beskrivning": "Midsommar på släktgården",
+   "med": [
+    "Fredrik (make)",
+    "Elis (son, 9)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2029-07-20",
+   "start": "2029-07-20",
+   "slut": "2029-07-20",
+   "typ": "vänner",
+   "plats": "Bälinge, Uppsala, Sverige",
+   "beskrivning": "Mölkkyturnering på hagen",
+   "med": [
+    "Juno Takala (kollega)",
+    "Siri Dahl (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-12-22..2029-12-27",
+   "start": "2029-12-22",
+   "slut": "2029-12-27",
+   "typ": "familjehändelse",
+   "plats": "Delsbo, Hudiksvall, Sverige",
+   "beskrivning": "Jul på släktgården",
+   "med": [
+    "Fredrik (make)",
+    "Elis (son, 9)",
+    "Kerstin (mamma i Hudiksvall)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2030-02-24",
+   "start": "2030-02-24",
+   "slut": "2030-02-24",
+   "typ": "jubileum",
+   "plats": "Delsbo, Hudiksvall, Sverige",
+   "beskrivning": "Fyller 50 på släktgården",
+   "med": [
+    "Fredrik (make)",
+    "Elis (son, 9)",
+    "Kerstin (mamma i Hudiksvall)",
+    "Lars (pappa i Hudiksvall)",
+    "Lena (syster i Hudiksvall)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2030-02-24",
+   "start": "2030-02-24",
+   "slut": "2030-02-24",
+   "typ": "jubileum",
+   "plats": "Uppsala (Gamla Uppsala), Sverige",
+   "beskrivning": "Fyller 50 – större firande",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2030-06-21",
+   "start": "2030-06-21",
+   "slut": "2030-06-21",
+   "typ": "fest",
+   "plats": "Delsbo, Hudiksvall, Sverige",
+   "beskrivning": "Midsommar på släktgården",
+   "med": [
+    "Fredrik (make)",
+    "Elis (son, 9)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2030-07-20",
+   "start": "2030-07-20",
+   "slut": "2030-07-20",
+   "typ": "vänner",
+   "plats": "Bälinge, Uppsala, Sverige",
+   "beskrivning": "Mölkkyturnering på hagen",
+   "med": [
+    "Juno Takala (kollega)",
+    "Siri Dahl (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-09-01",
+   "start": "2030-09-01",
+   "slut": "2030-09-01",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Databasen migrerad till ny version utan driftstopp",
+   "med": [
+    "Kwame Mensah (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2030-12-22..2030-12-27",
+   "start": "2030-12-22",
+   "slut": "2030-12-27",
+   "typ": "familjehändelse",
+   "plats": "Delsbo, Hudiksvall, Sverige",
+   "beskrivning": "Jul på släktgården",
+   "med": [
+    "Fredrik (make)",
+    "Elis (son, 9)",
+    "Kerstin (mamma i Hudiksvall)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2031-02-24",
+   "start": "2031-02-24",
+   "slut": "2031-02-24",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Gamla Uppsala), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2031-06-20",
+   "start": "2031-06-20",
+   "slut": "2031-06-20",
+   "typ": "fest",
+   "plats": "Delsbo, Hudiksvall, Sverige",
+   "beskrivning": "Midsommar på släktgården",
+   "med": [
+    "Fredrik (make)",
+    "Elis (son, 9)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2031-07-01..2031-07-21",
+   "start": "2031-07-01",
+   "slut": "2031-07-21",
+   "typ": "semester",
+   "plats": "Lofoten, Norge",
+   "beskrivning": "Campervan till Lofoten",
+   "med": [
+    "Fredrik (make)",
+    "Elis (son, 9)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2031-07-20",
+   "start": "2031-07-20",
+   "slut": "2031-07-20",
+   "typ": "vänner",
+   "plats": "Bälinge, Uppsala, Sverige",
+   "beskrivning": "Mölkkyturnering på hagen",
+   "med": [
+    "Juno Takala (kollega)",
+    "Siri Dahl (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  }
+ ]
+}

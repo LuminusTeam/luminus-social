@@ -1,0 +1,2 @@
+-- Se migrationen luminus-social/initial_docs_schema (redan körd i Supabase-projektet luminus-social).
+-- Tabell: public.docs(collection, id, data jsonb, owner uuid, created_at, updated_at) med RLS.

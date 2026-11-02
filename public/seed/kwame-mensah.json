@@ -1,0 +1,611 @@
+{
+ "slug": "kwame-mensah",
+ "namn": "Kwame Mensah",
+ "roll": "DevOps och säkerhet",
+ "team": [
+  "Myceliet"
+ ],
+ "karaktar": "Krigaren",
+ "element": "Eld",
+ "rost": {
+  "drag": [
+   "Rak, energisk ton, korta meningar; inlägg om lopp och mat.",
+   "Skriver svenska och engelska, ibland twi: \"Akwaaba!\"",
+   "Postar 3–4 gånger i veckan; aldrig något om säkerhetsarbetet.",
+   "Emojis: 🏃🏾‍♂️ 🍲 🔥",
+   "Selfies efter lopp, leriga skor.",
+   "Humorn: överdrivet allvar om matlagning."
+  ],
+  "exempelinlagg": [
+   "38 km i Tyresta i dag. Lera upp till knäna. Vi behöver prata om mitt förhållande till backar. 🏃🏾‍♂️",
+   "Jollof för 30 personer. Akwaaba till alla som vågade. 🍲",
+   "Accra, 34 grader. Jag klagar inte. Jag klagar inte. Jag klagar lite."
+  ]
+ },
+ "bas": {
+  "hemort": "Stockholm (Hammarbyhöjden), Sverige",
+  "arbetsmonster": {
+   "beskrivning": "På Vreta varje torsdag och varannan tisdag; distans måndag, onsdag, fredag (samt tisdag varannan vecka). (70 % distans, 30 % på Vreta.)",
+   "vreta_dagar": [
+    "tor"
+   ],
+   "varannan_vecka_vreta": "tis",
+   "distansdagar": [
+    "mån",
+    "ons",
+    "fre"
+   ],
+   "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala"
+  },
+  "veckorutiner": [
+   "Torsdag (och varannan tisdag): pendeltåg och tåg till Uppsala, samåker till Vreta",
+   "Tisdag och torsdag 06:00: traillöpning i Nackareservatet (pannlampa november–februari)",
+   "Lördag eftermiddag: lagar mat för många, ofta åt vänner",
+   "Månadsvis: Pandemic Legacy-kampanj med Erik och Lucia",
+   "Söndag: oware med Efua och djembe en stund"
+  ]
+ },
+ "nara": [
+  {
+   "kollega": "Samuel Okafor",
+   "slug": "samuel-okafor",
+   "varfor": "Jollof-tävling varje år och fotboll."
+  },
+  {
+   "kollega": "Erik Johansson",
+   "slug": "erik-johansson",
+   "varfor": "Pandemic Legacy-kampanjen."
+  },
+  {
+   "kollega": "Fatima Nasser",
+   "slug": "fatima-nasser",
+   "varfor": "Löper ihop: Fatima maraton, Kwame trail; morgonlöpning på Vreta."
+  }
+ ],
+ "familj_och_vanner": [
+  {
+   "namn": "Efua",
+   "relation": "hustru"
+  },
+  {
+   "namn": "Ama",
+   "relation": "mamma i Kumasi"
+  },
+  {
+   "namn": "Kofi",
+   "relation": "bror i London"
+  },
+  {
+   "namn": "Abena",
+   "relation": "syster i Kumasi"
+  },
+  {
+   "namn": "Yaw",
+   "relation": "bror i Kumasi"
+  }
+ ],
+ "kalender": [
+  {
+   "datum": "2026-11-14",
+   "start": "2026-11-14",
+   "slut": "2026-11-14",
+   "typ": "hobby",
+   "plats": "Nackareservatet, Stockholm, Sverige",
+   "beskrivning": "Höstlopp i trail, 21 km i lera och mörker",
+   "med": [
+    "Efua (hustru)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-12-05",
+   "start": "2026-12-05",
+   "slut": "2026-12-05",
+   "typ": "middag",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Matlagningskväll för vänner, ghananskt julbord",
+   "med": [
+    "Efua (hustru)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-18..2027-01-04",
+   "start": "2026-12-18",
+   "slut": "2027-01-04",
+   "typ": "semester",
+   "plats": "Kumasi, Ghana",
+   "beskrivning": "Jul och nyår hos mamma i Kumasi, torrperiod och harmattan",
+   "med": [
+    "Efua (hustru)",
+    "Ama (mamma i Kumasi)",
+    "Abena (syster i Kumasi)",
+    "Yaw (bror i Kumasi)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "torrperiod (harmattan)",
+   "hogtid": "jul, nyårsafton, nyårsdagen"
+  },
+  {
+   "datum": "2027-01-23",
+   "start": "2027-01-23",
+   "slut": "2027-01-23",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Pandemic Legacy, säsong 2 börjar",
+   "med": [
+    "Erik Johansson (kollega)",
+    "Lucia Ferreira (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-30",
+   "start": "2027-01-30",
+   "slut": "2027-01-30",
+   "typ": "hobby",
+   "plats": "Nackareservatet, Stockholm, Sverige",
+   "beskrivning": "Vinterträning med pannlampa och broddar",
+   "med": [
+    "Efua (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-02-20",
+   "start": "2027-02-20",
+   "slut": "2027-02-20",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jollof-tävling mot Samuel",
+   "med": [
+    "Samuel Okafor (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-06",
+   "start": "2027-03-06",
+   "slut": "2027-03-06",
+   "typ": "familjehändelse",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Ghanas självständighetsdag: fest med ghananska vänner",
+   "med": [
+    "Efua (hustru)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-04-03",
+   "start": "2027-04-03",
+   "slut": "2027-04-03",
+   "typ": "middag",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Påskmiddag för vänner",
+   "med": [
+    "Efua (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-04-17",
+   "start": "2027-04-17",
+   "slut": "2027-04-17",
+   "typ": "hobby",
+   "plats": "Tyresta nationalpark, Sverige",
+   "beskrivning": "Säsongens första långa traillopp",
+   "med": [
+    "Fatima Nasser (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-05-15..2027-05-17",
+   "start": "2027-05-15",
+   "slut": "2027-05-17",
+   "typ": "resa",
+   "plats": "London, Storbritannien",
+   "beskrivning": "Besöker brodern i London",
+   "med": [
+    "Efua (hustru)",
+    "Kofi (bror i London)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2027-05-29",
+   "start": "2027-05-29",
+   "slut": "2027-05-29",
+   "typ": "vänner",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Hejar på vänner i Stockholm Marathon",
+   "med": [
+    "Efua (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-06-12",
+   "start": "2027-06-12",
+   "slut": "2027-06-12",
+   "typ": "hobby",
+   "plats": "Fjällnora, Uppsala, Sverige",
+   "beskrivning": "Ultratrail 50 km",
+   "med": [
+    "Efua (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-06-26",
+   "start": "2027-06-26",
+   "slut": "2027-06-26",
+   "typ": "fest",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Midsommar på Djurgården med vänner",
+   "med": [
+    "Efua (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2027-07-21",
+   "start": "2027-07-21",
+   "slut": "2027-07-21",
+   "typ": "familjehändelse",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Fyller 47, grillfest i parken",
+   "med": [
+    "Efua (hustru)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-07-21",
+   "start": "2027-07-21",
+   "slut": "2027-07-21",
+   "typ": "familjehändelse",
+   "plats": "Stockholm (Hammarbyhöjden), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-14..2027-08-21",
+   "start": "2027-08-14",
+   "slut": "2027-08-21",
+   "typ": "hobby",
+   "plats": "Åre, Sverige",
+   "beskrivning": "Fjällmaraton i Åre",
+   "med": [
+    "Efua (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder",
+   "hogtid": "kräftpremiärsäsong"
+  },
+  {
+   "datum": "2027-08-28",
+   "start": "2027-08-28",
+   "slut": "2027-08-28",
+   "typ": "middag",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Lagar mat till arbetshelgen på Vreta",
+   "med": [
+    "Marisol Quispe (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-25",
+   "start": "2027-09-25",
+   "slut": "2027-09-25",
+   "typ": "hobby",
+   "plats": "Lidingö, Sverige",
+   "beskrivning": "Lidingöloppet 30 km (ungefärligt datum)",
+   "med": [
+    "Fatima Nasser (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-16",
+   "start": "2027-10-16",
+   "slut": "2027-10-16",
+   "typ": "vänner",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Dominion hos Rafael",
+   "med": [
+    "Rafael Costa (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-30",
+   "start": "2027-10-30",
+   "slut": "2027-10-30",
+   "typ": "middag",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Höstmiddag: grillad tilapia och kenkey för vänner",
+   "med": [
+    "Efua (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2028-02-10..2028-02-17",
+   "start": "2028-02-10",
+   "slut": "2028-02-17",
+   "typ": "semester",
+   "plats": "Kanarieöarna, Spanien",
+   "beskrivning": "All inclusive i värmen",
+   "med": [
+    "Efua (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter (mild medelhavsvinter)"
+  },
+  {
+   "datum": "2028-02-20",
+   "start": "2028-02-20",
+   "slut": "2028-02-20",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jollof-tävling mot Samuel",
+   "med": [
+    "Samuel Okafor (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2028-07-21",
+   "start": "2028-07-21",
+   "slut": "2028-07-21",
+   "typ": "familjehändelse",
+   "plats": "Stockholm (Hammarbyhöjden), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-09-01",
+   "start": "2028-09-01",
+   "slut": "2028-09-01",
+   "typ": "familjehändelse",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Flyttar till större lägenhet i Hammarbyhöjden",
+   "med": [
+    "Efua (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-09-26",
+   "start": "2028-09-26",
+   "slut": "2028-09-26",
+   "typ": "hobby",
+   "plats": "Lidingö, Sverige",
+   "beskrivning": "Lidingöloppet",
+   "med": [
+    "Fatima Nasser (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2029-02-15..2029-02-22",
+   "start": "2029-02-15",
+   "slut": "2029-02-22",
+   "typ": "semester",
+   "plats": "Kanarieöarna, Spanien",
+   "beskrivning": "All inclusive i värmen en vecka",
+   "med": [
+    "Efua (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter (mild medelhavsvinter)"
+  },
+  {
+   "datum": "2029-02-20",
+   "start": "2029-02-20",
+   "slut": "2029-02-20",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jollof-tävling mot Samuel",
+   "med": [
+    "Samuel Okafor (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2029-07-21",
+   "start": "2029-07-21",
+   "slut": "2029-07-21",
+   "typ": "familjehändelse",
+   "plats": "Stockholm (Hammarbyhöjden), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-09-26",
+   "start": "2029-09-26",
+   "slut": "2029-09-26",
+   "typ": "hobby",
+   "plats": "Lidingö, Sverige",
+   "beskrivning": "Lidingöloppet",
+   "med": [
+    "Fatima Nasser (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2029-12-15..2030-01-03",
+   "start": "2029-12-15",
+   "slut": "2030-01-03",
+   "typ": "semester",
+   "plats": "Kumasi, Ghana",
+   "beskrivning": "Jul i Kumasi",
+   "med": [
+    "Efua (hustru)",
+    "Ama (mamma i Kumasi)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "torrperiod (harmattan)",
+   "hogtid": "jul, nyårsafton, nyårsdagen"
+  },
+  {
+   "datum": "2030-02-15..2030-02-22",
+   "start": "2030-02-15",
+   "slut": "2030-02-22",
+   "typ": "semester",
+   "plats": "Kanarieöarna, Spanien",
+   "beskrivning": "All inclusive i värmen en vecka",
+   "med": [
+    "Efua (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter (mild medelhavsvinter)"
+  },
+  {
+   "datum": "2030-02-20",
+   "start": "2030-02-20",
+   "slut": "2030-02-20",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jollof-tävling mot Samuel",
+   "med": [
+    "Samuel Okafor (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2030-07-21",
+   "start": "2030-07-21",
+   "slut": "2030-07-21",
+   "typ": "jubileum",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Fyller 50, stor fest med trummor",
+   "med": [
+    "Efua (hustru)",
+    "Kofi (bror i London)",
+    "Samuel Okafor (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-07-21",
+   "start": "2030-07-21",
+   "slut": "2030-07-21",
+   "typ": "jubileum",
+   "plats": "Stockholm (Hammarbyhöjden), Sverige",
+   "beskrivning": "Fyller 50 – större firande",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-09-26",
+   "start": "2030-09-26",
+   "slut": "2030-09-26",
+   "typ": "hobby",
+   "plats": "Lidingö, Sverige",
+   "beskrivning": "Lidingöloppet",
+   "med": [
+    "Fatima Nasser (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2031-02-15..2031-02-22",
+   "start": "2031-02-15",
+   "slut": "2031-02-22",
+   "typ": "semester",
+   "plats": "Kanarieöarna, Spanien",
+   "beskrivning": "All inclusive i värmen en vecka",
+   "med": [
+    "Efua (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter (mild medelhavsvinter)"
+  },
+  {
+   "datum": "2031-02-20",
+   "start": "2031-02-20",
+   "slut": "2031-02-20",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jollof-tävling mot Samuel",
+   "med": [
+    "Samuel Okafor (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2031-07-21",
+   "start": "2031-07-21",
+   "slut": "2031-07-21",
+   "typ": "familjehändelse",
+   "plats": "Stockholm (Hammarbyhöjden), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2031-08-29..2031-08-31",
+   "start": "2031-08-29",
+   "slut": "2031-08-31",
+   "typ": "hobby",
+   "plats": "Chamonix, Frankrike",
+   "beskrivning": "Drömlopp i Alperna",
+   "med": [
+    "Efua (hustru)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "sommar"
+  },
+  {
+   "datum": "2031-09-26",
+   "start": "2031-09-26",
+   "slut": "2031-09-26",
+   "typ": "hobby",
+   "plats": "Lidingö, Sverige",
+   "beskrivning": "Lidingöloppet",
+   "med": [
+    "Fatima Nasser (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  }
+ ]
+}

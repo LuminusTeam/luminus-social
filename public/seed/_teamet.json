@@ -1,0 +1,6486 @@
+{
+ "namn": "Luminus 3.01-teamet – gemensam kalender",
+ "period": "2026-11-02 till 2031-10-31",
+ "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala",
+ "ledningsgrupp": [
+  "Eon",
+  "Kelda",
+  "Mykel",
+  "Flora",
+  "Linde",
+  "Bjarke",
+  "Polly",
+  "Astrid Vinter",
+  "Anneli Berg",
+  "Maja Eklöf",
+  "Leila Osman",
+  "Karin Lundell",
+  "Amina Diallo",
+  "Johanna Rehn"
+ ],
+ "team": {
+  "Etern": {
+   "teamlead": "Eon",
+   "administrator": "Astrid Vinter",
+   "medlemmar": [
+    "Eon",
+    "Astrid Vinter",
+    "Ingrid Hallberg",
+    "Linnea Ahlgren",
+    "Vera Lindahl",
+    "Oskar Lindgren",
+    "Gunnel Axelsson"
+   ],
+   "veckodag_pa_vreta": "tisdag"
+  },
+  "Källan": {
+   "teamlead": "Kelda",
+   "administrator": "Anneli Berg",
+   "medlemmar": [
+    "Kelda",
+    "Elin Söderberg",
+    "Noor Rahimi",
+    "Erik Johansson",
+    "Anneli Berg",
+    "Samuel Okafor",
+    "Markus Feldt"
+   ],
+   "veckodag_pa_vreta": "onsdag"
+  },
+  "Myceliet": {
+   "teamlead": "Mykel",
+   "administrator": "Maja Eklöf",
+   "medlemmar": [
+    "Mykel",
+    "Rafael Costa",
+    "Maja Eklöf",
+    "Kwame Mensah",
+    "Lucia Ferreira",
+    "Petra Lind",
+    "Marisol Quispe"
+   ],
+   "veckodag_pa_vreta": "torsdag"
+  },
+  "Blomman": {
+   "teamlead": "Flora",
+   "administrator": "Leila Osman",
+   "medlemmar": [
+    "Flora",
+    "Leila Osman",
+    "Vera Lindahl",
+    "Emil Sjögren",
+    "Juno Takala",
+    "Tomas Lindqvist",
+    "Amira Haddad",
+    "Siri Dahl",
+    "Jonas Wikström",
+    "Henrik Nyman",
+    "Ida Lundström",
+    "Amina Diallo"
+   ],
+   "veckodag_pa_vreta": "onsdag"
+  },
+  "Lunden": {
+   "teamlead": "Linde",
+   "administrator": "Karin Lundell",
+   "medlemmar": [
+    "Linde",
+    "Birgitta Ström",
+    "Karin Lundell",
+    "Felix Brandt",
+    "Saga Holmberg",
+    "Yasmin El-Sayed",
+    "Anders Hellström",
+    "Mia Sandberg",
+    "Lars Holm",
+    "Fatima Nasser"
+   ],
+   "veckodag_pa_vreta": "torsdag"
+  },
+  "Barken": {
+   "teamlead": "Bjarke",
+   "administrator": "Amina Diallo",
+   "medlemmar": [
+    "Bjarke",
+    "Henrik Nyman",
+    "Petra Lind",
+    "Lars Holm",
+    "Gunnel Axelsson",
+    "Nils Fredriksson",
+    "Amina Diallo",
+    "Markus Feldt"
+   ],
+   "veckodag_pa_vreta": "onsdag"
+  },
+  "Pollen": {
+   "teamlead": "Polly",
+   "administrator": "Johanna Rehn",
+   "medlemmar": [
+    "Polly",
+    "Emil Sjögren",
+    "David Ahl",
+    "Sofia Marklund",
+    "Hanna Vik",
+    "Peter Almén",
+    "Johanna Rehn",
+    "Nils Fredriksson",
+    "Tor Ekvall",
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Ines Navarro"
+   ],
+   "veckodag_pa_vreta": "torsdag"
+  }
+ },
+ "aterkommande": [
+  {
+   "namn": "Daglig standup – Team Etern",
+   "typ": "standup",
+   "regel": "Måndag–fredag kl. 08:45, 15 minuter",
+   "plats": "Digitalt (videomöte); de som är på Vreta samlas vid köksbordet",
+   "deltagare": [
+    "Eon",
+    "Astrid Vinter",
+    "Ingrid Hallberg",
+    "Linnea Ahlgren",
+    "Vera Lindahl",
+    "Oskar Lindgren",
+    "Gunnel Axelsson"
+   ],
+   "ansvarig": "Eon"
+  },
+  {
+   "namn": "Veckomöte – Team Etern",
+   "typ": "teammöte",
+   "regel": "Varje tisdag kl. 10:00–11:30",
+   "plats": "Vreta, det röda huset (distansdeltagande möjligt)",
+   "deltagare": [
+    "Eon",
+    "Astrid Vinter",
+    "Ingrid Hallberg",
+    "Linnea Ahlgren",
+    "Vera Lindahl",
+    "Oskar Lindgren",
+    "Gunnel Axelsson"
+   ],
+   "ansvarig": "Eon",
+   "sekreterare": "Astrid Vinter"
+  },
+  {
+   "namn": "Retrospektiv – Team Etern",
+   "typ": "retrospektiv",
+   "regel": "Varannan fredag (jämna veckor) kl. 14:00–15:00",
+   "plats": "Digitalt",
+   "deltagare": [
+    "Eon",
+    "Astrid Vinter",
+    "Ingrid Hallberg",
+    "Linnea Ahlgren",
+    "Vera Lindahl",
+    "Oskar Lindgren",
+    "Gunnel Axelsson"
+   ],
+   "ansvarig": "Astrid Vinter"
+  },
+  {
+   "namn": "Daglig standup – Team Källan",
+   "typ": "standup",
+   "regel": "Måndag–fredag kl. 09:00, 15 minuter",
+   "plats": "Digitalt (videomöte); de som är på Vreta samlas vid köksbordet",
+   "deltagare": [
+    "Kelda",
+    "Elin Söderberg",
+    "Noor Rahimi",
+    "Erik Johansson",
+    "Anneli Berg",
+    "Samuel Okafor",
+    "Markus Feldt"
+   ],
+   "ansvarig": "Kelda"
+  },
+  {
+   "namn": "Veckomöte – Team Källan",
+   "typ": "teammöte",
+   "regel": "Varje onsdag kl. 10:00–11:30",
+   "plats": "Vreta, ateljén (distansdeltagande möjligt)",
+   "deltagare": [
+    "Kelda",
+    "Elin Söderberg",
+    "Noor Rahimi",
+    "Erik Johansson",
+    "Anneli Berg",
+    "Samuel Okafor",
+    "Markus Feldt"
+   ],
+   "ansvarig": "Kelda",
+   "sekreterare": "Anneli Berg"
+  },
+  {
+   "namn": "Retrospektiv – Team Källan",
+   "typ": "retrospektiv",
+   "regel": "Varannan fredag (jämna veckor) kl. 14:00–15:00",
+   "plats": "Digitalt",
+   "deltagare": [
+    "Kelda",
+    "Elin Söderberg",
+    "Noor Rahimi",
+    "Erik Johansson",
+    "Anneli Berg",
+    "Samuel Okafor",
+    "Markus Feldt"
+   ],
+   "ansvarig": "Anneli Berg"
+  },
+  {
+   "namn": "Daglig standup – Team Myceliet",
+   "typ": "standup",
+   "regel": "Måndag–fredag kl. 09:15, 15 minuter",
+   "plats": "Digitalt (videomöte); de som är på Vreta samlas vid köksbordet",
+   "deltagare": [
+    "Mykel",
+    "Rafael Costa",
+    "Maja Eklöf",
+    "Kwame Mensah",
+    "Lucia Ferreira",
+    "Petra Lind",
+    "Marisol Quispe"
+   ],
+   "ansvarig": "Mykel"
+  },
+  {
+   "namn": "Veckomöte – Team Myceliet",
+   "typ": "teammöte",
+   "regel": "Varje torsdag kl. 10:00–11:30",
+   "plats": "Vreta, verkstaden (distansdeltagande möjligt)",
+   "deltagare": [
+    "Mykel",
+    "Rafael Costa",
+    "Maja Eklöf",
+    "Kwame Mensah",
+    "Lucia Ferreira",
+    "Petra Lind",
+    "Marisol Quispe"
+   ],
+   "ansvarig": "Mykel",
+   "sekreterare": "Maja Eklöf"
+  },
+  {
+   "namn": "Retrospektiv – Team Myceliet",
+   "typ": "retrospektiv",
+   "regel": "Varannan fredag (jämna veckor) kl. 14:00–15:00",
+   "plats": "Digitalt",
+   "deltagare": [
+    "Mykel",
+    "Rafael Costa",
+    "Maja Eklöf",
+    "Kwame Mensah",
+    "Lucia Ferreira",
+    "Petra Lind",
+    "Marisol Quispe"
+   ],
+   "ansvarig": "Maja Eklöf"
+  },
+  {
+   "namn": "Daglig standup – Team Blomman",
+   "typ": "standup",
+   "regel": "Måndag–fredag kl. 09:00, 15 minuter",
+   "plats": "Digitalt (videomöte); de som är på Vreta samlas vid köksbordet",
+   "deltagare": [
+    "Flora",
+    "Leila Osman",
+    "Vera Lindahl",
+    "Emil Sjögren",
+    "Juno Takala",
+    "Tomas Lindqvist",
+    "Amira Haddad",
+    "Siri Dahl",
+    "Jonas Wikström",
+    "Henrik Nyman",
+    "Ida Lundström",
+    "Amina Diallo"
+   ],
+   "ansvarig": "Flora"
+  },
+  {
+   "namn": "Veckomöte – Team Blomman",
+   "typ": "teammöte",
+   "regel": "Varje onsdag kl. 13:00–14:30",
+   "plats": "Vreta, ateljén (distansdeltagande möjligt)",
+   "deltagare": [
+    "Flora",
+    "Leila Osman",
+    "Vera Lindahl",
+    "Emil Sjögren",
+    "Juno Takala",
+    "Tomas Lindqvist",
+    "Amira Haddad",
+    "Siri Dahl",
+    "Jonas Wikström",
+    "Henrik Nyman",
+    "Ida Lundström",
+    "Amina Diallo"
+   ],
+   "ansvarig": "Flora",
+   "sekreterare": "Leila Osman"
+  },
+  {
+   "namn": "Retrospektiv – Team Blomman",
+   "typ": "retrospektiv",
+   "regel": "Varannan fredag (jämna veckor) kl. 14:00–15:00",
+   "plats": "Digitalt",
+   "deltagare": [
+    "Flora",
+    "Leila Osman",
+    "Vera Lindahl",
+    "Emil Sjögren",
+    "Juno Takala",
+    "Tomas Lindqvist",
+    "Amira Haddad",
+    "Siri Dahl",
+    "Jonas Wikström",
+    "Henrik Nyman",
+    "Ida Lundström",
+    "Amina Diallo"
+   ],
+   "ansvarig": "Leila Osman"
+  },
+  {
+   "namn": "Daglig standup – Team Lunden",
+   "typ": "standup",
+   "regel": "Måndag–fredag kl. 09:15, 15 minuter",
+   "plats": "Digitalt (videomöte); de som är på Vreta samlas vid köksbordet",
+   "deltagare": [
+    "Linde",
+    "Birgitta Ström",
+    "Karin Lundell",
+    "Felix Brandt",
+    "Saga Holmberg",
+    "Yasmin El-Sayed",
+    "Anders Hellström",
+    "Mia Sandberg",
+    "Lars Holm",
+    "Fatima Nasser"
+   ],
+   "ansvarig": "Linde"
+  },
+  {
+   "namn": "Veckomöte – Team Lunden",
+   "typ": "teammöte",
+   "regel": "Varje torsdag kl. 13:00–14:30",
+   "plats": "Vreta, tipin (vinterhalvåret: orangeriet) (distansdeltagande möjligt)",
+   "deltagare": [
+    "Linde",
+    "Birgitta Ström",
+    "Karin Lundell",
+    "Felix Brandt",
+    "Saga Holmberg",
+    "Yasmin El-Sayed",
+    "Anders Hellström",
+    "Mia Sandberg",
+    "Lars Holm",
+    "Fatima Nasser"
+   ],
+   "ansvarig": "Linde",
+   "sekreterare": "Karin Lundell"
+  },
+  {
+   "namn": "Retrospektiv – Team Lunden",
+   "typ": "retrospektiv",
+   "regel": "Varannan fredag (jämna veckor) kl. 14:00–15:00",
+   "plats": "Digitalt",
+   "deltagare": [
+    "Linde",
+    "Birgitta Ström",
+    "Karin Lundell",
+    "Felix Brandt",
+    "Saga Holmberg",
+    "Yasmin El-Sayed",
+    "Anders Hellström",
+    "Mia Sandberg",
+    "Lars Holm",
+    "Fatima Nasser"
+   ],
+   "ansvarig": "Karin Lundell"
+  },
+  {
+   "namn": "Daglig standup – Team Barken",
+   "typ": "standup",
+   "regel": "Måndag–fredag kl. 09:30, 15 minuter",
+   "plats": "Digitalt (videomöte); de som är på Vreta samlas vid köksbordet",
+   "deltagare": [
+    "Bjarke",
+    "Henrik Nyman",
+    "Petra Lind",
+    "Lars Holm",
+    "Gunnel Axelsson",
+    "Nils Fredriksson",
+    "Amina Diallo",
+    "Markus Feldt"
+   ],
+   "ansvarig": "Bjarke"
+  },
+  {
+   "namn": "Veckomöte – Team Barken",
+   "typ": "teammöte",
+   "regel": "Varje onsdag kl. 14:45–16:00",
+   "plats": "Vreta, det röda huset (distansdeltagande möjligt)",
+   "deltagare": [
+    "Bjarke",
+    "Henrik Nyman",
+    "Petra Lind",
+    "Lars Holm",
+    "Gunnel Axelsson",
+    "Nils Fredriksson",
+    "Amina Diallo",
+    "Markus Feldt"
+   ],
+   "ansvarig": "Bjarke",
+   "sekreterare": "Amina Diallo"
+  },
+  {
+   "namn": "Retrospektiv – Team Barken",
+   "typ": "retrospektiv",
+   "regel": "Varannan fredag (jämna veckor) kl. 14:00–15:00",
+   "plats": "Digitalt",
+   "deltagare": [
+    "Bjarke",
+    "Henrik Nyman",
+    "Petra Lind",
+    "Lars Holm",
+    "Gunnel Axelsson",
+    "Nils Fredriksson",
+    "Amina Diallo",
+    "Markus Feldt"
+   ],
+   "ansvarig": "Amina Diallo"
+  },
+  {
+   "namn": "Daglig standup – Team Pollen",
+   "typ": "standup",
+   "regel": "Måndag–fredag kl. 09:30, 15 minuter",
+   "plats": "Digitalt (videomöte); de som är på Vreta samlas vid köksbordet",
+   "deltagare": [
+    "Polly",
+    "Emil Sjögren",
+    "David Ahl",
+    "Sofia Marklund",
+    "Hanna Vik",
+    "Peter Almén",
+    "Johanna Rehn",
+    "Nils Fredriksson",
+    "Tor Ekvall",
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Ines Navarro"
+   ],
+   "ansvarig": "Polly"
+  },
+  {
+   "namn": "Veckomöte – Team Pollen",
+   "typ": "teammöte",
+   "regel": "Varje torsdag kl. 14:45–16:00",
+   "plats": "Vreta, odlingarnas växthus (vinterhalvåret: köket) (distansdeltagande möjligt)",
+   "deltagare": [
+    "Polly",
+    "Emil Sjögren",
+    "David Ahl",
+    "Sofia Marklund",
+    "Hanna Vik",
+    "Peter Almén",
+    "Johanna Rehn",
+    "Nils Fredriksson",
+    "Tor Ekvall",
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Ines Navarro"
+   ],
+   "ansvarig": "Polly",
+   "sekreterare": "Johanna Rehn"
+  },
+  {
+   "namn": "Retrospektiv – Team Pollen",
+   "typ": "retrospektiv",
+   "regel": "Varannan fredag (jämna veckor) kl. 14:00–15:00",
+   "plats": "Digitalt",
+   "deltagare": [
+    "Polly",
+    "Emil Sjögren",
+    "David Ahl",
+    "Sofia Marklund",
+    "Hanna Vik",
+    "Peter Almén",
+    "Johanna Rehn",
+    "Nils Fredriksson",
+    "Tor Ekvall",
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Ines Navarro"
+   ],
+   "ansvarig": "Johanna Rehn"
+  },
+  {
+   "namn": "Ledningsgruppsmöte",
+   "typ": "ledningsgrupp",
+   "regel": "Varje tisdag kl. 09:30–11:30, efter Eons morgonpromenad runt dammen kl. 08:45",
+   "plats": "Vreta, det röda huset",
+   "deltagare": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "ansvarig": "Eon",
+   "sekreterare": "Astrid Vinter"
+  },
+  {
+   "namn": "Ledningsgruppens kvartalsdag",
+   "typ": "ledningsgrupp",
+   "regel": "Första tisdagen i februari, maj, augusti och november, heldag",
+   "plats": "Vreta, orangeriet",
+   "deltagare": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "ansvarig": "Eon"
+  },
+  {
+   "namn": "Townhall",
+   "typ": "townhall",
+   "regel": "Första tisdagen varje månad kl. 13:00–14:30 (ej juli); sänds för den som är på distans",
+   "plats": "Vreta, ateljén",
+   "deltagare": [
+    "Alla i teamet"
+   ],
+   "ansvarig": "Eon"
+  },
+  {
+   "namn": "Spelkväll – Magic: The Gathering Commander",
+   "typ": "spelkväll",
+   "regel": "Andra torsdagen varje månad kl. 17:30–22:00 (ej juli); fyrspelarbord, alla tar med sin commander-lek",
+   "plats": "Vreta, långbordet i ateljén",
+   "deltagare": [
+    "Alla i teamet"
+   ],
+   "ansvarig": "Felix Brandt",
+   "notering": "Mykel och Lucia ordnar samåkning från Enköping respektive Uppsala; Marisol lagar soppa."
+  },
+  {
+   "namn": "Husbandet repeterar",
+   "typ": "repetition",
+   "regel": "Varje måndag kl. 15:00–18:00",
+   "plats": "Vreta, orangeriet",
+   "deltagare": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "ansvarig": "Anjali Varma"
+  },
+  {
+   "namn": "Husbandet – Torsdagsscen",
+   "typ": "husbandets spelning",
+   "regel": "Sista torsdagen varje månad kl. 17:00–19:00 (ej juli och december); öppet för gäster",
+   "plats": "Vreta, orangeriet",
+   "deltagare": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "ansvarig": "Anjali Varma",
+   "notering": "Samuel Okafor gästar på piano varannan gång (jämna månader)."
+  },
+  {
+   "namn": "Reportage från Vreta – månadsbrev",
+   "typ": "reportage",
+   "regel": "Tor Ekvall skriver och Ines Navarro fotograferar; publiceras sista fredagen varje månad i Vretas säsongsbrev och på teamets kanaler",
+   "plats": "Vreta",
+   "deltagare": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "ansvarig": "Tor Ekvall"
+  },
+  {
+   "namn": "Morgonlöpning runt markerna",
+   "typ": "frivillig aktivitet",
+   "regel": "Tisdagar kl. 07:15",
+   "plats": "Vreta",
+   "deltagare": [
+    "Fatima Nasser",
+    "Kwame Mensah",
+    "Emil Sjögren",
+    "Johanna Rehn"
+   ],
+   "ansvarig": "Fatima Nasser"
+  }
+ ],
+ "handelser": [
+  {
+   "datum": "2026-11-03",
+   "start": "2026-11-03",
+   "slut": "2026-11-03",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-03",
+   "start": "2026-11-03",
+   "slut": "2026-11-03",
+   "typ": "arbetsmilstolpe",
+   "namn": "Första ordinarie townhall efter kickoff",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Genomgång av Kickoff-sammanfattningen och arbetssättet.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-03",
+   "start": "2026-11-03",
+   "slut": "2026-11-03",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "13:00–14:30",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-12",
+   "start": "2026-11-12",
+   "slut": "2026-11-12",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:30–22:00",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-26",
+   "start": "2026-11-26",
+   "slut": "2026-11-26",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:00–19:00",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-27",
+   "start": "2026-11-27",
+   "slut": "2026-11-27",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-28..2026-11-29",
+   "start": "2026-11-28",
+   "slut": "2026-11-29",
+   "typ": "säsongsfest",
+   "namn": "Julmarknad på Vreta",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Butiken med Vretas produkter (David Ahl), bröd från vedugnen (Peter Almén), tryck från handpressen (Henrik Nyman); Oskar Lindgren sköter kassan.",
+   "ansvarig": "David Ahl",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt",
+   "hogtid": "första advent"
+  },
+  {
+   "datum": "2026-12-01",
+   "start": "2026-12-01",
+   "slut": "2026-12-01",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "13:00–14:30",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-10",
+   "start": "2026-12-10",
+   "slut": "2026-12-10",
+   "typ": "reportage",
+   "namn": "Reportage: ljusceremonin",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ines Navarro fotograferar ljusvandringen (inte under själva ceremonin).",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-10",
+   "start": "2026-12-10",
+   "slut": "2026-12-10",
+   "typ": "ceremoni",
+   "namn": "Ljusceremoni och julbord",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ljusvandring längs stigarna i mörkret, sedan julbord vid långbordet. Husbandet spelar.",
+   "ansvarig": "Hanna Vik",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "16:00–22:00",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-10",
+   "start": "2026-12-10",
+   "slut": "2026-12-10",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:30–22:00",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-23",
+   "start": "2026-12-23",
+   "slut": "2026-12-23",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-05",
+   "start": "2027-01-05",
+   "slut": "2027-01-05",
+   "typ": "reportage",
+   "namn": "Reportage: Vreta i vintermörker",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvall och Ines Navarro dokumenterar förberedelserna inför midvinterfesten.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-05",
+   "start": "2027-01-05",
+   "slut": "2027-01-05",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "13:00–14:30",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-09",
+   "start": "2027-01-09",
+   "slut": "2027-01-09",
+   "typ": "säsongsfest",
+   "namn": "Midvinterfest",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Eldar vid dammen, bastu och isvak, soppa från uteköket. Husbandet spelar.",
+   "ansvarig": "Hanna Vik",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-12",
+   "start": "2027-01-12",
+   "slut": "2027-01-12",
+   "typ": "arbetsmilstolpe",
+   "namn": "Pilotgrupp 1 startar",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Johanna Rehn och Polly tar emot första pilotgruppen på Vreta.",
+   "ansvarig": "Polly",
+   "med": [
+    "Polly",
+    "Johanna Rehn",
+    "Hanna Vik",
+    "Lars Holm",
+    "Mia Sandberg"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-14",
+   "start": "2027-01-14",
+   "slut": "2027-01-14",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:30–22:00",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-28",
+   "start": "2027-01-28",
+   "slut": "2027-01-28",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:00–19:00",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-29",
+   "start": "2027-01-29",
+   "slut": "2027-01-29",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-02-02",
+   "start": "2027-02-02",
+   "slut": "2027-02-02",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-02-02",
+   "start": "2027-02-02",
+   "slut": "2027-02-02",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "13:00–14:30",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-02-11",
+   "start": "2027-02-11",
+   "slut": "2027-02-11",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:30–22:00",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-02-18",
+   "start": "2027-02-18",
+   "slut": "2027-02-18",
+   "typ": "husbandets spelning",
+   "namn": "Folkmusikkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ida Lundström (dragspel), Peter Almén (fiol), Saga Holmberg och Astrid Vinter (nyckelharpa) med husbandet.",
+   "ansvarig": "Ida Lundström",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Ida Lundström",
+    "Peter Almén",
+    "Saga Holmberg",
+    "Astrid Vinter"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-02-25",
+   "start": "2027-02-25",
+   "slut": "2027-02-25",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:00–19:00",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-02-26",
+   "start": "2027-02-26",
+   "slut": "2027-02-26",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-02",
+   "start": "2027-03-02",
+   "slut": "2027-03-02",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "13:00–14:30",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-03-11",
+   "start": "2027-03-11",
+   "slut": "2027-03-11",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:30–22:00",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-03-20",
+   "start": "2027-03-20",
+   "slut": "2027-03-20",
+   "typ": "ceremoni",
+   "namn": "Vårdagjämningsceremoni",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Stilla cirkel i tipin vid soluppgången (ca 06:00), varma filtar och eld, därefter frukost i orangeriet.",
+   "ansvarig": "Linde",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "06:00–09:00",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-03-25",
+   "start": "2027-03-25",
+   "slut": "2027-03-25",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "fast",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-03-25",
+   "start": "2027-03-25",
+   "slut": "2027-03-25",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:00–19:00",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-04-06",
+   "start": "2027-04-06",
+   "slut": "2027-04-06",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "13:00–14:30",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-04-08",
+   "start": "2027-04-08",
+   "slut": "2027-04-08",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:30–22:00",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-04-29",
+   "start": "2027-04-29",
+   "slut": "2027-04-29",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:00–19:00",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-04-30",
+   "start": "2027-04-30",
+   "slut": "2027-04-30",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vår, tjällossning",
+   "hogtid": "valborg"
+  },
+  {
+   "datum": "2027-04-30",
+   "start": "2027-04-30",
+   "slut": "2027-04-30",
+   "typ": "säsongsfest",
+   "namn": "Valborg på Vreta",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Brasa vid ängen, vårsång och husbandet.",
+   "ansvarig": "Polly",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vår, tjällossning",
+   "hogtid": "valborg"
+  },
+  {
+   "datum": "2027-05-04",
+   "start": "2027-05-04",
+   "slut": "2027-05-04",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-05-04",
+   "start": "2027-05-04",
+   "slut": "2027-05-04",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "13:00–14:30",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-05-13",
+   "start": "2027-05-13",
+   "slut": "2027-05-13",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:30–22:00",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-05-21",
+   "start": "2027-05-21",
+   "slut": "2027-05-21",
+   "typ": "jubileum",
+   "namn": "Teamets 1-årsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Luminus 3.01-teamet firar årsdag med middag vid långbordet och tal av teamleaderna.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-05-27",
+   "start": "2027-05-27",
+   "slut": "2027-05-27",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:00–19:00",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-05-28",
+   "start": "2027-05-28",
+   "slut": "2027-05-28",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-06-01",
+   "start": "2027-06-01",
+   "slut": "2027-06-01",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "13:00–14:30",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-06-05",
+   "start": "2027-06-05",
+   "slut": "2027-06-05",
+   "typ": "säsongsfest",
+   "namn": "Familjedag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Öppet för familjer: spel av Felix Brandt och Lucia Ferreira, geocaching, stjärnfall av lyktor.",
+   "ansvarig": "Polly",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-06-05",
+   "start": "2027-06-05",
+   "slut": "2027-06-05",
+   "typ": "reportage",
+   "namn": "Reportage: familjedagen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ines Navarro fotograferar, Tor Ekvall intervjuar besökare.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-06-10",
+   "start": "2027-06-10",
+   "slut": "2027-06-10",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:30–22:00",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-06-24",
+   "start": "2027-06-24",
+   "slut": "2027-06-24",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-06-24",
+   "start": "2027-06-24",
+   "slut": "2027-06-24",
+   "typ": "säsongsfest",
+   "namn": "Midsommarkväll på Vreta (dagen före midsommarafton)",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Stångresning, nyckelharpa (Astrid Vinter, Saga Holmberg) och kubbturnering innan alla åker till sina egna midsommarfiranden.",
+   "ansvarig": "Hanna Vik",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-06-24",
+   "start": "2027-06-24",
+   "slut": "2027-06-24",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:00–19:00",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-07-30",
+   "start": "2027-07-30",
+   "slut": "2027-07-30",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-03",
+   "start": "2027-08-03",
+   "slut": "2027-08-03",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-03",
+   "start": "2027-08-03",
+   "slut": "2027-08-03",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "13:00–14:30",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-12",
+   "start": "2027-08-12",
+   "slut": "2027-08-12",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:30–22:00",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-16..2027-08-17",
+   "start": "2027-08-16",
+   "slut": "2027-08-17",
+   "typ": "teamdagar",
+   "namn": "Uppstartsdagar efter sommaren",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Alla sju team samlas två dagar på Vreta: planering för hösten, samtalsvandringar, kvällsmiddag.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-26",
+   "start": "2027-08-26",
+   "slut": "2027-08-26",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:00–19:00",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-27",
+   "start": "2027-08-27",
+   "slut": "2027-08-27",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-07",
+   "start": "2027-09-07",
+   "slut": "2027-09-07",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "13:00–14:30",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-09-09",
+   "start": "2027-09-09",
+   "slut": "2027-09-09",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:30–22:00",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-09-11",
+   "start": "2027-09-11",
+   "slut": "2027-09-11",
+   "typ": "säsongsfest",
+   "namn": "Skördefest",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Långbord i orangeriet, Marisol Quispes och Anjali Varmas mat, charango och husbandet.",
+   "ansvarig": "Marisol Quispe",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-09-11",
+   "start": "2027-09-11",
+   "slut": "2027-09-11",
+   "typ": "reportage",
+   "namn": "Reportage: skördefesten",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Årets stora bildreportage av Ines Navarro med text av Tor Ekvall.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-09-22",
+   "start": "2027-09-22",
+   "slut": "2027-09-22",
+   "typ": "ceremoni",
+   "namn": "Höstdagjämningsceremoni",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Cirkel i tipin i skymningen.",
+   "ansvarig": "Linde",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "18:00–20:00",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-09-24",
+   "start": "2027-09-24",
+   "slut": "2027-09-24",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-09-30",
+   "start": "2027-09-30",
+   "slut": "2027-09-30",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:00–19:00",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-05",
+   "start": "2027-10-05",
+   "slut": "2027-10-05",
+   "typ": "arbetsmilstolpe",
+   "namn": "Årsgenomgång år 1",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Utvärdering av första året; Anneli Berg presenterar årssammanställningen.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-05",
+   "start": "2027-10-05",
+   "slut": "2027-10-05",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "13:00–14:30",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-14",
+   "start": "2027-10-14",
+   "slut": "2027-10-14",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:30–22:00",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-15",
+   "start": "2027-10-15",
+   "slut": "2027-10-15",
+   "typ": "husbandets spelning",
+   "namn": "Höstjazz i orangeriet",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet och Samuel Okafor på piano, Amina Diallo och kören gästar.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor",
+    "Amina Diallo"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-28",
+   "start": "2027-10-28",
+   "slut": "2027-10-28",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "fast",
+   "tid": "17:00–19:00",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-29",
+   "start": "2027-10-29",
+   "slut": "2027-10-29",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-11-02",
+   "start": "2027-11-02",
+   "slut": "2027-11-02",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2027-11-02",
+   "start": "2027-11-02",
+   "slut": "2027-11-02",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2027-11-11",
+   "start": "2027-11-11",
+   "slut": "2027-11-11",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2027-11-25",
+   "start": "2027-11-25",
+   "slut": "2027-11-25",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2027-11-26",
+   "start": "2027-11-26",
+   "slut": "2027-11-26",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2027-11-27..2027-11-28",
+   "start": "2027-11-27",
+   "slut": "2027-11-28",
+   "typ": "säsongsfest",
+   "namn": "Julmarknad på Vreta",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Butiken med Vretas produkter (David Ahl), bröd från vedugnen (Peter Almén), tryck från handpressen (Henrik Nyman); Oskar Lindgren sköter kassan.",
+   "ansvarig": "David Ahl",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt",
+   "hogtid": "första advent"
+  },
+  {
+   "datum": "2027-12-07",
+   "start": "2027-12-07",
+   "slut": "2027-12-07",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-12-09",
+   "start": "2027-12-09",
+   "slut": "2027-12-09",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-12-13",
+   "start": "2027-12-13",
+   "slut": "2027-12-13",
+   "typ": "reportage",
+   "namn": "Reportage: ljusceremonin",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ines Navarro fotograferar ljusvandringen (inte under själva ceremonin).",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "lucia"
+  },
+  {
+   "datum": "2027-12-13",
+   "start": "2027-12-13",
+   "slut": "2027-12-13",
+   "typ": "ceremoni",
+   "namn": "Ljusceremoni och julbord",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ljusvandring längs stigarna i mörkret, sedan julbord vid långbordet. Husbandet spelar.",
+   "ansvarig": "Hanna Vik",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "16:00–22:00",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "lucia"
+  },
+  {
+   "datum": "2027-12-30",
+   "start": "2027-12-30",
+   "slut": "2027-12-30",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2028-01-04",
+   "start": "2028-01-04",
+   "slut": "2028-01-04",
+   "typ": "reportage",
+   "namn": "Reportage: Vreta i vintermörker",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvall och Ines Navarro dokumenterar förberedelserna inför midvinterfesten.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2028-01-04",
+   "start": "2028-01-04",
+   "slut": "2028-01-04",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2028-01-08",
+   "start": "2028-01-08",
+   "slut": "2028-01-08",
+   "typ": "säsongsfest",
+   "namn": "Midvinterfest",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Eldar vid dammen, bastu och isvak, soppa från uteköket. Husbandet spelar.",
+   "ansvarig": "Hanna Vik",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2028-01-13",
+   "start": "2028-01-13",
+   "slut": "2028-01-13",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2028-01-27",
+   "start": "2028-01-27",
+   "slut": "2028-01-27",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2028-01-28",
+   "start": "2028-01-28",
+   "slut": "2028-01-28",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2028-02-01",
+   "start": "2028-02-01",
+   "slut": "2028-02-01",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2028-02-01",
+   "start": "2028-02-01",
+   "slut": "2028-02-01",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2028-02-10",
+   "start": "2028-02-10",
+   "slut": "2028-02-10",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2028-02-17",
+   "start": "2028-02-17",
+   "slut": "2028-02-17",
+   "typ": "husbandets spelning",
+   "namn": "Folkmusikkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ida Lundström (dragspel), Peter Almén (fiol), Saga Holmberg och Astrid Vinter (nyckelharpa) med husbandet.",
+   "ansvarig": "Ida Lundström",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Ida Lundström",
+    "Peter Almén",
+    "Saga Holmberg",
+    "Astrid Vinter"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2028-02-24",
+   "start": "2028-02-24",
+   "slut": "2028-02-24",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2028-02-25",
+   "start": "2028-02-25",
+   "slut": "2028-02-25",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2028-03-07",
+   "start": "2028-03-07",
+   "slut": "2028-03-07",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2028-03-09",
+   "start": "2028-03-09",
+   "slut": "2028-03-09",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2028-03-20",
+   "start": "2028-03-20",
+   "slut": "2028-03-20",
+   "typ": "ceremoni",
+   "namn": "Vårdagjämningsceremoni",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Stilla cirkel i tipin vid soluppgången (ca 06:00), varma filtar och eld, därefter frukost i orangeriet.",
+   "ansvarig": "Linde",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "06:00–09:00",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2028-03-30",
+   "start": "2028-03-30",
+   "slut": "2028-03-30",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2028-03-31",
+   "start": "2028-03-31",
+   "slut": "2028-03-31",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2028-04-04",
+   "start": "2028-04-04",
+   "slut": "2028-04-04",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2028-04-13",
+   "start": "2028-04-13",
+   "slut": "2028-04-13",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2028-04-27",
+   "start": "2028-04-27",
+   "slut": "2028-04-27",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2028-04-28",
+   "start": "2028-04-28",
+   "slut": "2028-04-28",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2028-04-30",
+   "start": "2028-04-30",
+   "slut": "2028-04-30",
+   "typ": "säsongsfest",
+   "namn": "Valborg på Vreta",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Brasa vid ängen, vårsång och husbandet.",
+   "ansvarig": "Polly",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning",
+   "hogtid": "valborg"
+  },
+  {
+   "datum": "2028-05-02",
+   "start": "2028-05-02",
+   "slut": "2028-05-02",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2028-05-02",
+   "start": "2028-05-02",
+   "slut": "2028-05-02",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2028-05-11",
+   "start": "2028-05-11",
+   "slut": "2028-05-11",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2028-05-24",
+   "start": "2028-05-24",
+   "slut": "2028-05-24",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2028-05-26",
+   "start": "2028-05-26",
+   "slut": "2028-05-26",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2028-05-26",
+   "start": "2028-05-26",
+   "slut": "2028-05-26",
+   "typ": "jubileum",
+   "namn": "Teamets 2-årsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Luminus 3.01-teamet firar årsdag med middag vid långbordet och tal av teamleaderna.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2028-06-03",
+   "start": "2028-06-03",
+   "slut": "2028-06-03",
+   "typ": "säsongsfest",
+   "namn": "Familjedag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Öppet för familjer: spel av Felix Brandt och Lucia Ferreira, geocaching, stjärnfall av lyktor.",
+   "ansvarig": "Polly",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2028-06-03",
+   "start": "2028-06-03",
+   "slut": "2028-06-03",
+   "typ": "reportage",
+   "namn": "Reportage: familjedagen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ines Navarro fotograferar, Tor Ekvall intervjuar besökare.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2028-06-08",
+   "start": "2028-06-08",
+   "slut": "2028-06-08",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2028-06-13",
+   "start": "2028-06-13",
+   "slut": "2028-06-13",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2028-06-22",
+   "start": "2028-06-22",
+   "slut": "2028-06-22",
+   "typ": "säsongsfest",
+   "namn": "Midsommarkväll på Vreta (dagen före midsommarafton)",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Stångresning, nyckelharpa (Astrid Vinter, Saga Holmberg) och kubbturnering innan alla åker till sina egna midsommarfiranden.",
+   "ansvarig": "Hanna Vik",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2028-06-29",
+   "start": "2028-06-29",
+   "slut": "2028-06-29",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2028-06-30",
+   "start": "2028-06-30",
+   "slut": "2028-06-30",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2028-07-28",
+   "start": "2028-07-28",
+   "slut": "2028-07-28",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-08-01",
+   "start": "2028-08-01",
+   "slut": "2028-08-01",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-08-01",
+   "start": "2028-08-01",
+   "slut": "2028-08-01",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-08-10",
+   "start": "2028-08-10",
+   "slut": "2028-08-10",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-08-21..2028-08-22",
+   "start": "2028-08-21",
+   "slut": "2028-08-22",
+   "typ": "teamdagar",
+   "namn": "Uppstartsdagar efter sommaren",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Alla sju team samlas två dagar på Vreta: planering för hösten, samtalsvandringar, kvällsmiddag.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-08-25",
+   "start": "2028-08-25",
+   "slut": "2028-08-25",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-08-31",
+   "start": "2028-08-31",
+   "slut": "2028-08-31",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-09-05",
+   "start": "2028-09-05",
+   "slut": "2028-09-05",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-09-09",
+   "start": "2028-09-09",
+   "slut": "2028-09-09",
+   "typ": "säsongsfest",
+   "namn": "Skördefest",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Långbord i orangeriet, Marisol Quispes och Anjali Varmas mat, charango och husbandet.",
+   "ansvarig": "Marisol Quispe",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-09-09",
+   "start": "2028-09-09",
+   "slut": "2028-09-09",
+   "typ": "reportage",
+   "namn": "Reportage: skördefesten",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Årets stora bildreportage av Ines Navarro med text av Tor Ekvall.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-09-14",
+   "start": "2028-09-14",
+   "slut": "2028-09-14",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-09-22",
+   "start": "2028-09-22",
+   "slut": "2028-09-22",
+   "typ": "ceremoni",
+   "namn": "Höstdagjämningsceremoni",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Cirkel i tipin i skymningen.",
+   "ansvarig": "Linde",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "18:00–20:00",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-09-28",
+   "start": "2028-09-28",
+   "slut": "2028-09-28",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-09-29",
+   "start": "2028-09-29",
+   "slut": "2028-09-29",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-10-03",
+   "start": "2028-10-03",
+   "slut": "2028-10-03",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2028-10-12",
+   "start": "2028-10-12",
+   "slut": "2028-10-12",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2028-10-20",
+   "start": "2028-10-20",
+   "slut": "2028-10-20",
+   "typ": "husbandets spelning",
+   "namn": "Höstjazz i orangeriet",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet och Samuel Okafor på piano, Amina Diallo och kören gästar.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor",
+    "Amina Diallo"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2028-10-26",
+   "start": "2028-10-26",
+   "slut": "2028-10-26",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2028-10-27",
+   "start": "2028-10-27",
+   "slut": "2028-10-27",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2028-11-07",
+   "start": "2028-11-07",
+   "slut": "2028-11-07",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2028-11-07",
+   "start": "2028-11-07",
+   "slut": "2028-11-07",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2028-11-09",
+   "start": "2028-11-09",
+   "slut": "2028-11-09",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2028-11-24",
+   "start": "2028-11-24",
+   "slut": "2028-11-24",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2028-11-30",
+   "start": "2028-11-30",
+   "slut": "2028-11-30",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2028-12-02..2028-12-03",
+   "start": "2028-12-02",
+   "slut": "2028-12-03",
+   "typ": "säsongsfest",
+   "namn": "Julmarknad på Vreta",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Butiken med Vretas produkter (David Ahl), bröd från vedugnen (Peter Almén), tryck från handpressen (Henrik Nyman); Oskar Lindgren sköter kassan.",
+   "ansvarig": "David Ahl",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "första advent"
+  },
+  {
+   "datum": "2028-12-05",
+   "start": "2028-12-05",
+   "slut": "2028-12-05",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2028-12-13",
+   "start": "2028-12-13",
+   "slut": "2028-12-13",
+   "typ": "reportage",
+   "namn": "Reportage: ljusceremonin",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ines Navarro fotograferar ljusvandringen (inte under själva ceremonin).",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "lucia"
+  },
+  {
+   "datum": "2028-12-13",
+   "start": "2028-12-13",
+   "slut": "2028-12-13",
+   "typ": "ceremoni",
+   "namn": "Ljusceremoni och julbord",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ljusvandring längs stigarna i mörkret, sedan julbord vid långbordet. Husbandet spelar.",
+   "ansvarig": "Hanna Vik",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "16:00–22:00",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "lucia"
+  },
+  {
+   "datum": "2028-12-14",
+   "start": "2028-12-14",
+   "slut": "2028-12-14",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2028-12-29",
+   "start": "2028-12-29",
+   "slut": "2028-12-29",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2029-01-02",
+   "start": "2029-01-02",
+   "slut": "2029-01-02",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2029-01-09",
+   "start": "2029-01-09",
+   "slut": "2029-01-09",
+   "typ": "reportage",
+   "namn": "Reportage: Vreta i vintermörker",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvall och Ines Navarro dokumenterar förberedelserna inför midvinterfesten.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2029-01-11",
+   "start": "2029-01-11",
+   "slut": "2029-01-11",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2029-01-13",
+   "start": "2029-01-13",
+   "slut": "2029-01-13",
+   "typ": "säsongsfest",
+   "namn": "Midvinterfest",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Eldar vid dammen, bastu och isvak, soppa från uteköket. Husbandet spelar.",
+   "ansvarig": "Hanna Vik",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2029-01-25",
+   "start": "2029-01-25",
+   "slut": "2029-01-25",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2029-01-26",
+   "start": "2029-01-26",
+   "slut": "2029-01-26",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2029-02-06",
+   "start": "2029-02-06",
+   "slut": "2029-02-06",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2029-02-06",
+   "start": "2029-02-06",
+   "slut": "2029-02-06",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2029-02-08",
+   "start": "2029-02-08",
+   "slut": "2029-02-08",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2029-02-15",
+   "start": "2029-02-15",
+   "slut": "2029-02-15",
+   "typ": "husbandets spelning",
+   "namn": "Folkmusikkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ida Lundström (dragspel), Peter Almén (fiol), Saga Holmberg och Astrid Vinter (nyckelharpa) med husbandet.",
+   "ansvarig": "Ida Lundström",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Ida Lundström",
+    "Peter Almén",
+    "Saga Holmberg",
+    "Astrid Vinter"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2029-02-22",
+   "start": "2029-02-22",
+   "slut": "2029-02-22",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2029-02-23",
+   "start": "2029-02-23",
+   "slut": "2029-02-23",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2029-03-06",
+   "start": "2029-03-06",
+   "slut": "2029-03-06",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2029-03-08",
+   "start": "2029-03-08",
+   "slut": "2029-03-08",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2029-03-20",
+   "start": "2029-03-20",
+   "slut": "2029-03-20",
+   "typ": "ceremoni",
+   "namn": "Vårdagjämningsceremoni",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Stilla cirkel i tipin vid soluppgången (ca 06:00), varma filtar och eld, därefter frukost i orangeriet.",
+   "ansvarig": "Linde",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "06:00–09:00",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2029-03-29",
+   "start": "2029-03-29",
+   "slut": "2029-03-29",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2029-03-29",
+   "start": "2029-03-29",
+   "slut": "2029-03-29",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2029-04-03",
+   "start": "2029-04-03",
+   "slut": "2029-04-03",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2029-04-12",
+   "start": "2029-04-12",
+   "slut": "2029-04-12",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2029-04-26",
+   "start": "2029-04-26",
+   "slut": "2029-04-26",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2029-04-27",
+   "start": "2029-04-27",
+   "slut": "2029-04-27",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2029-04-30",
+   "start": "2029-04-30",
+   "slut": "2029-04-30",
+   "typ": "säsongsfest",
+   "namn": "Valborg på Vreta",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Brasa vid ängen, vårsång och husbandet.",
+   "ansvarig": "Polly",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning",
+   "hogtid": "valborg"
+  },
+  {
+   "datum": "2029-05-08",
+   "start": "2029-05-08",
+   "slut": "2029-05-08",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2029-05-08",
+   "start": "2029-05-08",
+   "slut": "2029-05-08",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2029-05-17",
+   "start": "2029-05-17",
+   "slut": "2029-05-17",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2029-05-25",
+   "start": "2029-05-25",
+   "slut": "2029-05-25",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2029-05-25",
+   "start": "2029-05-25",
+   "slut": "2029-05-25",
+   "typ": "jubileum",
+   "namn": "Teamets 3-årsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Luminus 3.01-teamet firar årsdag med middag vid långbordet och tal av teamleaderna.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2029-05-31",
+   "start": "2029-05-31",
+   "slut": "2029-05-31",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2029-06-02",
+   "start": "2029-06-02",
+   "slut": "2029-06-02",
+   "typ": "säsongsfest",
+   "namn": "Familjedag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Öppet för familjer: spel av Felix Brandt och Lucia Ferreira, geocaching, stjärnfall av lyktor.",
+   "ansvarig": "Polly",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2029-06-02",
+   "start": "2029-06-02",
+   "slut": "2029-06-02",
+   "typ": "reportage",
+   "namn": "Reportage: familjedagen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ines Navarro fotograferar, Tor Ekvall intervjuar besökare.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2029-06-05",
+   "start": "2029-06-05",
+   "slut": "2029-06-05",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2029-06-14",
+   "start": "2029-06-14",
+   "slut": "2029-06-14",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2029-06-21",
+   "start": "2029-06-21",
+   "slut": "2029-06-21",
+   "typ": "säsongsfest",
+   "namn": "Midsommarkväll på Vreta (dagen före midsommarafton)",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Stångresning, nyckelharpa (Astrid Vinter, Saga Holmberg) och kubbturnering innan alla åker till sina egna midsommarfiranden.",
+   "ansvarig": "Hanna Vik",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2029-06-28",
+   "start": "2029-06-28",
+   "slut": "2029-06-28",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2029-06-29",
+   "start": "2029-06-29",
+   "slut": "2029-06-29",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2029-07-27",
+   "start": "2029-07-27",
+   "slut": "2029-07-27",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-08-07",
+   "start": "2029-08-07",
+   "slut": "2029-08-07",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-08-07",
+   "start": "2029-08-07",
+   "slut": "2029-08-07",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-08-09",
+   "start": "2029-08-09",
+   "slut": "2029-08-09",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-08-20..2029-08-21",
+   "start": "2029-08-20",
+   "slut": "2029-08-21",
+   "typ": "teamdagar",
+   "namn": "Uppstartsdagar efter sommaren",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Alla sju team samlas två dagar på Vreta: planering för hösten, samtalsvandringar, kvällsmiddag.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-08-30",
+   "start": "2029-08-30",
+   "slut": "2029-08-30",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-08-31",
+   "start": "2029-08-31",
+   "slut": "2029-08-31",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-09-04",
+   "start": "2029-09-04",
+   "slut": "2029-09-04",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2029-09-08",
+   "start": "2029-09-08",
+   "slut": "2029-09-08",
+   "typ": "säsongsfest",
+   "namn": "Skördefest",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Långbord i orangeriet, Marisol Quispes och Anjali Varmas mat, charango och husbandet.",
+   "ansvarig": "Marisol Quispe",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2029-09-08",
+   "start": "2029-09-08",
+   "slut": "2029-09-08",
+   "typ": "reportage",
+   "namn": "Reportage: skördefesten",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Årets stora bildreportage av Ines Navarro med text av Tor Ekvall.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2029-09-13",
+   "start": "2029-09-13",
+   "slut": "2029-09-13",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2029-09-22",
+   "start": "2029-09-22",
+   "slut": "2029-09-22",
+   "typ": "ceremoni",
+   "namn": "Höstdagjämningsceremoni",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Cirkel i tipin i skymningen.",
+   "ansvarig": "Linde",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "18:00–20:00",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2029-09-27",
+   "start": "2029-09-27",
+   "slut": "2029-09-27",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2029-09-28",
+   "start": "2029-09-28",
+   "slut": "2029-09-28",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2029-10-02",
+   "start": "2029-10-02",
+   "slut": "2029-10-02",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2029-10-11",
+   "start": "2029-10-11",
+   "slut": "2029-10-11",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2029-10-19",
+   "start": "2029-10-19",
+   "slut": "2029-10-19",
+   "typ": "husbandets spelning",
+   "namn": "Höstjazz i orangeriet",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet och Samuel Okafor på piano, Amina Diallo och kören gästar.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor",
+    "Amina Diallo"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2029-10-25",
+   "start": "2029-10-25",
+   "slut": "2029-10-25",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2029-10-26",
+   "start": "2029-10-26",
+   "slut": "2029-10-26",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2029-11-06",
+   "start": "2029-11-06",
+   "slut": "2029-11-06",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt",
+   "hogtid": "Gustav Adolfsdagen"
+  },
+  {
+   "datum": "2029-11-06",
+   "start": "2029-11-06",
+   "slut": "2029-11-06",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "höst, mörkt och ruskigt",
+   "hogtid": "Gustav Adolfsdagen"
+  },
+  {
+   "datum": "2029-11-08",
+   "start": "2029-11-08",
+   "slut": "2029-11-08",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2029-11-29",
+   "start": "2029-11-29",
+   "slut": "2029-11-29",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2029-11-30",
+   "start": "2029-11-30",
+   "slut": "2029-11-30",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2029-12-01..2029-12-02",
+   "start": "2029-12-01",
+   "slut": "2029-12-02",
+   "typ": "säsongsfest",
+   "namn": "Julmarknad på Vreta",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Butiken med Vretas produkter (David Ahl), bröd från vedugnen (Peter Almén), tryck från handpressen (Henrik Nyman); Oskar Lindgren sköter kassan.",
+   "ansvarig": "David Ahl",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "första advent"
+  },
+  {
+   "datum": "2029-12-04",
+   "start": "2029-12-04",
+   "slut": "2029-12-04",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2029-12-13",
+   "start": "2029-12-13",
+   "slut": "2029-12-13",
+   "typ": "reportage",
+   "namn": "Reportage: ljusceremonin",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ines Navarro fotograferar ljusvandringen (inte under själva ceremonin).",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "lucia"
+  },
+  {
+   "datum": "2029-12-13",
+   "start": "2029-12-13",
+   "slut": "2029-12-13",
+   "typ": "ceremoni",
+   "namn": "Ljusceremoni och julbord",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ljusvandring längs stigarna i mörkret, sedan julbord vid långbordet. Husbandet spelar.",
+   "ansvarig": "Hanna Vik",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "16:00–22:00",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "lucia"
+  },
+  {
+   "datum": "2029-12-13",
+   "start": "2029-12-13",
+   "slut": "2029-12-13",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "lucia"
+  },
+  {
+   "datum": "2029-12-28",
+   "start": "2029-12-28",
+   "slut": "2029-12-28",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2030-01-08",
+   "start": "2030-01-08",
+   "slut": "2030-01-08",
+   "typ": "reportage",
+   "namn": "Reportage: Vreta i vintermörker",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvall och Ines Navarro dokumenterar förberedelserna inför midvinterfesten.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2030-01-08",
+   "start": "2030-01-08",
+   "slut": "2030-01-08",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2030-01-10",
+   "start": "2030-01-10",
+   "slut": "2030-01-10",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2030-01-12",
+   "start": "2030-01-12",
+   "slut": "2030-01-12",
+   "typ": "säsongsfest",
+   "namn": "Midvinterfest",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Eldar vid dammen, bastu och isvak, soppa från uteköket. Husbandet spelar.",
+   "ansvarig": "Hanna Vik",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2030-01-25",
+   "start": "2030-01-25",
+   "slut": "2030-01-25",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2030-01-31",
+   "start": "2030-01-31",
+   "slut": "2030-01-31",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2030-02-05",
+   "start": "2030-02-05",
+   "slut": "2030-02-05",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2030-02-05",
+   "start": "2030-02-05",
+   "slut": "2030-02-05",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2030-02-14",
+   "start": "2030-02-14",
+   "slut": "2030-02-14",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2030-02-21",
+   "start": "2030-02-21",
+   "slut": "2030-02-21",
+   "typ": "husbandets spelning",
+   "namn": "Folkmusikkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ida Lundström (dragspel), Peter Almén (fiol), Saga Holmberg och Astrid Vinter (nyckelharpa) med husbandet.",
+   "ansvarig": "Ida Lundström",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Ida Lundström",
+    "Peter Almén",
+    "Saga Holmberg",
+    "Astrid Vinter"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2030-02-22",
+   "start": "2030-02-22",
+   "slut": "2030-02-22",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2030-02-28",
+   "start": "2030-02-28",
+   "slut": "2030-02-28",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2030-03-05",
+   "start": "2030-03-05",
+   "slut": "2030-03-05",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "tidig vår, snösmältning",
+   "hogtid": "fettisdagen"
+  },
+  {
+   "datum": "2030-03-14",
+   "start": "2030-03-14",
+   "slut": "2030-03-14",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2030-03-20",
+   "start": "2030-03-20",
+   "slut": "2030-03-20",
+   "typ": "ceremoni",
+   "namn": "Vårdagjämningsceremoni",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Stilla cirkel i tipin vid soluppgången (ca 06:00), varma filtar och eld, därefter frukost i orangeriet.",
+   "ansvarig": "Linde",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "06:00–09:00",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2030-03-28",
+   "start": "2030-03-28",
+   "slut": "2030-03-28",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2030-03-29",
+   "start": "2030-03-29",
+   "slut": "2030-03-29",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2030-04-02",
+   "start": "2030-04-02",
+   "slut": "2030-04-02",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2030-04-11",
+   "start": "2030-04-11",
+   "slut": "2030-04-11",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2030-04-25",
+   "start": "2030-04-25",
+   "slut": "2030-04-25",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2030-04-26",
+   "start": "2030-04-26",
+   "slut": "2030-04-26",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2030-04-30",
+   "start": "2030-04-30",
+   "slut": "2030-04-30",
+   "typ": "säsongsfest",
+   "namn": "Valborg på Vreta",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Brasa vid ängen, vårsång och husbandet.",
+   "ansvarig": "Polly",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning",
+   "hogtid": "valborg"
+  },
+  {
+   "datum": "2030-05-07",
+   "start": "2030-05-07",
+   "slut": "2030-05-07",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2030-05-07",
+   "start": "2030-05-07",
+   "slut": "2030-05-07",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2030-05-09",
+   "start": "2030-05-09",
+   "slut": "2030-05-09",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2030-05-24",
+   "start": "2030-05-24",
+   "slut": "2030-05-24",
+   "typ": "jubileum",
+   "namn": "Teamets 4-årsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Luminus 3.01-teamet firar årsdag med middag vid långbordet och tal av teamleaderna.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2030-05-29",
+   "start": "2030-05-29",
+   "slut": "2030-05-29",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2030-05-31",
+   "start": "2030-05-31",
+   "slut": "2030-05-31",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2030-06-01",
+   "start": "2030-06-01",
+   "slut": "2030-06-01",
+   "typ": "säsongsfest",
+   "namn": "Familjedag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Öppet för familjer: spel av Felix Brandt och Lucia Ferreira, geocaching, stjärnfall av lyktor.",
+   "ansvarig": "Polly",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2030-06-01",
+   "start": "2030-06-01",
+   "slut": "2030-06-01",
+   "typ": "reportage",
+   "namn": "Reportage: familjedagen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ines Navarro fotograferar, Tor Ekvall intervjuar besökare.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2030-06-04",
+   "start": "2030-06-04",
+   "slut": "2030-06-04",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2030-06-13",
+   "start": "2030-06-13",
+   "slut": "2030-06-13",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2030-06-20",
+   "start": "2030-06-20",
+   "slut": "2030-06-20",
+   "typ": "säsongsfest",
+   "namn": "Midsommarkväll på Vreta (dagen före midsommarafton)",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Stångresning, nyckelharpa (Astrid Vinter, Saga Holmberg) och kubbturnering innan alla åker till sina egna midsommarfiranden.",
+   "ansvarig": "Hanna Vik",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2030-06-27",
+   "start": "2030-06-27",
+   "slut": "2030-06-27",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2030-06-28",
+   "start": "2030-06-28",
+   "slut": "2030-06-28",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2030-07-26",
+   "start": "2030-07-26",
+   "slut": "2030-07-26",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-08-06",
+   "start": "2030-08-06",
+   "slut": "2030-08-06",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-08-06",
+   "start": "2030-08-06",
+   "slut": "2030-08-06",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-08-08",
+   "start": "2030-08-08",
+   "slut": "2030-08-08",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-08-19..2030-08-20",
+   "start": "2030-08-19",
+   "slut": "2030-08-20",
+   "typ": "teamdagar",
+   "namn": "Uppstartsdagar efter sommaren",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Alla sju team samlas två dagar på Vreta: planering för hösten, samtalsvandringar, kvällsmiddag.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-08-29",
+   "start": "2030-08-29",
+   "slut": "2030-08-29",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-08-30",
+   "start": "2030-08-30",
+   "slut": "2030-08-30",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-09-03",
+   "start": "2030-09-03",
+   "slut": "2030-09-03",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2030-09-12",
+   "start": "2030-09-12",
+   "slut": "2030-09-12",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2030-09-14",
+   "start": "2030-09-14",
+   "slut": "2030-09-14",
+   "typ": "säsongsfest",
+   "namn": "Skördefest",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Långbord i orangeriet, Marisol Quispes och Anjali Varmas mat, charango och husbandet.",
+   "ansvarig": "Marisol Quispe",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2030-09-14",
+   "start": "2030-09-14",
+   "slut": "2030-09-14",
+   "typ": "reportage",
+   "namn": "Reportage: skördefesten",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Årets stora bildreportage av Ines Navarro med text av Tor Ekvall.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2030-09-22",
+   "start": "2030-09-22",
+   "slut": "2030-09-22",
+   "typ": "ceremoni",
+   "namn": "Höstdagjämningsceremoni",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Cirkel i tipin i skymningen.",
+   "ansvarig": "Linde",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "18:00–20:00",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2030-09-26",
+   "start": "2030-09-26",
+   "slut": "2030-09-26",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2030-09-27",
+   "start": "2030-09-27",
+   "slut": "2030-09-27",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2030-10-01",
+   "start": "2030-10-01",
+   "slut": "2030-10-01",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2030-10-10",
+   "start": "2030-10-10",
+   "slut": "2030-10-10",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2030-10-18",
+   "start": "2030-10-18",
+   "slut": "2030-10-18",
+   "typ": "husbandets spelning",
+   "namn": "Höstjazz i orangeriet",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet och Samuel Okafor på piano, Amina Diallo och kören gästar.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor",
+    "Amina Diallo"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2030-10-25",
+   "start": "2030-10-25",
+   "slut": "2030-10-25",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2030-10-31",
+   "start": "2030-10-31",
+   "slut": "2030-10-31",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2030-11-05",
+   "start": "2030-11-05",
+   "slut": "2030-11-05",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2030-11-05",
+   "start": "2030-11-05",
+   "slut": "2030-11-05",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2030-11-14",
+   "start": "2030-11-14",
+   "slut": "2030-11-14",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2030-11-28",
+   "start": "2030-11-28",
+   "slut": "2030-11-28",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2030-11-29",
+   "start": "2030-11-29",
+   "slut": "2030-11-29",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2030-11-30..2030-12-01",
+   "start": "2030-11-30",
+   "slut": "2030-12-01",
+   "typ": "säsongsfest",
+   "namn": "Julmarknad på Vreta",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Butiken med Vretas produkter (David Ahl), bröd från vedugnen (Peter Almén), tryck från handpressen (Henrik Nyman); Oskar Lindgren sköter kassan.",
+   "ansvarig": "David Ahl",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt",
+   "hogtid": "första advent"
+  },
+  {
+   "datum": "2030-12-03",
+   "start": "2030-12-03",
+   "slut": "2030-12-03",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2030-12-12",
+   "start": "2030-12-12",
+   "slut": "2030-12-12",
+   "typ": "reportage",
+   "namn": "Reportage: ljusceremonin",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ines Navarro fotograferar ljusvandringen (inte under själva ceremonin).",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2030-12-12",
+   "start": "2030-12-12",
+   "slut": "2030-12-12",
+   "typ": "ceremoni",
+   "namn": "Ljusceremoni och julbord",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ljusvandring längs stigarna i mörkret, sedan julbord vid långbordet. Husbandet spelar.",
+   "ansvarig": "Hanna Vik",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "16:00–22:00",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2030-12-12",
+   "start": "2030-12-12",
+   "slut": "2030-12-12",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2030-12-13",
+   "start": "2030-12-13",
+   "slut": "2030-12-13",
+   "typ": "högtid",
+   "namn": "Luciamorgon",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Luciatåg med lussekatter och glögg i köket innan standupen; den som vill går med i tåget.",
+   "ansvarig": "Saga Holmberg",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "07:30–08:30",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "lucia"
+  },
+  {
+   "datum": "2030-12-27",
+   "start": "2030-12-27",
+   "slut": "2030-12-27",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2031-01-07",
+   "start": "2031-01-07",
+   "slut": "2031-01-07",
+   "typ": "reportage",
+   "namn": "Reportage: Vreta i vintermörker",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvall och Ines Navarro dokumenterar förberedelserna inför midvinterfesten.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2031-01-07",
+   "start": "2031-01-07",
+   "slut": "2031-01-07",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2031-01-09",
+   "start": "2031-01-09",
+   "slut": "2031-01-09",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2031-01-11",
+   "start": "2031-01-11",
+   "slut": "2031-01-11",
+   "typ": "säsongsfest",
+   "namn": "Midvinterfest",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Eldar vid dammen, bastu och isvak, soppa från uteköket. Husbandet spelar.",
+   "ansvarig": "Hanna Vik",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2031-01-30",
+   "start": "2031-01-30",
+   "slut": "2031-01-30",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2031-01-31",
+   "start": "2031-01-31",
+   "slut": "2031-01-31",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2031-02-04",
+   "start": "2031-02-04",
+   "slut": "2031-02-04",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2031-02-04",
+   "start": "2031-02-04",
+   "slut": "2031-02-04",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2031-02-13",
+   "start": "2031-02-13",
+   "slut": "2031-02-13",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2031-02-20",
+   "start": "2031-02-20",
+   "slut": "2031-02-20",
+   "typ": "husbandets spelning",
+   "namn": "Folkmusikkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ida Lundström (dragspel), Peter Almén (fiol), Saga Holmberg och Astrid Vinter (nyckelharpa) med husbandet.",
+   "ansvarig": "Ida Lundström",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Ida Lundström",
+    "Peter Almén",
+    "Saga Holmberg",
+    "Astrid Vinter"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2031-02-27",
+   "start": "2031-02-27",
+   "slut": "2031-02-27",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2031-02-28",
+   "start": "2031-02-28",
+   "slut": "2031-02-28",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2031-03-04",
+   "start": "2031-03-04",
+   "slut": "2031-03-04",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2031-03-13",
+   "start": "2031-03-13",
+   "slut": "2031-03-13",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2031-03-20",
+   "start": "2031-03-20",
+   "slut": "2031-03-20",
+   "typ": "ceremoni",
+   "namn": "Vårdagjämningsceremoni",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Stilla cirkel i tipin vid soluppgången (ca 06:00), varma filtar och eld, därefter frukost i orangeriet.",
+   "ansvarig": "Linde",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "06:00–09:00",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2031-03-27",
+   "start": "2031-03-27",
+   "slut": "2031-03-27",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2031-03-28",
+   "start": "2031-03-28",
+   "slut": "2031-03-28",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2031-04-01",
+   "start": "2031-04-01",
+   "slut": "2031-04-01",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2031-04-10",
+   "start": "2031-04-10",
+   "slut": "2031-04-10",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2031-04-24",
+   "start": "2031-04-24",
+   "slut": "2031-04-24",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2031-04-25",
+   "start": "2031-04-25",
+   "slut": "2031-04-25",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2031-04-30",
+   "start": "2031-04-30",
+   "slut": "2031-04-30",
+   "typ": "säsongsfest",
+   "namn": "Valborg på Vreta",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Brasa vid ängen, vårsång och husbandet.",
+   "ansvarig": "Polly",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning",
+   "hogtid": "valborg"
+  },
+  {
+   "datum": "2031-05-06",
+   "start": "2031-05-06",
+   "slut": "2031-05-06",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2031-05-06",
+   "start": "2031-05-06",
+   "slut": "2031-05-06",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2031-05-08",
+   "start": "2031-05-08",
+   "slut": "2031-05-08",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2031-05-23",
+   "start": "2031-05-23",
+   "slut": "2031-05-23",
+   "typ": "jubileum",
+   "namn": "Teamets 5-årsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Luminus 3.01-teamet firar årsdag med middag vid långbordet och tal av teamleaderna.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2031-05-29",
+   "start": "2031-05-29",
+   "slut": "2031-05-29",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2031-05-30",
+   "start": "2031-05-30",
+   "slut": "2031-05-30",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2031-06-03",
+   "start": "2031-06-03",
+   "slut": "2031-06-03",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2031-06-07",
+   "start": "2031-06-07",
+   "slut": "2031-06-07",
+   "typ": "säsongsfest",
+   "namn": "Familjedag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Öppet för familjer: spel av Felix Brandt och Lucia Ferreira, geocaching, stjärnfall av lyktor.",
+   "ansvarig": "Polly",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2031-06-07",
+   "start": "2031-06-07",
+   "slut": "2031-06-07",
+   "typ": "reportage",
+   "namn": "Reportage: familjedagen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Ines Navarro fotograferar, Tor Ekvall intervjuar besökare.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2031-06-12",
+   "start": "2031-06-12",
+   "slut": "2031-06-12",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2031-06-19",
+   "start": "2031-06-19",
+   "slut": "2031-06-19",
+   "typ": "säsongsfest",
+   "namn": "Midsommarkväll på Vreta (dagen före midsommarafton)",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Stångresning, nyckelharpa (Astrid Vinter, Saga Holmberg) och kubbturnering innan alla åker till sina egna midsommarfiranden.",
+   "ansvarig": "Hanna Vik",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2031-06-26",
+   "start": "2031-06-26",
+   "slut": "2031-06-26",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2031-06-27",
+   "start": "2031-06-27",
+   "slut": "2031-06-27",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2031-07-25",
+   "start": "2031-07-25",
+   "slut": "2031-07-25",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2031-08-05",
+   "start": "2031-08-05",
+   "slut": "2031-08-05",
+   "typ": "ledningsgrupp",
+   "namn": "Ledningsgruppens kvartalsdag",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Heldag om prioriteringar och budget; ersätter ordinarie ledningsgruppsmöte.",
+   "ansvarig": "Eon",
+   "med": [
+    "Eon",
+    "Kelda",
+    "Mykel",
+    "Flora",
+    "Linde",
+    "Bjarke",
+    "Polly",
+    "Astrid Vinter",
+    "Anneli Berg",
+    "Maja Eklöf",
+    "Leila Osman",
+    "Karin Lundell",
+    "Amina Diallo",
+    "Johanna Rehn"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2031-08-05",
+   "start": "2031-08-05",
+   "slut": "2031-08-05",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2031-08-14",
+   "start": "2031-08-14",
+   "slut": "2031-08-14",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2031-08-18..2031-08-19",
+   "start": "2031-08-18",
+   "slut": "2031-08-19",
+   "typ": "teamdagar",
+   "namn": "Uppstartsdagar efter sommaren",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Alla sju team samlas två dagar på Vreta: planering för hösten, samtalsvandringar, kvällsmiddag.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2031-08-28",
+   "start": "2031-08-28",
+   "slut": "2031-08-28",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2031-08-29",
+   "start": "2031-08-29",
+   "slut": "2031-08-29",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2031-09-02",
+   "start": "2031-09-02",
+   "slut": "2031-09-02",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2031-09-11",
+   "start": "2031-09-11",
+   "slut": "2031-09-11",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2031-09-13",
+   "start": "2031-09-13",
+   "slut": "2031-09-13",
+   "typ": "säsongsfest",
+   "namn": "Skördefest",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Långbord i orangeriet, Marisol Quispes och Anjali Varmas mat, charango och husbandet.",
+   "ansvarig": "Marisol Quispe",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2031-09-13",
+   "start": "2031-09-13",
+   "slut": "2031-09-13",
+   "typ": "reportage",
+   "namn": "Reportage: skördefesten",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Årets stora bildreportage av Ines Navarro med text av Tor Ekvall.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2031-09-22",
+   "start": "2031-09-22",
+   "slut": "2031-09-22",
+   "typ": "ceremoni",
+   "namn": "Höstdagjämningsceremoni",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Cirkel i tipin i skymningen.",
+   "ansvarig": "Linde",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "18:00–20:00",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2031-09-25",
+   "start": "2031-09-25",
+   "slut": "2031-09-25",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2031-09-26",
+   "start": "2031-09-26",
+   "slut": "2031-09-26",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2031-10-07",
+   "start": "2031-10-07",
+   "slut": "2031-10-07",
+   "typ": "townhall",
+   "namn": "Townhall",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Månadens läge, beslut från ledningsgruppen och frågor från alla team.",
+   "ansvarig": "Eon",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "13:00–14:30",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2031-10-09",
+   "start": "2031-10-09",
+   "slut": "2031-10-09",
+   "typ": "spelkväll",
+   "namn": "Commanderkväll",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Magic: The Gathering Commander vid fyrspelarborden.",
+   "ansvarig": "Felix Brandt",
+   "med": [
+    "Alla i teamet"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:30–22:00",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2031-10-17",
+   "start": "2031-10-17",
+   "slut": "2031-10-17",
+   "typ": "husbandets spelning",
+   "namn": "Höstjazz i orangeriet",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet och Samuel Okafor på piano, Amina Diallo och kören gästar.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor",
+    "Amina Diallo"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2031-10-30",
+   "start": "2031-10-30",
+   "slut": "2031-10-30",
+   "typ": "husbandets spelning",
+   "namn": "Torsdagsscen",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Husbandet spelar i orangeriet. Samuel Okafor gästar på piano.",
+   "ansvarig": "Anjali Varma",
+   "med": [
+    "Callum Reid",
+    "Anjali Varma",
+    "Arvid Lönn",
+    "Lina Morales",
+    "Samuel Okafor"
+   ],
+   "sakerhet": "planerad",
+   "tid": "17:00–19:00",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2031-10-31",
+   "start": "2031-10-31",
+   "slut": "2031-10-31",
+   "typ": "reportage",
+   "namn": "Månadsreportage publiceras",
+   "plats": "Vreta Regenerative Initiative, nära Uppsala, Sverige",
+   "beskrivning": "Tor Ekvalls text och Ines Navarros bilder från månaden på Vreta.",
+   "ansvarig": "Tor Ekvall",
+   "med": [
+    "Tor Ekvall",
+    "Ines Navarro",
+    "Emil Sjögren",
+    "Nils Fredriksson"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  }
+ ],
+ "not_": "Daglig standup, veckomöten, retrospektiver och ledningsgruppsmöten anges som regler i \"aterkommande\" (inte expanderade). Townhalls, spelkvällar, husbandets spelningar, reportage, säsongsfester och ceremonier är expanderade i \"handelser\". Händelser efter 2027-11-01 är \"planerad\"."
+}

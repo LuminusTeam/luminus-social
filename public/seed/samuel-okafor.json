@@ -1,0 +1,681 @@
+{
+ "slug": "samuel-okafor",
+ "namn": "Samuel Okafor",
+ "roll": "Forskningsansvarig",
+ "team": [
+  "Källan"
+ ],
+ "karaktar": "Vetenskapsmannen",
+ "element": "Jord",
+ "rost": {
+  "drag": [
+   "Varm, berättande ton, gärna en anekdot från planen eller pianot.",
+   "Postar 1–2 gånger i veckan, blandar engelska och svenska, ibland ett yorubaord.",
+   "Emojis: ⚽ och 🎹, sparsamt.",
+   "Delar lagets framgångar utan att visa barnens ansikten; aldrig sina egna barn.",
+   "Selfies vid pianot eller med visselpipan, med glimten i ögat.",
+   "Delar aldrig forskningsresultat innan de publicerats."
+  ],
+  "exempelinlagg": [
+   "Flicklaget vann med 3–2 i snöslasket. Ingen klagade på vädret, alla klagade på domaren. Bra lag. ⚽",
+   "Jazzkväll på Vreta. Callum på didgeridoo i \"Take Five\". Det borde inte fungera. Det fungerade. 🎹",
+   "E kú àárọ̀, Uppsala. Kaffe, snö och ett manus som nästan är klart."
+  ]
+ },
+ "bas": {
+  "hemort": "Uppsala (Gottsunda), Sverige",
+  "arbetsmonster": {
+   "beskrivning": "På Vreta varje tisdag, onsdag; distans måndag, torsdag, fredag. (60 % distans, 40 % på Vreta.)",
+   "vreta_dagar": [
+    "tis",
+    "ons"
+   ],
+   "varannan_vecka_vreta": null,
+   "distansdagar": [
+    "mån",
+    "tor",
+    "fre"
+   ],
+   "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala"
+  },
+  "veckorutiner": [
+   "Tisdag och onsdag: Vreta",
+   "Måndag och torsdag 17:30: tränar flicklaget i fotboll i Gottsunda (inomhushall november–mars)",
+   "Fredag kväll: FIFA mot flicklaget efter träningen ibland, annars Codenames med familjen",
+   "Sent på kvällen: jazzpiano när huset sover",
+   "Sista torsdagen jämna månader: gästar husbandet på piano på Vreta"
+  ]
+ },
+ "nara": [
+  {
+   "kollega": "Anjali Varma",
+   "slug": "anjali-varma",
+   "varfor": "Jazz: spelar ihop på Vretas jazzkvällar och övar standards."
+  },
+  {
+   "kollega": "Markus Feldt",
+   "slug": "markus-feldt",
+   "varfor": "Forskare som läser varandras manus; FIFA-matcher."
+  },
+  {
+   "kollega": "Kwame Mensah",
+   "slug": "kwame-mensah",
+   "varfor": "Matlagning för många och fotboll; jollof-tävling varje år."
+  }
+ ],
+ "familj_och_vanner": [
+  {
+   "namn": "Ingrid",
+   "relation": "hustru, bibliotekarie"
+  },
+  {
+   "namn": "Chidi",
+   "relation": "son, 13"
+  },
+  {
+   "namn": "Adaeze",
+   "relation": "dotter, 10"
+  },
+  {
+   "namn": "Grace",
+   "relation": "mamma i Lagos"
+  },
+  {
+   "namn": "Tunde",
+   "relation": "bror i Lagos"
+  },
+  {
+   "namn": "Emeka",
+   "relation": "bror i Lagos"
+  },
+  {
+   "namn": "Ngozi",
+   "relation": "faster i Enugu"
+  }
+ ],
+ "kalender": [
+  {
+   "datum": "2026-11-07",
+   "start": "2026-11-07",
+   "slut": "2026-11-07",
+   "typ": "konsert/show",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Konsert i Uppsala konsert och kongress",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-14",
+   "start": "2026-11-14",
+   "slut": "2026-11-14",
+   "typ": "konsert/show",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jazzklubb i Uppsala",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-26",
+   "start": "2026-11-26",
+   "slut": "2026-11-26",
+   "typ": "konsert/show",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Gästar husbandet på piano",
+   "med": [
+    "Anjali Varma (kollega)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-12-12",
+   "start": "2026-12-12",
+   "slut": "2026-12-12",
+   "typ": "fest",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Flicklagets julavslutning",
+   "med": [
+    "Chidi (son, 13)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-24..2026-12-26",
+   "start": "2026-12-24",
+   "slut": "2026-12-26",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jul hemma; jollof på juldagen",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)",
+    "Chidi (son, 13)",
+    "Adaeze (dotter, 10)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2027-01-16",
+   "start": "2027-01-16",
+   "slut": "2027-01-16",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Codenames-kväll med Markus",
+   "med": [
+    "Markus Feldt (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-30",
+   "start": "2027-01-30",
+   "slut": "2027-01-30",
+   "typ": "konferens/seminarium",
+   "plats": "Uppsala universitet, Uppsala, Sverige",
+   "beskrivning": "Forskarkonferens om personlighetsmätning, presenterar en poster",
+   "med": [
+    "Elin Söderberg (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-02-20",
+   "start": "2027-02-20",
+   "slut": "2027-02-20",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jollof-tävling mot Kwame",
+   "med": [
+    "Kwame Mensah (kollega)",
+    "Ingrid (hustru, bibliotekarie)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-27..2027-03-29",
+   "start": "2027-03-27",
+   "slut": "2027-03-29",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Påsk med Ingrids familj",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)",
+    "Chidi (son, 13)",
+    "Adaeze (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning",
+   "hogtid": "påsk"
+  },
+  {
+   "datum": "2027-04-10",
+   "start": "2027-04-10",
+   "slut": "2027-04-10",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Adaeze fyller elva",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)",
+    "Adaeze (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-04-24",
+   "start": "2027-04-24",
+   "slut": "2027-04-24",
+   "typ": "hobby",
+   "plats": "Gottsunda, Uppsala, Sverige",
+   "beskrivning": "Utomhussäsongen startar för flicklaget",
+   "med": [
+    "Chidi (son, 13)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-05-16..2027-05-19",
+   "start": "2027-05-16",
+   "slut": "2027-05-19",
+   "typ": "resa",
+   "plats": "London, Storbritannien",
+   "beskrivning": "Jazzklubbar i London: Ronnie Scott's",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2027-06-04..2027-06-06",
+   "start": "2027-06-04",
+   "slut": "2027-06-06",
+   "typ": "hobby",
+   "plats": "Göteborg, Sverige",
+   "beskrivning": "Flicklaget till en fotbollscup i Göteborg",
+   "med": [
+    "Adaeze (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "nationaldagen"
+  },
+  {
+   "datum": "2027-06-05",
+   "start": "2027-06-05",
+   "slut": "2027-06-05",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Ingrid fyller 45, trädgårdsfest",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)",
+    "Chidi (son, 13)",
+    "Adaeze (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-07-02..2027-07-23",
+   "start": "2027-07-02",
+   "slut": "2027-07-23",
+   "typ": "resa",
+   "plats": "Lagos, Nigeria",
+   "beskrivning": "Sommar hos mamma och bröderna i Lagos, besök hos fastern i Enugu",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)",
+    "Chidi (son, 13)",
+    "Adaeze (dotter, 10)",
+    "Grace (mamma i Lagos)",
+    "Tunde (bror i Lagos)",
+    "Emeka (bror i Lagos)",
+    "Ngozi (faster i Enugu)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "regnperiod"
+  },
+  {
+   "datum": "2027-08-14",
+   "start": "2027-08-14",
+   "slut": "2027-08-14",
+   "typ": "konsert/show",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Jazzkonsert på Skansen",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-21",
+   "start": "2027-08-21",
+   "slut": "2027-08-21",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Kräftskiva med grannarna i Gottsunda",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-11",
+   "start": "2027-09-11",
+   "slut": "2027-09-11",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Kulturnatten: jazzpiano på ett kafé",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-01",
+   "start": "2027-10-01",
+   "slut": "2027-10-01",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Nigerias självständighetsdag med nigerianska vänner i Uppsala",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)",
+    "Chidi (son, 13)",
+    "Adaeze (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-04",
+   "start": "2027-10-04",
+   "slut": "2027-10-04",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Fyller 49",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)",
+    "Chidi (son, 13)",
+    "Adaeze (dotter, 10)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-04",
+   "start": "2027-10-04",
+   "slut": "2027-10-04",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Gottsunda), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "fast",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-22",
+   "start": "2027-10-22",
+   "slut": "2027-10-22",
+   "typ": "konsert/show",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Höstjazz i orangeriet",
+   "med": [
+    "Anjali Varma (kollega)",
+    "Amina Diallo (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-12-24..2027-12-26",
+   "start": "2027-12-24",
+   "slut": "2027-12-26",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jul hemma",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)",
+    "Chidi (son, 13)",
+    "Adaeze (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2028-02-20",
+   "start": "2028-02-20",
+   "slut": "2028-02-20",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jollof-tävling mot Kwame",
+   "med": [
+    "Kwame Mensah (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2028-07-01..2028-07-21",
+   "start": "2028-07-01",
+   "slut": "2028-07-21",
+   "typ": "resa",
+   "plats": "Lagos, Nigeria",
+   "beskrivning": "Sommar i Lagos",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)",
+    "Chidi (son, 13)",
+    "Adaeze (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "regnperiod"
+  },
+  {
+   "datum": "2028-10-04",
+   "start": "2028-10-04",
+   "slut": "2028-10-04",
+   "typ": "jubileum",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "50-årsfest med jazzband",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)",
+    "Chidi (son, 13)",
+    "Adaeze (dotter, 10)",
+    "Tunde (bror i Lagos)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2028-10-04",
+   "start": "2028-10-04",
+   "slut": "2028-10-04",
+   "typ": "jubileum",
+   "plats": "Uppsala (Gottsunda), Sverige",
+   "beskrivning": "Fyller 50 – större firande",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2028-12-24..2028-12-26",
+   "start": "2028-12-24",
+   "slut": "2028-12-26",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jul hemma",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)",
+    "Chidi (son, 13)",
+    "Adaeze (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2029-02-20",
+   "start": "2029-02-20",
+   "slut": "2029-02-20",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jollof-tävling mot Kwame",
+   "med": [
+    "Kwame Mensah (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2029-03-01",
+   "start": "2029-03-01",
+   "slut": "2029-03-01",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Valideringsstudien publiceras",
+   "med": [
+    "Kelda (kollega)",
+    "Elin Söderberg (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2029-07-03..2029-07-20",
+   "start": "2029-07-03",
+   "slut": "2029-07-20",
+   "typ": "resa",
+   "plats": "Lagos, Nigeria",
+   "beskrivning": "Sommar i Lagos",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)",
+    "Chidi (son, 13)",
+    "Adaeze (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "regnperiod"
+  },
+  {
+   "datum": "2029-10-04",
+   "start": "2029-10-04",
+   "slut": "2029-10-04",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Fyller 51",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2029-10-04",
+   "start": "2029-10-04",
+   "slut": "2029-10-04",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Gottsunda), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2029-12-24..2029-12-26",
+   "start": "2029-12-24",
+   "slut": "2029-12-26",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jul hemma",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)",
+    "Chidi (son, 13)",
+    "Adaeze (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2030-02-20",
+   "start": "2030-02-20",
+   "slut": "2030-02-20",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jollof-tävling mot Kwame",
+   "med": [
+    "Kwame Mensah (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2030-06-12",
+   "start": "2030-06-12",
+   "slut": "2030-06-12",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Chidi tar studenten",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)",
+    "Chidi (son, 13)",
+    "Adaeze (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2030-07-03..2030-07-20",
+   "start": "2030-07-03",
+   "slut": "2030-07-20",
+   "typ": "resa",
+   "plats": "Lagos, Nigeria",
+   "beskrivning": "Sommar i Lagos",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)",
+    "Chidi (son, 13)",
+    "Adaeze (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "regnperiod"
+  },
+  {
+   "datum": "2030-10-04",
+   "start": "2030-10-04",
+   "slut": "2030-10-04",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Gottsunda), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2030-12-24..2030-12-26",
+   "start": "2030-12-24",
+   "slut": "2030-12-26",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jul hemma",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)",
+    "Chidi (son, 13)",
+    "Adaeze (dotter, 10)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2031-02-20",
+   "start": "2031-02-20",
+   "slut": "2031-02-20",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Jollof-tävling mot Kwame",
+   "med": [
+    "Kwame Mensah (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2031-07-01..2031-07-20",
+   "start": "2031-07-01",
+   "slut": "2031-07-20",
+   "typ": "resa",
+   "plats": "New Orleans, USA",
+   "beskrivning": "Drömresa till jazzens stad",
+   "med": [
+    "Ingrid (hustru, bibliotekarie)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "sommar",
+   "hogtid": "självständighetsdagen"
+  },
+  {
+   "datum": "2031-10-04",
+   "start": "2031-10-04",
+   "slut": "2031-10-04",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Gottsunda), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  }
+ ]
+}

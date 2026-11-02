@@ -1,0 +1,624 @@
+{
+ "slug": "marisol-quispe",
+ "namn": "Marisol Quispe",
+ "roll": "Huskock på Vreta Regenerative Initiative",
+ "team": [
+  "Myceliet"
+ ],
+ "karaktar": "Förvaltaren",
+ "element": "Jord",
+ "rost": {
+  "drag": [
+   "Varm och generös, bilder på mat och odlingar varje dag.",
+   "Blandar spanska, quechua och svenska: \"Sumaq!\" (vackert) och \"¡Buen provecho!\"",
+   "Emojis: 🌶️ 🥔 💃",
+   "Inga selfies vid spisen men gärna dansbilder.",
+   "Delar recept men aldrig gästernas ansikten utan lov.",
+   "Humor: kärleksfullt bråk med svenska kryddkänslan."
+  ],
+  "exempelinlagg": [
+   "Oca från orangeriet! Första skörden i Uppland. Sumaq! 🥔",
+   "Fermenterad rödkål, dag 21. Svenskarna säger \"starkt\". Jag säger \"början\". 🌶️",
+   "Inti Raymi i Cusco. Solen, sången, mamma i första raden."
+  ]
+ },
+ "bas": {
+  "hemort": "Alunda, Sverige",
+  "arbetsmonster": {
+   "beskrivning": "På Vreta varje måndag, tisdag, onsdag, torsdag, fredag; distans ingen dag. (0 % distans, 100 % på Vreta.)",
+   "vreta_dagar": [
+    "mån",
+    "tis",
+    "ons",
+    "tor",
+    "fre"
+   ],
+   "varannan_vecka_vreta": null,
+   "distansdagar": [],
+   "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala"
+  },
+  "veckorutiner": [
+   "Måndag–fredag 06:45: kör från Alunda till Vreta, tänder vedugnen och uteköket",
+   "Lördag 19:00: salsa i Uppsala",
+   "Söndag: ají de gallina hemma, fermenteringskrukorna ses över",
+   "Varje månad: Uppsala saluhall för kryddor",
+   "Sommar: örter och andinska knölar (oca, olluco) i orangeriet"
+  ]
+ },
+ "nara": [
+  {
+   "kollega": "Anjali Varma",
+   "slug": "anjali-varma",
+   "varfor": "Lagar mat ihop vid skördefesten och byter kryddor."
+  },
+  {
+   "kollega": "Rafael Costa",
+   "slug": "rafael-costa",
+   "varfor": "Vedugnen: bröd och mat parallellt."
+  },
+  {
+   "kollega": "Peter Almén",
+   "slug": "peter-almen",
+   "varfor": "Vedugnen och köksträdgården; brödet till alla evenemang."
+  }
+ ],
+ "familj_och_vanner": [
+  {
+   "namn": "Henrik Q.",
+   "relation": "make, trädgårdsmästare"
+  },
+  {
+   "namn": "Rosa",
+   "relation": "mamma i Cusco"
+  },
+  {
+   "namn": "Juan",
+   "relation": "bror i Cusco"
+  },
+  {
+   "namn": "Lucía",
+   "relation": "syster i Cusco"
+  },
+  {
+   "namn": "Carmen",
+   "relation": "syster i Lima"
+  },
+  {
+   "namn": "Pedro",
+   "relation": "bror i Arequipa"
+  }
+ ],
+ "kalender": [
+  {
+   "datum": "2026-11-24",
+   "start": "2026-11-24",
+   "slut": "2026-11-24",
+   "typ": "familjehändelse",
+   "plats": "Alunda, Sverige",
+   "beskrivning": "Fyller 55, grannarna kommer på pachamanca i jorden om marken inte frusit",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-24",
+   "start": "2026-11-24",
+   "slut": "2026-11-24",
+   "typ": "familjehändelse",
+   "plats": "Alunda, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-12-05",
+   "start": "2026-12-05",
+   "slut": "2026-12-05",
+   "typ": "middag",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Lagar julbordet tillsammans med Anjali",
+   "med": [
+    "Anjali Varma (kollega)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-08..2027-01-16",
+   "start": "2027-01-08",
+   "slut": "2027-01-16",
+   "typ": "semester",
+   "plats": "Teneriffa, Spanien",
+   "beskrivning": "All inclusive i värmen",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter (mild medelhavsvinter)"
+  },
+  {
+   "datum": "2027-01-23",
+   "start": "2027-01-23",
+   "slut": "2027-01-23",
+   "typ": "middag",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Midvinterfestens soppa",
+   "med": [
+    "Hanna Vik (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-02-06",
+   "start": "2027-02-06",
+   "slut": "2027-02-06",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Salsa-kongress i Uppsala",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-13",
+   "start": "2027-03-13",
+   "slut": "2027-03-13",
+   "typ": "hobby",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Förodlar ají-chili och oca i orangeriet",
+   "med": [
+    "Kelda (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-03-27..2027-03-29",
+   "start": "2027-03-27",
+   "slut": "2027-03-29",
+   "typ": "middag",
+   "plats": "Alunda, Sverige",
+   "beskrivning": "Påskhelg, fanesca-gryta",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning",
+   "hogtid": "påsk"
+  },
+  {
+   "datum": "2027-04-10",
+   "start": "2027-04-10",
+   "slut": "2027-04-10",
+   "typ": "middag",
+   "plats": "Alunda, Sverige",
+   "beskrivning": "Påskmiddag peruansk stil",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-05-15",
+   "start": "2027-05-15",
+   "slut": "2027-05-15",
+   "typ": "hobby",
+   "plats": "Österbybruk, Sverige",
+   "beskrivning": "Växtmarknad",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-05-29",
+   "start": "2027-05-29",
+   "slut": "2027-05-29",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Salsa utomhus i Stadsträdgården",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-06-20..2027-07-04",
+   "start": "2027-06-20",
+   "slut": "2027-07-04",
+   "typ": "resa",
+   "plats": "Cusco, Peru",
+   "beskrivning": "Inti Raymi och familjen i Cusco (torrperiod)",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)",
+    "Rosa (mamma i Cusco)",
+    "Juan (bror i Cusco)",
+    "Lucía (syster i Cusco)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "torrperiod (vinter i Anderna, kalla nätter)",
+   "hogtid": "Inti Raymi"
+  },
+  {
+   "datum": "2027-07-28",
+   "start": "2027-07-28",
+   "slut": "2027-07-28",
+   "typ": "familjehändelse",
+   "plats": "Lima, Peru",
+   "beskrivning": "Fiestas Patrias – ringer systern i Lima, peruansk fest med vänner i Uppsala",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "torrperiod (vinter i Anderna, kalla nätter)",
+   "hogtid": "Fiestas Patrias"
+  },
+  {
+   "datum": "2027-08-07",
+   "start": "2027-08-07",
+   "slut": "2027-08-07",
+   "typ": "middag",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Matlagning till arbetshelgen med Kwame",
+   "med": [
+    "Kwame Mensah (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-21",
+   "start": "2027-08-21",
+   "slut": "2027-08-21",
+   "typ": "middag",
+   "plats": "Alunda, Sverige",
+   "beskrivning": "Kräftskiva med ají",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-11",
+   "start": "2027-09-11",
+   "slut": "2027-09-11",
+   "typ": "fest",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Skördefesten, charango",
+   "med": [
+    "Anjali Varma (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-02",
+   "start": "2027-10-02",
+   "slut": "2027-10-02",
+   "typ": "hobby",
+   "plats": "Uppsala saluhall, Uppsala, Sverige",
+   "beskrivning": "Fermenteringskurs hon håller",
+   "med": [
+    "Peter Almén (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-16",
+   "start": "2027-10-16",
+   "slut": "2027-10-16",
+   "typ": "hobby",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Fermenterar höstens grönsaker",
+   "med": [
+    "Peter Almén (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-30",
+   "start": "2027-10-30",
+   "slut": "2027-10-30",
+   "typ": "hobby",
+   "plats": "Gräsö, Östhammar, Sverige",
+   "beskrivning": "Höstutflykt och svamp",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-11-01",
+   "start": "2027-11-01",
+   "slut": "2027-11-01",
+   "typ": "hobby",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Orangeriet förbereds för vintern",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2027-11-24",
+   "start": "2027-11-24",
+   "slut": "2027-11-24",
+   "typ": "familjehändelse",
+   "plats": "Alunda, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2028-01-10..2028-01-17",
+   "start": "2028-01-10",
+   "slut": "2028-01-17",
+   "typ": "semester",
+   "plats": "Gran Canaria, Spanien",
+   "beskrivning": "All inclusive",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter (mild medelhavsvinter)"
+  },
+  {
+   "datum": "2028-06-24",
+   "start": "2028-06-24",
+   "slut": "2028-06-24",
+   "typ": "familjehändelse",
+   "plats": "Alunda, Sverige",
+   "beskrivning": "Inti Raymi-middag hemma med peruanska vänner",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2028-09-09",
+   "start": "2028-09-09",
+   "slut": "2028-09-09",
+   "typ": "hobby",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Skördefestens förberedelser",
+   "med": [
+    "Anjali Varma (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-11-01",
+   "start": "2028-11-01",
+   "slut": "2028-11-01",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Vretas kokbok tryckt på Henriks handpress",
+   "med": [
+    "Henrik Nyman (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2028-11-24",
+   "start": "2028-11-24",
+   "slut": "2028-11-24",
+   "typ": "familjehändelse",
+   "plats": "Alunda, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2029-01-08..2029-01-15",
+   "start": "2029-01-08",
+   "slut": "2029-01-15",
+   "typ": "semester",
+   "plats": "Kanarieöarna, Spanien",
+   "beskrivning": "All inclusive i värmen",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter (mild medelhavsvinter)"
+  },
+  {
+   "datum": "2029-06-24",
+   "start": "2029-06-24",
+   "slut": "2029-06-24",
+   "typ": "familjehändelse",
+   "plats": "Alunda, Sverige",
+   "beskrivning": "Inti Raymi-middag hemma med peruanska vänner",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2029-07-01..2029-07-21",
+   "start": "2029-07-01",
+   "slut": "2029-07-21",
+   "typ": "resa",
+   "plats": "Arequipa, Peru",
+   "beskrivning": "Hälsar på brodern",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)",
+    "Pedro (bror i Arequipa)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "torrperiod (vinter i Anderna, kalla nätter)"
+  },
+  {
+   "datum": "2029-09-09",
+   "start": "2029-09-09",
+   "slut": "2029-09-09",
+   "typ": "hobby",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Skördefestens förberedelser",
+   "med": [
+    "Anjali Varma (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2029-11-24",
+   "start": "2029-11-24",
+   "slut": "2029-11-24",
+   "typ": "familjehändelse",
+   "plats": "Alunda, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2030-01-08..2030-01-15",
+   "start": "2030-01-08",
+   "slut": "2030-01-15",
+   "typ": "semester",
+   "plats": "Kanarieöarna, Spanien",
+   "beskrivning": "All inclusive i värmen",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter (mild medelhavsvinter)"
+  },
+  {
+   "datum": "2030-04-01",
+   "start": "2030-04-01",
+   "slut": "2030-04-01",
+   "typ": "familjehändelse",
+   "plats": "Alunda, Sverige",
+   "beskrivning": "Nytt växthus på tomten",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2030-06-24",
+   "start": "2030-06-24",
+   "slut": "2030-06-24",
+   "typ": "familjehändelse",
+   "plats": "Alunda, Sverige",
+   "beskrivning": "Inti Raymi-middag hemma med peruanska vänner",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2030-07-28",
+   "start": "2030-07-28",
+   "slut": "2030-07-28",
+   "typ": "familjehändelse",
+   "plats": "Alunda, Sverige",
+   "beskrivning": "Fiestas Patrias-fest med peruanska vänner",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-09-09",
+   "start": "2030-09-09",
+   "slut": "2030-09-09",
+   "typ": "hobby",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Skördefestens förberedelser",
+   "med": [
+    "Anjali Varma (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2030-11-24",
+   "start": "2030-11-24",
+   "slut": "2030-11-24",
+   "typ": "familjehändelse",
+   "plats": "Alunda, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2031-01-08..2031-01-15",
+   "start": "2031-01-08",
+   "slut": "2031-01-15",
+   "typ": "semester",
+   "plats": "Kanarieöarna, Spanien",
+   "beskrivning": "All inclusive i värmen",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter (mild medelhavsvinter)"
+  },
+  {
+   "datum": "2031-06-24",
+   "start": "2031-06-24",
+   "slut": "2031-06-24",
+   "typ": "familjehändelse",
+   "plats": "Alunda, Sverige",
+   "beskrivning": "Inti Raymi-middag hemma med peruanska vänner",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2031-07-28",
+   "start": "2031-07-28",
+   "slut": "2031-07-28",
+   "typ": "familjehändelse",
+   "plats": "Alunda, Sverige",
+   "beskrivning": "Fiestas Patrias-fest med peruanska vänner",
+   "med": [
+    "Henrik Q. (make, trädgårdsmästare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2031-09-09",
+   "start": "2031-09-09",
+   "slut": "2031-09-09",
+   "typ": "hobby",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Skördefestens förberedelser",
+   "med": [
+    "Anjali Varma (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  }
+ ]
+}

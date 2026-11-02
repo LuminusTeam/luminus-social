@@ -1,0 +1,632 @@
+{
+ "slug": "lucia-ferreira",
+ "namn": "Lucia Ferreira",
+ "roll": "Mobilutvecklare",
+ "team": [
+  "Myceliet"
+ ],
+ "karaktar": "Äventyraren",
+ "element": "Eld",
+ "rost": {
+  "drag": [
+   "Pratsam, färgglad, mycket emojis 🎮✨🛼 och portugisiska utrop (\"nossa!\").",
+   "Postar dagligen i stories, ofta speltrailers och derbybilder.",
+   "Selfies med derbyhjälm och glitter.",
+   "Delar egna spel och pixelkonst; aldrig appens kod eller jobbets roadmap.",
+   "Skämtar om svensk vinter: \"−12 och solen går ner 14:40. Nossa.\"",
+   "Skriver svenska, engelska och portugisiska huller om buller."
+  ],
+  "exempelinlagg": [
+   "Nossa!! Vann vår första derbymatch i år 🛼✨ Blåmärken: 7. Glädje: 1000.",
+   "Litet spel för familjedagen på Vreta: hjälp grodan hitta sin damm 🐸🎮",
+   "Carnaval i Campinas med Bia. Svett, glitter, samba. Saudade av Uppsalas snö? Nej."
+  ]
+ },
+ "bas": {
+  "hemort": "Uppsala (Fålhagen), Sverige",
+  "arbetsmonster": {
+   "beskrivning": "På Vreta varje torsdag och varannan tisdag; distans måndag, onsdag, fredag (samt tisdag varannan vecka). (70 % distans, 30 % på Vreta.)",
+   "vreta_dagar": [
+    "tor"
+   ],
+   "varannan_vecka_vreta": "tis",
+   "distansdagar": [
+    "mån",
+    "ons",
+    "fre"
+   ],
+   "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala"
+  },
+  "veckorutiner": [
+   "Torsdag (och varannan tisdag): samåker till Vreta med Mykel från Uppsala C (körkort saknas)",
+   "Tisdag och fredag 19:00: roller derby-träning i Uppsala (hall)",
+   "Lunch på Vreta: Mario Kart efter lunch",
+   "Söndagar: programmerar små spel; marsvinen Pixel och Byte får grönsaker",
+   "Månadsvis: Pandemic Legacy med Erik och Kwame"
+  ]
+ },
+ "nara": [
+  {
+   "kollega": "Erik Johansson",
+   "slug": "erik-johansson",
+   "varfor": "Pandemic Legacy-kampanjen."
+  },
+  {
+   "kollega": "Felix Brandt",
+   "slug": "felix-brandt",
+   "varfor": "Speldesign; Lucia programmerar Felix prototyper."
+  },
+  {
+   "kollega": "Jonas Wikström",
+   "slug": "jonas-wikstrom",
+   "varfor": "Bygger ihop små spel; Jonas gör UI, Lucia koden."
+  }
+ ],
+ "familj_och_vanner": [
+  {
+   "namn": "Ola",
+   "relation": "sambo"
+  },
+  {
+   "namn": "Regina",
+   "relation": "mamma i Campinas"
+  },
+  {
+   "namn": "Paulo",
+   "relation": "pappa i Campinas"
+  },
+  {
+   "namn": "Bia",
+   "relation": "syster i Campinas"
+  }
+ ],
+ "kalender": [
+  {
+   "datum": "2026-11-21",
+   "start": "2026-11-21",
+   "slut": "2026-11-21",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Roller derby-match i hallen",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-12-05",
+   "start": "2026-12-05",
+   "slut": "2026-12-05",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Game jam på 48 timmar med Felix och Jonas",
+   "med": [
+    "Felix Brandt (kollega)",
+    "Jonas Wikström (kollega)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-24..2026-12-25",
+   "start": "2026-12-24",
+   "slut": "2026-12-25",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Brasiliansk jul med vänner: ceia de Natal på julafton",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2026-12-31",
+   "start": "2026-12-31",
+   "slut": "2026-12-31",
+   "typ": "fest",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Nyår i vitt som i Brasilien, fyrverkeri över Fyrisån",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "nyårsafton"
+  },
+  {
+   "datum": "2027-01-09",
+   "start": "2027-01-09",
+   "slut": "2027-01-09",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Mario Kart-turnering hemma",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-23",
+   "start": "2027-01-23",
+   "slut": "2027-01-23",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Pandemic Legacy",
+   "med": [
+    "Erik Johansson (kollega)",
+    "Kwame Mensah (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-02-04..2027-02-18",
+   "start": "2027-02-04",
+   "slut": "2027-02-18",
+   "typ": "resa",
+   "plats": "Campinas, Brasilien",
+   "beskrivning": "Karneval och sommarvärme hemma i Campinas",
+   "med": [
+    "Ola (sambo)",
+    "Regina (mamma i Campinas)",
+    "Paulo (pappa i Campinas)",
+    "Bia (syster i Campinas)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar (södra halvklotet)",
+   "hogtid": "karneval"
+  },
+  {
+   "datum": "2027-02-27",
+   "start": "2027-02-27",
+   "slut": "2027-02-27",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Pixelkonst-workshop för barn på biblioteket",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-13",
+   "start": "2027-03-13",
+   "slut": "2027-03-13",
+   "typ": "hobby",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Derbyturnering i Stockholm",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-03-27",
+   "start": "2027-03-27",
+   "slut": "2027-03-27",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Påskfika och Exploding Kittens",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning",
+   "hogtid": "påsk"
+  },
+  {
+   "datum": "2027-04-12",
+   "start": "2027-04-12",
+   "slut": "2027-04-12",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Fyller 36, karaoke",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-04-12",
+   "start": "2027-04-12",
+   "slut": "2027-04-12",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Fålhagen), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "fast",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-05-08",
+   "start": "2027-05-08",
+   "slut": "2027-05-08",
+   "typ": "vänner",
+   "plats": "Biotopia, Uppsala, Sverige",
+   "beskrivning": "Biotopia med Felix familj",
+   "med": [
+    "Felix Brandt (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-06-05",
+   "start": "2027-06-05",
+   "slut": "2027-06-05",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Spelet för familjedagen lanseras",
+   "med": [
+    "Felix Brandt (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-06-25",
+   "start": "2027-06-25",
+   "slut": "2027-06-25",
+   "typ": "fest",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Första midsommarafton med Olas familj",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2027-07-10..2027-07-31",
+   "start": "2027-07-10",
+   "slut": "2027-07-31",
+   "typ": "semester",
+   "plats": "Norska kusten, Norge",
+   "beskrivning": "Campervan längs norska kusten",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-14",
+   "start": "2027-08-14",
+   "slut": "2027-08-14",
+   "typ": "vänner",
+   "plats": "Sunnersta badplats, Uppsala, Sverige",
+   "beskrivning": "Badkväll vid Ekoln",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-07",
+   "start": "2027-09-07",
+   "slut": "2027-09-07",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Brasiliens självständighetsdag med brasilianska vänner",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-08..2027-10-10",
+   "start": "2027-10-08",
+   "slut": "2027-10-10",
+   "typ": "hobby",
+   "plats": "Göteborg, Sverige",
+   "beskrivning": "Spelutvecklarkonferens som deltagare",
+   "med": [
+    "Jonas Wikström (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-11-01",
+   "start": "2027-11-01",
+   "slut": "2027-11-01",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Derbysäsongens avslutning",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2027-12-24",
+   "start": "2027-12-24",
+   "slut": "2027-12-24",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Brasiliansk jul",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2028-01-25..2028-02-10",
+   "start": "2028-01-25",
+   "slut": "2028-02-10",
+   "typ": "resa",
+   "plats": "Campinas, Brasilien",
+   "beskrivning": "Karneval i Brasilien",
+   "med": [
+    "Ola (sambo)",
+    "Bia (syster i Campinas)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar (södra halvklotet)"
+  },
+  {
+   "datum": "2028-04-12",
+   "start": "2028-04-12",
+   "slut": "2028-04-12",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Födelsedag med karaoke",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2028-04-12",
+   "start": "2028-04-12",
+   "slut": "2028-04-12",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Fålhagen), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2028-06-01",
+   "start": "2028-06-01",
+   "slut": "2028-06-01",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Luminuscoachens mobilapp version 2",
+   "med": [
+    "Mykel (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2028-07-10..2028-07-30",
+   "start": "2028-07-10",
+   "slut": "2028-07-30",
+   "typ": "semester",
+   "plats": "Norge eller Finland, Norge",
+   "beskrivning": "Campervan-sommar",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-12-24",
+   "start": "2028-12-24",
+   "slut": "2028-12-24",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Brasiliansk jul",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2029-02-10..2029-02-20",
+   "start": "2029-02-10",
+   "slut": "2029-02-20",
+   "typ": "resa",
+   "plats": "Campinas, Brasilien",
+   "beskrivning": "Vintervecka hos familjen i Brasiliens sommar",
+   "med": [
+    "Ola (sambo)",
+    "Regina (mamma i Campinas)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar (södra halvklotet)",
+   "hogtid": "karneval"
+  },
+  {
+   "datum": "2029-04-12",
+   "start": "2029-04-12",
+   "slut": "2029-04-12",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Födelsedag med karaoke",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2029-04-12",
+   "start": "2029-04-12",
+   "slut": "2029-04-12",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Fålhagen), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2029-07-07",
+   "start": "2029-07-07",
+   "slut": "2029-07-07",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Bröllop med Ola i Uppsala och fest i Vallby friluftsmuseum",
+   "med": [
+    "Ola (sambo)",
+    "Regina (mamma i Campinas)",
+    "Paulo (pappa i Campinas)",
+    "Bia (syster i Campinas)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-07-10..2029-07-30",
+   "start": "2029-07-10",
+   "slut": "2029-07-30",
+   "typ": "semester",
+   "plats": "Norge eller Finland, Norge",
+   "beskrivning": "Campervan-sommar",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-12-24",
+   "start": "2029-12-24",
+   "slut": "2029-12-24",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Brasiliansk jul",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2030-02-01..2030-02-20",
+   "start": "2030-02-01",
+   "slut": "2030-02-20",
+   "typ": "resa",
+   "plats": "Campinas, Brasilien",
+   "beskrivning": "Hela familjen samlas",
+   "med": [
+    "Ola (sambo)",
+    "Regina (mamma i Campinas)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar (södra halvklotet)"
+  },
+  {
+   "datum": "2030-04-12",
+   "start": "2030-04-12",
+   "slut": "2030-04-12",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Födelsedag med karaoke",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2030-04-12",
+   "start": "2030-04-12",
+   "slut": "2030-04-12",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Fålhagen), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2030-07-10..2030-07-30",
+   "start": "2030-07-10",
+   "slut": "2030-07-30",
+   "typ": "semester",
+   "plats": "Norge eller Finland, Norge",
+   "beskrivning": "Campervan-sommar",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-12-24",
+   "start": "2030-12-24",
+   "slut": "2030-12-24",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Brasiliansk jul",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2031-04-12",
+   "start": "2031-04-12",
+   "slut": "2031-04-12",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Fyller 40",
+   "med": [
+    "Ola (sambo)",
+    "Bia (syster i Campinas)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning",
+   "hogtid": "påsk"
+  },
+  {
+   "datum": "2031-04-12",
+   "start": "2031-04-12",
+   "slut": "2031-04-12",
+   "typ": "jubileum",
+   "plats": "Uppsala (Fålhagen), Sverige",
+   "beskrivning": "Fyller 40 – större firande",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning",
+   "hogtid": "påsk"
+  },
+  {
+   "datum": "2031-07-10..2031-07-30",
+   "start": "2031-07-10",
+   "slut": "2031-07-30",
+   "typ": "semester",
+   "plats": "Norge eller Finland, Norge",
+   "beskrivning": "Campervan-sommar",
+   "med": [
+    "Ola (sambo)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  }
+ ]
+}

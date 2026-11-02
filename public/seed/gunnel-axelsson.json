@@ -1,0 +1,691 @@
+{
+ "slug": "gunnel-axelsson",
+ "namn": "Gunnel Axelsson",
+ "roll": "Jurist och dataskydd",
+ "team": [
+  "Etern",
+  "Barken"
+ ],
+ "karaktar": "Kejsaren",
+ "element": "Jord",
+ "rost": {
+  "drag": [
+   "Klar och skarp prosa, gärna en mening med en paragrafreferens som skämt.",
+   "Postar boktips en gång i veckan på Instagram, aldrig om klienter eller dataskyddsärenden.",
+   "Inga selfies; böckerna fotograferas på köksbordet bredvid undulaterna.",
+   "Max en emoji per inlägg, oftast 📚.",
+   "Delar aldrig något om andra utan samtycke – hon vet vad GDPR säger.",
+   "Lite blekingskt torr humor."
+  ],
+  "exempelinlagg": [
+   "Veckans deckare: löst på sidan 112. Paragraf och Klausul höll inte med. 📚",
+   "Bokcirkeln diskuterade skuld och ansvar i tre timmar. Precis som på jobbet, fast med kladdkaka.",
+   "Golf i Skottland, dag tre. Regn i sidled, par på femte. Lennart kallar det framgång."
+  ]
+ },
+ "bas": {
+  "hemort": "Uppsala (Kåbo), Sverige",
+  "arbetsmonster": {
+   "beskrivning": "På Vreta varje tisdag, onsdag; distans måndag, torsdag, fredag. (60 % distans, 40 % på Vreta.)",
+   "vreta_dagar": [
+    "tis",
+    "ons"
+   ],
+   "varannan_vecka_vreta": null,
+   "distansdagar": [
+    "mån",
+    "tor",
+    "fre"
+   ],
+   "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala"
+  },
+  "veckorutiner": [
+   "Tisdag och onsdag: Vreta; tisdag kväll körövning (alt) i bygdekören i Gamla Uppsala",
+   "Torsdag varannan: leder bokcirkeln hemma, deckare och klassiker om vartannat",
+   "Maj–september lördagar: golf på Upsala golfklubb med Lennart",
+   "Söndag morgon: Cluedo eller Trivial Pursuit med grannarna om det regnar"
+  ]
+ },
+ "nara": [
+  {
+   "kollega": "Bjarke",
+   "slug": "bjarke",
+   "varfor": "Båda jurister; pratar förvaltningsrätt och spelar Trivial Pursuit med partners."
+  },
+  {
+   "kollega": "Amina Diallo",
+   "slug": "amina-diallo",
+   "varfor": "Trivial Pursuit-laget och bokcirkeln; Amina tar med textilier till Gunnels bibliotek."
+  },
+  {
+   "kollega": "Linnea Ahlgren",
+   "slug": "linnea-ahlgren",
+   "varfor": "Bokcirkeln, där Linnea alltid läst boken två gånger."
+  },
+  {
+   "kollega": "Noor Rahimi",
+   "slug": "noor-rahimi",
+   "varfor": "Bokcirkeln; Noor tar med översatt poesi mellan deckarna."
+  }
+ ],
+ "familj_och_vanner": [
+  {
+   "namn": "Lennart",
+   "relation": "make, pensionerad lärare"
+  },
+  {
+   "namn": "Ulf",
+   "relation": "bror i Karlskrona"
+  },
+  {
+   "namn": "Sara",
+   "relation": "brorsdotter i Karlskrona"
+  },
+  {
+   "namn": "Birgit",
+   "relation": "kusin i Ronneby"
+  }
+ ],
+ "kalender": [
+  {
+   "datum": "2026-11-12",
+   "start": "2026-11-12",
+   "slut": "2026-11-12",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Bokcirkel: en klassisk deckare från 1930-talet",
+   "med": [
+    "Linnea Ahlgren (kollega)",
+    "Nils Fredriksson (kollega)",
+    "Noor Rahimi (kollega)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-21",
+   "start": "2026-11-21",
+   "slut": "2026-11-21",
+   "typ": "utställning",
+   "plats": "Upplandsmuseet, Uppsala, Sverige",
+   "beskrivning": "Utställning om Upplands kyrkokonst",
+   "med": [
+    "Lennart (make, pensionerad lärare)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-29",
+   "start": "2026-11-29",
+   "slut": "2026-11-29",
+   "typ": "konsert/show",
+   "plats": "Gamla Uppsala kyrka, Uppsala, Sverige",
+   "beskrivning": "Bygdekören sjunger på första advent",
+   "med": [
+    "Lennart (make, pensionerad lärare)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt",
+   "hogtid": "första advent"
+  },
+  {
+   "datum": "2026-12-13",
+   "start": "2026-12-13",
+   "slut": "2026-12-13",
+   "typ": "konsert/show",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Luciakonsert med bygdekören",
+   "med": [
+    "Lennart (make, pensionerad lärare)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "lucia"
+  },
+  {
+   "datum": "2026-12-22..2026-12-27",
+   "start": "2026-12-22",
+   "slut": "2026-12-27",
+   "typ": "familjehändelse",
+   "plats": "Karlskrona, Sverige",
+   "beskrivning": "Jul i Karlskrona hos brodern, piano och schlager",
+   "med": [
+    "Lennart (make, pensionerad lärare)",
+    "Ulf (bror i Karlskrona)",
+    "Sara (brorsdotter i Karlskrona)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2027-01-16",
+   "start": "2027-01-16",
+   "slut": "2027-01-16",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Vinterbrunch med grannarna, Cluedo",
+   "med": [
+    "Lennart (make, pensionerad lärare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-28",
+   "start": "2027-01-28",
+   "slut": "2027-01-28",
+   "typ": "konferens/seminarium",
+   "plats": "Stockholm, Sverige",
+   "beskrivning": "Dataskyddsdag: seminarium om ny vägledning, som deltagare",
+   "med": [
+    "Bjarke (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-02-13",
+   "start": "2027-02-13",
+   "slut": "2027-02-13",
+   "typ": "konsert/show",
+   "plats": "Uppsala konsert och kongress, Uppsala, Sverige",
+   "beskrivning": "Konsert med Uppsala kammarorkester",
+   "med": [
+    "Lennart (make, pensionerad lärare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-02-25",
+   "start": "2027-02-25",
+   "slut": "2027-02-25",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Bokcirkel: Kerstin Ekman",
+   "med": [
+    "Linnea Ahlgren (kollega)",
+    "Noor Rahimi (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-27..2027-03-29",
+   "start": "2027-03-27",
+   "slut": "2027-03-29",
+   "typ": "familjehändelse",
+   "plats": "Ronneby, Sverige",
+   "beskrivning": "Påsk hos kusinen i Ronneby",
+   "med": [
+    "Lennart (make, pensionerad lärare)",
+    "Birgit (kusin i Ronneby)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning",
+   "hogtid": "påsk"
+  },
+  {
+   "datum": "2027-04-10",
+   "start": "2027-04-10",
+   "slut": "2027-04-10",
+   "typ": "vänner",
+   "plats": "Linnés Hammarby, Uppsala, Sverige",
+   "beskrivning": "Vårpromenad",
+   "med": [
+    "Lennart (make, pensionerad lärare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-04-24",
+   "start": "2027-04-24",
+   "slut": "2027-04-24",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Golfsäsongen öppnar",
+   "med": [
+    "Lennart (make, pensionerad lärare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-05-13..2027-05-20",
+   "start": "2027-05-13",
+   "slut": "2027-05-20",
+   "typ": "semester",
+   "plats": "St Andrews, Skottland, Storbritannien",
+   "beskrivning": "Golf och spa i St Andrews",
+   "med": [
+    "Lennart (make, pensionerad lärare)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2027-06-06",
+   "start": "2027-06-06",
+   "slut": "2027-06-06",
+   "typ": "fest",
+   "plats": "Ulva kvarn, Uppsala, Sverige",
+   "beskrivning": "Nationaldagsfirande vid Ulva kvarn",
+   "med": [
+    "Lennart (make, pensionerad lärare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "nationaldagen"
+  },
+  {
+   "datum": "2027-07-01..2027-07-14",
+   "start": "2027-07-01",
+   "slut": "2027-07-14",
+   "typ": "semester",
+   "plats": "Karlskrona, Sverige",
+   "beskrivning": "Sommar i skärgården utanför Karlskrona, skärgårdsbåtar",
+   "med": [
+    "Lennart (make, pensionerad lärare)",
+    "Ulf (bror i Karlskrona)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-07-19",
+   "start": "2027-07-19",
+   "slut": "2027-07-19",
+   "typ": "familjehändelse",
+   "plats": "Karlskrona, Sverige",
+   "beskrivning": "Fyller 64, kräftor tidigt med brodern",
+   "med": [
+    "Lennart (make, pensionerad lärare)",
+    "Ulf (bror i Karlskrona)",
+    "Sara (brorsdotter i Karlskrona)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-07-19",
+   "start": "2027-07-19",
+   "slut": "2027-07-19",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Kåbo), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-21",
+   "start": "2027-08-21",
+   "slut": "2027-08-21",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Kräftskiva med bokcirkeln",
+   "med": [
+    "Linnea Ahlgren (kollega)",
+    "Nils Fredriksson (kollega)",
+    "Noor Rahimi (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-28",
+   "start": "2027-08-28",
+   "slut": "2027-08-28",
+   "typ": "familjehändelse",
+   "plats": "Karlskrona, Sverige",
+   "beskrivning": "Brorsdotterns bröllop i Amiralitetskyrkan",
+   "med": [
+    "Lennart (make, pensionerad lärare)",
+    "Ulf (bror i Karlskrona)",
+    "Sara (brorsdotter i Karlskrona)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-16",
+   "start": "2027-09-16",
+   "slut": "2027-09-16",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Trivial Pursuit-kväll med Amina och Bjarke",
+   "med": [
+    "Amina Diallo (kollega)",
+    "Bjarke (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-14",
+   "start": "2027-10-14",
+   "slut": "2027-10-14",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Bokcirkelns höstmiddag",
+   "med": [
+    "Linnea Ahlgren (kollega)",
+    "Nils Fredriksson (kollega)",
+    "Noor Rahimi (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-23",
+   "start": "2027-10-23",
+   "slut": "2027-10-23",
+   "typ": "konferens/seminarium",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Bokcirkelledardag i studieförbund",
+   "med": [
+    "Linnea Ahlgren (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-12-13",
+   "start": "2027-12-13",
+   "slut": "2027-12-13",
+   "typ": "konsert/show",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Luciakonsert med bygdekören",
+   "med": [
+    "Lennart (make, pensionerad lärare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "lucia"
+  },
+  {
+   "datum": "2027-12-22..2027-12-27",
+   "start": "2027-12-22",
+   "slut": "2027-12-27",
+   "typ": "familjehändelse",
+   "plats": "Karlskrona, Sverige",
+   "beskrivning": "Jul i Karlskrona",
+   "med": [
+    "Lennart (make, pensionerad lärare)",
+    "Ulf (bror i Karlskrona)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2028-05-11..2028-05-18",
+   "start": "2028-05-11",
+   "slut": "2028-05-18",
+   "typ": "semester",
+   "plats": "Edinburgh, Skottland, Storbritannien",
+   "beskrivning": "Golf och spa",
+   "med": [
+    "Lennart (make, pensionerad lärare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2028-06-01",
+   "start": "2028-06-01",
+   "slut": "2028-06-01",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Vretas dataskyddsrutiner reviderade",
+   "med": [
+    "Bjarke (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2028-07-19",
+   "start": "2028-07-19",
+   "slut": "2028-07-19",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Kåbo), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-08-19",
+   "start": "2028-08-19",
+   "slut": "2028-08-19",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Kräftskiva med bokcirkeln",
+   "med": [
+    "Linnea Ahlgren (kollega)",
+    "Nils Fredriksson (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-12-13",
+   "start": "2028-12-13",
+   "slut": "2028-12-13",
+   "typ": "konsert/show",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Luciakonsert med bygdekören",
+   "med": [
+    "Lennart (make, pensionerad lärare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "lucia"
+  },
+  {
+   "datum": "2028-12-22..2028-12-27",
+   "start": "2028-12-22",
+   "slut": "2028-12-27",
+   "typ": "familjehändelse",
+   "plats": "Karlskrona, Sverige",
+   "beskrivning": "Jul i Karlskrona",
+   "med": [
+    "Lennart (make, pensionerad lärare)",
+    "Ulf (bror i Karlskrona)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2029-04-28",
+   "start": "2029-04-28",
+   "slut": "2029-04-28",
+   "typ": "familjehändelse",
+   "plats": "Karlskrona, Sverige",
+   "beskrivning": "Brorsdottern får barn; dop i juni",
+   "med": [
+    "Ulf (bror i Karlskrona)",
+    "Sara (brorsdotter i Karlskrona)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2029-05-15..2029-05-21",
+   "start": "2029-05-15",
+   "slut": "2029-05-21",
+   "typ": "semester",
+   "plats": "Skottland, Storbritannien",
+   "beskrivning": "Golfvecka med spa",
+   "med": [
+    "Lennart (make, pensionerad lärare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2029-07-19",
+   "start": "2029-07-19",
+   "slut": "2029-07-19",
+   "typ": "familjehändelse",
+   "plats": "Karlskrona, Sverige",
+   "beskrivning": "Fyller 66 i skärgården",
+   "med": [
+    "Lennart (make, pensionerad lärare)",
+    "Ulf (bror i Karlskrona)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-07-19",
+   "start": "2029-07-19",
+   "slut": "2029-07-19",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Kåbo), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-12-13",
+   "start": "2029-12-13",
+   "slut": "2029-12-13",
+   "typ": "konsert/show",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Luciakonsert med bygdekören",
+   "med": [
+    "Lennart (make, pensionerad lärare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "lucia"
+  },
+  {
+   "datum": "2029-12-22..2029-12-27",
+   "start": "2029-12-22",
+   "slut": "2029-12-27",
+   "typ": "familjehändelse",
+   "plats": "Karlskrona, Sverige",
+   "beskrivning": "Jul i Karlskrona",
+   "med": [
+    "Lennart (make, pensionerad lärare)",
+    "Ulf (bror i Karlskrona)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2030-05-15..2030-05-21",
+   "start": "2030-05-15",
+   "slut": "2030-05-21",
+   "typ": "semester",
+   "plats": "Skottland, Storbritannien",
+   "beskrivning": "Golfvecka med spa",
+   "med": [
+    "Lennart (make, pensionerad lärare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2030-06-15",
+   "start": "2030-06-15",
+   "slut": "2030-06-15",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Lennart fyller 70",
+   "med": [
+    "Lennart (make, pensionerad lärare)",
+    "Ulf (bror i Karlskrona)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2030-07-19",
+   "start": "2030-07-19",
+   "slut": "2030-07-19",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Kåbo), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-12-13",
+   "start": "2030-12-13",
+   "slut": "2030-12-13",
+   "typ": "konsert/show",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Luciakonsert med bygdekören",
+   "med": [
+    "Lennart (make, pensionerad lärare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "lucia"
+  },
+  {
+   "datum": "2030-12-22..2030-12-27",
+   "start": "2030-12-22",
+   "slut": "2030-12-27",
+   "typ": "familjehändelse",
+   "plats": "Karlskrona, Sverige",
+   "beskrivning": "Jul i Karlskrona",
+   "med": [
+    "Lennart (make, pensionerad lärare)",
+    "Ulf (bror i Karlskrona)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2031-05-01",
+   "start": "2031-05-01",
+   "slut": "2031-05-01",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Går i pension från rollen",
+   "med": [
+    "Bjarke (kollega)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "vår, allt slår ut",
+   "hogtid": "första maj"
+  },
+  {
+   "datum": "2031-05-15..2031-05-21",
+   "start": "2031-05-15",
+   "slut": "2031-05-21",
+   "typ": "semester",
+   "plats": "Skottland, Storbritannien",
+   "beskrivning": "Golfvecka med spa",
+   "med": [
+    "Lennart (make, pensionerad lärare)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår"
+  },
+  {
+   "datum": "2031-07-19",
+   "start": "2031-07-19",
+   "slut": "2031-07-19",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Kåbo), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  }
+ ]
+}

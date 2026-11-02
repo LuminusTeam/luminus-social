@@ -1,0 +1,700 @@
+{
+ "slug": "erik-johansson",
+ "namn": "Erik Johansson",
+ "roll": "Kalibreringsingenjör",
+ "team": [
+  "Källan"
+ ],
+ "karaktar": "Förvaltaren",
+ "element": "Jord",
+ "rost": {
+  "drag": [
+   "Kort och rak, norrbottniskt: \"Klart väder. Jupiter. Bra.\"",
+   "Postar foton genom teleskopet ett par gånger i månaden, flest under den mörka säsongen.",
+   "Inga selfies; inga barnbilder.",
+   "Emojis nästan aldrig, möjligen 🔭.",
+   "Delar väderstationens data och norrskensprognoser; aldrig något om arbetets kalibrering.",
+   "Humorn är torr underdrift."
+  ],
+  "exempelinlagg": [
+   "Klart över Vreta i natt. Saturnus ringar syns i 6-tummaren. Kallt. Värt det. 🔭",
+   "Väderstationen: −24,1 i morse. Luleå skrattar.",
+   "Långfärdsskidor 32 km i Lunsen. Inga fall. En slutsats."
+  ]
+ },
+ "bas": {
+  "hemort": "Uppsala (Gränby), Sverige",
+  "arbetsmonster": {
+   "beskrivning": "På Vreta varje tisdag, onsdag; distans måndag, torsdag, fredag. (60 % distans, 40 % på Vreta.)",
+   "vreta_dagar": [
+    "tis",
+    "ons"
+   ],
+   "varannan_vecka_vreta": null,
+   "distansdagar": [
+    "mån",
+    "tor",
+    "fre"
+   ],
+   "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala"
+  },
+  "veckorutiner": [
+   "Tisdag och onsdag: Vreta; vintertid stjärnskådning på ängen efter mörkrets inbrott",
+   "Måndag 07:45: lämnar Ture på förskolan i Gränby",
+   "Torsdag kväll: innebandy med Melkers lag, Erik är hjälptränare",
+   "Lördag vintertid: långfärdsskidor i Hågadalen eller Lunsen när snön räcker",
+   "Söndag kväll: Terraforming Mars eller Pandemic med Alva"
+  ]
+ },
+ "nara": [
+  {
+   "kollega": "Kwame Mensah",
+   "slug": "kwame-mensah",
+   "varfor": "Pandemic Legacy-kampanj en gång i månaden; båda tekniker."
+  },
+  {
+   "kollega": "Jonas Wikström",
+   "slug": "jonas-wikstrom",
+   "varfor": "Bygger elektronik och mekaniska tangentbord ihop; Factorio online."
+  },
+  {
+   "kollega": "Felix Brandt",
+   "slug": "felix-brandt",
+   "varfor": "Terraforming Mars-kvällar."
+  }
+ ],
+ "familj_och_vanner": [
+  {
+   "namn": "Sara",
+   "relation": "hustru"
+  },
+  {
+   "namn": "Alva",
+   "relation": "dotter, 12"
+  },
+  {
+   "namn": "Melker",
+   "relation": "son, 9"
+  },
+  {
+   "namn": "Ture",
+   "relation": "son, 5"
+  },
+  {
+   "namn": "Göran",
+   "relation": "pappa i Luleå"
+  },
+  {
+   "namn": "Britt",
+   "relation": "mamma i Luleå"
+  },
+  {
+   "namn": "Karin",
+   "relation": "syster i Luleå"
+  },
+  {
+   "namn": "Anna",
+   "relation": "syster i Luleå"
+  }
+ ],
+ "kalender": [
+  {
+   "datum": "2026-11-21",
+   "start": "2026-11-21",
+   "slut": "2026-11-21",
+   "typ": "hobby",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Stjärnskådning på ängen för Vreta-gäster",
+   "med": [
+    "Alva (dotter, 12)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-12-05",
+   "start": "2026-12-05",
+   "slut": "2026-12-05",
+   "typ": "hobby",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Bygger ny väderstationssensor i garaget",
+   "med": [
+    "Melker (son, 9)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-12",
+   "start": "2026-12-12",
+   "slut": "2026-12-12",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Alvas luciakör",
+   "med": [
+    "Sara (hustru)",
+    "Alva (dotter, 12)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2026-12-20..2026-12-28",
+   "start": "2026-12-20",
+   "slut": "2026-12-28",
+   "typ": "familjehändelse",
+   "plats": "Luleå, Sverige",
+   "beskrivning": "Jul i Luleå, mörker och snö, skoter hos syster",
+   "med": [
+    "Sara (hustru)",
+    "Alva (dotter, 12)",
+    "Melker (son, 9)",
+    "Ture (son, 5)",
+    "Göran (pappa i Luleå)",
+    "Britt (mamma i Luleå)",
+    "Karin (syster i Luleå)",
+    "Anna (syster i Luleå)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, polarnatt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2027-01-17",
+   "start": "2027-01-17",
+   "slut": "2027-01-17",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Fyller 46, semla tidigt",
+   "med": [
+    "Sara (hustru)",
+    "Alva (dotter, 12)",
+    "Melker (son, 9)",
+    "Ture (son, 5)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-17",
+   "start": "2027-01-17",
+   "slut": "2027-01-17",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Gränby), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-30",
+   "start": "2027-01-30",
+   "slut": "2027-01-30",
+   "typ": "hobby",
+   "plats": "Lunsen, Uppsala, Sverige",
+   "beskrivning": "Långfärdsskidor 30 km",
+   "med": [
+    "Sara (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-02-13",
+   "start": "2027-02-13",
+   "slut": "2027-02-13",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Pandemic Legacy-kväll",
+   "med": [
+    "Kwame Mensah (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-02-27..2027-03-06",
+   "start": "2027-02-27",
+   "slut": "2027-03-06",
+   "typ": "semester",
+   "plats": "Kalix, Sverige",
+   "beskrivning": "Sportlov i Kalix: pimpel, skoter och norrsken",
+   "med": [
+    "Sara (hustru)",
+    "Alva (dotter, 12)",
+    "Melker (son, 9)",
+    "Ture (son, 5)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-07",
+   "start": "2027-03-07",
+   "slut": "2027-03-07",
+   "typ": "hobby",
+   "plats": "Mora, Sverige",
+   "beskrivning": "Vasaloppet, Erik åker 90 km",
+   "med": [
+    "Sara (hustru)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2027-04-10",
+   "start": "2027-04-10",
+   "slut": "2027-04-10",
+   "typ": "hobby",
+   "plats": "Sala silvergruva, Sverige",
+   "beskrivning": "Gruvvisning med barnen",
+   "med": [
+    "Alva (dotter, 12)",
+    "Melker (son, 9)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-04-24",
+   "start": "2027-04-24",
+   "slut": "2027-04-24",
+   "typ": "familjehändelse",
+   "plats": "Luleå, Sverige",
+   "beskrivning": "Pappa fyller 75",
+   "med": [
+    "Sara (hustru)",
+    "Göran (pappa i Luleå)",
+    "Britt (mamma i Luleå)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-05-08",
+   "start": "2027-05-08",
+   "slut": "2027-05-08",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Ture fyller sex",
+   "med": [
+    "Sara (hustru)",
+    "Ture (son, 5)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-06-05",
+   "start": "2027-06-05",
+   "slut": "2027-06-05",
+   "typ": "hobby",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Väderstationen uppgraderas",
+   "med": [
+    "Kwame Mensah (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-07-01..2027-07-21",
+   "start": "2027-07-01",
+   "slut": "2027-07-21",
+   "typ": "semester",
+   "plats": "Norrbotten, Sverige",
+   "beskrivning": "Husbil till Luleå och vidare upp till Abisko, midnattssol",
+   "med": [
+    "Sara (hustru)",
+    "Alva (dotter, 12)",
+    "Melker (son, 9)",
+    "Ture (son, 5)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-12",
+   "start": "2027-08-12",
+   "slut": "2027-08-12",
+   "typ": "hobby",
+   "plats": "Florarna, Sverige",
+   "beskrivning": "Perseiderna från en mörk plats vid Florarna",
+   "med": [
+    "Alva (dotter, 12)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-21",
+   "start": "2027-08-21",
+   "slut": "2027-08-21",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Alva börjar på högstadiet",
+   "med": [
+    "Sara (hustru)",
+    "Alva (dotter, 12)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-04",
+   "start": "2027-09-04",
+   "slut": "2027-09-04",
+   "typ": "hobby",
+   "plats": "Sala silvergruva, Sverige",
+   "beskrivning": "Mineralmässa",
+   "med": [
+    "Melker (son, 9)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-09-25",
+   "start": "2027-09-25",
+   "slut": "2027-09-25",
+   "typ": "vänner",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Terraforming Mars-kväll",
+   "med": [
+    "Felix Brandt (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-16",
+   "start": "2027-10-16",
+   "slut": "2027-10-16",
+   "typ": "hobby",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Mörka säsongens första stjärnkväll",
+   "med": [
+    "Melker (son, 9)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-30",
+   "start": "2027-10-30",
+   "slut": "2027-10-30",
+   "typ": "hobby",
+   "plats": "Öregrund, Sverige",
+   "beskrivning": "Höstlovsutflykt",
+   "med": [
+    "Sara (hustru)",
+    "Ture (son, 5)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-12-20..2027-12-27",
+   "start": "2027-12-20",
+   "slut": "2027-12-27",
+   "typ": "familjehändelse",
+   "plats": "Luleå, Sverige",
+   "beskrivning": "Jul i Luleå",
+   "med": [
+    "Sara (hustru)",
+    "Alva (dotter, 12)",
+    "Melker (son, 9)",
+    "Ture (son, 5)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, polarnatt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2028-01-17",
+   "start": "2028-01-17",
+   "slut": "2028-01-17",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Fyller 47",
+   "med": [
+    "Sara (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2028-01-17",
+   "start": "2028-01-17",
+   "slut": "2028-01-17",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Gränby), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2028-02-26..2028-03-04",
+   "start": "2028-02-26",
+   "slut": "2028-03-04",
+   "typ": "semester",
+   "plats": "Abisko, Norrbotten, Sverige",
+   "beskrivning": "Sportlov med norrsken",
+   "med": [
+    "Sara (hustru)",
+    "Alva (dotter, 12)",
+    "Melker (son, 9)",
+    "Ture (son, 5)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder",
+   "hogtid": "fettisdagen"
+  },
+  {
+   "datum": "2028-03-05",
+   "start": "2028-03-05",
+   "slut": "2028-03-05",
+   "typ": "hobby",
+   "plats": "Mora, Sverige",
+   "beskrivning": "Vasaloppet",
+   "med": [
+    "Sara (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning"
+  },
+  {
+   "datum": "2028-07-02..2028-07-20",
+   "start": "2028-07-02",
+   "slut": "2028-07-20",
+   "typ": "semester",
+   "plats": "Norrbotten, Sverige",
+   "beskrivning": "Husbilssommar i norr",
+   "med": [
+    "Sara (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-08-12",
+   "start": "2028-08-12",
+   "slut": "2028-08-12",
+   "typ": "hobby",
+   "plats": "Florarna, Sverige",
+   "beskrivning": "Perseiderna",
+   "med": [
+    "Alva (dotter, 12)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2028-12-20..2028-12-27",
+   "start": "2028-12-20",
+   "slut": "2028-12-27",
+   "typ": "familjehändelse",
+   "plats": "Luleå, Sverige",
+   "beskrivning": "Jul i Luleå",
+   "med": [
+    "Sara (hustru)",
+    "Alva (dotter, 12)",
+    "Melker (son, 9)",
+    "Ture (son, 5)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, polarnatt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2029-01-17",
+   "start": "2029-01-17",
+   "slut": "2029-01-17",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Gränby), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2029-07-02..2029-07-20",
+   "start": "2029-07-02",
+   "slut": "2029-07-20",
+   "typ": "semester",
+   "plats": "Norrbotten, Sverige",
+   "beskrivning": "Husbilssommar i norr",
+   "med": [
+    "Sara (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-08-12",
+   "start": "2029-08-12",
+   "slut": "2029-08-12",
+   "typ": "hobby",
+   "plats": "Florarna, Sverige",
+   "beskrivning": "Perseiderna",
+   "med": [
+    "Alva (dotter, 12)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-09-01",
+   "start": "2029-09-01",
+   "slut": "2029-09-01",
+   "typ": "familjehändelse",
+   "plats": "Uppsala, Sverige",
+   "beskrivning": "Ny husbil",
+   "med": [
+    "Sara (hustru)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2029-12-20..2029-12-27",
+   "start": "2029-12-20",
+   "slut": "2029-12-27",
+   "typ": "familjehändelse",
+   "plats": "Luleå, Sverige",
+   "beskrivning": "Jul i Luleå",
+   "med": [
+    "Sara (hustru)",
+    "Alva (dotter, 12)",
+    "Melker (son, 9)",
+    "Ture (son, 5)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, polarnatt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2030-01-17",
+   "start": "2030-01-17",
+   "slut": "2030-01-17",
+   "typ": "familjehändelse",
+   "plats": "Uppsala (Gränby), Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2030-06-10",
+   "start": "2030-06-10",
+   "slut": "2030-06-10",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Andra generationens kalibreringsmodell i drift",
+   "med": [
+    "Kelda (kollega)",
+    "Elin Söderberg (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2030-07-02..2030-07-20",
+   "start": "2030-07-02",
+   "slut": "2030-07-20",
+   "typ": "semester",
+   "plats": "Norrbotten, Sverige",
+   "beskrivning": "Husbilssommar i norr",
+   "med": [
+    "Sara (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-08-12",
+   "start": "2030-08-12",
+   "slut": "2030-08-12",
+   "typ": "hobby",
+   "plats": "Florarna, Sverige",
+   "beskrivning": "Perseiderna",
+   "med": [
+    "Alva (dotter, 12)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-12-20..2030-12-27",
+   "start": "2030-12-20",
+   "slut": "2030-12-27",
+   "typ": "familjehändelse",
+   "plats": "Luleå, Sverige",
+   "beskrivning": "Jul i Luleå",
+   "med": [
+    "Sara (hustru)",
+    "Alva (dotter, 12)",
+    "Melker (son, 9)",
+    "Ture (son, 5)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, polarnatt",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2031-01-17",
+   "start": "2031-01-17",
+   "slut": "2031-01-17",
+   "typ": "familjehändelse",
+   "plats": "Luleå, Sverige",
+   "beskrivning": "Fyller 50 hemma i Luleå med släkten",
+   "med": [
+    "Sara (hustru)",
+    "Göran (pappa i Luleå)",
+    "Britt (mamma i Luleå)",
+    "Karin (syster i Luleå)",
+    "Anna (syster i Luleå)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, polarnatt"
+  },
+  {
+   "datum": "2031-01-17",
+   "start": "2031-01-17",
+   "slut": "2031-01-17",
+   "typ": "jubileum",
+   "plats": "Uppsala (Gränby), Sverige",
+   "beskrivning": "Fyller 50 – större firande",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2031-07-02..2031-07-20",
+   "start": "2031-07-02",
+   "slut": "2031-07-20",
+   "typ": "semester",
+   "plats": "Norrbotten, Sverige",
+   "beskrivning": "Husbilssommar i norr",
+   "med": [
+    "Sara (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2031-08-12",
+   "start": "2031-08-12",
+   "slut": "2031-08-12",
+   "typ": "hobby",
+   "plats": "Florarna, Sverige",
+   "beskrivning": "Perseiderna",
+   "med": [
+    "Alva (dotter, 12)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  }
+ ]
+}

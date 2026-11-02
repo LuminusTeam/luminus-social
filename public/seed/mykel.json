@@ -1,0 +1,719 @@
+{
+ "slug": "mykel",
+ "namn": "Mykel",
+ "roll": "Teamlead och kontaktyta, Team Myceliet",
+ "team": [
+  "Myceliet"
+ ],
+ "karaktar": "Hantverkaren",
+ "element": "Eld",
+ "rost": {
+  "drag": [
+   "Praktiska inlägg med före- och efterbilder från verkstaden, få ord.",
+   "Blandar svenska och polska; \"Na zdrowie\" vid lägerelden.",
+   "Postar varje helg när ett projekt blir klart; inga selfies, händerna får synas.",
+   "Emojis: 🪵 och 🚲.",
+   "Delar aldrig barnens ansikten eller arbetets interna system.",
+   "Humorn är hantverkarens: \"mät två gånger, svär en\"."
+  ],
+  "exempelinlagg": [
+   "Bänk i återvunnen ek till ateljén. Tjugo timmar, noll skruvar. 🪵",
+   "200 km runt Mälaren. Motvind hela vägen. Jak zwykle.",
+   "Wigilia i Gdańsk. Tolv rätter, en tom stol för gästen, och mammas pierogi."
+  ]
+ },
+ "bas": {
+  "hemort": "Enköping, Sverige",
+  "arbetsmonster": {
+   "beskrivning": "På Vreta varje tisdag, torsdag och varannan onsdag; distans måndag, fredag (samt onsdag varannan vecka). (50 % distans, 50 % på Vreta.)",
+   "vreta_dagar": [
+    "tis",
+    "tor"
+   ],
+   "varannan_vecka_vreta": "ons",
+   "distansdagar": [
+    "mån",
+    "fre"
+   ],
+   "arbetsplats": "Vreta Regenerative Initiative, nära Uppsala"
+  },
+  "veckorutiner": [
+   "Tisdag och torsdag (och varannan onsdag): kör till Vreta 07:15, samåker med Petra och Rafael från Enköping",
+   "Måndag 17:30: hämtar barnen på fritids och kör Kuba till simträning i Enköpings simhall",
+   "Onsdag kväll: snickarverkstaden i garaget, möbler i ek",
+   "Lördag maj–september: långlopp på cykel runt Mälaren eller mot Ängsö",
+   "Söndag: Agricola eller Jenga med barnen"
+  ]
+ },
+ "nara": [
+  {
+   "kollega": "Tomas Lindqvist",
+   "slug": "tomas-lindqvist",
+   "varfor": "Snickrar ihop i verkstaden på Vreta och byter verktyg."
+  },
+  {
+   "kollega": "Rafael Costa",
+   "slug": "rafael-costa",
+   "varfor": "Cyklar landsväg på helgerna och samåker från Mälardalen."
+  },
+  {
+   "kollega": "Petra Lind",
+   "slug": "petra-lind",
+   "varfor": "Grannar i Enköping; barnen går på samma skola."
+  }
+ ],
+ "familj_och_vanner": [
+  {
+   "namn": "Anna",
+   "relation": "hustru"
+  },
+  {
+   "namn": "Kuba",
+   "relation": "son, 11"
+  },
+  {
+   "namn": "Zosia",
+   "relation": "dotter, 8"
+  },
+  {
+   "namn": "Halina",
+   "relation": "mamma i Gdańsk"
+  },
+  {
+   "namn": "Tadeusz",
+   "relation": "pappa i Gdańsk"
+  },
+  {
+   "namn": "Magda",
+   "relation": "syster i Gdańsk"
+  }
+ ],
+ "kalender": [
+  {
+   "datum": "2026-11-11",
+   "start": "2026-11-11",
+   "slut": "2026-11-11",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Polens självständighetsdag: middag med polska vänner",
+   "med": [
+    "Anna (hustru)",
+    "Kuba (son, 11)",
+    "Zosia (dotter, 8)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-11-21",
+   "start": "2026-11-21",
+   "slut": "2026-11-21",
+   "typ": "hobby",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Börjar bygga ett matbord i ek till familjen",
+   "med": [
+    "Kuba (son, 11)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, mörkt och ruskigt"
+  },
+  {
+   "datum": "2026-12-21..2026-12-28",
+   "start": "2026-12-21",
+   "slut": "2026-12-28",
+   "typ": "familjehändelse",
+   "plats": "Gdańsk, Polen",
+   "beskrivning": "Wigilia i Gdańsk; bil och färja Nynäshamn–Gdańsk",
+   "med": [
+    "Anna (hustru)",
+    "Kuba (son, 11)",
+    "Zosia (dotter, 8)",
+    "Halina (mamma i Gdańsk)",
+    "Tadeusz (pappa i Gdańsk)",
+    "Magda (syster i Gdańsk)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2026-12-31",
+   "start": "2026-12-31",
+   "slut": "2026-12-31",
+   "typ": "fest",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Nyårsafton med grannarna",
+   "med": [
+    "Anna (hustru)",
+    "Petra Lind (kollega)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, mörkt och kallt",
+   "hogtid": "nyårsafton"
+  },
+  {
+   "datum": "2027-01-16",
+   "start": "2027-01-16",
+   "slut": "2027-01-16",
+   "typ": "hobby",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Inomhuscykling på trainer, vinterbas",
+   "med": [
+    "Kuba (son, 11)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-01-30",
+   "start": "2027-01-30",
+   "slut": "2027-01-30",
+   "typ": "hobby",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Matbordet i ek klart",
+   "med": [
+    "Anna (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, mörkt och kallt"
+  },
+  {
+   "datum": "2027-02-06",
+   "start": "2027-02-06",
+   "slut": "2027-02-06",
+   "typ": "vänner",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Agricola-kväll med Petra och hennes make",
+   "med": [
+    "Petra Lind (kollega)",
+    "Anna (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-02-20..2027-02-27",
+   "start": "2027-02-20",
+   "slut": "2027-02-27",
+   "typ": "semester",
+   "plats": "Sälen, Sverige",
+   "beskrivning": "Sportlov i Sälen, utförsåkning med barnen",
+   "med": [
+    "Anna (hustru)",
+    "Kuba (son, 11)",
+    "Zosia (dotter, 8)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2027-03-27..2027-03-29",
+   "start": "2027-03-27",
+   "slut": "2027-03-29",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Påsk med polsk święconka-korg och svenska ägg",
+   "med": [
+    "Anna (hustru)",
+    "Kuba (son, 11)",
+    "Zosia (dotter, 8)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "tidig vår, snösmältning",
+   "hogtid": "påsk"
+  },
+  {
+   "datum": "2027-04-24",
+   "start": "2027-04-24",
+   "slut": "2027-04-24",
+   "typ": "hobby",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Säsongens första långa cykeltur",
+   "med": [
+    "Rafael Costa (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, tjällossning"
+  },
+  {
+   "datum": "2027-05-15",
+   "start": "2027-05-15",
+   "slut": "2027-05-15",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Zosia fyller nio",
+   "med": [
+    "Anna (hustru)",
+    "Zosia (dotter, 8)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-05-29",
+   "start": "2027-05-29",
+   "slut": "2027-05-29",
+   "typ": "hobby",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Cykelloppet runt Mälaren, 200 km",
+   "med": [
+    "Rafael Costa (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut"
+  },
+  {
+   "datum": "2027-06-05",
+   "start": "2027-06-05",
+   "slut": "2027-06-05",
+   "typ": "vänner",
+   "plats": "Ängsö slott, Västerås, Sverige",
+   "beskrivning": "Cykeltur till Ängsö",
+   "med": [
+    "Rafael Costa (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-06-18..2027-06-19",
+   "start": "2027-06-18",
+   "slut": "2027-06-19",
+   "typ": "hobby",
+   "plats": "Motala, Sverige",
+   "beskrivning": "Vätternrundan 315 km",
+   "med": [
+    "Rafael Costa (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2027-06-25",
+   "start": "2027-06-25",
+   "slut": "2027-06-25",
+   "typ": "fest",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Midsommar med grannarna, gitarr vid lägerelden",
+   "med": [
+    "Anna (hustru)",
+    "Kuba (son, 11)",
+    "Zosia (dotter, 8)",
+    "Petra Lind (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter",
+   "hogtid": "midsommar"
+  },
+  {
+   "datum": "2027-07-03..2027-07-24",
+   "start": "2027-07-03",
+   "slut": "2027-07-24",
+   "typ": "semester",
+   "plats": "Pommern och Masurien, Polen",
+   "beskrivning": "Bil med taktält genom Pommern, Masurien och vidare till Gdańsk",
+   "med": [
+    "Anna (hustru)",
+    "Kuba (son, 11)",
+    "Zosia (dotter, 8)",
+    "Halina (mamma i Gdańsk)",
+    "Tadeusz (pappa i Gdańsk)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "sommar"
+  },
+  {
+   "datum": "2027-08-14",
+   "start": "2027-08-14",
+   "slut": "2027-08-14",
+   "typ": "hobby",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Bygger nya bänkar till orangeriet",
+   "med": [
+    "Tomas Lindqvist (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-08-28",
+   "start": "2027-08-28",
+   "slut": "2027-08-28",
+   "typ": "vänner",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Kräftskiva hos Petra",
+   "med": [
+    "Petra Lind (kollega)",
+    "Anna (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2027-09-12",
+   "start": "2027-09-12",
+   "slut": "2027-09-12",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Fyller 53, pierogi och grillad fisk",
+   "med": [
+    "Anna (hustru)",
+    "Kuba (son, 11)",
+    "Zosia (dotter, 8)"
+   ],
+   "sakerhet": "fast",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-09-12",
+   "start": "2027-09-12",
+   "slut": "2027-09-12",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "fast",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2027-10-02",
+   "start": "2027-10-02",
+   "slut": "2027-10-02",
+   "typ": "vänner",
+   "plats": "Hjälstaviken, Enköping, Sverige",
+   "beskrivning": "Höstpromenad med familjen",
+   "med": [
+    "Anna (hustru)",
+    "Zosia (dotter, 8)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, löv faller"
+  },
+  {
+   "datum": "2027-10-30..2027-11-01",
+   "start": "2027-10-30",
+   "slut": "2027-11-01",
+   "typ": "familjehändelse",
+   "plats": "Gdańsk, Polen",
+   "beskrivning": "Wszystkich Świętych hos föräldrarna",
+   "med": [
+    "Anna (hustru)",
+    "Halina (mamma i Gdańsk)",
+    "Tadeusz (pappa i Gdańsk)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst",
+   "hogtid": "Wszystkich Świętych"
+  },
+  {
+   "datum": "2027-12-21..2027-12-27",
+   "start": "2027-12-21",
+   "slut": "2027-12-27",
+   "typ": "familjehändelse",
+   "plats": "Gdańsk, Polen",
+   "beskrivning": "Wigilia i Gdańsk",
+   "med": [
+    "Anna (hustru)",
+    "Kuba (son, 11)",
+    "Zosia (dotter, 8)",
+    "Halina (mamma i Gdańsk)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2028-02-19..2028-02-26",
+   "start": "2028-02-19",
+   "slut": "2028-02-26",
+   "typ": "semester",
+   "plats": "Sälen, Sverige",
+   "beskrivning": "Sportlov i fjällen",
+   "med": [
+    "Anna (hustru)",
+    "Kuba (son, 11)",
+    "Zosia (dotter, 8)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2028-06-16..2028-06-17",
+   "start": "2028-06-16",
+   "slut": "2028-06-17",
+   "typ": "hobby",
+   "plats": "Motala, Sverige",
+   "beskrivning": "Vätternrundan",
+   "med": [
+    "Rafael Costa (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, ljusa nätter"
+  },
+  {
+   "datum": "2028-09-01",
+   "start": "2028-09-01",
+   "slut": "2028-09-01",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Kuba börjar högstadiet",
+   "med": [
+    "Anna (hustru)",
+    "Kuba (son, 11)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-09-12",
+   "start": "2028-09-12",
+   "slut": "2028-09-12",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Födelsedag med familjen",
+   "med": [
+    "Anna (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-09-12",
+   "start": "2028-09-12",
+   "slut": "2028-09-12",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2028-12-21..2028-12-27",
+   "start": "2028-12-21",
+   "slut": "2028-12-27",
+   "typ": "familjehändelse",
+   "plats": "Gdańsk, Polen",
+   "beskrivning": "Wigilia i Gdańsk",
+   "med": [
+    "Anna (hustru)",
+    "Kuba (son, 11)",
+    "Zosia (dotter, 8)",
+    "Halina (mamma i Gdańsk)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2029-02-19..2029-02-26",
+   "start": "2029-02-19",
+   "slut": "2029-02-26",
+   "typ": "semester",
+   "plats": "Sälen, Sverige",
+   "beskrivning": "Sportlov i fjällen",
+   "med": [
+    "Anna (hustru)",
+    "Kuba (son, 11)",
+    "Zosia (dotter, 8)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2029-05-01",
+   "start": "2029-05-01",
+   "slut": "2029-05-01",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Ny bil med plats för cyklarna",
+   "med": [
+    "Anna (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vår, allt slår ut",
+   "hogtid": "första maj"
+  },
+  {
+   "datum": "2029-07-01..2029-07-21",
+   "start": "2029-07-01",
+   "slut": "2029-07-21",
+   "typ": "semester",
+   "plats": "Møre og Romsdal, Norge",
+   "beskrivning": "Bil med taktält längs Atlantvägen och fjordarna",
+   "med": [
+    "Anna (hustru)",
+    "Kuba (son, 11)",
+    "Zosia (dotter, 8)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2029-09-12",
+   "start": "2029-09-12",
+   "slut": "2029-09-12",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Födelsedag med familjen",
+   "med": [
+    "Anna (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2029-09-12",
+   "start": "2029-09-12",
+   "slut": "2029-09-12",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2029-12-21..2029-12-27",
+   "start": "2029-12-21",
+   "slut": "2029-12-27",
+   "typ": "familjehändelse",
+   "plats": "Gdańsk, Polen",
+   "beskrivning": "Wigilia i Gdańsk",
+   "med": [
+    "Anna (hustru)",
+    "Kuba (son, 11)",
+    "Zosia (dotter, 8)",
+    "Halina (mamma i Gdańsk)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2030-02-19..2030-02-26",
+   "start": "2030-02-19",
+   "slut": "2030-02-26",
+   "typ": "semester",
+   "plats": "Sälen, Sverige",
+   "beskrivning": "Sportlov i fjällen",
+   "med": [
+    "Anna (hustru)",
+    "Kuba (son, 11)",
+    "Zosia (dotter, 8)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder"
+  },
+  {
+   "datum": "2030-08-01",
+   "start": "2030-08-01",
+   "slut": "2030-08-01",
+   "typ": "arbetsmilstolpe",
+   "plats": "Vreta, Uppsala, Sverige",
+   "beskrivning": "Plattformen version 4 i drift",
+   "med": [
+    "Rafael Costa (kollega)",
+    "Kwame Mensah (kollega)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "sommar, badväder"
+  },
+  {
+   "datum": "2030-09-12",
+   "start": "2030-09-12",
+   "slut": "2030-09-12",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Födelsedag med familjen",
+   "med": [
+    "Anna (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2030-09-12",
+   "start": "2030-09-12",
+   "slut": "2030-09-12",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2030-12-21..2030-12-27",
+   "start": "2030-12-21",
+   "slut": "2030-12-27",
+   "typ": "familjehändelse",
+   "plats": "Gdańsk, Polen",
+   "beskrivning": "Wigilia i Gdańsk",
+   "med": [
+    "Anna (hustru)",
+    "Kuba (son, 11)",
+    "Zosia (dotter, 8)",
+    "Halina (mamma i Gdańsk)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter",
+   "hogtid": "julafton"
+  },
+  {
+   "datum": "2031-02-19..2031-02-26",
+   "start": "2031-02-19",
+   "slut": "2031-02-26",
+   "typ": "semester",
+   "plats": "Sälen, Sverige",
+   "beskrivning": "Sportlov i fjällen",
+   "med": [
+    "Anna (hustru)",
+    "Kuba (son, 11)",
+    "Zosia (dotter, 8)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "vinter, kallt, ljuset återvänder",
+   "hogtid": "fettisdagen"
+  },
+  {
+   "datum": "2031-07-01..2031-07-21",
+   "start": "2031-07-01",
+   "slut": "2031-07-21",
+   "typ": "semester",
+   "plats": "Istrien, Kroatien",
+   "beskrivning": "Bil med taktält genom Slovenien till Kroatien",
+   "med": [
+    "Anna (hustru)",
+    "Kuba (son, 11)",
+    "Zosia (dotter, 8)"
+   ],
+   "sakerhet": "drömplan",
+   "arstid": "sommar"
+  },
+  {
+   "datum": "2031-09-12",
+   "start": "2031-09-12",
+   "slut": "2031-09-12",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Födelsedag med familjen",
+   "med": [
+    "Anna (hustru)"
+   ],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  },
+  {
+   "datum": "2031-09-12",
+   "start": "2031-09-12",
+   "slut": "2031-09-12",
+   "typ": "familjehändelse",
+   "plats": "Enköping, Sverige",
+   "beskrivning": "Födelsedag, firas i liten skala",
+   "med": [],
+   "sakerhet": "planerad",
+   "arstid": "höst, svamp- och skördetid"
+  }
+ ]
+}
