@@ -392,13 +392,13 @@ function statusOf(p){
   if(e.typ==='natt'||e.typ==='ledig'||e.typ==='hogtid')return {k:'av',t:(e.typ==='hogtid'?'Högtid: ':e.typ==='ledig'?'Ledig: ':'Natt: ')+(e.titel||'')};
   if(e.typ==='resa'||e.typ==='gemensamt'||/möte|workshop|kurs|ceremoni/i.test(e.titel||''))return {k:'upptagen',t:'Upptagen: '+(e.titel||'')};
   return {k:'ledig',t:'Tillgänglig: '+(e.titel||'')}}
-function placeGroups(){const g={};for(const p of TEAM.people){if(p.special)continue;const j=justNu(p);if(!j)continue;const k=platsNamn(j.plats)+(j.land&&j.land!=='Sverige'?', '+j.land:'');(g[k]=g[k]||[]).push(p)}return Object.entries(g).sort((a,b)=>a[0]===VS?-1:b[0]===VS?1:b[1].length-a[1].length)}
+function placeGroups(){const g={};for(const p of TEAM.people){if(p.special)continue;const j=justNu(p);if(!j)continue;const k=platsNamn(j.plats)+(j.land&&j.land!=='Sverige'?', '+j.land:'');(g[k]=g[k]||[]).push(p)}if(!g[VS])g[VS]=[];return Object.entries(g).sort((a,b)=>a[0]===VS?-1:b[0]===VS?1:b[1].length-a[1].length)}
 function placeSummary(n){const g=placeGroups();if(!g.length)return '<p class="hint">Platser läses in.</p>';return g.slice(0,n).map(([k,ps])=>`<p style="margin:0 0 6px"><b>${esc(k)}</b> <span class="hint">${ps.length} personer</span></p>`).join('')}
 function viewPlaces(){
   const g=placeGroups();const counts={};for(const x of sortPosts(state.posts))if(x.plats){const n=platsNamn(x.plats);counts[n]=(counts[n]||0)+1}
   return `<h1 style="font-size:44px;margin-bottom:6px">Var alla är just nu</h1><p class="muted">Utifrån varje persons kalender. Saknas en händelse visas hemorten.</p>
-  <div class="places">${g.map(([k,ps])=>`<div class="place"><div><h3 style="font-size:24px">${esc(k)}</h3><span class="hint">${ps.length} personer${counts[k.split(',')[0]]?` · <a href="#plats-${encodeURIComponent(k.split(',')[0]).replace(/%/g,'_')}" class="chip" data-place="${esc(k.split(',')[0])}">${counts[k.split(',')[0]]} inlägg</a>`:''}</span></div><div class="faces">${ps.map(p=>`<a href="#p-${p.id}" title="${esc(p.name)} – ${esc(justNu(p)?.handelse||'')}">${avatar(p,'sm')}</a>`).join('')}</div></div>`).join('')}</div>
-  <h2 style="font-size:30px;margin:28px 0 10px">Inlägg per plats</h2><div class="faces">${Object.entries(counts).sort((a,b)=>b[1]-a[1]).map(([k,n])=>`<button class="btn ghost" data-place="${esc(k)}" type="button">${esc(k)} · ${n}</button>`).join('')}</div>`;
+  <div class="places">${g.map(([k,ps])=>`<div class="place"><div><h3 style="font-size:24px">${esc(k)}</h3><span class="hint">${ps.length?ps.length+' personer':'ingen här just nu'}${counts[k.split(',')[0]]?` · <a href="#plats-${encodeURIComponent(k.split(',')[0]).replace(/%/g,'_')}" class="chip" data-place="${esc(k.split(',')[0])}">${counts[k.split(',')[0]]} inlägg</a>`:''}</span></div><div class="faces">${ps.map(p=>`<a href="#p-${p.id}" title="${esc(p.name)} – ${esc(justNu(p)?.handelse||'')}">${avatar(p,'sm')}</a>`).join('')}</div></div>`).join('')}</div>
+  <h2 style="font-size:30px;margin:28px 0 10px">Inlägg per plats</h2><div class="faces">${Object.entries(counts).sort((a,b)=>a[0]===VS?-1:b[0]===VS?1:b[1]-a[1]).map(([k,n])=>`<button class="btn ghost" data-place="${esc(k)}" type="button">${esc(k)} · ${n}</button>`).join('')}</div>`;
 }
 function viewReportage(){
   const list=sortPosts(state.posts).filter(x=>x.typ==='reportage'||x.author==='ines-navarro'||x.author==='tor-ekvall');
