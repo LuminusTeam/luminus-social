@@ -329,6 +329,8 @@ async function toggleReact(key,typ){
 
 /* bilder */
 function photoBlock(x){
+  const vids=Array.isArray(x.videor)?x.videor:[];
+  if(vids.length) return vids.filter(v=>v&&v.url).map(v=>`<figure><video controls playsinline preload="metadata" src="${esc(v.url)}" aria-label="${esc(v.alt||'')}" style="width:100%;display:block;border-radius:10px"></video><figcaption>${esc(v.text||'')}<span class="ai">AI-skapat klipp</span></figcaption></figure>`).join('');
   const vid=x.video;
   if(vid&&vid.url) return `<figure><video controls playsinline preload="metadata" src="${esc(vid.url)}" aria-label="${esc(vid.alt||'')}" style="width:100%;display:block;border-radius:10px"></video><figcaption>${esc(vid.text||'')}<span class="ai">AI-skapat klipp</span></figcaption></figure>`;
   const img=x.bild;
