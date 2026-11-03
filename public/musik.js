@@ -1,6 +1,6 @@
 /* Musik – en låt per person under presentationen, och en spellista på första sidan.
    Läser /data/musik.json: [{ "person": "eon", "titel": "...", "fil": "/audio/eon.mp3", "bpm": 62, "langd": "4:54",
-   "version": "Remix", "utgivning": "2026-11-10" }]
+   "version": "Remix", "utgivning": "2026-11-10T12:00:00+01:00", "bild": "/img/husbandet-eon.jpg" }]
    Teamet och musikerna väljer vilken version som går ut först; Akustisk, Teknotrance och techno sparas till senare
    utgivningsdatum. En låt visas först när utgivning (ISO-datum, valfritt) har passerat. Finns inga låtar visas ingenting. All musik märks AI-skapad (B-051). Läggs till utan att röra resten av sidan. */
 (function () {
@@ -27,7 +27,8 @@
     return '<div class="panel" style="margin:20px 0" data-musikblock="' + esc(p.id) + '">' +
       '<span class="label">' + (list.length > 1 ? 'Sånger' : 'En sång') + ' till ' + esc(p.name.split(' ')[0]) + '</span>' +
       list.map(function (t) {
-        return '<h3 style="margin:10px 0 2px">' + esc(t.titel) + (t.version && t.version !== 'Remix' ? ' <span class="hint">' + esc(t.version) + '</span>' : '') + '</h3>' +
+        return (t.bild ? '<img src="' + esc(t.bild) + '" alt="AI-skapat foto av Husbandet vid släppet av ' + esc(t.titel) + '" loading="lazy" style="width:100%;max-height:320px;object-fit:cover;margin-top:10px">' : '') +
+          '<h3 style="margin:10px 0 2px">' + esc(t.titel) + (t.version && t.version !== 'Remix' ? ' <span class="hint">' + esc(t.version) + '</span>' : '') + '</h3>' +
           '<p class="hint" style="margin:0 0 8px">Husbandet · ' + esc(meta(t)) + ' <span class="ai">AI-skapad musik</span></p>' +
           '<audio controls preload="none" src="' + esc(t.fil) + '" style="width:100%" aria-label="' + esc(t.titel) + '"></audio>';
       }).join('') + '</div>';
@@ -41,7 +42,7 @@
       var on = i === cur;
       return '<div class="row" style="align-items:center;gap:12px;padding:8px 0;border-top:1px solid rgba(128,128,128,.25)">' +
         '<button type="button" class="btn' + (on ? '' : ' ghost') + '" data-mtrack="' + i + '" aria-label="' + (on && playing() ? 'Pausa ' : 'Spela ') + esc(t.titel) + '" style="min-width:44px">' + (on && playing() ? '❚❚' : '▶') + '</button>' +
-        '<div style="min-width:0;flex:1"><b>' + esc(t.titel) + '</b><br><span class="hint">' +
+        (t.bild ? '<img src="' + esc(t.bild) + '" alt="" loading="lazy" style="width:56px;height:56px;object-fit:cover">' : '') + '<div style="min-width:0;flex:1"><b>' + esc(t.titel) + '</b><br><span class="hint">' +
         '<a href="#p-' + esc(t.person) + '">' + esc(nameOf(t.person)) + '</a> · ' + esc(meta(t)) + (t.version && t.version !== 'Remix' ? ' · ' + esc(t.version) : '') + '</span></div></div>';
     }).join('');
     return '<div class="panel" style="margin-bottom:18px" id="musiklista">' +
