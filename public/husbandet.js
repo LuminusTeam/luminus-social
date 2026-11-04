@@ -1,10 +1,26 @@
 /* Husbandet – sida om signatursoundet. Läggs till utan att röra resten av sidan. */
 (function () {
   function viewHusbandet() {
-    var people = (typeof TEAM !== 'undefined' && TEAM.people ? TEAM.people : []).filter(function (p) { return p.role === 'Husbandet'; });
-    var rows = people.map(function (p) {
-      return '<a class="row" href="#p-' + esc(p.id) + '" style="text-decoration:none;color:inherit">' + avatar(p, 'sm') +
-        '<div><b>' + esc(p.name) + '</b><br><span class="label">' + esc(p.character || '') + (p.element ? ' · ' + esc(p.element) : '') + '</span></div></a>';
+    var all = (typeof TEAM !== 'undefined' && TEAM.people ? TEAM.people : []);
+    function bandOf(p) { return p.band || (p.role === 'Husbandet' ? 'Husbandet' : ''); }
+    function instr(p) { var r = p.role || ''; var i = r.indexOf(' · '); return i >= 0 ? r.slice(i + 3) : ''; }
+    function row(p) {
+      var sub = [instr(p), (p.character || '') + (p.element ? ' · ' + p.element : '')].filter(Boolean).join(' – ');
+      return '<a class="row" href="#p-' + esc(p.id) + '" style="text-decoration:none;color:inherit;align-items:center;gap:12px">' + avatar(p, 'sm') +
+        '<div style="min-width:0"><b>' + esc(p.name) + '</b><br><span class="hint">' + esc(sub) + '</span></div></a>';
+    }
+    var GROUPS = [
+      ['Husbandet', 'Dub reggae i långsam puls. Signatursoundet som bär kvällarna på Vreta.'],
+      ['Karavanen', 'Världsmusikerna som spelar med Husbandet i olika konstellationer. Karavanen är Husbandet tillsammans med dem.'],
+      ['Ek & Lin', 'Akustisk gitarrduo. Allt akustiskt gitarrspel i teamets musik kommer härifrån.'],
+      ['Leonid', 'Melodisk techno och trans. Teo mixar och spelar in åt alla banden.']
+    ];
+    var groups = GROUPS.map(function (g) {
+      var ms = all.filter(function (p) { return bandOf(p) === g[0]; });
+      if (!ms.length) return '';
+      return '<div style="margin-top:18px"><h3 style="margin:0 0 2px">' + esc(g[0]) + ' <span class="hint">(' + ms.length + ')</span></h3>' +
+        '<p class="hint" style="margin:0 0 10px">' + esc(g[1]) + '</p>' +
+        '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px">' + ms.map(row).join('') + '</div></div>';
     }).join('');
     var facts = [
       ['Genre', 'Dub reggae med bandeko och rymd, så att sångens svansar glider mellan trumslagen'],
@@ -27,7 +43,7 @@
       '<p style="font-size:22px;margin:8px 0 14px">Dub reggae i långsam puls, sjungen av en kvinna och en man. Sparsamma rader, djup bas och långa ekon som låter orden hänga kvar i rummet.</p>' +
       facts +
       '<p style="margin-top:16px;font-size:14px"><span class="ai">AI-skapad musik</span> Musik och röster är skapade med AI och märks så överallt på sidan.</p></div>' +
-      '<div class="panel" style="margin:24px 0"><span class="label">I Husbandet</span><div style="display:flex;flex-direction:column;gap:10px;margin-top:10px">' + rows + '</div></div>' +
+      '<div class="panel" style="margin:24px 0"><span class="label">Musikerna i Vreta Sound System</span>' + groups + '</div>' +
       '<div class="panel" style="margin:24px 0"><span class="label">Virelais sånger</span>' +
       '<p style="font-size:18px;margin:8px 0 0">Virelai skriver en mantrasång till var och en i teamet, i samma sound. Orden visar, och personen nämns aldrig vid namn. Sångerna publiceras här allteftersom de blir klara.</p></div>' +
       (typeof window.musikPlaylistPanel === 'function' ? window.musikPlaylistPanel() : '');
