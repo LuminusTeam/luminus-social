@@ -1,5 +1,137 @@
 [
-  {"person": "astrid-vinter", "titel": "Stigen först", "fil": "/audio/astrid-vinter-stigen-forst-remix-v1.mp3", "bpm": 66, "langd": "4:54", "version": "Remix", "utgivning": "2026-11-04T19:44:00+01:00"},
-  {"person": "eon", "titel": "Det långa andetaget", "fil": "/audio/eon-det-langa-andetaget-fyra-i-en-v1.mp3", "bpm": 62, "langd": "5:14", "version": "Fyra i en", "utgivning": "2026-11-05T11:17:00+01:00"},
-  {"person": "gunnel-axelsson", "titel": "Lagens lugna ljus", "fil": "/audio/gunnel-axelsson-lagens-lugna-ljus-initiation-v1.mp3", "bpm": 66, "langd": "4:44", "version": "Initiation", "utgivning": "2026-11-05T18:06:00+01:00"}
+ {
+  "person": "astrid-vinter",
+  "titel": "Stigen först",
+  "fil": "/audio/astrid-vinter-stigen-forst-remix-v1.mp3",
+  "bpm": 66,
+  "langd": "4:54",
+  "version": "Remix",
+  "utgivning": "2026-11-04T19:44:00+01:00"
+ },
+ {
+  "person": "eon",
+  "titel": "Det långa andetaget",
+  "fil": "/audio/eon-det-langa-andetaget-fyra-i-en-v1.mp3",
+  "bpm": 62,
+  "langd": "5:14",
+  "version": "Fyra i en",
+  "utgivning": "2026-11-04T19:44:00+01:00"
+ },
+ {
+  "person": "gunnel-axelsson",
+  "titel": "Lagens lugna ljus",
+  "fil": "/audio/gunnel-axelsson-lagens-lugna-ljus-initiation-v1.mp3",
+  "bpm": 66,
+  "langd": "4:44",
+  "version": "Initiation",
+  "utgivning": "2026-11-04T19:44:00+01:00"
+ },
+ {
+  "person": "anneli-berg",
+  "titel": "Det tysta draget",
+  "fil": "/audio/anneli-berg-det-tysta-draget-remix-v1.mp3",
+  "bpm": 62,
+  "langd": "4:38",
+  "version": "Remix",
+  "utgivning": "2026-11-04T21:19:00+01:00"
+ },
+ {
+  "person": "elin-soderberg",
+  "titel": "Fåglarnas mönster",
+  "fil": "/audio/elin-soderberg-faglarnas-monster-remix-v1.mp3",
+  "bpm": 70,
+  "langd": "4:51",
+  "version": "Remix",
+  "utgivning": "2026-11-04T21:19:00+01:00"
+ },
+ {
+  "person": "erik-johansson",
+  "titel": "Mätt av stjärnor",
+  "fil": "/audio/erik-johansson-matt-av-stjarnor-remix-v1.mp3",
+  "bpm": 64,
+  "langd": "4:43",
+  "version": "Remix",
+  "utgivning": "2026-11-04T21:19:00+01:00"
+ },
+ {
+  "person": "kelda",
+  "titel": "Sannolikhetens trädgård",
+  "fil": "/audio/kelda-sannolikhetens-tradgard-remix-v1.mp3",
+  "bpm": 72,
+  "langd": "4:41",
+  "version": "Remix",
+  "utgivning": "2026-11-04T21:19:00+01:00"
+ },
+ {
+  "person": "noor-rahimi",
+  "titel": "Ordens luft",
+  "fil": "/audio/noor-rahimi-ordens-luft-remix-v1.mp3",
+  "bpm": 66,
+  "langd": "4:59",
+  "version": "Remix",
+  "utgivning": "2026-11-04T21:19:00+01:00"
+ },
+ {
+  "person": "samuel-okafor",
+  "titel": "Laget spelar",
+  "fil": "/audio/samuel-okafor-laget-spelar-remix-v1.mp3",
+  "bpm": 76,
+  "langd": "5:07",
+  "version": "Remix",
+  "utgivning": "2026-11-04T21:19:00+01:00"
+ },
+ {
+  "person": "kwame-mensah",
+  "titel": "Vaktens eld",
+  "fil": "/audio/kwame-mensah-vaktens-eld-remix-v1.mp3",
+  "bpm": 78,
+  "langd": "4:24",
+  "version": "Remix",
+  "utgivning": "2026-11-04T21:19:00+01:00"
+ },
+ {
+  "person": "lucia-ferreira",
+  "titel": "Gnistan på hjul",
+  "fil": "/audio/lucia-ferreira-gnistan-pa-hjul-remix-v1.mp3",
+  "bpm": 80,
+  "langd": "4:48",
+  "version": "Remix",
+  "utgivning": "2026-11-04T21:19:00+01:00"
+ },
+ {
+  "person": "maja-eklof",
+  "titel": "Inget går förlorat",
+  "fil": "/audio/maja-eklof-inget-gar-forlorat-remix-v1.mp3",
+  "bpm": 68,
+  "langd": "4:59",
+  "version": "Remix",
+  "utgivning": "2026-11-04T21:19:00+01:00"
+ },
+ {
+  "person": "marisol-quispe",
+  "titel": "Det som jäser i mörkret",
+  "fil": "/audio/marisol-quispe-det-som-jaser-i-morkret-remix-v1.mp3",
+  "bpm": 72,
+  "langd": "4:32",
+  "version": "Remix",
+  "utgivning": "2026-11-04T21:19:00+01:00"
+ },
+ {
+  "person": "mykel",
+  "titel": "Eld i veden",
+  "fil": "/audio/mykel-eld-i-veden-remix-v1.mp3",
+  "bpm": 72,
+  "langd": "4:47",
+  "version": "Remix",
+  "utgivning": "2026-11-04T21:19:00+01:00"
+ },
+ {
+  "person": "petra-lind",
+  "titel": "Sprickan där ljuset sover",
+  "fil": "/audio/petra-lind-sprickan-dar-ljuset-sover-remix-v1.mp3",
+  "bpm": 66,
+  "langd": "4:33",
+  "version": "Remix",
+  "utgivning": "2026-11-04T21:19:00+01:00"
+ }
 ]
