@@ -52,8 +52,8 @@
         '<a href="#p-' + esc(t.person) + '">' + esc(nameOf(t.person)) + '</a> · ' + esc(meta(t)) + (t.version && t.version !== 'Remix' ? ' · ' + esc(t.version) : '') + '</span></div></div>';
     }).join('');
     var more = (compact && TRACKS.length > shown.length) ? '<p style="margin:10px 0 0"><a href="#husbandet">Visa alla ' + TRACKS.length + ' s\u00e5nger</a></p>' : '';
-    return '<div class="panel" style="margin-bottom:18px" id="musiklista" data-compact="' + (compact ? 1 : 0) + '">' +
-      '<span class="label">Husbandets spellista</span>' +
+    return '<div class="panel" style="margin-bottom:' + (compact ? 0 : 18) + 'px" id="musiklista" data-compact="' + (compact ? 1 : 0) + '">' +
+      (compact ? '<h3>Husbandets spellista</h3>' : '<span class="label">Husbandets spellista</span>') +
       '<p class="hint" style="margin:4px 0 8px">En sång till varje person, skapad av Husbandet. <span class="ai">AI-skapad musik</span></p>' +
       '<div class="row" style="gap:8px;margin-bottom:6px">' +
       '<button type="button" class="btn" data-mall="play">Spela alla</button>' +
@@ -104,9 +104,16 @@
       return html + personBlock(p);
     };
   }
-  if (typeof viewFeed === 'function') {
-    var origFeed = viewFeed;
-    viewFeed = function (filterPlace) { return playlistPanel(true) + origFeed(filterPlace); };
+  /* I flödet: överst i högerkolumnen. Kolumnen blir högre än skärmen, så den får följa med sidan
+     i stället för att stå fast (annars går panelerna längst ned inte att nå). */
+  var st = document.createElement('style');
+  st.textContent = '.side:has(#musiklista){position:static}';
+  document.head.appendChild(st);
+  if (typeof sidebar === 'function') {
+    var origSide = sidebar;
+    sidebar = function () {
+      return origSide().replace('<aside class="side">', '<aside class="side">' + playlistPanel(true));
+    };
   }
 
   fetch('/data/musik.json', { cache: 'no-cache' })
