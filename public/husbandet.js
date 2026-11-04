@@ -29,7 +29,8 @@
       '<p style="margin-top:16px;font-size:14px"><span class="ai">AI-skapad musik</span> Musik och röster är skapade med AI och märks så överallt på sidan.</p></div>' +
       '<div class="panel" style="margin:24px 0"><span class="label">I Husbandet</span><div style="display:flex;flex-direction:column;gap:10px;margin-top:10px">' + rows + '</div></div>' +
       '<div class="panel" style="margin:24px 0"><span class="label">Virelais sånger</span>' +
-      '<p style="font-size:18px;margin:8px 0 0">Virelai skriver en mantrasång till var och en i teamet, i samma sound. Orden visar, och personen nämns aldrig vid namn. Sångerna publiceras här allteftersom de blir klara.</p></div>';
+      '<p style="font-size:18px;margin:8px 0 0">Virelai skriver en mantrasång till var och en i teamet, i samma sound. Orden visar, och personen nämns aldrig vid namn. Sångerna publiceras här allteftersom de blir klara.</p></div>' +
+      (typeof window.musikPlaylistPanel === 'function' ? window.musikPlaylistPanel() : '');
   }
   function fix() {
     if (location.hash !== '#husbandet') return;

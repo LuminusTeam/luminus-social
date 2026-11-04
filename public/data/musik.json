@@ -1,1 +1,5 @@
-[]
+[
+  {"person": "astrid-vinter", "titel": "Stigen först", "fil": "/audio/astrid-vinter-stigen-forst-remix-v1.mp3", "bpm": 66, "langd": "4:54", "version": "Remix", "utgivning": "2026-11-04T19:44:00+01:00"},
+  {"person": "eon", "titel": "Det långa andetaget", "fil": "/audio/eon-det-langa-andetaget-fyra-i-en-v1.mp3", "bpm": 62, "langd": "5:14", "version": "Fyra i en", "utgivning": "2026-11-05T11:17:00+01:00"},
+  {"person": "gunnel-axelsson", "titel": "Lagens lugna ljus", "fil": "/audio/gunnel-axelsson-lagens-lugna-ljus-initiation-v1.mp3", "bpm": 66, "langd": "4:44", "version": "Initiation", "utgivning": "2026-11-05T18:06:00+01:00"}
+]

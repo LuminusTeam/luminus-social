@@ -54,6 +54,7 @@
       '<button type="button" class="btn ghost" data-mall="next" aria-label="Nästa">⏭</button>' +
       '</div>' + rows + '</div>';
   }
+  window.musikPlaylistPanel = playlistPanel;
   function refreshList() {
     var el = document.getElementById('musiklista');
     if (el) el.outerHTML = playlistPanel();
@@ -109,6 +110,7 @@
         return t && t.person && t.fil && t.titel && (!t.utgivning || Date.parse(t.utgivning) <= nu);
       }) : [];
       if (TRACKS.length && typeof render === 'function') render();
+      if (TRACKS.length && location.hash === '#husbandet') window.dispatchEvent(new HashChangeEvent('hashchange'));
     })
     .catch(function () {});
 })();
