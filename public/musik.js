@@ -36,28 +36,35 @@
 
   /* Spellistan på första sidan */
   function playing() { return cur >= 0 && !audio.paused; }
-  function playlistPanel() {
+  var FEED_MAX = 5;
+  function playlistPanel(compact) {
     if (!TRACKS.length) return '';
-    var rows = TRACKS.map(function (t, i) {
+    var shown = TRACKS.map(function (t, i) { return i; });
+    if (compact && TRACKS.length > FEED_MAX) {
+      var start = cur >= FEED_MAX ? cur - FEED_MAX + 1 : 0;
+      shown = shown.slice(start, start + FEED_MAX);
+    }
+    var rows = shown.map(function (i) { var t = TRACKS[i];
       var on = i === cur;
       return '<div class="row" style="align-items:center;gap:12px;padding:8px 0;border-top:1px solid rgba(128,128,128,.25)">' +
         '<button type="button" class="btn' + (on ? '' : ' ghost') + '" data-mtrack="' + i + '" aria-label="' + (on && playing() ? 'Pausa ' : 'Spela ') + esc(t.titel) + '" style="min-width:44px">' + (on && playing() ? '❚❚' : '▶') + '</button>' +
         (t.bild ? '<img src="' + esc(t.bild) + '" alt="" loading="lazy" style="width:56px;height:56px;object-fit:cover">' : '') + '<div style="min-width:0;flex:1"><b>' + esc(t.titel) + '</b><br><span class="hint">' +
         '<a href="#p-' + esc(t.person) + '">' + esc(nameOf(t.person)) + '</a> · ' + esc(meta(t)) + (t.version && t.version !== 'Remix' ? ' · ' + esc(t.version) : '') + '</span></div></div>';
     }).join('');
-    return '<div class="panel" style="margin-bottom:18px" id="musiklista">' +
+    var more = (compact && TRACKS.length > shown.length) ? '<p style="margin:10px 0 0"><a href="#husbandet">Visa alla ' + TRACKS.length + ' s\u00e5nger</a></p>' : '';
+    return '<div class="panel" style="margin-bottom:18px" id="musiklista" data-compact="' + (compact ? 1 : 0) + '">' +
       '<span class="label">Husbandets spellista</span>' +
       '<p class="hint" style="margin:4px 0 8px">En sång till varje person, skapad av Husbandet. <span class="ai">AI-skapad musik</span></p>' +
       '<div class="row" style="gap:8px;margin-bottom:6px">' +
       '<button type="button" class="btn" data-mall="play">Spela alla</button>' +
       '<button type="button" class="btn ghost" data-mall="prev" aria-label="Föregående">⏮</button>' +
       '<button type="button" class="btn ghost" data-mall="next" aria-label="Nästa">⏭</button>' +
-      '</div>' + rows + '</div>';
+      '</div>' + rows + more + '</div>';
   }
   window.musikPlaylistPanel = playlistPanel;
   function refreshList() {
     var el = document.getElementById('musiklista');
-    if (el) el.outerHTML = playlistPanel();
+    if (el) el.outerHTML = playlistPanel(el.getAttribute('data-compact') === '1');
   }
 
   function play(i) {
@@ -99,7 +106,7 @@
   }
   if (typeof viewFeed === 'function') {
     var origFeed = viewFeed;
-    viewFeed = function (filterPlace) { return playlistPanel() + origFeed(filterPlace); };
+    viewFeed = function (filterPlace) { return playlistPanel(true) + origFeed(filterPlace); };
   }
 
   fetch('/data/musik.json', { cache: 'no-cache' })
