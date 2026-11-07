@@ -20,6 +20,29 @@
     return [t.bpm ? t.bpm + ' BPM' : '', t.langd || ''].filter(Boolean).join(' · ');
   }
 
+  /* Emojireaktioner på låtar. Sparas i samma samling (reactions) som inläggsreaktionerna, med target "track:<fil>",
+     och hanteras av sidans egen klicklyssnare via data-react/data-typ (toggleReact). */
+  var EMOJIS = [
+    ['e-hjarta', '❤️', 'Älskar'],
+    ['e-eld', '🔥', 'Het'],
+    ['e-musik', '🎶', 'Låten sitter'],
+    ['e-leende', '😊', 'Glad'],
+    ['e-hander', '🙌', 'Bravo']
+  ];
+  function emojiBar(t) {
+    var key = 'track:' + t.fil;
+    var rs = (typeof state !== 'undefined' && state.reactions) ? state.reactions : [];
+    var me = (typeof state !== 'undefined') ? state.uid : null;
+    return '<div class="reacts" role="group" aria-label="Reagera på ' + esc(t.titel) + '" style="gap:4px;margin-top:6px">' +
+      EMOJIS.map(function (e) {
+        var n = 0, mine = false;
+        rs.forEach(function (r) { if (r.target === key && r.typ === e[0]) { n++; if (me && r.vem === me) mine = true; } });
+        return '<button type="button" class="react small" data-react="' + esc(key) + '" data-typ="' + e[0] + '" aria-pressed="' + (mine ? 'true' : 'false') +
+          '" aria-label="' + esc(e[2]) + ': ' + n + '" title="' + esc(e[2]) + '" style="padding:2px 8px;gap:4px"><span aria-hidden="true">' + e[1] +
+          '</span><span class="n' + (n ? '' : ' z') + '">' + n + '</span></button>';
+      }).join('') + '</div>';
+  }
+
   /* Under personpresentationen */
   function personBlock(p) {
     var list = p ? tracksFor(p.id) : [];
@@ -30,7 +53,7 @@
         return (t.bild ? '<img src="' + esc(t.bild) + '" alt="AI-skapat foto av Husbandet vid släppet av ' + esc(t.titel) + '" loading="lazy" style="width:100%;max-height:320px;object-fit:cover;margin-top:10px">' : '') +
           '<h3 style="margin:10px 0 2px">' + esc(t.titel) + (t.version && t.version !== 'Remix' ? ' <span class="hint">' + esc(t.version) + '</span>' : '') + '</h3>' +
           '<p class="hint" style="margin:0 0 8px">Husbandet · ' + esc(meta(t)) + ' <span class="ai">AI-skapad musik</span></p>' +
-          '<audio controls preload="none" src="' + esc(t.fil) + '" style="width:100%" aria-label="' + esc(t.titel) + '"></audio>';
+          '<audio controls preload="none" src="' + esc(t.fil) + '" style="width:100%" aria-label="' + esc(t.titel) + '"></audio>' + emojiBar(t);
       }).join('') + '</div>';
   }
 
@@ -49,7 +72,7 @@
       return '<div class="row" style="align-items:center;gap:12px;padding:8px 0;border-top:1px solid rgba(128,128,128,.25)">' +
         '<button type="button" class="btn' + (on ? '' : ' ghost') + '" data-mtrack="' + i + '" aria-label="' + (on && playing() ? 'Pausa ' : 'Spela ') + esc(t.titel) + '" style="min-width:44px">' + (on && playing() ? '❚❚' : '▶') + '</button>' +
         (t.bild ? '<img src="' + esc(t.bild) + '" alt="" loading="lazy" style="width:56px;height:56px;object-fit:cover">' : '') + '<div style="min-width:0;flex:1"><b>' + esc(t.titel) + '</b><br><span class="hint">' +
-        '<a href="#p-' + esc(t.person) + '">' + esc(nameOf(t.person)) + '</a> · ' + esc(meta(t)) + (t.version && t.version !== 'Remix' ? ' · ' + esc(t.version) : '') + '</span></div></div>';
+        '<a href="#p-' + esc(t.person) + '">' + esc(nameOf(t.person)) + '</a> · ' + esc(meta(t)) + (t.version && t.version !== 'Remix' ? ' · ' + esc(t.version) : '') + '</span>' + emojiBar(t) + '</div></div>';
     }).join('');
     var more = (compact && TRACKS.length > shown.length) ? '<p style="margin:10px 0 0"><a href="#husbandet">Visa alla ' + TRACKS.length + ' s\u00e5nger</a></p>' : '';
     return '<div class="panel" style="margin-bottom:' + (compact ? 0 : 18) + 'px" id="musiklista" data-compact="' + (compact ? 1 : 0) + '">' +
