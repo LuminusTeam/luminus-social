@@ -81,6 +81,8 @@ select,input[type=text],input[type=search]{border:1px solid var(--rule);backgrou
 .hint{font-family:var(--f-label);font-size:12px;color:var(--ink-soft)}
 /* posts */
 .feed{display:flex;flex-direction:column;gap:20px}
+#fuser{min-width:180px;flex:1 1 180px;max-width:280px;border:1px solid var(--rule);background:var(--bg);padding:7px 10px}
+#fmore{align-self:center;margin:4px 0 8px}
 .post{background:var(--paper);border:1px solid var(--rule);padding:16px 18px;display:flex;flex-direction:column;gap:10px;min-width:0}
 .post.reportage{border-top:3px solid var(--gold)}
 .post.team{border-left:4px solid var(--etern)}
@@ -374,19 +376,49 @@ function postAsOptions(id){
 function authorFromSelect(v){if(v)return v;return state.uid?'u:'+state.uid:null}
 
 /* sidor */
+/* flödet: max 50 inlägg åt gången + sök på användare */
+const FEED_PAGE=50;
+const feedUi={q:'',limit:FEED_PAGE};
+function feedMatches(x,q){
+  const names=[authorOf(x.author).name];
+  if(x.postat_av)names.push(authorOf(x.postat_av).name);
+  const hay=[x.author,...names].filter(Boolean).join(' ').toLowerCase();
+  return q.split(/\s+/).every(w=>hay.includes(w));
+}
+function feedItems(){
+  const pf=store.get('platsfilter','');
+  let list=sortPosts(state.posts);
+  if(pf)list=list.filter(x=>platsNamn(x.plats)===platsNamn(pf));
+  const q=feedUi.q.trim().toLowerCase();
+  if(q)list=list.filter(x=>feedMatches(x,q));
+  return list;
+}
+function feedBoxHtml(){
+  const list=feedItems();const shown=list.slice(0,feedUi.limit);
+  const empty=feedUi.q.trim()?'Inga inlägg från den användaren.':(state.dbReady?'Inga inlägg här ännu. Skriv det första ovan.':'Flödet hämtas …');
+  const more=list.length>shown.length?`<button class="btn ghost" type="button" id="fmore">Visa ${Math.min(FEED_PAGE,list.length-shown.length)} fler inlägg</button>`:'';
+  return {html:(shown.length?shown.map(postCard).join(''):`<div class="empty">${empty}</div>`)+more,
+    count:list.length>shown.length?`Visar ${shown.length} av ${list.length} inlägg`:`${list.length} inlägg`};
+}
+function fillFeed(){
+  const box=$('#feedbox');if(!box)return;const r=feedBoxHtml();box.innerHTML=r.html;const c=$('#fcount');if(c)c.textContent=r.count;
+}
 function viewFeed(filterPlace){
   const pf=filterPlace??store.get('platsfilter','');
   const all=sortPosts(state.posts);
   const places=[...new Set(all.map(x=>platsNamn(x.plats)).filter(Boolean))].sort((a,b)=>a===VS?-1:b===VS?1:a.localeCompare(b,'sv'));
-  const list=pf?all.filter(x=>platsNamn(x.plats)===platsNamn(pf)):all;
+  const people=[...new Set(all.flatMap(x=>[authorOf(x.author).name]).filter(n=>n&&n!=='Okänd'&&n!=='Någon'))].sort((a,b)=>a.localeCompare(b,'sv'));
+  const fb=feedBoxHtml();
   return `<div class="grid2"><section>
    <form class="composer" id="composer"><span class="label">Nytt inlägg</span>
     <label class="hint" for="ptext" hidden>Text</label><textarea id="ptext" placeholder="Vad händer på Vreta, i teamet eller i livet?" maxlength="4000"></textarea>
     <div class="row">${postAsOptions('pas')}<label class="hint" for="pplats" hidden>Plats</label><input type="text" id="pplats" placeholder="Plats, t.ex. Vreta Solglänta" value="${esc(platsNamn(store.get('senastePlats','Vreta Solglänta')))}" maxlength="120"><button class="btn" type="submit" ${state.db?'':'disabled'}>Publicera</button></div>
     <span class="hint">${state.db?'Inlägget sparas för alla som öppnar sidan.':'Flödet läses in. Publicering kräver att sidan öppnas i claude.ai inom organisationen.'}</span>
    </form>
-   <div class="row" style="margin-bottom:14px"><label class="label" for="pf">Plats</label><select id="pf"><option value="">Alla platser</option>${places.map(p=>`<option${p===platsNamn(pf)?' selected':''}>${esc(p)}</option>`).join('')}</select><span class="hint">${list.length} inlägg</span></div>
-   <div class="feed">${list.length?list.map(postCard).join(''):`<div class="empty">${state.dbReady?'Inga inlägg här ännu. Skriv det första ovan.':'Flödet hämtas …'}</div>`}</div>
+   <div class="row" style="margin-bottom:14px"><label class="label" for="pf">Plats</label><select id="pf"><option value="">Alla platser</option>${places.map(p=>`<option${p===platsNamn(pf)?' selected':''}>${esc(p)}</option>`).join('')}</select>
+    <label class="label" for="fuser">Användare</label><input type="search" id="fuser" list="fusers" placeholder="Sök användare" value="${esc(feedUi.q)}" maxlength="80" autocomplete="off"><datalist id="fusers">${people.map(n=>`<option value="${esc(n)}">`).join('')}</datalist>
+    <span class="hint" id="fcount">${esc(fb.count)}</span></div>
+   <div class="feed" id="feedbox">${fb.html}</div>
   </section>${sidebar()}</div>`;
 }
 function sidebar(){
@@ -596,13 +628,20 @@ document.addEventListener('click',e=>{
   const r=e.target.closest('[data-react]');if(r){toggleReact(r.dataset.react,r.dataset.typ);return}
   const t=e.target.closest('[data-tab]');if(t){store.set('profilflik',t.dataset.tab);const p=P[location.hash.slice(3)];document.querySelectorAll('[data-tab]').forEach(b=>b.setAttribute('aria-selected',b===t?'true':'false'));$('#tabbody').innerHTML=profileTab(p,t.dataset.tab);return}
   const pl=e.target.closest('[data-place]');if(pl){e.preventDefault();store.set('platsfilter',pl.dataset.place);location.hash='#flode';render();return}
-  const j=e.target.closest('[data-jump]');if(j){e.preventDefault();if(location.hash!=='#flode'){location.hash='#flode';setTimeout(()=>document.getElementById('post-'+j.dataset.jump)?.scrollIntoView(),50)}else document.getElementById('post-'+j.dataset.jump)?.scrollIntoView();return}
+  const j=e.target.closest('[data-jump]');if(j){e.preventDefault();{const i=feedItems().findIndex(x=>x._id===j.dataset.jump);if(i>=feedUi.limit){feedUi.limit=i+1;if(location.hash==='#flode')fillFeed()}}if(location.hash!=='#flode'){location.hash='#flode';setTimeout(()=>document.getElementById('post-'+j.dataset.jump)?.scrollIntoView(),50)}else document.getElementById('post-'+j.dataset.jump)?.scrollIntoView();return}
   if(e.target.id==='fclear'){store.set('katalogfilter',{q:'',team:'',el:'',kar:''});render()}
 });
-document.addEventListener('input',e=>{if(['fq'].includes(e.target.id))fillCatalog()});
+let fuserTimer=null;
+document.addEventListener('input',e=>{
+  if(['fq'].includes(e.target.id))fillCatalog();
+  if(e.target.id==='fuser'){const v=e.target.value;clearTimeout(fuserTimer);fuserTimer=setTimeout(()=>{feedUi.q=v;feedUi.limit=FEED_PAGE;fillFeed()},250)}
+});
+document.addEventListener('click',e=>{
+  if(e.target.closest&&e.target.closest('#fmore')){feedUi.limit+=FEED_PAGE;fillFeed()}
+});
 document.addEventListener('change',e=>{
   if(['ft','fe','fk'].includes(e.target.id))fillCatalog();
-  if(e.target.id==='pf'){store.set('platsfilter',e.target.value);render()}
+  if(e.target.id==='pf'){store.set('platsfilter',e.target.value);feedUi.limit=FEED_PAGE;render()}
   if(e.target.id==='pas'){store.set('postaSom',e.target.value)}
 });
 document.addEventListener('submit',async e=>{
