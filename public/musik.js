@@ -43,6 +43,46 @@
       }).join('') + '</div>';
   }
 
+  /* Vilka som spelar på låten. Låten kan ange "grupp" (Husbandet, Karavanen, Ek & Lin, Leonid) och/eller
+     "medverkande" (lista med person-id). Annars väljs gruppen efter version: akustisk = Ek & Lin,
+     techno/trance = Leonid, allt annat = Husbandet. Karavanen är Husbandet tillsammans med världsmusikerna. */
+  function groupOf(t) {
+    if (t.grupp) return t.grupp;
+    var v = t.version || '';
+    if (/akustisk/i.test(v)) return 'Ek & Lin';
+    if (/techno|trance|trans\b/i.test(v)) return 'Leonid';
+    return 'Husbandet';
+  }
+  function playersOf(t) {
+    var people = (typeof TEAM !== 'undefined' && TEAM.people) ? TEAM.people : [];
+    if (Array.isArray(t.medverkande) && t.medverkande.length) {
+      return t.medverkande.map(function (id) { return people.filter(function (p) { return p.id === id; })[0]; }).filter(Boolean);
+    }
+    var g = groupOf(t);
+    return people.filter(function (p) { return p.band === g || (g === 'Karavanen' && p.band === 'Husbandet'); });
+  }
+  function instrOf(p) {
+    var r = p.role || '', i = r.indexOf(' · ');
+    return i >= 0 ? r.slice(i + 3) : '';
+  }
+  /* Små porträtt med länk till presentationen */
+  function playersFaces(t) {
+    var ps = playersOf(t);
+    if (!ps.length || typeof avatar !== 'function') return '';
+    return '<div class="row" style="gap:4px;margin-top:6px;align-items:center;flex-wrap:wrap"><span class="hint">Spelas av</span>' +
+      ps.map(function (p) {
+        return '<a href="#p-' + esc(p.id) + '" title="' + esc(p.name + (instrOf(p) ? ' · ' + instrOf(p) : '')) + '" aria-label="' + esc(p.name) + '">' + avatar(p, 'xs') + '</a>';
+      }).join('') + '</div>';
+  }
+  /* Namn och instrument, för personpresentationen */
+  function playersList(t) {
+    var ps = playersOf(t);
+    if (!ps.length) return '';
+    return '<p class="hint" style="margin:8px 0 0"><b>Spelas av ' + esc(groupOf(t)) + ':</b> ' + ps.map(function (p) {
+      return '<a href="#p-' + esc(p.id) + '">' + esc(p.name) + '</a>' + (instrOf(p) ? ' (' + esc(instrOf(p)) + ')' : '');
+    }).join(', ') + '</p>';
+  }
+
   /* Under personpresentationen */
   function personBlock(p) {
     var list = p ? tracksFor(p.id) : [];
@@ -52,8 +92,8 @@
       list.map(function (t) {
         return (t.bild ? '<img src="' + esc(t.bild) + '" alt="AI-skapat foto av Husbandet vid släppet av ' + esc(t.titel) + '" loading="lazy" style="width:100%;max-height:320px;object-fit:cover;margin-top:10px">' : '') +
           '<h3 style="margin:10px 0 2px">' + esc(t.titel) + (t.version && t.version !== 'Remix' ? ' <span class="hint">' + esc(t.version) + '</span>' : '') + '</h3>' +
-          '<p class="hint" style="margin:0 0 8px">Husbandet · ' + esc(meta(t)) + ' <span class="ai">AI-skapad musik</span></p>' +
-          '<audio controls preload="none" src="' + esc(t.fil) + '" style="width:100%" aria-label="' + esc(t.titel) + '"></audio>' + emojiBar(t);
+          '<p class="hint" style="margin:0 0 8px">' + esc(groupOf(t)) + ' · ' + esc(meta(t)) + ' <span class="ai">AI-skapad musik</span></p>' +
+          '<audio controls preload="none" src="' + esc(t.fil) + '" style="width:100%" aria-label="' + esc(t.titel) + '"></audio>' + playersList(t) + emojiBar(t);
       }).join('') + '</div>';
   }
 
@@ -72,7 +112,7 @@
       return '<div class="row" style="align-items:center;gap:12px;padding:8px 0;border-top:1px solid rgba(128,128,128,.25)">' +
         '<button type="button" class="btn' + (on ? '' : ' ghost') + '" data-mtrack="' + i + '" aria-label="' + (on && playing() ? 'Pausa ' : 'Spela ') + esc(t.titel) + '" style="min-width:44px">' + (on && playing() ? '❚❚' : '▶') + '</button>' +
         (t.bild ? '<img src="' + esc(t.bild) + '" alt="" loading="lazy" style="width:56px;height:56px;object-fit:cover">' : '') + '<div style="min-width:0;flex:1"><b>' + esc(t.titel) + '</b><br><span class="hint">' +
-        '<a href="#p-' + esc(t.person) + '">' + esc(nameOf(t.person)) + '</a> · ' + esc(meta(t)) + (t.version && t.version !== 'Remix' ? ' · ' + esc(t.version) : '') + '</span>' + emojiBar(t) + '</div></div>';
+        '<a href="#p-' + esc(t.person) + '">' + esc(nameOf(t.person)) + '</a> · ' + esc(meta(t)) + (t.version && t.version !== 'Remix' ? ' · ' + esc(t.version) : '') + '</span>' + playersFaces(t) + emojiBar(t) + '</div></div>';
     }).join('');
     var more = (compact && TRACKS.length > shown.length) ? '<p style="margin:10px 0 0"><a href="#husbandet">Visa alla ' + TRACKS.length + ' s\u00e5nger</a></p>' : '';
     return '<div class="panel" style="margin-bottom:' + (compact ? 0 : 18) + 'px" id="musiklista" data-compact="' + (compact ? 1 : 0) + '">' +
