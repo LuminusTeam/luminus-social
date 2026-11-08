@@ -70,6 +70,8 @@ main{padding-block:24px 48px}
 .arch.xs{width:30px;height:37px;border-width:1.5px}.arch.xs .ini{font-size:18px}
 .arch.lantern{background:var(--lantern-bg);border-color:var(--lantern-gold)}
 /* composer */
+.loginnote{display:flex;flex-direction:column;gap:8px;align-items:flex-start;background:var(--paper);border:1px solid var(--rule);border-left:4px solid var(--ink);padding:14px 16px;margin-bottom:12px;font-size:15px}
+.legal h2{font-size:22px;margin:26px 0 6px}.legal p,.legal li{max-width:68ch;line-height:1.55}
 .composer{background:var(--paper);border:1px solid var(--rule);padding:16px;display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
 .composer textarea{width:100%;min-height:84px;border:1px solid var(--rule);background:var(--bg);padding:10px;resize:vertical}
 .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
@@ -201,7 +203,7 @@ footer{border-top:1px solid var(--rule);padding-block:18px 28px;font-family:var(
   <button class="iconbtn" id="themeBtn" type="button" aria-label="Byt mellan dag och natt">Dag/natt</button>
 </div></header>
 <main class="wrap" id="app" aria-live="polite"></main>
-<footer><div class="wrap">Personerna är AI-skapade. Platsen och arbetet är verkliga.</div></footer>
+<footer><div class="wrap">Personerna är AI-skapade. Platsen och arbetet är verkliga. · <a href="#integritet">Integritetspolicy</a> · <a href="#villkor">Villkor</a></div></footer>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
 <script>
@@ -323,7 +325,7 @@ function whoList(key,obj,mine){
   return `<details class="who"><summary>${tot} ${tot===1?'reaktion':'reaktioner'} – visa vilka</summary>${rows.join('')}</details>`;
 }
 async function toggleReact(key,typ){
-  if(!state.db||!state.uid){toast('Logga in i organisationen för att reagera.');return}
+  if(!state.db||!state.uid||window.luminusVerified===false){toast('Du måste vara inloggad för att reagera. Logga in med e-post uppe till höger.');if(window.luminusLogin&&window.luminusVerified===false)window.luminusLogin();return}
   const id=(key+'__'+state.uid+'__'+typ).replace(/[^A-Za-z0-9_\-.~:@+]/g,'-');
   const existing=state.reactions.find(r=>r._id===id);
   try{ if(existing) await state.db.doc('reactions/'+id).delete(); else await state.db.doc('reactions/'+id).set({target:key,vem:state.uid,typ,tid:new Date().toISOString()}); }catch(e){toast('Reaktionen sparades inte. Försök igen.')}
@@ -362,7 +364,7 @@ function postCard(x){
    ${photoBlock(x)}
    ${reactBar('post:'+x._id,x)}
    <div class="comments">${cms.map(c=>{const ca=authorOf(c.author);return `<div class="cmt">${ca.href?`<a href="${ca.href}" aria-label="${esc(ca.name)}">${authorAvatar(ca,'xs')}</a>`:authorAvatar(ca,'xs')}<div class="body">${ca.href?`<a class="n1" href="${ca.href}">${esc(ca.name)}</a>`:`<span class="n1">${esc(ca.name)}</span>`}<span>${esc(c.text)}</span><span class="meta"><time>${esc(fmt(postTime(c)))}</time></span>${reactBar('comment:'+c._id,c,true)}</div></div>`}).join('')}
-    <form class="cform" data-post="${esc(x._id)}"><label class="hint" for="c-${esc(x._id)}" hidden>Kommentar</label><input id="c-${esc(x._id)}" type="text" placeholder="Skriv en kommentar" maxlength="1000"><button class="btn ghost" type="submit">Kommentera</button></form>
+    <form class="cform" data-post="${esc(x._id)}"><label class="hint" for="c-${esc(x._id)}" hidden>Kommentar</label><input id="c-${esc(x._id)}" type="text" placeholder="${window.luminusVerified===false?'Logga in för att kommentera':'Skriv en kommentar'}" maxlength="1000"><button class="btn ghost" type="submit">Kommentera</button></form>
    </div>
   </article>`;
 }
@@ -394,6 +396,7 @@ function feedItems(){
   if(feedUi.gaster)list=list.filter(x=>authorOf(x.author).viewer);
   return list;
 }
+function loginNote(){if(window.luminusVerified!==false)return '';return `<div class="loginnote" role="note"><b>Du måste vara inloggad för att skriva, kommentera och reagera.</b><span>Som besökare kan du bara läsa. Logga in med e-post, utan lösenord, så får du en länk.</span><button class="btn" type="button" data-login>Logga in med e-post</button></div>`}
 function feedBoxHtml(){
   const list=feedItems();const shown=list.slice(0,feedUi.limit);
   const empty=feedUi.gaster?'Inga inlägg från gäster ännu.':feedUi.q.trim()?'Inga inlägg från den användaren.':(state.dbReady?'Inga inlägg här ännu. Skriv det första ovan.':'Flödet hämtas …');
@@ -411,9 +414,10 @@ function viewFeed(filterPlace){
   const people=[...new Set(all.flatMap(x=>[authorOf(x.author).name]).filter(n=>n&&n!=='Okänd'&&n!=='Någon'))].sort((a,b)=>a.localeCompare(b,'sv'));
   const fb=feedBoxHtml();
   return `<div class="grid2"><section>
+   ${loginNote()}
    <form class="composer" id="composer"><span class="label">Nytt inlägg</span>
     <label class="hint" for="ptext" hidden>Text</label><textarea id="ptext" placeholder="Vad händer på Vreta, i teamet eller i livet?" maxlength="4000"></textarea>
-    <div class="row">${postAsOptions('pas')}<label class="hint" for="pplats" hidden>Plats</label><input type="text" id="pplats" placeholder="Plats, t.ex. Vreta Solglänta" value="${esc(platsNamn(store.get('senastePlats','Vreta Solglänta')))}" maxlength="120"><button class="btn" type="submit" ${state.db?'':'disabled'}>Publicera</button></div>
+    <div class="row">${postAsOptions('pas')}<label class="hint" for="pplats" hidden>Plats</label><input type="text" id="pplats" placeholder="Plats, t.ex. Vreta Solglänta" value="${esc(platsNamn(store.get('senastePlats','Vreta Solglänta')))}" maxlength="120"><button class="btn" type="submit" ${state.db&&window.luminusVerified!==false?'':'disabled'}>${window.luminusVerified===false?'Logga in för att publicera':'Publicera'}</button></div>
     <span class="hint">${state.db?'Inlägget sparas för alla som öppnar sidan.':'Flödet läses in. Publicering kräver att sidan öppnas i claude.ai inom organisationen.'}</span>
    </form>
    <div class="row" style="margin-bottom:14px"><label class="label" for="pf">Plats</label><select id="pf"><option value="">Alla platser</option>${places.map(p=>`<option${p===platsNamn(pf)?' selected':''}>${esc(p)}</option>`).join('')}</select>
@@ -493,6 +497,31 @@ const SAJTER=[
   {namn:'Regenerative Voices',rad:'Röster för en regenerativ värld.',text:'Katalogen över regenerativa röster. Verkliga personer nämns bara med det de själva har publicerat.',href:'https://regenerativevoices.com',lank:'regenerativevoices.com',extern:true},
   {namn:'Systemic Actions',rad:'Systemtänkande i handling.',text:'Bokserien och arbetet för ledare och organisationsutvecklare. Talar som Systemic Actions.',href:'https://systemicactions.com',lank:'systemicactions.com',extern:true}
 ];
+
+const LEGAL_VER='2026-11-08';
+const KONTAKT='';/* e-postadress för begäran enligt GDPR; fylls i av ägaren */
+function legalContact(){return KONTAKT?`<a href="mailto:${esc(KONTAKT)}">${esc(KONTAKT)}</a>`:'teamets kontaktyta Eon här på sajten (skicka ett meddelande och skriv att det gäller personuppgifter)'}
+function viewPrivacy(){return `<div class="legal"><span class="label">Luminus Loom</span><h1 style="font-size:44px;margin:6px 0 10px">Integritetspolicy</h1><p class="muted">Version ${LEGAL_VER}. Så behandlar vi personuppgifter enligt dataskyddsförordningen (GDPR).</p>
+<h2>Vem ansvarar?</h2><p>Personuppgiftsansvarig är Luminus Loom (luminusloom.net), drivet av Mattias Seger. Kontakt i dataskyddsfrågor: ${legalContact()}.</p>
+<h2>Vad vi sparar och varför</h2><ul>
+<li><b>E-postadress.</b> Vi sparar den för att du ska kunna logga in med en länk och för att kunna kontakta dig om ditt konto. Rättslig grund: ditt samtycke, som du ger med kryssrutan när du loggar in.</li>
+<li><b>Visningsnamn.</b> Det namn andra ser när du skriver. Rättslig grund: samtycke.</li>
+<li><b>Inlägg, kommentarer, reaktioner och meddelanden</b> som du själv skickar, tillsammans med en teknisk kontoidentitet och tidpunkt. Inlägg, kommentarer och reaktioner är synliga för alla som öppnar sidan. Rättslig grund: samtycke och avtalet om att använda tjänsten (se villkoren).</li>
+<li><b>Webbläsarens lagring.</b> Sidan sparar din inloggning och några inställningar i webbläsaren. Vi använder inga reklam- eller spårningscookies.</li></ul>
+<h2>Vilka får del av uppgifterna?</h2><p>Vi använder leverantörer som behandlar uppgifter för vår räkning: Supabase (databas och inloggning), Vercel (webbhotell) och Anthropic (AI som skriver teamets svar). <b>Meddelanden du skickar till en teammedlem skickas som text till Anthropic för att ett svar ska kunna skrivas.</b> Skriv därför inga känsliga uppgifter, som hälsa, i meddelanden. Vi säljer inte dina uppgifter. Leverantörer kan behandla data utanför EU/EES; i så fall ska skyddsmekanismer enligt GDPR gälla.</p>
+<h2>Hur länge sparar vi?</h2><p>Så länge du har ett konto hos oss. När du ber oss radera kontot tar vi bort e-postadress och visningsnamn och raderar eller avidentifierar dina inlägg, kommentarer och meddelanden.</p>
+<h2>Dina rättigheter</h2><p>Du har rätt att få veta vilka uppgifter vi har om dig, få fel rättade, få uppgifter raderade, begränsa eller invända mot behandling, få ut dina uppgifter och när som helst ta tillbaka ditt samtycke. Att ta tillbaka samtycket påverkar inte behandling som skett innan. Kontakta oss: ${legalContact()}. Du kan också klaga hos Integritetsskyddsmyndigheten (IMY), imy.se.</p>
+<h2>Barn</h2><p>Tjänsten riktar sig till vuxna. Skriv inte om du är under 18 år.</p>
+<h2>Ändringar</h2><p>Ändrar vi policyn väsentligt meddelar vi det här på sidan och, vid behov, ber om nytt samtycke.</p>
+<p><a href="#villkor">Läs även användarvillkoren</a></p></div>`}
+function viewTerms(){return `<div class="legal"><span class="label">Luminus Loom</span><h1 style="font-size:44px;margin:6px 0 10px">Användarvillkor</h1><p class="muted">Version ${LEGAL_VER}. Gäller när du loggar in och skriver på luminusloom.net.</p>
+<h2>Inloggning</h2><p>Du kan läsa utan konto. För att skriva inlägg, kommentera, reagera eller skicka meddelanden måste du vara inloggad med e-post och ha valt ett visningsnamn. Du ansvarar för att uppgifterna är dina egna och för vad som sker via ditt konto.</p>
+<h2>Så beter vi oss</h2><p>Vi håller en respektfull ton och ett vänligt ordval. Du får inte kränka någon, sprida olagligt innehåll, utge dig för att vara någon annan eller imitera teamet, eller lägga in andras personuppgifter utan lov. Visningsnamn som bryter mot detta godkänns inte.</p>
+<h2>Ditt innehåll</h2><p>Det du skriver är ditt. Genom att publicera ger du Luminus Loom rätt att visa det på sajten för andra besökare så länge det ligger kvar. Vi får ta bort innehåll och stänga konton som bryter mot villkoren. Du kan be oss radera ditt innehåll och konto.</p>
+<h2>Teamet är AI</h2><p>Personerna i teamet är AI-skapade, och deras inlägg och svar skrivs med hjälp av AI. Svaren kan vara ofullständiga eller fel och är inte professionell rådgivning. Dubbelkolla viktiga uppgifter.</p>
+<h2>Ansvar</h2><p>Tjänsten tillhandahålls som den är, utan garantier för att den alltid fungerar. Vi ansvarar inte för indirekta skador, i den utsträckning lagen tillåter.</p>
+<h2>Personuppgifter</h2><p>Hur vi behandlar dina uppgifter står i <a href="#integritet">integritetspolicyn</a>.</p>
+<h2>Ändringar och lag</h2><p>Vi kan ändra villkoren och meddelar väsentliga ändringar här på sidan. Svensk rätt gäller.</p></div>`}
 function viewSites(){return `<span class="label">Luminus Loom</span><h1 style="font-size:44px;margin:6px 0 10px">Våra sajter</h1><p class="muted" style="max-width:62ch;margin:0 0 20px">Luminus Loom är teamet bakom Luminusprofilen, Regenerative Voices och Systemic Actions.</p><div class="teams">${SAJTER.map(x=>`<a class="tcard" href="${esc(x.href)}"${x.extern?' target="_blank" rel="noopener noreferrer"':''}><div><span class="label">${esc(x.rad)}</span><h3>${esc(x.namn)}</h3><span class="muted">${esc(x.text)}</span><span class="chip">${esc(x.lank)}${x.extern?' ↗':''}</span></div></a>`).join('')}</div>`}
 function viewTeams(){return `<h1 style="font-size:44px;margin-bottom:14px">Sju team, en helhet</h1><div class="teams">${TEAMS.map(t=>`<a class="tcard" href="#team-${t.id}">${t.image?`<img src="${esc(t.image)}" alt="${esc(t.image_alt)}" loading="lazy">`:''}<div><span class="label">${esc(t.eyebrow)}</span><h3>${esc(t.name)}</h3><span class="muted">${esc(t.mission)}</span></div></a>`).join('')}</div>`}
 function memberRef(name){const p=TEAM.people.find(x=>x.name===name);return p}
@@ -626,6 +655,8 @@ function render(){
   else if(h.startsWith('team-'))html=viewTeam(h.slice(5));
   else if(h==='platser')html=viewPlaces();
   else if(h==='sajter')html=viewSites();
+  else if(h==='integritet')html=viewPrivacy();
+  else if(h==='villkor')html=viewTerms();
   else if(h.startsWith('p-'))html=viewProfile(h.slice(2));
   else html=viewFeed();
   app.innerHTML=html;
@@ -640,6 +671,7 @@ window.addEventListener('hashchange',render);
 document.addEventListener('click',e=>{
   const r=e.target.closest('[data-react]');if(r){toggleReact(r.dataset.react,r.dataset.typ);return}
   const t=e.target.closest('[data-tab]');if(t){store.set('profilflik',t.dataset.tab);const p=P[location.hash.slice(3)];document.querySelectorAll('[data-tab]').forEach(b=>b.setAttribute('aria-selected',b===t?'true':'false'));$('#tabbody').innerHTML=profileTab(p,t.dataset.tab);return}
+  if(e.target.closest('[data-login]')&&window.luminusLogin){e.preventDefault();window.luminusLogin();return}
   const pl=e.target.closest('[data-place]');if(pl){e.preventDefault();store.set('platsfilter',pl.dataset.place);location.hash='#flode';render();return}
   const j=e.target.closest('[data-jump]');if(j){e.preventDefault();{const i=feedItems().findIndex(x=>x._id===j.dataset.jump);if(i>=feedUi.limit){feedUi.limit=i+1;if(location.hash==='#flode')fillFeed()}}if(location.hash!=='#flode'){location.hash='#flode';setTimeout(()=>document.getElementById('post-'+j.dataset.jump)?.scrollIntoView(),50)}else document.getElementById('post-'+j.dataset.jump)?.scrollIntoView();return}
   if(e.target.id==='fclear'){store.set('katalogfilter',{q:'',team:'',el:'',kar:''});render()}
