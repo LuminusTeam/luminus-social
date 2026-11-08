@@ -378,7 +378,7 @@ function authorFromSelect(v){if(v)return v;return state.uid?'u:'+state.uid:null}
 /* sidor */
 /* flödet: max 50 inlägg åt gången + sök på användare */
 const FEED_PAGE=50;
-const feedUi={q:'',limit:FEED_PAGE};
+const feedUi={q:'',limit:FEED_PAGE,gaster:false};
 function feedMatches(x,q){
   const names=[authorOf(x.author).name];
   if(x.postat_av)names.push(authorOf(x.postat_av).name);
@@ -391,11 +391,12 @@ function feedItems(){
   if(pf)list=list.filter(x=>platsNamn(x.plats)===platsNamn(pf));
   const q=feedUi.q.trim().toLowerCase();
   if(q)list=list.filter(x=>feedMatches(x,q));
+  if(feedUi.gaster)list=list.filter(x=>authorOf(x.author).gast);
   return list;
 }
 function feedBoxHtml(){
   const list=feedItems();const shown=list.slice(0,feedUi.limit);
-  const empty=feedUi.q.trim()?'Inga inlägg från den användaren.':(state.dbReady?'Inga inlägg här ännu. Skriv det första ovan.':'Flödet hämtas …');
+  const empty=feedUi.gaster?'Inga inlägg från gäster ännu.':feedUi.q.trim()?'Inga inlägg från den användaren.':(state.dbReady?'Inga inlägg här ännu. Skriv det första ovan.':'Flödet hämtas …');
   const more=list.length>shown.length?`<button class="btn ghost" type="button" id="fmore">Visa ${Math.min(FEED_PAGE,list.length-shown.length)} fler inlägg</button>`:'';
   return {html:(shown.length?shown.map(postCard).join(''):`<div class="empty">${empty}</div>`)+more,
     count:list.length>shown.length?`Visar ${shown.length} av ${list.length} inlägg`:`${list.length} inlägg`};
@@ -417,6 +418,7 @@ function viewFeed(filterPlace){
    </form>
    <div class="row" style="margin-bottom:14px"><label class="label" for="pf">Plats</label><select id="pf"><option value="">Alla platser</option>${places.map(p=>`<option${p===platsNamn(pf)?' selected':''}>${esc(p)}</option>`).join('')}</select>
     <label class="label" for="fuser">Användare</label><input type="search" id="fuser" list="fusers" placeholder="Sök användare" value="${esc(feedUi.q)}" maxlength="80" autocomplete="off"><datalist id="fusers">${people.map(n=>`<option value="${esc(n)}">`).join('')}</datalist>
+    <label class="row" style="gap:6px;align-items:center;cursor:pointer"><input type="checkbox" id="fgast"${feedUi.gaster?' checked':''}> <span>Bara gäster</span></label>
     <span class="hint" id="fcount">${esc(fb.count)}</span></div>
    <div class="feed" id="feedbox">${fb.html}</div>
   </section>${sidebar()}</div>`;
@@ -642,6 +644,7 @@ document.addEventListener('click',e=>{
 document.addEventListener('change',e=>{
   if(['ft','fe','fk'].includes(e.target.id))fillCatalog();
   if(e.target.id==='pf'){store.set('platsfilter',e.target.value);feedUi.limit=FEED_PAGE;render()}
+  if(e.target.id==='fgast'){feedUi.gaster=e.target.checked;feedUi.limit=FEED_PAGE;fillFeed()}
   if(e.target.id==='pas'){store.set('postaSom',e.target.value)}
 });
 document.addEventListener('submit',async e=>{
