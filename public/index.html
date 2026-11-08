@@ -196,7 +196,7 @@ footer{border-top:1px solid var(--rule);padding-block:18px 28px;font-family:var(
 <header class="top"><div class="wrap">
   <a class="brand" href="#flode"><b>Luminus-teamet</b><span>Sociala sidan · Vreta</span></a>
   <nav class="main" aria-label="Huvudmeny">
-    <a href="#flode">Flöde</a><a href="#reportage">Reportage från Vreta</a><a href="#katalog">Katalog</a><a href="#team">Team</a><a href="#platser">Platser</a>
+    <a href="#flode">Flöde</a><a href="#reportage">Reportage från Vreta</a><a href="#katalog">Katalog</a><a href="#team">Team</a><a href="#platser">Platser</a><a href="#sajter">Sajter</a>
   </nav>
   <button class="iconbtn" id="themeBtn" type="button" aria-label="Byt mellan dag och natt">Dag/natt</button>
 </div></header>
@@ -488,6 +488,12 @@ function fillCatalog(){
   const list=TEAM.people.filter(p=>(!f.team||(p.teams||[]).includes(f.team))&&(!f.el||p.element===f.el)&&(!f.kar||p.character===f.kar)&&(!q||[p.name,p.role,field(p,'Bor i'),(p.teams||[]).join(' ')].join(' ').toLowerCase().includes(q)));
   $('#catgrid').innerHTML=list.length?list.map(p=>`<a class="person" href="#p-${p.id}">${avatar(p,'')}<b>${esc(p.name)}</b><small>${esc(p.role)}</small><small>${esc((p.teams||[]).join(' · '))}</small>${elPill(p)}</a>`).join(''):'<div class="empty">Ingen matchar filtret.</div>';
 }
+const SAJTER=[
+  {namn:'Luminus 3.01',rad:'Luminusprofilen-plattformen.',text:'Profilen, läsvyn och dagens lärvarv. Teamet bygger plattformen här på Luminus Loom.',href:'#team',lank:'Möt teamet',extern:false},
+  {namn:'Regenerative Voices',rad:'Röster för en regenerativ värld.',text:'Katalogen över regenerativa röster. Verkliga personer nämns bara med det de själva har publicerat.',href:'https://regenerativevoices.com',lank:'regenerativevoices.com',extern:true},
+  {namn:'Systemic Actions',rad:'Systemtänkande i handling.',text:'Bokserien och arbetet för ledare och organisationsutvecklare. Talar som Systemic Actions.',href:'https://systemicactions.com',lank:'systemicactions.com',extern:true}
+];
+function viewSites(){return `<span class="label">Luminus Loom</span><h1 style="font-size:44px;margin:6px 0 10px">Våra sajter</h1><p class="muted" style="max-width:62ch;margin:0 0 20px">Luminus Loom är teamet bakom Luminusprofilen, Regenerative Voices och Systemic Actions.</p><div class="teams">${SAJTER.map(x=>`<a class="tcard" href="${esc(x.href)}"${x.extern?' target="_blank" rel="noopener noreferrer"':''}><div><span class="label">${esc(x.rad)}</span><h3>${esc(x.namn)}</h3><span class="muted">${esc(x.text)}</span><span class="chip">${esc(x.lank)}${x.extern?' ↗':''}</span></div></a>`).join('')}</div>`}
 function viewTeams(){return `<h1 style="font-size:44px;margin-bottom:14px">Sju team, en helhet</h1><div class="teams">${TEAMS.map(t=>`<a class="tcard" href="#team-${t.id}">${t.image?`<img src="${esc(t.image)}" alt="${esc(t.image_alt)}" loading="lazy">`:''}<div><span class="label">${esc(t.eyebrow)}</span><h3>${esc(t.name)}</h3><span class="muted">${esc(t.mission)}</span></div></a>`).join('')}</div>`}
 function memberRef(name){const p=TEAM.people.find(x=>x.name===name);return p}
 function viewTeam(id){
@@ -619,6 +625,7 @@ function render(){
   else if(h==='team')html=viewTeams();
   else if(h.startsWith('team-'))html=viewTeam(h.slice(5));
   else if(h==='platser')html=viewPlaces();
+  else if(h==='sajter')html=viewSites();
   else if(h.startsWith('p-'))html=viewProfile(h.slice(2));
   else html=viewFeed();
   app.innerHTML=html;
