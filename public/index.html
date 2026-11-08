@@ -431,7 +431,11 @@ function sidebar(){
   </aside>`;
 }
 function justNu(p){const j=state.justNu[p.id];const nu=Date.now();const giltig=j&&j.plats&&(!j.fran||Date.parse(j.fran)<=nu)&&(!j.till||Date.parse(j.till)>=nu);if(giltig)return j;const cal=currentEvent(p.id);if(cal)return {plats:cal.plats,land:cal.land,handelse:cal.titel};const b=field(p,'Bor i');return b?{plats:b,handelse:'hemma',hem:true}:null}
-const VS='Vreta Solglänta';function platsNamn(s){return s&&/^Vreta( Solglänta)?$/.test(String(s).trim())?VS:s}
+const VS='Vreta Solglänta';
+// Enhetligt skrivsätt för platser: "Stad (Stadsdel)" och "Vreta (plats)"; Vreta/Vreta Solglänta visas som Vreta Solglänta.
+const STADSDELAR='Sunnersta|Vaksala|Sävja|Svartbäcken|Luthagen|Skiljebo|Gränby|Fålhagen|Eriksberg|Kåbo|Kvarngärdet|Gottsunda|Fyrislund|Gamla Uppsala|Flogsta|Håga|Södermalm|Valsätra|Norby|Boländerna|Stabby|Kungsgärdet|Rosendal|Kista|Stenhagen|Kungsängen|Hammarby|Vasastan|Kungsholmen|Älvsjö|Norrmalm|Bäckby|Tensta|Brynäs';
+const _sdRe=new RegExp('^(Uppsala|Stockholm|Gävle|Västerås|Enköping),?\\s+('+STADSDELAR+')$','i');
+function platsNamn(s){if(!s)return s;s=String(s).trim().replace(/\s+/g,' ');const m=s.match(_sdRe);if(m){const d=STADSDELAR.split('|').find(x=>x.toLowerCase()===m[2].toLowerCase());const c=['Uppsala','Stockholm','Gävle','Västerås','Enköping'].find(x=>x.toLowerCase()===m[1].toLowerCase());return c+' ('+d+')'}const v=s.match(/^Vreta,\s+(?!Uppsala,|Sverige)(.+)$/);if(v)return 'Vreta ('+v[1]+')';return /^Vreta( Solglänta)?$/.test(s)?VS:s}
 const MALL0=Date.parse('2026-11-09T00:00:00+01:00'),VECKA=7*864e5;
 async function loadYear(){if(state.yearLoaded)return;state.yearLoaded=true;try{const r=await fetch('/data/arskalender.json');const j=await r.json();state.year={};for(const [id,a] of Object.entries(j))state.year[id]=a.map((x,i)=>({id:'ar1-'+i,typ:x[0],start:x[1],slut:x[2],plats:x[3],land:x[4],titel:x[5]}));render()}catch(e){state.yearLoaded=false}}
 function calEvents(id){const c=state.calendars[id];const y=(state.year&&state.year[id])||[];return ((c&&c.handelser)||[]).concat(y)}
@@ -647,7 +651,7 @@ document.addEventListener('change',e=>{
 document.addEventListener('submit',async e=>{
   e.preventDefault();const f=e.target;
   if(f.id==='composer'){
-    const text=$('#ptext').value.trim();const plats=platsNamn($('#pplats').value.trim().split(',')[0].trim());const author=authorFromSelect($('#pas').value);
+    const text=$('#ptext').value.trim();const plats=(v=>platsNamn(platsNamn(v).split(',')[0].trim()))($('#pplats').value.trim());const author=authorFromSelect($('#pas').value);
     if(!text){toast('Skriv något först.');return} if(!author||!state.db){toast('Det går inte att publicera här.');return}
     store.set('senastePlats',plats);
     const doc={author,text,plats:plats,land:'Sverige',tid:new Date().toISOString(),status:'publicerad',typ:'vanlig',kalla:'tittare',arstid:arstidFor(new Date())};
