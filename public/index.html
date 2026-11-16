@@ -387,6 +387,7 @@ function feedMatches(x,q){
   const hay=[x.author,...names].filter(Boolean).join(' ').toLowerCase();
   return q.split(/\s+/).every(w=>hay.includes(w));
 }
+store.set('platsfilter','');/* varje besök startar med Alla platser */
 function feedItems(){
   const pf=store.get('platsfilter','');
   let list=sortPosts(state.posts);
