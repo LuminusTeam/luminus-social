@@ -502,7 +502,7 @@ const SAJTER=[
 ];
 
 const LEGAL_VER='2026-11-08';
-const KONTAKT='';/* e-postadress för begäran enligt GDPR; fylls i av ägaren */
+const KONTAKT='dataskydd@luminusloom.net';/* e-postadress för begäran enligt GDPR (Mattias 2026-11-17, k-100) */
 function legalContact(){return KONTAKT?`<a href="mailto:${esc(KONTAKT)}">${esc(KONTAKT)}</a>`:'teamets kontaktyta Eon här på sajten (skicka ett meddelande och skriv att det gäller personuppgifter)'}
 function viewPrivacy(){return `<div class="legal"><span class="label">Luminus Loom</span><h1 style="font-size:44px;margin:6px 0 10px">Integritetspolicy</h1><p class="muted">Version ${LEGAL_VER}. Så behandlar vi personuppgifter enligt dataskyddsförordningen (GDPR).</p>
 <h2>Vem ansvarar?</h2><p>Personuppgiftsansvarig är Luminus Loom (luminusloom.net), drivet av Mattias Seger. Kontakt i dataskyddsfrågor: ${legalContact()}.</p>
