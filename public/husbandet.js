@@ -1,10 +1,54 @@
 /* Husbandet – sida om signatursoundet. Läggs till utan att röra resten av sidan. */
 (function () {
+  var GROUPS = [
+    ['Husbandet', 'Dub reggae i långsam puls. Signatursoundet som bär kvällarna på Vreta.'],
+    ['Karavanen', 'Världsmusikerna som spelar med Husbandet i olika konstellationer. Karavanen är Husbandet tillsammans med dem.'],
+    ['Ek & Lin', 'Akustisk gitarrduo. Allt akustiskt gitarrspel i teamets musik kommer härifrån.'],
+    ['Leonid', 'Melodisk techno och trans. Teo mixar och spelar in åt alla banden.']
+  ];
+  /* Presentation av grupperna i flödets sidopanel: ett kort per grupp med alla musiker som små porträtt */
+  function groupsPanel() {
+    var all = (typeof TEAM !== 'undefined' && TEAM.people ? TEAM.people : []);
+    function bandOf(p) { return p.band || (p.role === 'Husbandet' ? 'Husbandet' : ''); }
+    var cards = GROUPS.map(function (g) {
+      var ms = all.filter(function (p) { return bandOf(p) === g[0]; });
+      if (!ms.length) return '';
+      return '<div style="padding:10px 0;border-top:1px solid rgba(128,128,128,.25)">' +
+        '<a href="#husbandet" style="text-decoration:none;color:inherit"><b>' + esc(g[0]) + '</b> <span class="hint">(' + ms.length + ')</span></a>' +
+        '<p class="hint" style="margin:2px 0 6px">' + esc(g[1]) + '</p>' +
+        '<div class="row" style="gap:4px;flex-wrap:wrap">' + ms.map(function (p) {
+          return '<a href="#p-' + esc(p.id) + '" title="' + esc(p.name + (p.role && p.role.indexOf(' · ') >= 0 ? ' · ' + p.role.slice(p.role.indexOf(' · ') + 3) : '')) + '" aria-label="' + esc(p.name) + '">' + avatar(p, 'xs') + '</a>';
+        }).join('') + '</div></div>';
+    }).join('');
+    if (!cards) return '';
+    return '<div class="panel" id="musikergrupper"><h3>Vreta Sound System</h3>' +
+      '<p class="hint" style="margin:0 0 4px">Alla musiker i teamet. <span class="ai">AI-skapad musik</span></p>' + cards +
+      '<a class="chip" href="#husbandet">Alla musiker</a></div>';
+  }
+  var sty = document.createElement('style');
+  sty.textContent = '.side:has(#musikergrupper){position:static}';
+  document.head.appendChild(sty);
+  if (typeof sidebar === 'function') {
+    var origSide = sidebar;
+    sidebar = function () {
+      return origSide().replace('<aside class="side">', '<aside class="side">' + groupsPanel());
+    };
+  }
   function viewHusbandet() {
-    var people = (typeof TEAM !== 'undefined' && TEAM.people ? TEAM.people : []).filter(function (p) { return p.role === 'Husbandet'; });
-    var rows = people.map(function (p) {
-      return '<a class="row" href="#p-' + esc(p.id) + '" style="text-decoration:none;color:inherit">' + avatar(p, 'sm') +
-        '<div><b>' + esc(p.name) + '</b><br><span class="label">' + esc(p.character || '') + (p.element ? ' · ' + esc(p.element) : '') + '</span></div></a>';
+    var all = (typeof TEAM !== 'undefined' && TEAM.people ? TEAM.people : []);
+    function bandOf(p) { return p.band || (p.role === 'Husbandet' ? 'Husbandet' : ''); }
+    function instr(p) { var r = p.role || ''; var i = r.indexOf(' · '); return i >= 0 ? r.slice(i + 3) : ''; }
+    function row(p) {
+      var sub = [instr(p), (p.character || '') + (p.element ? ' · ' + p.element : '')].filter(Boolean).join(' – ');
+      return '<a class="row" href="#p-' + esc(p.id) + '" style="text-decoration:none;color:inherit;align-items:center;gap:12px">' + avatar(p, 'sm') +
+        '<div style="min-width:0"><b>' + esc(p.name) + '</b><br><span class="hint">' + esc(sub) + '</span></div></a>';
+    }
+    var groups = GROUPS.map(function (g) {
+      var ms = all.filter(function (p) { return bandOf(p) === g[0]; });
+      if (!ms.length) return '';
+      return '<div style="margin-top:18px"><h3 style="margin:0 0 2px">' + esc(g[0]) + ' <span class="hint">(' + ms.length + ')</span></h3>' +
+        '<p class="hint" style="margin:0 0 10px">' + esc(g[1]) + '</p>' +
+        '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px">' + ms.map(row).join('') + '</div></div>';
     }).join('');
     var facts = [
       ['Genre', 'Dub reggae med bandeko och rymd, så att sångens svansar glider mellan trumslagen'],
@@ -27,9 +71,10 @@
       '<p style="font-size:22px;margin:8px 0 14px">Dub reggae i långsam puls, sjungen av en kvinna och en man. Sparsamma rader, djup bas och långa ekon som låter orden hänga kvar i rummet.</p>' +
       facts +
       '<p style="margin-top:16px;font-size:14px"><span class="ai">AI-skapad musik</span> Musik och röster är skapade med AI och märks så överallt på sidan.</p></div>' +
-      '<div class="panel" style="margin:24px 0"><span class="label">I Husbandet</span><div style="display:flex;flex-direction:column;gap:10px;margin-top:10px">' + rows + '</div></div>' +
+      '<div class="panel" style="margin:24px 0"><span class="label">Musikerna i Vreta Sound System</span>' + groups + '</div>' +
       '<div class="panel" style="margin:24px 0"><span class="label">Virelais sånger</span>' +
-      '<p style="font-size:18px;margin:8px 0 0">Virelai skriver en mantrasång till var och en i teamet, i samma sound. Orden visar, och personen nämns aldrig vid namn. Sångerna publiceras här allteftersom de blir klara.</p></div>';
+      '<p style="font-size:18px;margin:8px 0 0">Virelai skriver en mantrasång till var och en i teamet, i samma sound. Orden visar, och personen nämns aldrig vid namn. Sångerna publiceras här allteftersom de blir klara.</p></div>' +
+      (typeof window.musikPlaylistPanel === 'function' ? window.musikPlaylistPanel() : '');
   }
   function fix() {
     if (location.hash !== '#husbandet') return;
