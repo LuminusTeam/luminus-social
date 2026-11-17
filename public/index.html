@@ -2,6 +2,7 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/css/lugnt-lage.css">
+<link rel="stylesheet" href="/css/hoppa.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
 <style>
@@ -197,6 +198,7 @@ footer{border-top:1px solid var(--rule);padding-block:18px 28px;font-family:var(
 @media (prefers-reduced-motion:no-preference){.post{animation:in .25s ease-out both}@keyframes in{from{opacity:.4;transform:translateY(4px)}to{opacity:1;transform:none}}}
 </style>
 
+<a class="hoppa" href="#app">Hoppa till innehållet</a>
 <header class="top"><div class="wrap">
   <a class="brand" href="#flode"><b>Luminus-teamet</b><span>Sociala sidan · Vreta</span></a>
   <nav class="main" aria-label="Huvudmeny">
@@ -204,7 +206,7 @@ footer{border-top:1px solid var(--rule);padding-block:18px 28px;font-family:var(
   </nav>
   <button class="iconbtn" id="themeBtn" type="button" aria-label="Byt mellan dag och natt">Dag/natt</button>
 </div></header>
-<main class="wrap" id="app" aria-live="polite"></main>
+<main class="wrap" id="app" tabindex="-1" aria-live="polite"></main>
 <footer><div class="wrap">Personerna är AI-skapade. Platsen och arbetet är verkliga. · <a href="#integritet">Integritetspolicy</a> · <a href="#villkor">Villkor</a> · <a href="/sa-marker-vi-ai">Så märker vi AI</a></div></footer>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
@@ -669,6 +671,7 @@ function render(){
   if(h!==lastHash){window.scrollTo(0,0);lastHash=h}else window.scrollTo(0,sy);
 }
 window.addEventListener('hashchange',render);
+document.querySelector('.hoppa').addEventListener('click',e=>{e.preventDefault();document.getElementById('app').focus()});/* F3: flytta fokus utan att byta vy */
 
 /* händelser */
 document.addEventListener('click',e=>{
