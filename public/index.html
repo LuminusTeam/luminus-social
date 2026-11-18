@@ -277,7 +277,7 @@ function avatar(p,size='sm'){
   if(!p) return `<span class="arch ${size}"><span class="ini">?</span></span>`;
   if(p.special) return `<span class="arch ${size} lantern" aria-label="Lyktan, Virelai">${lanternSvg(size==='xs'?20:30)}</span>`;
   const st=statusOf(p),sc=st?' s-'+st.k:'',tt=st?` title="${esc(st.t)}"`:'';
-  if(p.photo) return `<span class="arch ${size}${sc}"${tt}><img src="${esc(p.photo)}" alt="" loading="lazy"></span>`;
+  if(p.photo) return `<span class="arch ${size}${sc}"${tt}><img src="${esc(p.photo)}" alt="${esc(p.name)}, AI-skapat porträtt" loading="lazy"></span>`;
   return `<span class="arch ${size}${sc}"${tt}><span class="ini">${esc(initials(p.name))}</span></span>`;
 }
 function lanternSvg(w){return `<svg width="${w}" viewBox="0 0 520 720" aria-hidden="true"><defs><radialGradient id="lg${w}" cx="50%" cy="55%" r="50%"><stop offset="0%" stop-color="#FFF4D6"/><stop offset="35%" stop-color="#D9BC72" stop-opacity=".75"/><stop offset="100%" stop-color="#171B33" stop-opacity="0"/></radialGradient></defs><circle cx="260" cy="400" r="250" fill="url(#lg${w})"/><rect x="180" y="120" width="160" height="26" fill="#9A7832"/><path d="M190 146 L170 560 L350 560 L330 146 Z" fill="#FFF4D6" fill-opacity=".18" stroke="#D9BC72" stroke-width="10"/><path d="M260 300 C230 350 232 400 260 430 C288 400 290 350 260 300 Z" fill="#FFE7A8"/><rect x="160" y="560" width="200" height="30" fill="#9A7832"/></svg>`}
