@@ -5,6 +5,15 @@
   "poster": [
     {
       "datum": "2026-11-18",
+      "titel": "Typsnitten hämtas inte längre från Google",
+      "text": "Luminus Loom och Vreta Sound System har nu sina typsnitt på sajten själv. Ingen besökares IP-adress skickas till Google för att visa texten.",
+      "team": "Myceliet och Barken",
+      "status": "live",
+      "lank": "/",
+      "ai": true
+    },
+    {
+      "datum": "2026-11-18",
       "titel": "Läsläge med större text",
       "text": "Knappen Läsläge i sidhuvudet ger större text och kortare rader i flödet och på tavlan. Valet sparas bara i din egen webbläsare.",
       "team": "Blomman och Myceliet",
