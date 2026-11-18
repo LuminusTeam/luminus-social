@@ -37,6 +37,17 @@
    "permanent": false
   },
   {
+   "source": "/en",
+   "has": [
+    {
+     "type": "host",
+     "value": "vretasound.com"
+    }
+   ],
+   "destination": "/vreta-sound-system/en",
+   "permanent": false
+  },
+  {
    "source": "/(.*)",
    "has": [
     {
@@ -44,7 +55,7 @@
      "value": "www.vretasound.com"
     }
    ],
-   "destination": "https://vretasound.com/vreta-sound-system",
+   "destination": "https://vretasound.com/$1",
    "permanent": false
   }
  ]
