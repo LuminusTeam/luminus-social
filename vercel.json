@@ -24,7 +24,7 @@
    ]
   }
  ],
- "rewrites": [
+ "redirects": [
   {
    "source": "/",
    "has": [
@@ -33,17 +33,19 @@
      "value": "vretasound.com"
     }
    ],
-   "destination": "/vreta-sound-system/index.html"
+   "destination": "/vreta-sound-system",
+   "permanent": false
   },
   {
-   "source": "/",
+   "source": "/(.*)",
    "has": [
     {
      "type": "host",
      "value": "www.vretasound.com"
     }
    ],
-   "destination": "/vreta-sound-system/index.html"
+   "destination": "https://vretasound.com/vreta-sound-system",
+   "permanent": false
   }
  ]
 }
