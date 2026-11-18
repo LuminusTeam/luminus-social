@@ -64,7 +64,7 @@
     }).join('');
     return '<div class="teamhero" style="display:block"><div>' +
       '<span class="label">Husbandet</span>' +
-      '<h1 style="font-size:56px">Husbandets sound</h1>' +
+      '<h1 style="font-size:clamp(36px,11vw,56px);overflow-wrap:anywhere">Husbandets sound</h1>' +
       '<p style="font-size:21px"><i>Alla i teamet älskar Husbandet. Det är deras sound som bär kvällarna på Vreta, i ladan, i ateljén och vid elden.</i></p>' +
       '</div></div>' +
       '<div class="panel" style="margin:24px 0"><span class="label">Signatursoundet</span>' +
