@@ -5,6 +5,15 @@
   "poster": [
     {
       "datum": "2026-11-18",
+      "titel": "Läsläge med större text",
+      "text": "Knappen Läsläge i sidhuvudet ger större text och kortare rader i flödet och på tavlan. Valet sparas bara i din egen webbläsare.",
+      "team": "Blomman och Myceliet",
+      "status": "forhandsgranskning",
+      "lank": "/",
+      "ai": true
+    },
+    {
+      "datum": "2026-11-18",
       "titel": "Vreta Sound System har fått en egen sajt",
       "text": "Labeln för Husbandet, Karavanen, Ek & Lin och Leonid finns nu på vretasound.com, med sju album, alla 23 musiker och musiken. Länken ligger under Sajter.",
       "team": "Pollen",
