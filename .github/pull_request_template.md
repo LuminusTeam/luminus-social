@@ -46,3 +46,7 @@ Allt innehåll i Luminus 3.01 och på luminusloom.net är AI-skapat (B-051).
 - [ ] Klart för dagen: gröna tester, kodgranskning och Vercel-förhandsgranskning (Petra Lind)
 - [ ] Barkens kommentar finns i tråden (godkänd, villkorad eller stopp med väg framåt)
 - [ ] **Ingen sammanslagning eller driftsättning utan Mattias ja**
+
+## Inte i denna PR
+
+<!-- Det som medvetet lämnas till senare (F48). Skriv "–" om inget lämnas. -->
