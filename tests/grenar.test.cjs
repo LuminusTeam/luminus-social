@@ -6,7 +6,7 @@ const html = fs.readFileSync('public/grenar.html', 'utf8');
 const utanKommentarer = html.replace(/<!--[\s\S]*?-->/g, '');
 const grenar = [...utanKommentarer.matchAll(/data-gren="([^"]+)"/g)].map((m) => m[1]);
 const externa = [...utanKommentarer.matchAll(/href="(https?:\/\/[^"]+)"/g)].map((m) => m[1]).sort();
-const tillatna = ['https://systemicactions.com/', 'https://www.instagram.com/luminus.loom1/', 'https://vri.earth/', 'https://www.regenerativevoices.com/'];
+const tillatna = ['https://systemicactions.com/', 'https://vri.earth/', 'https://www.instagram.com/luminus.loom1/', 'https://www.regenerativevoices.com/'];
 const krav = {
   svenska: /<html lang="sv">/.test(html),
   titel: /<title>Kanaler – luminusloom\.net<\/title>/.test(html),
