@@ -5,6 +5,24 @@
   "poster": [
     {
       "datum": "2026-11-18",
+      "titel": "Våra sajter med förhandsbilder",
+      "text": "Sajter visar nu alla fem sajter med en liten förhandsbild, en beskrivning och en tydlig länk: Luminus 3.01, Regenerative Voices, Vreta Regenerative Initiative, Systemic Actions och Vreta Sound System.",
+      "team": "Blomman och Myceliet",
+      "status": "live",
+      "lank": "/#sajter",
+      "ai": true
+    },
+    {
+      "datum": "2026-11-18",
+      "titel": "Kanaler samlar alla fem sajter",
+      "text": "Kanaler nämner nu alla fem sajter och har fått länkar till vri.earth och vretasound.com.",
+      "team": "Pollen och Myceliet",
+      "status": "live",
+      "lank": "/grenar",
+      "ai": true
+    },
+    {
+      "datum": "2026-11-18",
       "titel": "Typsnitten hämtas inte längre från Google",
       "text": "Luminus Loom och Vreta Sound System har nu sina typsnitt på sajten själv. Ingen besökares IP-adress skickas till Google för att visa texten.",
       "team": "Myceliet och Barken",
