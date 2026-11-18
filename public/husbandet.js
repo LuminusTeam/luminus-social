@@ -1,4 +1,4 @@
-/* Husbandet – sida om signatursoundet. Läggs till utan att röra resten av sidan. */
+/* Vreta Sound System – paraplysidan för alla band på Vreta (Husbandet, Karavanen, Ek & Lin, Leonid), med Husbandets signatursound. Läggs till utan att röra resten av sidan. */
 (function () {
   var GROUPS = [
     ['Husbandet', 'Dub reggae i långsam puls. Signatursoundet som bär kvällarna på Vreta.'],
@@ -14,7 +14,7 @@
       var ms = all.filter(function (p) { return bandOf(p) === g[0]; });
       if (!ms.length) return '';
       return '<div style="padding:10px 0;border-top:1px solid rgba(128,128,128,.25)">' +
-        '<a href="#husbandet" style="text-decoration:none;color:inherit"><b>' + esc(g[0]) + '</b> <span class="hint">(' + ms.length + ')</span></a>' +
+        '<a href="#vreta-sound-system" style="text-decoration:none;color:inherit"><b>' + esc(g[0]) + '</b> <span class="hint">(' + ms.length + ')</span></a>' +
         '<p class="hint" style="margin:2px 0 6px">' + esc(g[1]) + '</p>' +
         '<div class="row" style="gap:4px;flex-wrap:wrap">' + ms.map(function (p) {
           return '<a href="#p-' + esc(p.id) + '" title="' + esc(p.name + (p.role && p.role.indexOf(' · ') >= 0 ? ' · ' + p.role.slice(p.role.indexOf(' · ') + 3) : '')) + '" aria-label="' + esc(p.name) + '">' + avatar(p, 'xs') + '</a>';
@@ -23,7 +23,7 @@
     if (!cards) return '';
     return '<div class="panel" id="musikergrupper"><h3>Vreta Sound System</h3>' +
       '<p class="hint" style="margin:0 0 4px">Alla musiker i teamet. <span class="ai">AI-skapad musik</span></p>' + cards +
-      '<a class="chip" href="#husbandet">Alla musiker</a></div>';
+      '<a class="chip" href="#vreta-sound-system">Alla musiker</a></div>';
   }
   var sty = document.createElement('style');
   sty.textContent = '.side:has(#musikergrupper){position:static}';
@@ -63,11 +63,11 @@
       return '<div style="padding:10px 0;border-top:1px solid rgba(128,128,128,.3)"><span class="label">' + esc(f[0]) + '</span><div style="font-size:18px">' + esc(f[1]) + '</div></div>';
     }).join('');
     return '<div class="teamhero" style="display:block"><div>' +
-      '<span class="label">Husbandet</span>' +
-      '<h1 style="font-size:56px">Husbandets sound</h1>' +
-      '<p style="font-size:21px"><i>Alla i teamet älskar Husbandet. Det är deras sound som bär kvällarna på Vreta, i ladan, i ateljén och vid elden.</i></p>' +
+      '<span class="label">Musiken på Vreta</span>' +
+      '<h1 style="font-size:clamp(36px,11vw,56px);overflow-wrap:anywhere">Vreta Sound System</h1>' +
+      '<p style="font-size:21px"><i>Paraplyet för alla band på Vreta: Husbandet, Karavanen, Ek &amp; Lin och Leonid. Deras sound bär kvällarna på Vreta, i ladan, i ateljén och vid elden.</i></p>' +
       '</div></div>' +
-      '<div class="panel" style="margin:24px 0"><span class="label">Signatursoundet</span>' +
+      '<div class="panel" style="margin:24px 0"><span class="label">Husbandet – signatursoundet</span>' +
       '<p style="font-size:22px;margin:8px 0 14px">Dub reggae i långsam puls, sjungen av en kvinna och en man. Sparsamma rader, djup bas och långa ekon som låter orden hänga kvar i rummet.</p>' +
       facts +
       '<p style="margin-top:16px;font-size:14px"><span class="ai">AI-skapad musik</span> Musik och röster är skapade med AI och märks så överallt på sidan.</p></div>' +
@@ -77,17 +77,17 @@
       (typeof window.musikPlaylistPanel === 'function' ? window.musikPlaylistPanel() : '');
   }
   function fix() {
-    if (location.hash !== '#husbandet') return;
+    if (location.hash !== '#husbandet' && location.hash !== '#vreta-sound-system') return;
     var app = document.getElementById('app');
     if (app) app.innerHTML = viewHusbandet();
-    document.querySelectorAll('nav.main a').forEach(function (a) { a.removeAttribute('aria-current'); if (a.getAttribute('href') === '#husbandet') a.setAttribute('aria-current', 'page'); });
+    document.querySelectorAll('nav.main a').forEach(function (a) { a.removeAttribute('aria-current'); if (a.getAttribute('href') === '#vreta-sound-system') a.setAttribute('aria-current', 'page'); });
   }
   function addNav() {
     var nav = document.querySelector('nav.main');
-    if (nav && !nav.querySelector('a[href="#husbandet"]')) {
+    if (nav && !nav.querySelector('a[href="#vreta-sound-system"]')) {
       var a = document.createElement('a');
-      a.href = '#husbandet';
-      a.textContent = 'Husbandet';
+      a.href = '#vreta-sound-system';
+      a.textContent = 'Vreta Sound System';
       var after = nav.querySelector('a[href="#team"]');
       if (after && after.nextSibling) nav.insertBefore(a, after.nextSibling); else nav.appendChild(a);
     }
