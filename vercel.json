@@ -48,6 +48,28 @@
    "permanent": false
   },
   {
+   "source": "/mixer",
+   "has": [
+    {
+     "type": "host",
+     "value": "vretasound.com"
+    }
+   ],
+   "destination": "/vreta-sound-system/mixer",
+   "permanent": false
+  },
+  {
+   "source": "/en/mixer",
+   "has": [
+    {
+     "type": "host",
+     "value": "vretasound.com"
+    }
+   ],
+   "destination": "/vreta-sound-system/en/mixer",
+   "permanent": false
+  },
+  {
    "source": "/(.*)",
    "has": [
     {
