@@ -23,5 +23,27 @@
     }
    ]
   }
+ ],
+ "rewrites": [
+  {
+   "source": "/",
+   "has": [
+    {
+     "type": "host",
+     "value": "vretasound.com"
+    }
+   ],
+   "destination": "/vreta-sound-system/index.html"
+  },
+  {
+   "source": "/",
+   "has": [
+    {
+     "type": "host",
+     "value": "www.vretasound.com"
+    }
+   ],
+   "destination": "/vreta-sound-system/index.html"
+  }
  ]
 }

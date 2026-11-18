@@ -5,6 +5,15 @@
   "poster": [
     {
       "datum": "2026-11-18",
+      "titel": "Vreta Sound System har fått en egen sajt",
+      "text": "Labeln för Husbandet, Karavanen, Ek & Lin och Leonid finns nu på vretasound.com, med sju album, alla 23 musiker och musiken. Länken ligger under Sajter.",
+      "team": "Pollen",
+      "status": "live",
+      "lank": "https://vretasound.com",
+      "ai": true
+    },
+    {
+      "datum": "2026-11-18",
       "titel": "Porträtten läses upp med namn",
       "text": "Den som använder skärmläsare får nu höra vem porträttet visar och att det är AI-skapat, till exempel ”Teo Lindberg, AI-skapat porträtt”. Tillgänglighetssidan har fått en rad om det.",
       "team": "Myceliet och Blomman",
