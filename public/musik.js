@@ -114,7 +114,7 @@
         (t.bild ? '<img src="' + esc(t.bild) + '" alt="" loading="lazy" style="width:56px;height:56px;object-fit:cover">' : '') + '<div style="min-width:0;flex:1"><b>' + esc(t.titel) + '</b><br><span class="hint">' +
         '<a href="#p-' + esc(t.person) + '">' + esc(nameOf(t.person)) + '</a> · ' + esc(meta(t)) + (t.version && t.version !== 'Remix' ? ' · ' + esc(t.version) : '') + '</span>' + playersFaces(t) + emojiBar(t) + '</div></div>';
     }).join('');
-    var more = (compact && TRACKS.length > shown.length) ? '<p style="margin:10px 0 0"><a href="#husbandet">Visa alla ' + TRACKS.length + ' s\u00e5nger</a></p>' : '';
+    var more = (compact && TRACKS.length > shown.length) ? '<p style="margin:10px 0 0"><a href="#vreta-sound-system">Visa alla ' + TRACKS.length + ' s\u00e5nger</a></p>' : '';
     return '<div class="panel" style="margin-bottom:' + (compact ? 0 : 18) + 'px" id="musiklista" data-compact="' + (compact ? 1 : 0) + '">' +
       (compact ? '<h3>Husbandets spellista</h3>' : '<span class="label">Husbandets spellista</span>') +
       '<p class="hint" style="margin:4px 0 8px">En sång till varje person, skapad av Husbandet. <span class="ai">AI-skapad musik</span></p>' +
@@ -187,7 +187,7 @@
         return t && t.person && t.fil && t.titel && (!t.utgivning || Date.parse(t.utgivning) <= nu);
       }) : [];
       if (TRACKS.length && typeof render === 'function') render();
-      if (TRACKS.length && location.hash === '#husbandet') window.dispatchEvent(new HashChangeEvent('hashchange'));
+      if (TRACKS.length && (location.hash === '#husbandet' || location.hash === '#vreta-sound-system')) window.dispatchEvent(new HashChangeEvent('hashchange'));
     })
     .catch(function () {});
 })();
