@@ -413,6 +413,26 @@ footer{margin-top:var(--s7);background:var(--ground-deep);border-top:1px solid v
 @media (prefers-reduced-motion:reduce){.entre button{animation:none}}
 .theme.lang{text-decoration:none;color:inherit;padding:0 12px}.theme.lang::before{display:none}
 @media(max-width:420px){.top .mark{font-size:15px}.right{gap:6px}.theme{padding:0 10px}}
+
+/* tempo: drag i reglaget för att ändra BPM på låten som spelas */
+.now{grid-template-columns:auto 1fr auto auto auto}
+.now .tb{height:36px;padding:0 12px;border:1px solid var(--hairline);border-radius:999px;font:500 11px/1 var(--f-mono);letter-spacing:.12em;color:var(--ink);white-space:nowrap;transition:border-color .6s}
+.now .tb:hover,.now .tb[aria-expanded="true"]{border-color:var(--gold)}
+.now .tb.changed{color:var(--gold)}
+.now .ti span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tempo{position:fixed;left:50%;bottom:88px;z-index:31;width:min(420px,calc(100% - 24px));transform:translate(-50%,12px);opacity:0;visibility:hidden;transition:opacity .4s,transform .4s,visibility .4s;padding:16px 18px 14px;border:1px solid var(--hairline);border-radius:22px;background:color-mix(in srgb,var(--ground-raised) 94%,transparent);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.tempo.open{opacity:1;visibility:visible;transform:translate(-50%,0)}
+.tempo .row{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.tempo label{font:500 11px/1.3 var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--ink-muted)}
+.tempo output{font:italic 500 28px/1 var(--f-display);color:var(--ink)}
+.tempo output small{font:500 11px/1 var(--f-mono);letter-spacing:.12em;margin-left:6px;color:var(--ink-muted);font-style:normal}
+.tempo input[type=range]{width:100%;margin:14px 0 6px;accent-color:var(--gold);height:28px}
+.tempo .ends{display:flex;justify-content:space-between;font:400 11px/1 var(--f-mono);color:var(--ink-muted)}
+.tempo .foot{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:12px}
+.tempo .foot p{margin:0;font-size:13px;line-height:1.4;color:var(--ink-muted)}
+.tempo .rs{flex:none;height:32px;padding:0 14px;border:1px solid var(--hairline);border-radius:999px;font:500 11px/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink)}
+.tempo .rs:hover{border-color:var(--gold)}
+@media(max-width:480px){.now .tm{display:none}.now{grid-template-columns:auto 1fr auto auto;gap:10px}.tempo{bottom:80px}}
 </style>
 </head>
 <body>
@@ -544,10 +564,17 @@ footer{margin-top:var(--s7);background:var(--ground-deep);border-top:1px solid v
   <button class="pp" id="pp" aria-label="Spela"></button>
   <div class="ti"><b id="nt">–</b><span id="ns">AI-skapad musik</span></div>
   <span class="tm" id="ntm">0:00</span>
+  <button class="tb" id="tb" type="button" aria-label="Ändra tempo" aria-expanded="false" aria-controls="tempo">– BPM</button>
   <button class="nx" id="nx" aria-label="Nästa låt"></button>
   <span class="pr" id="npr"></span><span class="seek" id="seek" aria-hidden="true"></span>
 </div>
 
+<div class="tempo" id="tempo" role="dialog" aria-label="Tempo på låten">
+  <div class="row"><label for="tr">Tempo på låten</label><output id="to" for="tr">62<small>BPM</small></output></div>
+  <input type="range" id="tr" min="46" max="78" step="1" value="62">
+  <div class="ends"><span id="tmin">46</span><span id="tbase">62 original</span><span id="tmax">78</span></div>
+  <div class="foot"><p>Drag för att spela låten långsammare eller snabbare. Tonhöjden ligger kvar.</p><button class="rs" id="trs" type="button">Original</button></div>
+</div>
 <footer><div class="wrap"><svg class="flow inline" data-kind="wind" viewBox="0 0 1200 110" preserveAspectRatio="none" aria-hidden="true" style="--c:var(--karavanen)"></svg></div><div class="wrap foot">
   <div>
     <p class="big">Vreta <i>Sound System</i></p>
@@ -951,11 +978,42 @@ async function play(i){
   if(i !== 0 || audio.volume > 0 || !audio.muted){ cancelAnimationFrame(fadeRaf); }
   audio.src = "/audio/" + FILES[i];
   $("#nt").textContent = s[0]; { const al = ALBUMS.find(a => a.tracks.includes(i)); $("#ns").textContent = (al ? al.name + " · " : "") + "Husbandet · " + s[1] + " BPM"; }
-  $("#now").classList.add("on"); setBpm(s[1]);
+  $("#now").classList.add("on"); tempoForSong(i);
   songEls().forEach(x => { const b = x.querySelector(".bar"); if(b) b.style.width = "0"; });
   try{ await audio.play(); }catch(e){}
   mark();
 }
+
+// tempo: reglaget ändrar uppspelningshastigheten, tonhöjden ligger kvar.
+// Rytmen på sidan (--beat) följer det nya tempot. Ny låt börjar i originaltempo.
+let baseBpm = 62;
+const tr = $("#tr"), tb = $("#tb"), tp = $("#tempo");
+audio.preservesPitch = true; audio.mozPreservesPitch = true; audio.webkitPreservesPitch = true;
+function tempoLabel(v){
+  $("#to").firstChild.nodeValue = v;
+  tb.textContent = v + " BPM";
+  tb.classList.toggle("changed", v !== baseBpm);
+  if(cur >= 0){ const al = ALBUMS.find(a => a.tracks.includes(cur)); $("#ns").textContent = (al ? al.name + " · " : "") + "Husbandet · " + v + " BPM"; }
+}
+function applyTempo(v){
+  v = Math.max(+tr.min, Math.min(+tr.max, Math.round(v)));
+  tr.value = v;
+  const rate = v / baseBpm;
+  audio.defaultPlaybackRate = rate; audio.playbackRate = rate;
+  setBpm(v); tempoLabel(v);
+}
+function tempoForSong(i){
+  baseBpm = SONGS[i][1];
+  tr.min = Math.round(baseBpm * .75); tr.max = Math.round(baseBpm * 1.25);
+  $("#tmin").textContent = tr.min; $("#tmax").textContent = tr.max;
+  $("#tbase").textContent = baseBpm + " original";
+  applyTempo(baseBpm);
+}
+tr.addEventListener("input", () => applyTempo(+tr.value));
+$("#trs").addEventListener("click", () => applyTempo(baseBpm));
+tb.addEventListener("click", e => { e.stopPropagation(); const o = !tp.classList.contains("open"); tp.classList.toggle("open", o); tb.setAttribute("aria-expanded", o); if(o) tr.focus({preventScroll:true}); });
+document.addEventListener("click", e => { if(tp.classList.contains("open") && !tp.contains(e.target) && e.target !== tb){ tp.classList.remove("open"); tb.setAttribute("aria-expanded", "false"); } });
+document.addEventListener("keydown", e => { if(e.key === "Escape" && tp.classList.contains("open")){ tp.classList.remove("open"); tb.setAttribute("aria-expanded", "false"); tb.focus(); } });
 
 let skipPP = false;
 $("#pp").addEventListener("click", () => { if(skipPP){ skipPP = false; return; } play(cur < 0 ? 0 : cur); });
