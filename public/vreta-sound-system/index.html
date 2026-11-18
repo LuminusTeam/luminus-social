@@ -8,6 +8,8 @@
 <meta property="og:title" content="Vreta Sound System">
 <meta property="og:description" content="Musik från en plats. Andlig world, reggae och dub, gospel, akustiskt, trance och techno.">
 <link rel="canonical" href="https://vretasound.com/">
+<link rel="alternate" hreflang="sv" href="https://vretasound.com/">
+<link rel="alternate" hreflang="en" href="https://vretasound.com/en">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=DM+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&display=swap">
@@ -411,6 +413,8 @@ footer{margin-top:var(--s7);background:var(--ground-deep);border-top:1px solid v
 .entre button::before{content:"";width:0;height:0;border-left:10px solid #D9B36A;border-top:6px solid transparent;border-bottom:6px solid transparent}
 @keyframes entreAnda{from{box-shadow:0 0 0 0 rgba(217,179,106,.0)}to{box-shadow:0 0 0 10px rgba(217,179,106,.18)}}
 @media (prefers-reduced-motion:reduce){.entre button{animation:none}}
+.theme.lang{text-decoration:none;color:inherit;padding:0 12px}.theme.lang::before{display:none}
+@media(max-width:420px){.top .mark{font-size:15px}.right{gap:6px}.theme{padding:0 10px}}
 </style>
 </head>
 <body>
@@ -433,6 +437,7 @@ footer{margin-top:var(--s7);background:var(--ground-deep);border-top:1px solid v
     <button data-go="video">Video</button>
   </nav>
   <div class="right">
+    <a class="theme lang" href="/vreta-sound-system/en" hreflang="en" lang="en" aria-label="In English">EN</a>
     <button class="theme" id="theme" aria-label="Byt tema">Gryning</button>
     <button class="menu-btn" id="menuBtn" aria-label="Meny" aria-expanded="false" aria-controls="drawer"><span></span></button>
   </div>
