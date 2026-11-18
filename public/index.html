@@ -502,7 +502,8 @@ function fillCatalog(){
 const SAJTER=[
   {namn:'Luminus 3.01',rad:'Luminusprofilen-plattformen.',text:'Profilen, läsvyn och dagens lärvarv. Teamet bygger plattformen här på Luminus Loom.',href:'#team',lank:'Möt teamet',extern:false},
   {namn:'Regenerative Voices',rad:'Röster för en regenerativ värld.',text:'Katalogen över regenerativa röster. Verkliga personer nämns bara med det de själva har publicerat.',href:'https://regenerativevoices.com',lank:'regenerativevoices.com',extern:true},
-  {namn:'Systemic Actions',rad:'Systemtänkande i handling.',text:'Bokserien och arbetet för ledare och organisationsutvecklare. Talar som Systemic Actions.',href:'https://systemicactions.com',lank:'systemicactions.com',extern:true}
+  {namn:'Systemic Actions',rad:'Systemtänkande i handling.',text:'Bokserien och arbetet för ledare och organisationsutvecklare. Talar som Systemic Actions.',href:'https://systemicactions.com',lank:'systemicactions.com',extern:true},
+  {namn:'Vreta Sound System',rad:'Musik från en plats.',text:'Labeln för musikerna och banden på Vreta: Husbandet, Karavanen, Ek & Lin och Leonid. Album, musiker och AI-skapad musik.',href:'https://vretasound.com',lank:'vretasound.com',extern:true}
 ];
 
 const LEGAL_VER='2026-11-08';
@@ -530,7 +531,7 @@ function viewTerms(){return `<div class="legal"><span class="label">Luminus Loom
 <h2>Ansvar</h2><p>Tjänsten tillhandahålls som den är, utan garantier för att den alltid fungerar. Vi ansvarar inte för indirekta skador, i den utsträckning lagen tillåter.</p>
 <h2>Personuppgifter</h2><p>Hur vi behandlar dina uppgifter står i <a href="#integritet">integritetspolicyn</a>.</p>
 <h2>Ändringar och lag</h2><p>Vi kan ändra villkoren och meddelar väsentliga ändringar här på sidan. Svensk rätt gäller.</p></div>`}
-function viewSites(){return `<span class="label">Luminus Loom</span><h1 style="font-size:44px;margin:6px 0 10px">Våra sajter</h1><p class="muted" style="max-width:62ch;margin:0 0 20px">Luminus Loom är teamet bakom Luminusprofilen, Regenerative Voices och Systemic Actions.</p><div class="teams">${SAJTER.map(x=>`<a class="tcard" href="${esc(x.href)}"${x.extern?' target="_blank" rel="noopener noreferrer"':''}><div><span class="label">${esc(x.rad)}</span><h3>${esc(x.namn)}</h3><span class="muted">${esc(x.text)}</span><span class="chip">${esc(x.lank)}${x.extern?' ↗':''}</span></div></a>`).join('')}</div>`}
+function viewSites(){return `<span class="label">Luminus Loom</span><h1 style="font-size:44px;margin:6px 0 10px">Våra sajter</h1><p class="muted" style="max-width:62ch;margin:0 0 20px">Luminus Loom är teamet bakom Luminusprofilen, Regenerative Voices, Systemic Actions och Vreta Sound System.</p><div class="teams">${SAJTER.map(x=>`<a class="tcard" href="${esc(x.href)}"${x.extern?' target="_blank" rel="noopener noreferrer"':''}><div><span class="label">${esc(x.rad)}</span><h3>${esc(x.namn)}</h3><span class="muted">${esc(x.text)}</span><span class="chip">${esc(x.lank)}${x.extern?' ↗':''}</span></div></a>`).join('')}</div>`}
 function viewTeams(){return `<h1 style="font-size:44px;margin-bottom:14px">Sju team, en helhet</h1><div class="teams">${TEAMS.map(t=>`<a class="tcard" href="#team-${t.id}">${t.image?`<img src="${esc(t.image)}" alt="${esc(t.image_alt)}" loading="lazy">`:''}<div><span class="label">${esc(t.eyebrow)}</span><h3>${esc(t.name)}</h3><span class="muted">${esc(t.mission)}</span></div></a>`).join('')}</div>`}
 function memberRef(name){const p=TEAM.people.find(x=>x.name===name);return p}
 function viewTeam(id){
