@@ -9,7 +9,7 @@
       "text": "Databasbiblioteket ligger nu på luminusloom.net självt i stället för att hämtas från cdn.jsdelivr.net. Ett nytt test larmar om någon sida börjar ladda skript, typsnitt eller bilder från en annan tjänst.",
       "team": "Myceliet och Barken",
       "status": "forhandsgranskning",
-      "lank": "/integritet",
+      "lank": "/#integritet",
       "ai": true
     },
     {
