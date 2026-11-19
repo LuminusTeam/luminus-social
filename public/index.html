@@ -89,6 +89,7 @@ select,input[type=text],input[type=search]{border:1px solid var(--rule);backgrou
 .hint{font-family:var(--f-label);font-size:12px;color:var(--ink-soft)}
 /* posts */
 .feed{display:flex;flex-direction:column;gap:20px}
+.ftaggar{border:0;padding:0;margin:0 0 14px;display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center}.ftaggar legend{float:left;margin-right:6px;padding:0}.ftaggar label{display:inline-flex;gap:6px;align-items:center;cursor:pointer;border:1px solid var(--rule);border-radius:20px;padding:4px 12px;min-height:32px}.ftaggar label:has(input:checked){background:var(--acc-ton);border-color:currentColor}.ftaggar input{margin:0}.ftaggar .hint{margin-left:auto}.btn.small{padding:4px 10px;font-size:13px}
 #fuser{min-width:180px;flex:1 1 180px;max-width:280px;border:1px solid var(--rule);background:var(--bg);padding:7px 10px}
 #fmore{align-self:center;margin:4px 0 8px}
 .post{background:var(--paper);border:1px solid var(--rule);padding:16px 18px;display:flex;flex-direction:column;gap:10px;min-width:0}
@@ -409,7 +410,42 @@ function authorFromSelect(v){if(v)return v;return state.uid?'u:'+state.uid:null}
 /* sidor */
 /* flödet: max 50 inlägg åt gången + sök på användare */
 const FEED_PAGE=50;
-const feedUi={q:'',limit:FEED_PAGE,gaster:false};
+const feedUi={q:'',limit:FEED_PAGE,gaster:false,taggar:[],team:'',band:''};
+/* taggar för filtrering (samma ordlistor som luminus_post_taggar i databasen) */
+const TAGGAR=[['arbete','Arbete'],['musik','Musik'],['mat','Mat'],['aktivitet','Aktivitet'],['grupp','Grupp'],['resa','Resa'],['hemma','Hemma'],['bild','Bild']];
+const BANDEN=['Husbandet','Karavanen','Leonid','Ek & Lin'];
+const _tb='(^|[^a-zåäöéü])',_tr=w=>new RegExp(_tb+'('+w+')','i');
+const TAGG_ORD={
+ arbete:_tr('möte|standup|retro|kodgransk|koden|sprint|kunden|kunder|rapport|uppdrag|workshop|deadline|granskning|jobb|arbet|projekt|mejl|presentation|kanban|leverans|pull request|kontor|demo|planering|tavlan|budget|ansökan|manus|skrivbord|dator|skiss|ritar|appen|sajten|flödet|regel|testlist|testet|databas|arkitektur|behörighet|data|beroenden|påminnelse|färgpalett|dialog|svarsmall|programmet|coach|teamet|kortspel|design|användare|besökare|kundtjänst|anteckn|prioriter|struktur'),
+ musik:_tr('musik|låten|låtar|ny låt|en låt|sång|sjung|gitarr|trumm|piano|fiol|flöjt|tabla|synt|ackord|melodi|repetition|spelning|konsert|inspelning|studio|husbandet|karavanen|leonid|ek & lin|ek och lin|bandet|kören|körsång|vinyl|lyssna|suno|album|sitar|basen|didgeridoo|instrument|strängar|gitarren'),
+ mat:_tr('recept|lunch|middag|frukost|fika|bröd|baka|bakning|soppa|gryta|köket|matlag|maten|mat |kaffe|gröt|smak|sylt|skörd|potatis|surdeg|pannkak|bulle|bullar|ugn|grönsak|rotfrukt|äter |vi åt'),
+ aktivitet:_tr('promenad|morgonpromenad|kvällspromenad|turnering|mario kart|stjärnskåd|framkall|mörkrum|brädspel|löp|jogg|cykl|vandr|yoga|skidor|skridsko|bada|badet|isbad|vinterbad|bastu|simm|träning|tränar|gym|skogen|svamp|plocka|veden|vedhugg|hugga ved|kubb|dansa|dansen|dansade|meditation|paddl|fiske|trädgård|gräv|snöskott|utflykt|stretch|qigong|klättr|ridning|hunden|kvällsmeditation'),
+ grupp:_tr('tillsammans|gemensam|gänget|hela teamet|alla samlade|samlades|gruppen|gruppbild|kollegor|stormöte|gruppretro|vi var|vi satt|vi gick|vi spelade|vi åt|hela gården'),
+ resa:_tr('tåg|flyg|resa|reser |resan|färja|bussen|station|hotell|vandrarhem|semester|på väg till|på väg hem|landat|pendl|bilresa'),
+ hemma:_tr('hemma|lägenhet|soffan|hemmet|hemifrån|balkong|kom hem|sambo|barnen|familjen')
+};
+function harBild(x){
+  if(x.bild&&x.bild.url)return true;if(x.video&&x.video.url)return true;if(Array.isArray(x.videor)&&x.videor.some(v=>v&&v.url))return true;
+  const r=x.bildbestallning&&state.photos[x.bildbestallning];return !!(r&&r.status==='klar'&&r.bild_url);
+}
+function raknaTaggar(x){
+  const t=(x.rubrik||'')+' '+(x.text||'');const ut=[];
+  if(x.typ==='team'||TAGG_ORD.arbete.test(t))ut.push('arbete');
+  if(TAGG_ORD.musik.test(t))ut.push('musik');
+  if(x.typ==='recept'||x.author==='marisol-quispe'||TAGG_ORD.mat.test(t))ut.push('mat');
+  if(TAGG_ORD.aktivitet.test(t))ut.push('aktivitet');
+  if(x.typ==='reportage'||TAGG_ORD.grupp.test(t))ut.push('grupp');
+  if((x.land&&x.land!=='Sverige')||TAGG_ORD.resa.test(t))ut.push('resa');
+  if(x.kalla==='morgonrutin-privat'||TAGG_ORD.hemma.test(t))ut.push('hemma');
+  /* resten av ett teammedlems inlägg räknas som arbete */
+  if(!ut.length&&x.author&&P[x.author]&&x.kalla!=='morgonrutin-privat')ut.push('arbete');
+  if(x.bildbestallning||(x.bild&&x.bild.url)||(x.video&&x.video.url)||(Array.isArray(x.videor)&&x.videor.length))ut.push('bild');
+  return ut;
+}
+/* taggar ur databasen om de finns, annars räknade; Bild följer om bilden faktiskt syns */
+function taggarFor(x){const t=(Array.isArray(x.taggar)?x.taggar:raknaTaggar(x)).filter(k=>k!=='bild');if(harBild(x))t.push('bild');return t}
+function teamFor(x){const au=authorOf(x.author);return (au.p&&au.p.teams)||[]}
+function bandFor(x){const au=authorOf(x.author);return (au.p&&au.p.band)||''}
 function feedMatches(x,q){
   const names=[authorOf(x.author).name];
   if(x.postat_av)names.push(authorOf(x.postat_av).name);
@@ -424,18 +460,26 @@ function feedItems(){
   const q=feedUi.q.trim().toLowerCase();
   if(q)list=list.filter(x=>feedMatches(x,q));
   if(feedUi.gaster)list=list.filter(x=>authorOf(x.author).viewer);
+  /* kryssrutor: Bild måste stämma; övriga taggar räcker att en stämmer */
+  const valda=feedUi.taggar.filter(k=>k!=='bild');
+  if(valda.length)list=list.filter(x=>{const t=taggarFor(x);return valda.some(k=>t.includes(k))});
+  if(feedUi.taggar.includes('bild'))list=list.filter(harBild);
+  if(feedUi.team)list=list.filter(x=>teamFor(x).includes(feedUi.team));
+  if(feedUi.band)list=list.filter(x=>bandFor(x)===feedUi.band);
   return list;
 }
 function loginNote(){if(window.luminusVerified!==false)return '';return `<div class="loginnote" role="note"><b>Du måste vara inloggad för att skriva, kommentera och reagera.</b><span>Som besökare kan du bara läsa. Logga in med e-post, utan lösenord, så får du en länk.</span><button class="btn" type="button" data-login>Logga in med e-post</button></div>`}
 function feedBoxHtml(){
   const list=feedItems();const shown=list.slice(0,feedUi.limit);
-  const empty=feedUi.gaster?'Inga inlägg från gäster ännu.':feedUi.q.trim()?'Inga inlägg från den användaren.':(state.dbReady?'Inga inlägg här ännu. Skriv det första ovan.':'Flödet hämtas …');
+  const filtrerat=feedUi.taggar.length||feedUi.team||feedUi.band;
+  const empty=filtrerat?'Inga inlägg matchar filtret. Ta bort ett kryss eller välj Alla.':feedUi.gaster?'Inga inlägg från gäster ännu.':feedUi.q.trim()?'Inga inlägg från den användaren.':(state.dbReady?'Inga inlägg här ännu. Skriv det första ovan.':'Flödet hämtas …');
   const more=list.length>shown.length?`<button class="btn ghost" type="button" id="fmore">Visa ${Math.min(FEED_PAGE,list.length-shown.length)} fler inlägg</button>`:'';
   return {html:(shown.length?shown.map(postCard).join(''):`<div class="empty">${empty}</div>`)+more,
     count:list.length>shown.length?`Visar ${shown.length} av ${list.length} inlägg`:`${list.length} inlägg`};
 }
 function fillFeed(){
   const box=$('#feedbox');if(!box)return;const r=feedBoxHtml();box.innerHTML=r.html;const c=$('#fcount');if(c)c.textContent=r.count;
+  const fr=$('#frensa');if(fr)fr.hidden=!(feedUi.taggar.length||feedUi.team||feedUi.band||feedUi.gaster);
 }
 function viewFeed(filterPlace){
   const pf=filterPlace??store.get('platsfilter','');
@@ -452,8 +496,13 @@ function viewFeed(filterPlace){
    </form>
    <div class="row" style="margin-bottom:14px"><label class="label" for="pf">Plats</label><select id="pf"><option value="">Alla platser</option>${places.map(p=>`<option${p===platsNamn(pf)?' selected':''}>${esc(p)}</option>`).join('')}</select>
     <label class="label" for="fuser">Användare</label><input type="search" id="fuser" list="fusers" placeholder="Sök användare" value="${esc(feedUi.q)}" maxlength="80" autocomplete="off"><datalist id="fusers">${people.map(n=>`<option value="${esc(n)}">`).join('')}</datalist>
-    <label class="row" style="gap:6px;align-items:center;cursor:pointer"><input type="checkbox" id="fgast"${feedUi.gaster?' checked':''}> <span>Bara gäster och besökare</span></label>
-    <span class="hint" id="fcount">${esc(fb.count)}</span></div>
+    <label class="label" for="fteam">Team</label><select id="fteam"><option value="">Alla team</option>${TEAMS.map(t=>`<option${t.name===feedUi.team?' selected':''}>${esc(t.name)}</option>`).join('')}</select>
+    <label class="label" for="fband">Band</label><select id="fband"><option value="">Alla band</option>${BANDEN.map(b=>`<option${b===feedUi.band?' selected':''}>${esc(b)}</option>`).join('')}</select></div>
+   <fieldset class="ftaggar"><legend class="label">Visa bara</legend>
+    ${TAGGAR.map(([k,l])=>`<label><input type="checkbox" data-tagg="${k}"${feedUi.taggar.includes(k)?' checked':''}> <span>${l}</span></label>`).join('')}
+    <label><input type="checkbox" id="fgast"${feedUi.gaster?' checked':''}> <span>Gäst</span></label>
+    <button type="button" class="btn ghost small" id="frensa"${feedUi.taggar.length||feedUi.team||feedUi.band||feedUi.gaster?'':' hidden'}>Rensa filter</button>
+    <span class="hint" id="fcount">${esc(fb.count)}</span></fieldset>
    <div class="feed" id="feedbox">${fb.html}</div>
   </section>${sidebar()}</div>`;
 }
@@ -717,11 +766,15 @@ document.addEventListener('input',e=>{
 });
 document.addEventListener('click',e=>{
   if(e.target.closest&&e.target.closest('#fmore')){feedUi.limit+=FEED_PAGE;fillFeed()}
+  if(e.target.closest&&e.target.closest('#frensa')){Object.assign(feedUi,{taggar:[],team:'',band:'',gaster:false,limit:FEED_PAGE});render()}
 });
 document.addEventListener('change',e=>{
   if(['ft','fe','fk'].includes(e.target.id))fillCatalog();
   if(e.target.id==='pf'){store.set('platsfilter',e.target.value);feedUi.limit=FEED_PAGE;render()}
   if(e.target.id==='fgast'){feedUi.gaster=e.target.checked;feedUi.limit=FEED_PAGE;fillFeed()}
+  if(e.target.dataset&&e.target.dataset.tagg){const k=e.target.dataset.tagg;feedUi.taggar=e.target.checked?[...new Set([...feedUi.taggar,k])]:feedUi.taggar.filter(t=>t!==k);feedUi.limit=FEED_PAGE;fillFeed()}
+  if(e.target.id==='fteam'){feedUi.team=e.target.value;feedUi.limit=FEED_PAGE;fillFeed()}
+  if(e.target.id==='fband'){feedUi.band=e.target.value;feedUi.limit=FEED_PAGE;fillFeed()}
   if(e.target.id==='pas'){store.set('postaSom',e.target.value)}
 });
 document.addEventListener('submit',async e=>{
@@ -730,7 +783,7 @@ document.addEventListener('submit',async e=>{
     const text=$('#ptext').value.trim();const plats=(v=>platsNamn(platsNamn(v).split(',')[0].trim()))($('#pplats').value.trim());const author=authorFromSelect($('#pas').value);
     if(!text){toast('Skriv något först.');return} if(!author||!state.db){toast('Det går inte att publicera här.');return}
     store.set('senastePlats',plats);
-    const doc={author,text,plats:plats,land:'Sverige',tid:new Date().toISOString(),status:'publicerad',typ:'vanlig',kalla:'tittare',arstid:arstidFor(new Date())};
+    const doc={author,text,plats:plats,land:'Sverige',tid:new Date().toISOString(),status:'publicerad',typ:'vanlig',kalla:'tittare',arstid:arstidFor(new Date())};doc.taggar=raknaTaggar(doc);
     if(!author.startsWith('u:'))doc.postat_av='u:'+state.uid;
     try{await state.db.collection('posts').add(doc);$('#ptext').value='';toast('Publicerat')}catch(err){toast('Inlägget sparades inte. Försök igen.')}
   }

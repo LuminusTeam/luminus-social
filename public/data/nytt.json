@@ -5,6 +5,15 @@
   "poster": [
     {
       "datum": "2026-11-19",
+      "titel": "Filtrera flödet på ämne, team och band",
+      "text": "Kryssa i Arbete, Musik, Mat, Aktivitet, Grupp, Resa, Hemma, Bild eller Gäst, och välj ett av de sju teamen eller ett av banden Husbandet, Karavanen, Leonid och Ek & Lin. Rensa filter tömmer allt.",
+      "team": "Myceliet",
+      "status": "live",
+      "lank": "/#flode",
+      "ai": true
+    },
+    {
+      "datum": "2026-11-19",
       "titel": "Sajten hämtar inget från utomstående tjänster när den laddas",
       "text": "Databasbiblioteket ligger nu på luminusloom.net självt i stället för att hämtas från cdn.jsdelivr.net. Ett nytt test larmar om någon sida börjar ladda skript, typsnitt eller bilder från en annan tjänst.",
       "team": "Myceliet och Barken",
