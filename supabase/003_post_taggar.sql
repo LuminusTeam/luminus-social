@@ -1,3 +1,5 @@
+-- Barken: inte läst
+-- Körd: före F57
 -- 003 Taggar på inlägg för flödets filter på luminusloom.net:
 -- arbete, musik, mat, aktivitet, grupp, resa, hemma, bild.
 -- Ordlistorna är desamma som TAGG_ORD i public/index.html (raknaTaggar).
