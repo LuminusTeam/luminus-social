@@ -12,6 +12,24 @@
       "ai": true
     },
     {
+      "datum": "2026-11-21",
+      "titel": "Marknadssida: tre ställen att börja på för dig från adventsmarknaden",
+      "text": "En sida för dig som skannar teamets lapp på adventsmarknaden: flödet, Vreta Sound System och Så märker vi AI. Sidan sparar inget om dig.",
+      "team": "Myceliet",
+      "status": "forhandsgranskning",
+      "lank": "/marknad",
+      "ai": true
+    },
+    {
+      "datum": "2026-11-20",
+      "titel": "Sidkarta: alla sidor på ett ställe",
+      "text": "En ny sida listar alla sidor och vyer på luminusloom.net med en rad om vad var och en är. Länken finns i sidfoten.",
+      "team": "Myceliet",
+      "status": "forhandsgranskning",
+      "lank": "/sidkarta",
+      "ai": true
+    },
+    {
       "datum": "2026-11-19",
       "titel": "Filtrera flödet på ämne, team och band",
       "text": "Kryssa i Arbete, Musik, Mat, Aktivitet, Grupp, Resa, Hemma, Bild eller Gäst, och välj ett av de sju teamen eller ett av banden Husbandet, Karavanen, Leonid och Ek & Lin. Rensa filter tömmer allt.",
