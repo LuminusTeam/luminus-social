@@ -23,10 +23,10 @@ const sidanFinns = finns &&
 // 2. Inget skript och inga absoluta adresser i src/href (sajtens egna värdar inräknade).
 const ingetSkript = finns && !/<script/i.test(html) && !/(src|href)="https?:\/\//i.test(html);
 
-// 3. Varje fristående sida i public/ (utom startsidan, sidkartan och nyhetsbrevet) har en rad.
+// 3. Varje fristående sida i public/ (utom startsidan, sidkartan, 404-sidan och nyhetsbrevet) har en rad.
 const fristaende = fs.readdirSync(pub)
   .filter((f) => f.endsWith('.html'))
-  .filter((f) => f !== 'index.html' && f !== 'sidkarta.html' && !/^nyhetsbrev/.test(f))
+  .filter((f) => f !== 'index.html' && f !== 'sidkarta.html' && f !== '404.html' && !/^nyhetsbrev/.test(f))
   .map((f) => '/' + f.replace(/\.html$/, ''));
 const kravda = [...fristaende, '/vreta-sound-system', '/vreta-sound-system/en', '/vreta-sound-system/mixer'];
 for (const k of kravda) if (!hrefs.includes(k)) fattas.push('saknar rad: ' + k);
