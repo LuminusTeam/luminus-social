@@ -33,6 +33,7 @@ Allt innehåll i Luminus 3.01 och på luminusloom.net är AI-skapat (B-051).
 - [ ] **Mätning:** "mäter inte", eller vilket mått och Källans besked
 - [ ] **Hemligheter och inställningar:** inga nycklar, hemligheter, betalningar eller inställningar ändrade
 - [ ] **Nytt på Loom:** en rad i `public/data/nytt.json` för dagens leverans
+- [ ] Ny eller ändrad fil i supabase/: rad 1 "-- Barken: …" och rad 2 "-- Körd: nej" (F57)
 
 ## Granskning (jävsregeln, B-103)
 
