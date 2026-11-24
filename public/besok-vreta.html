@@ -37,6 +37,24 @@
              background:var(--etikett); font-size:.85rem; font-weight:600; }
   .ruta { border:1px solid var(--kant); border-radius:.4rem; padding:.75rem 1rem; background:var(--etikett); }
   footer { border-top:1px solid var(--kant); color:var(--mut); font-size:.9rem; }
+  /* F60 utskrift start – samma block på alla fristående sidor, AI-skapat (B-051) */
+  @media print {
+    *, *::before, *::after { background: #fff !important; color: #000 !important; box-shadow: none !important; text-shadow: none !important; }
+    body { font-size: 11pt; line-height: 1.45; }
+    .hoppa { display: none !important; }
+    header, main, footer { max-width: none; margin: 0; padding: 0 0 .5rem; }
+    a { text-decoration: underline; }
+    a[href^='/']::after { content: " (luminusloom.net" attr(href) ")"; font-size: .9em; }
+    a[href='/']::after { content: " (luminusloom.net)"; }
+    header > a[href='/']::after { content: ""; }
+    a[href^='http']::after { content: " (" attr(href) ")"; font-size: .9em; overflow-wrap: anywhere; }
+    .etikett, .ai { border: 1px solid #000 !important; }
+    h1, h2 { break-after: avoid; }
+    li, section { break-inside: avoid; }
+    footer { border-top: 1px solid #000; }
+    footer::after { content: "Utskrift från luminusloom.net. Allt innehåll är AI-skapat."; display: block; margin-top: .5rem; }
+  }
+  /* F60 utskrift slut */
 </style>
 </head>
 <body>
